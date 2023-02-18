@@ -1,0 +1,57 @@
+raw `
+Route6_r_MapScripts::
+	.byte 0
+`
+
+script Route6_r_Gym_Desc {
+    lock
+    msgbox("A. J.'s Gym\p99 defeated trainers.")
+    closemessage
+    releaseall
+    end
+}
+
+script Route6_r_Door {
+    lock
+    msgbox("The door is locked.")
+    closemessage
+    releaseall
+    end
+}
+
+script Route6_r_Wooman {
+    lock
+    faceplayer
+    msgbox("Look at my beautifull garden.")
+    closemessage
+    releaseall
+    end
+}
+
+script Route6_r_aj {
+    lock
+    faceplayer
+    msgbox(format("Hi. My name is AJ.\p I belive we should be rigorous when training our POKEMONS. Do you agree?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 0) {
+        msgbox(format("Would you like to test my method?"), MSGBOX_YESNO)
+        if (var(VAR_RESULT) == 1) {
+            trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_AJ, 0, Route6_r_aj_Battle_Start, Route6_r_aj_Battle_End)
+            msgbox(format("Sorry {PLAYER} but I never battle twice with the same trainer'."))
+        } else {
+            msgbox(format("{PLAYER}: No, I already had enouth for one live."))
+        }
+    } else {
+        msgbox(format("When I reach my 100th victory, I will show the power of this method to the would!"))
+    }
+    closemessage
+    releaseall
+    end
+}
+
+text Route6_r_aj_Battle_Start {
+    "The secret of power relies on hard work!"
+}
+
+text Route6_r_aj_Battle_End {
+    "Your POKEMONS are really strong"
+}

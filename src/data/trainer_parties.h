@@ -10860,3 +10860,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
         .species = SPECIES_MUK,
     },
 };
+
+static const struct TrainerMonNoItemCustomMoves sParty_AJ[] = {
+    {
+        .iv = 300,
+        .lvl = 45,
+        .species = SPECIES_SANDSHREW,
+        .moves = {MOVE_EARTHQUAKE, MOVE_DIG, MOVE_ROCK_TOMB, MOVE_BRICK_BREAK},
+    }
+};

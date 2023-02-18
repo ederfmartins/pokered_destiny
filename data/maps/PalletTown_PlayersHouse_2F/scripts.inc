@@ -50,3 +50,9 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	special SetHelpContextForMap
 	releaseall
 	end
+
+EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
+        givemon SPECIES_BULBASAUR, 30
+        givemon SPECIES_SQUIRTLE, 30
+        givemon SPECIES_CHARMANDER, 30
+        end
