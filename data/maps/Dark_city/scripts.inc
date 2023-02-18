@@ -49,6 +49,24 @@ Dark_City_abandoned_msg::
 	end
 
 
+Dark_City_Man::
+	lock
+	faceplayer
+	msgbox Dark_City_Man_Text_0
+	closemessage
+	releaseall
+	end
+
+
+Dark_City_Woman::
+	lock
+	faceplayer
+	msgbox Dark_City_Woman_Text_0
+	closemessage
+	releaseall
+	end
+
+
 Dark_City_GymKaz_Desc_Text_0:
 	.string "Kaz Gym$"
 
@@ -68,3 +86,11 @@ Dark_City_lock_msg_Text_0:
 
 Dark_City_abandoned_msg_Text_0:
 	.string "It looks like this house is abandoned.$"
+
+Dark_City_Man_Text_0:
+	.string "A long time ago this was a nice city.$"
+
+Dark_City_Woman_Text_0:
+	.string "If I was younger, I would live this city.\n"
+	.string "I don't want to see this fights\l"
+	.string "anymore.$"

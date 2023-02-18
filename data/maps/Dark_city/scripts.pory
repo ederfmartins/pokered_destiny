@@ -50,3 +50,21 @@ script Dark_City_abandoned_msg {
     releaseall
     end
 }
+
+script Dark_City_Man {
+    lock
+    faceplayer
+    msgbox("A long time ago this was a nice city.")
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_Woman {
+    lock
+    faceplayer
+    msgbox(format("If I was younger, I would live this city. I don't want to see this fights anymore."))
+    closemessage
+    releaseall
+    end
+}
