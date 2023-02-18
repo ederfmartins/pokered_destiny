@@ -7,4 +7,8 @@ Some of the features that you can find in this game includes:
 * The opportunity to battle aggaist iconic characters of the anime in a competitive way.
 * The secret league.
 
+Some changes already implemented
+* Infinite TM uses
+* Battle aggainst an unofitial gym (AJ)
+
 At this moment, this hack is a work in progress. It is not ready to be played yet.
