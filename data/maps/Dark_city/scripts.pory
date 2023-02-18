@@ -1,0 +1,52 @@
+raw `
+Dark_city_MapScripts::
+	.byte 0
+`
+
+script Dark_City_GymKaz_Desc {
+    lock
+    msgbox("Kaz Gym")
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_GymYas_Desc {
+    lock
+    msgbox("Yaz Gym")
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_Poke_center {
+    lock
+    msgbox(format("Closed.\pIn case of a emergency, go to the Fushia center"))
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_Sale {
+    lock
+    msgbox("For Sale")
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_lock_msg {
+    lock
+    msgbox("The door is locked.")
+    closemessage
+    releaseall
+    end
+}
+
+script Dark_City_abandoned_msg {
+    lock
+    msgbox("It looks like this house is abandoned.")
+    closemessage
+    releaseall
+    end
+}

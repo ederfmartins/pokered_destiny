@@ -267,6 +267,8 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (64 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (65 | (3 << 8))
 #define MAP_ROUTE6_R                             (66 | (3 << 8))
+#define MAP_ROUTE19N                             (67 | (3 << 8))
+#define MAP_DARK_CITY                            (68 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))

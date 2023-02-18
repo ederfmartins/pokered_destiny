@@ -28,6 +28,11 @@
       "map": "MAP_ROUTE15",
       "offset": 10,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE19N",
+      "offset": 12,
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -335,7 +340,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

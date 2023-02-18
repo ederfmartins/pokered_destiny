@@ -23,6 +23,11 @@
       "map": "MAP_ROUTE20",
       "offset": 40,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE19N",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -195,8 +200,12 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

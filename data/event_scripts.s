@@ -1362,3 +1362,9 @@ Text_TestMsg::
 
 	.include "data/maps/Route6_r/scripts.inc"
 	.include "data/maps/Route6_r/text.inc"
+
+	.include "data/maps/Route19N/scripts.inc"
+	.include "data/maps/Route19N/text.inc"
+
+	.include "data/maps/Dark_city/scripts.inc"
+	.include "data/maps/Dark_city/text.inc"
