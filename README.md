@@ -6,7 +6,8 @@ Some of the features that you can find in this game includes:
 * An history on how Gary was able to get 10 badges. You should try to surpace him.
 * The opportunity to battle aggaist iconic characters of the anime in a competitive way.
 * The secret league.
-* Improved trainers strategies
+* Improved trainers strategies.
+* 6 pokemons to start with.
 
 Some changes already implemented
 * Infinite TM uses
