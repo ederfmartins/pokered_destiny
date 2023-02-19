@@ -5604,13 +5604,13 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     {
         .iv = 0,
-        .lvl = 12,
+        .lvl = 14,
         .species = SPECIES_GEODUDE,
         .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE},
     },
     {
         .iv = 0,
-        .lvl = 14,
+        .lvl = 16,
         .species = SPECIES_ONIX,
         .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_TOMB, MOVE_NONE},
     },
@@ -10868,4 +10868,106 @@ static const struct TrainerMonNoItemCustomMoves sParty_AJ[] = {
         .species = SPECIES_SANDSHREW,
         .moves = {MOVE_EARTHQUAKE, MOVE_DIG, MOVE_ROCK_TOMB, MOVE_BRICK_BREAK},
     }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Kaz_Lady[] = {
+    {
+        .iv = 50,
+        .lvl = 32,
+        .species = SPECIES_RATICATE,
+        .moves = {MOVE_DOUBLE_EDGE, MOVE_SUPER_FANG, MOVE_BITE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 31,
+        .species = SPECIES_GEODUDE,
+        .moves = {MOVE_MAGNITUDE, MOVE_SELF_DESTRUCT, MOVE_ROCK_THROW, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Kaz_Man1[] = {
+    {
+        .iv = 50,
+        .lvl = 32,
+        .species = SPECIES_RATICATE,
+        .moves = {MOVE_DOUBLE_EDGE, MOVE_SUPER_FANG, MOVE_BITE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 31,
+        .species = SPECIES_GEODUDE,
+        .moves = {MOVE_MAGNITUDE, MOVE_ROCK_THROW, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 31,
+        .species = SPECIES_MANKEY,
+        .moves = {MOVE_KARATE_CHOP, MOVE_TOXIC, MOVE_DIG, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 32,
+        .species = SPECIES_PRIMEAPE,
+        .moves = {MOVE_CROSS_CHOP, MOVE_SELF_DESTRUCT, MOVE_FACADE, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Kaz_Man2[] = {
+    {
+        .iv = 50,
+        .lvl = 32,
+        .species = SPECIES_KINGLER,
+        .moves = {MOVE_SURF, MOVE_CUT, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 31,
+        .species = SPECIES_PIKACHU,
+        .moves = {MOVE_THUNDER_SHOCK, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 31,
+        .species = SPECIES_RHYHORN,
+        .moves = {MOVE_HORN_ATTACK, MOVE_ROCK_BLAST, MOVE_ICE_BEAM, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Kaz_Leader[] = {
+    {
+        .iv = 50,
+        .lvl = 36,
+        .species = SPECIES_RATICATE,
+        .moves = {MOVE_DOUBLE_EDGE, MOVE_SUPER_FANG, MOVE_BITE, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 33,
+        .species = SPECIES_PRIMEAPE,
+        .moves = {MOVE_CROSS_CHOP, MOVE_SELF_DESTRUCT, MOVE_FACADE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 32,
+        .species = SPECIES_KINGLER,
+        .moves = {MOVE_SURF, MOVE_CUT, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 31,
+        .species = SPECIES_RHYHORN,
+        .moves = {MOVE_HORN_ATTACK, MOVE_ROCK_BLAST, MOVE_ICE_BEAM, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_GOLEM,
+        .moves = {MOVE_MAGNITUDE, MOVE_SELF_DESTRUCT, MOVE_ROCK_THROW, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 38,
+        .species = SPECIES_ELECTABUZZ,
+        .moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_SWIFT},
+    },
 };

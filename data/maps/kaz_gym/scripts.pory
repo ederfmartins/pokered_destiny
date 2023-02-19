@@ -1,0 +1,72 @@
+raw `
+kaz_gym_MapScripts::
+	.byte 0
+`
+
+script kaz_gym_woman {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_LADY, 0, kaz_gym_woman_start, kaz_gym_woman_end)
+    closemessage
+    releaseall
+    end
+}
+
+text kaz_gym_woman_start {
+    "It is time to teach you how lick the floor!"
+}
+
+text kaz_gym_woman_end {
+    "Fuck you!"
+}
+
+script kaz_gym_man1 {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_MAN1, 0, kaz_gym_man1_start, kaz_gym_man1_end)
+    closemessage
+    releaseall
+    end
+}
+
+text kaz_gym_man1_start {
+    "It is show time!"
+}
+
+text kaz_gym_man1_end {
+    "Our boss will teach you a lesson!"
+}
+
+script kaz_gym_man2 {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_MAN2, 0, kaz_gym_man2_start, kaz_gym_man2_end)
+    closemessage
+    releaseall
+    end
+}
+
+text kaz_gym_man2_start {
+    "Kaz! Kaz! Kaz!"
+}
+
+text kaz_gym_man2_end {
+    "Kaz forever!"
+}
+
+script kaz_gym_leader {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_LEADER, 0, kaz_gym_leader_start, kaz_gym_leader_end)
+    closemessage
+    releaseall
+    end
+}
+
+text kaz_gym_leader_start {
+    "This is the power of our style."
+}
+
+text kaz_gym_leader_end {
+    "Kaz forever!"
+}

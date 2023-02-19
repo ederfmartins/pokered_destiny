@@ -4416,6 +4416,18 @@
       "secondary_tileset": "gTileset_PewterCity",
       "border_filepath": "data/layouts/Dark_city/border.bin",
       "blockdata_filepath": "data/layouts/Dark_city/map.bin"
+    },
+    {
+      "id": "LAYOUT_KAZ_GYM",
+      "name": "kaz_gym_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PewterGym",
+      "border_filepath": "data/layouts/kaz_gym/border.bin",
+      "blockdata_filepath": "data/layouts/kaz_gym/map.bin"
     }
   ]
 }
