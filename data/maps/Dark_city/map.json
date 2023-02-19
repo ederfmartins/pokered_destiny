@@ -18,6 +18,11 @@
       "map": "MAP_ROUTE19N",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_GRAMPA_CANION",
+      "offset": 2,
+      "direction": "right"
     }
   ],
   "object_events": [

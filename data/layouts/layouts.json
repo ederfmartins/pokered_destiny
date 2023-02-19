@@ -4440,6 +4440,54 @@
       "secondary_tileset": "gTileset_PewterGym",
       "border_filepath": "data/layouts/Dark_city_yaz_gym/border.bin",
       "blockdata_filepath": "data/layouts/Dark_city_yaz_gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAMPA_CANION",
+      "name": "Grampa_Canion_Layout",
+      "width": 25,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Grampa_Canion/border.bin",
+      "blockdata_filepath": "data/layouts/Grampa_Canion/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAMPA_CANION1F",
+      "name": "Grampa_canion1F_Layout",
+      "width": 10,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Grampa_canion1F/border.bin",
+      "blockdata_filepath": "data/layouts/Grampa_canion1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAMPA_CANION2F",
+      "name": "Grampa_canion2F_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Grampa_canion2F/border.bin",
+      "blockdata_filepath": "data/layouts/Grampa_canion2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRAMPA_CANION3F",
+      "name": "Grampa_canion3F_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Grampa_canion3F/border.bin",
+      "blockdata_filepath": "data/layouts/Grampa_canion3F/map.bin"
     }
   ]
 }
