@@ -9,6 +9,7 @@ Some of the features that you can find in this game includes:
 
 Some changes already implemented
 * Infinite TM uses
-* Battle aggainst an unofitial gym (AJ)
+* Battle aggainst an unofitial gym (AJ, kaz, yas)
+* You can capture all 150 pokemons
 
 At this moment, this hack is a work in progress. It is not ready to be played yet.
