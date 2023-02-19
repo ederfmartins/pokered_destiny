@@ -401,7 +401,11 @@
   ],
   "gMapGroup_IndoorDarkCity": [
     "kaz_gym",
-    "Dark_city_yaz_gym"
+    "Dark_city_yaz_gym",
+    "Grampa_Canion",
+    "Grampa_canion1F",
+    "Grampa_canion2F",
+    "Grampa_canion3F"
   ],
   "gMapGroup_IndoorCinnabar": [
     "CinnabarIsland_Gym",

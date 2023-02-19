@@ -1374,3 +1374,15 @@ Text_TestMsg::
 
 	.include "data/maps/Dark_city_yaz_gym/scripts.inc"
 	.include "data/maps/Dark_city_yaz_gym/text.inc"
+
+	.include "data/maps/Grampa_Canion/scripts.inc"
+	.include "data/maps/Grampa_Canion/text.inc"
+
+	.include "data/maps/Grampa_canion1F/scripts.inc"
+	.include "data/maps/Grampa_canion1F/text.inc"
+
+	.include "data/maps/Grampa_canion2F/scripts.inc"
+	.include "data/maps/Grampa_canion2F/text.inc"
+
+	.include "data/maps/Grampa_canion3F/scripts.inc"
+	.include "data/maps/Grampa_canion3F/text.inc"

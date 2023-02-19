@@ -1,0 +1,42 @@
+{
+  "id": "MAP_GRAMPA_CANION1F",
+  "name": "Grampa_canion1F",
+  "layout": "LAYOUT_GRAMPA_CANION1F",
+  "music": "MUS_MT_MOON",
+  "region_map_section": "MAPSEC_FUCHSIA_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_GRAMPA_CANION",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GRAMPA_CANION2F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

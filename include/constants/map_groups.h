@@ -361,6 +361,10 @@
 // gMapGroup_IndoorDarkCity
 #define MAP_KAZ_GYM           (0 | (12 << 8))
 #define MAP_DARK_CITY_YAZ_GYM (1 | (12 << 8))
+#define MAP_GRAMPA_CANION     (2 | (12 << 8))
+#define MAP_GRAMPA_CANION1F   (3 | (12 << 8))
+#define MAP_GRAMPA_CANION2F   (4 | (12 << 8))
+#define MAP_GRAMPA_CANION3F   (5 | (12 << 8))
 
 // gMapGroup_IndoorCinnabar
 #define MAP_CINNABAR_ISLAND_GYM                         (0 | (13 << 8))

@@ -25230,6 +25230,144 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_GRAMPA_CANION2F",
+          "base_label": "gGrampa_canion2F0",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_OMANYTE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_KABUTO"
+              },
+              {
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 25,
+                "max_level": 30,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_LILEEP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 15,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 9,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 50,
+                "max_level": 50,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 25,
+                "species": "SPECIES_AERODACTYL"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_GRAMPA_CANION3F",
+          "base_label": "gGrampa_canion3F0",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_OMANYTE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_KABUTO"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 20,
+                "species": "SPECIES_KABUTOPS"
+              },
+              {
+                "min_level": 15,
+                "max_level": 20,
+                "species": "SPECIES_OMASTAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_LILEEP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 10,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_AERODACTYL"
+              },
+              {
+                "min_level": 30,
+                "max_level": 35,
+                "species": "SPECIES_AERODACTYL"
+              },
+              {
+                "min_level": 25,
+                "max_level": 30,
+                "species": "SPECIES_AERODACTYL"
+              },
+              {
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_AERODACTYL"
+              }
+            ]
+          }
         }
       ]
     }
