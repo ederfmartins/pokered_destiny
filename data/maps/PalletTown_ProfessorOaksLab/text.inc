@@ -355,3 +355,21 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
 
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingJigglypuff::
+    .string "I see! JIGGLYPUFF is your choice.\n"
+    .string "It sing nice songs for yoy.\p"
+    .string "So, {PLAYER}, you want to go with\n"
+    .string "the NORMAL POKéMON JIGGLYPUFF?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingMeowth::
+    .string "I see! MEOWTH is your choice.\n"
+    .string "It can talk with you.\p"
+    .string "So, {PLAYER}, you want to go with\n"
+    .string "the NORMAL POKéMON MEOWTH?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChoosingPickachu::
+    .string "I see! PICKACHU is your choice.\n"
+    .string "It's a shock.\p"
+    .string "So, {PLAYER}, you want to go with\n"
+    .string "the ELETRIC POKéMON PICKACHU?$"
