@@ -17940,7 +17940,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_SANDSHREW"
+                "species": "SPECIES_SQUIRTLE"
               }
             ]
           }
@@ -20356,7 +20356,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_MR_MIME"
               }
             ]
           },
@@ -21583,7 +21583,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 12,
@@ -21891,12 +21891,12 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_CHARMANDER"
               }
             ]
           },
@@ -25226,7 +25226,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PERSIAN"
+                "species": "SPECIES_EEVEE"
               }
             ]
           }
