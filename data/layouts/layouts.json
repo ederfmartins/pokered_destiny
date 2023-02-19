@@ -4392,6 +4392,54 @@
       "secondary_tileset": "gTileset_VermilionCity",
       "border_filepath": "data/layouts/Route6_r/border.bin",
       "blockdata_filepath": "data/layouts/Route6_r/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE19N",
+      "name": "Route19N_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_FuchsiaCity",
+      "border_filepath": "data/layouts/Route19N/border.bin",
+      "blockdata_filepath": "data/layouts/Route19N/map.bin"
+    },
+    {
+      "id": "LAYOUT_DARK_CITY",
+      "name": "Dark_city_Layout",
+      "width": 40,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PewterCity",
+      "border_filepath": "data/layouts/Dark_city/border.bin",
+      "blockdata_filepath": "data/layouts/Dark_city/map.bin"
+    },
+    {
+      "id": "LAYOUT_KAZ_GYM",
+      "name": "kaz_gym_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PewterGym",
+      "border_filepath": "data/layouts/kaz_gym/border.bin",
+      "blockdata_filepath": "data/layouts/kaz_gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_DARK_CITY_YAZ_GYM",
+      "name": "Dark_city_yaz_gym_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PewterGym",
+      "border_filepath": "data/layouts/Dark_city_yaz_gym/border.bin",
+      "blockdata_filepath": "data/layouts/Dark_city_yaz_gym/map.bin"
     }
   ]
 }

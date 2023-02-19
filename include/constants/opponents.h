@@ -747,12 +747,19 @@
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
 #define TRAINER_AJ                               743
+#define TRAINER_KAZ_LADY                         744
+#define TRAINER_KAZ_MAN1                         745
+#define TRAINER_KAZ_MAN2                         746
+#define TRAINER_KAZ_LEADER                       747
+#define TRAINER_YAZ_MAN1                         748
+#define TRAINER_YAZ_MAN2                         749
+#define TRAINER_YAZ_LEADER                       750
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             744
+#define NUM_TRAINERS                             751
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H
