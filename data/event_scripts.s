@@ -1371,3 +1371,6 @@ Text_TestMsg::
 
 	.include "data/maps/kaz_gym/scripts.inc"
 	.include "data/maps/kaz_gym/text.inc"
+
+	.include "data/maps/Dark_city_yaz_gym/scripts.inc"
+	.include "data/maps/Dark_city_yaz_gym/text.inc"

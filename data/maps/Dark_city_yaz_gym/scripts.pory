@@ -1,0 +1,55 @@
+raw `
+Dark_city_yaz_gym_MapScripts::
+	.byte 0
+`
+
+script Dark_city_yaz_gym_man1 {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_YAZ_MAN1, 0, Dark_city_yaz_gym_man1_start, Dark_city_yaz_gym_man1_end)
+    closemessage
+    releaseall
+    end
+}
+
+text Dark_city_yaz_gym_man1_start {
+    "This is my martial style!"
+}
+
+text Dark_city_yaz_gym_man1_end {
+    "Our boss will have a superior fight style!"
+}
+
+script Dark_city_yaz_gym_man2 {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_YAZ_MAN2, 0, Dark_city_yaz_gym_man2_start, Dark_city_yaz_gym_man2_end)
+    closemessage
+    releaseall
+    end
+}
+
+text Dark_city_yaz_gym_man2_start {
+    "Yas! Yas! Yas!"
+}
+
+text Dark_city_yaz_gym_man2_end {
+    "Yaz forever!"
+}
+
+script Dark_city_yaz_gym_leader {
+    lock
+    faceplayer
+    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_YAZ_LEADER, 0, Dark_city_yaz_gym_leader_start, Dark_city_yaz_gym_leader_end)
+    closemessage
+    releaseall
+    end
+}
+
+text Dark_city_yaz_gym_leader_start {
+    "This gym is only for the strongest."
+}
+
+text Dark_city_yaz_gym_leader_end {
+    "Yas will never surrender!"
+}

@@ -400,7 +400,8 @@
     "FuchsiaCity_House3"
   ],
   "gMapGroup_IndoorDarkCity": [
-    "kaz_gym"
+    "kaz_gym",
+    "Dark_city_yaz_gym"
   ],
   "gMapGroup_IndoorCinnabar": [
     "CinnabarIsland_Gym",

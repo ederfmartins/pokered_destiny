@@ -359,7 +359,8 @@
 #define MAP_FUCHSIA_CITY_HOUSE3               (9 | (11 << 8))
 
 // gMapGroup_IndoorDarkCity
-#define MAP_KAZ_GYM (0 | (12 << 8))
+#define MAP_KAZ_GYM           (0 | (12 << 8))
+#define MAP_DARK_CITY_YAZ_GYM (1 | (12 << 8))
 
 // gMapGroup_IndoorCinnabar
 #define MAP_CINNABAR_ISLAND_GYM                         (0 | (13 << 8))

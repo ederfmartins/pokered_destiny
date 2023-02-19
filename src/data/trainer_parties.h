@@ -10971,3 +10971,66 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kaz_Leader[] = {
         .moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_TACKLE, MOVE_SWIFT},
     },
 };
+
+static const struct TrainerMonNoItemCustomMoves sParty_yas_man1[] = {
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_HITMONLEE,
+        .moves = {MOVE_MEDITATE, MOVE_HI_JUMP_KICK, MOVE_BODY_SLAM, MOVE_COUNTER},
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_HITMONCHAN,
+        .moves = {MOVE_BODY_SLAM, MOVE_ICE_PUNCH, MOVE_SUBMISSION, MOVE_COUNTER},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_yas_man2[] = {
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_PRIMEAPE,
+        .moves = {MOVE_CROSS_CHOP, MOVE_SELF_DESTRUCT, MOVE_FACADE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 36,
+        .species = SPECIES_RATICATE,
+        .moves = {MOVE_DOUBLE_EDGE, MOVE_SUPER_FANG, MOVE_BITE, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_yas_Leader[] = {
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_HITMONLEE,
+        .moves = {MOVE_MEDITATE, MOVE_HI_JUMP_KICK, MOVE_BODY_SLAM, MOVE_COUNTER},
+    },
+    {
+        .iv = 50,
+        .lvl = 35,
+        .species = SPECIES_HITMONCHAN,
+        .moves = {MOVE_BODY_SLAM, MOVE_ICE_PUNCH, MOVE_SUBMISSION, MOVE_COUNTER},
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_PRIMEAPE,
+        .moves = {MOVE_CROSS_CHOP, MOVE_THUNDERBOLT, MOVE_FACADE, MOVE_NONE},
+    },
+    {
+        .iv = 100,
+        .lvl = 35,
+        .species = SPECIES_MACHOKE,
+        .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_SUBMISSION, MOVE_FIRE_BLAST},
+    },
+    {
+        .iv = 100,
+        .lvl = 39,
+        .species = SPECIES_SCYTHER,
+        .moves = {MOVE_SLASH, MOVE_HYPER_BEAM, MOVE_DOUBLE_EDGE, MOVE_SWORDS_DANCE},
+    },
+};

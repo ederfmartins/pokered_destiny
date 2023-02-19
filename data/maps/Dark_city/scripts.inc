@@ -71,7 +71,7 @@ Dark_City_GymKaz_Desc_Text_0:
 	.string "Kaz Gym$"
 
 Dark_City_GymYas_Desc_Text_0:
-	.string "Yaz Gym$"
+	.string "Yas Gym$"
 
 Dark_City_Poke_center_Text_0:
 	.string "Closed.\p"

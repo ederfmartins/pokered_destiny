@@ -13,7 +13,7 @@ script Dark_City_GymKaz_Desc {
 
 script Dark_City_GymYas_Desc {
     lock
-    msgbox("Yaz Gym")
+    msgbox("Yas Gym")
     closemessage
     releaseall
     end
