@@ -1386,3 +1386,6 @@ Text_TestMsg::
 
 	.include "data/maps/Grampa_canion3F/scripts.inc"
 	.include "data/maps/Grampa_canion3F/text.inc"
+
+	.include "data/maps/LavenderTown_House3/scripts.inc"
+	.include "data/maps/LavenderTown_House3/text.inc"

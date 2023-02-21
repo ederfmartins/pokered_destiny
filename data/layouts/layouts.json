@@ -4488,6 +4488,18 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Grampa_canion3F/border.bin",
       "blockdata_filepath": "data/layouts/Grampa_canion3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_HOUSE3",
+      "name": "LavenderTown_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/LavenderTown_House3/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_House3/map.bin"
     }
   ]
 }
