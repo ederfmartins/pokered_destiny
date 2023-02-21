@@ -47,6 +47,11 @@ void SaveStatToString(u8 gameStatId, u8 *dest0, u8 color)
             if (FlagGet(flagId))
                 nBadges++;
         }
+        for (flagId = FLAG_BADGE09_GET; flagId <= FLAG_BADGE15_GET; flagId++)
+        {
+            if (FlagGet(flagId))
+                nBadges++;
+        }
         *dest++ = nBadges + CHAR_0;
         *dest++ = 10; // 'こ'
         *dest++ = EOS;

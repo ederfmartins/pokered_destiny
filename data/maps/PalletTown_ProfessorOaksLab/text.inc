@@ -74,14 +74,14 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "Oh, that's right, I told you to\n"
     .string "come! Just wait!\p"
     .string "Here, {PLAYER}.\p"
-    .string "There are three POKéMON here.\p"
+    .string "There are six POKéMON here.\p"
     .string "Haha!\p"
     .string "The POKéMON are held inside\n"
     .string "these POKé BALLS.\p"
     .string "When I was young, I was a serious\n"
     .string "POKéMON TRAINER.\p"
     .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
+    .string "only these six left.\p"
     .string "You can have one.\n"
     .string "Go on, choose!$"
 
@@ -91,7 +91,7 @@ PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "OAK: Now, {PLAYER}.\p"
-    .string "Inside those three POKé BALLS are\n"
+    .string "Inside those six POKé BALLS are\n"
     .string "POKéMON.\p"
     .string "Which one will you choose for\n"
     .string "yourself?$"

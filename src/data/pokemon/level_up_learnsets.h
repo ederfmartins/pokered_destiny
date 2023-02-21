@@ -506,6 +506,7 @@ static const u16 sNinetalesLevelUpLearnset[] = {
 
 static const u16 sJigglypuffLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_SING),
+    LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(4, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE(9, MOVE_POUND),
     LEVEL_UP_MOVE(14, MOVE_DISABLE),

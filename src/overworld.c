@@ -239,7 +239,14 @@ static const u16 sWhiteOutMoneyLossBadgeFlagIDs[] = {
     FLAG_BADGE05_GET,
     FLAG_BADGE06_GET,
     FLAG_BADGE07_GET,
-    FLAG_BADGE08_GET
+    FLAG_BADGE08_GET,
+    FLAG_BADGE09_GET,
+    FLAG_BADGE10_GET,
+    FLAG_BADGE11_GET,
+    FLAG_BADGE12_GET,
+    FLAG_BADGE13_GET,
+    FLAG_BADGE14_GET,
+    FLAG_BADGE15_GET
 };
 
 static void DoWhiteOut(void)
