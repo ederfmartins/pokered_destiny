@@ -1369,7 +1369,8 @@
 #define FLAG_BADGE06_GET                                            (SYS_FLAGS + 0x25)
 #define FLAG_BADGE07_GET                                            (SYS_FLAGS + 0x26)
 #define FLAG_BADGE08_GET                                            (SYS_FLAGS + 0x27)
-#define NUM_BADGES                                                  (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+//#define NUM_BADGES                                                  (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+#define NUM_BADGES 16
 
 #define FLAG_SYS_POKEMON_GET                                        (SYS_FLAGS + 0x28)
 #define FLAG_SYS_POKEDEX_GET                                        (SYS_FLAGS + 0x29)
@@ -1461,13 +1462,22 @@
 #define FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY       (SYS_FLAGS + 0xC1)
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        (SYS_FLAGS + 0xC2)
 
-#define FLAG_0x8C3                                                  (SYS_FLAGS + 0xC3)
-#define FLAG_0x8C4                                                  (SYS_FLAGS + 0xC4)
-#define FLAG_0x8C5                                                  (SYS_FLAGS + 0xC5)
-#define FLAG_0x8C6                                                  (SYS_FLAGS + 0xC6)
-#define FLAG_0x8C7                                                  (SYS_FLAGS + 0xC7)
-#define FLAG_0x8C8                                                  (SYS_FLAGS + 0xC8)
-#define FLAG_0x8C9                                                  (SYS_FLAGS + 0xC9)
+/* badges order
+ * - ice
+ * - lutador
+ * - bug
+ * - fantasma
+ * - normal
+ * - fly
+ * - dragao
+ */
+#define FLAG_BADGE09_GET                                            (SYS_FLAGS + 0xC3)
+#define FLAG_BADGE10_GET                                           (SYS_FLAGS + 0xC4)
+#define FLAG_BADGE11_GET                                           (SYS_FLAGS + 0xC5)
+#define FLAG_BADGE12_GET                                           (SYS_FLAGS + 0xC6)
+#define FLAG_BADGE13_GET                                           (SYS_FLAGS + 0xC7)
+#define FLAG_BADGE14_GET                                           (SYS_FLAGS + 0xC8)
+#define FLAG_BADGE15_GET                                           (SYS_FLAGS + 0xC9)
 #define FLAG_0x8CA                                                  (SYS_FLAGS + 0xCA)
 #define FLAG_0x8CB                                                  (SYS_FLAGS + 0xCB)
 #define FLAG_0x8CC                                                  (SYS_FLAGS + 0xCC)

@@ -680,6 +680,7 @@ static bool8 LoadCardGfx(void)
     case 3:
         // ? Doesnt check for RSE, sHoennTrainerCardBadges_Gfx goes unused
         LZ77UnCompWram(sKantoTrainerCardBadges_Gfx, sTrainerCardDataPtr->badgeTiles);
+        LZ77UnCompWram(sHoennTrainerCardBadges_Gfx, sTrainerCardDataPtr->badgeTiles + 1024);
         break;
     case 4:
         if (sTrainerCardDataPtr->cardType == CARD_TYPE_RSE)
@@ -935,6 +936,12 @@ static void SetDataFromTrainerCard(void)
         sTrainerCardDataPtr->hasTrades++;
 
     for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag <= FLAG_BADGE08_GET; badgeFlag++, i++)
+    {
+        if (FlagGet(badgeFlag))
+            sTrainerCardDataPtr->hasBadge[i]++;
+    }
+    // To avoid move all game flags doing this in a dirt way
+    for (badgeFlag = FLAG_BADGE09_GET; badgeFlag <= FLAG_BADGE15_GET; badgeFlag++, i++)
     {
         if (FlagGet(badgeFlag))
             sTrainerCardDataPtr->hasBadge[i]++;
@@ -1561,7 +1568,7 @@ static void DrawStarsAndBadgesOnCard(void)
     if (!sTrainerCardDataPtr->isLink)
     {
         x = 4;
-        for (i = 0; i < NUM_BADGES; i++, tileNum += 2, x += 3)
+        for (i = 0; i < 8; i++, tileNum += 2, x += 3)
         {
             if (sTrainerCardDataPtr->hasBadge[i])
             {
@@ -1569,6 +1576,23 @@ static void DrawStarsAndBadgesOnCard(void)
                 FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 16, 1, 1, palNum);
                 FillBgTilemapBufferRect(3, tileNum + 16, x, 17, 1, 1, palNum);
                 FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 17, 1, 1, palNum);
+            }
+        }
+        // This is shifted to right to not overlap the badges word
+        x = 7;
+        // We stored the tiles for hoem badges after the original ones, by expanding the buffer and
+        // coping the data. So the tiles are 8 (badges) * 2 (tiles per badge) positions shiffited.
+        tileNum += 16;
+        for (i = 8; i < NUM_BADGES; i++, tileNum += 2, x += 3)
+        {
+            if (sTrainerCardDataPtr->hasBadge[i])
+            {
+                FillBgTilemapBufferRect(3, tileNum, x, 14, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 14, 1, 1, palNum);
+
+                FillBgTilemapBufferRect(3, tileNum + 16, x, 15, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 15, 1, 1, palNum);
+                
             }
         }
     }
