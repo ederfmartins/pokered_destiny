@@ -1,4 +1,4 @@
-# Pokémon Red: Destiny
+# Pokémon Red: Hard Destiny
 
 This is a ROM Hack based on Pokemon FireRed. It uses [pokefirered](https://github.com/pret/pokefirered) as base and add some elements present in the anime to the game, while trying to keep its original look.
 
