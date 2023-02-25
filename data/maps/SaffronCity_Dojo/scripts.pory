@@ -1,3 +1,4 @@
+raw `
 .equ LOCALID_KARATE_MASTER, 5
 
 SaffronCity_Dojo_MapScripts::
@@ -151,73 +152,41 @@ SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
 	setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 1
 	release
 	end
+`
 
-SaffronCity_Dojo_BadgeEvent::
-	goto_if_set FLAG_BADGE10_GET, SaffronCity_Dojo_BadgeEvent_1
-	goto_if_unset FLAG_BADGE06_GET, SaffronCity_Dojo_BadgeEvent_1
-	return
+script SaffronCity_Dojo_BadgeEvent {
+    if (flag(FLAG_BADGE10_GET) == true || flag(FLAG_BADGE06_GET) == false) {
+        checktrainerflag(TRAINER_BLACK_BELT_KOICHI)
+        if(var(VAR_RESULT) == 0) {
+            setflag(FLAG_TEMP_1)
+        }
+    }
+}
 
-SaffronCity_Dojo_BadgeEvent_1:
-	checktrainerflag TRAINER_BLACK_BELT_KOICHI
-	compare VAR_RESULT, 0
-	goto_if_eq SaffronCity_Dojo_BadgeEvent_5
-	return
-
-SaffronCity_Dojo_BadgeEvent_5:
-	setflag FLAG_TEMP_1
-	return
-
-
-SaffronCity_Dojo_Bruno::
-	lock
+script SaffronCity_Dojo_Bruno {
+    lock
 	faceplayer
-	msgbox SaffronCity_Dojo_Bruno_Text_0, MSGBOX_YESNO
-	compare VAR_RESULT, 1
-	goto_if_eq SaffronCity_Dojo_Bruno_2
-	checktrainerflag TRAINER_YAZ_LEADER
-	compare VAR_RESULT, 1
-	goto_if_eq SaffronCity_Dojo_Bruno_5
-	msgbox SaffronCity_Dojo_Bruno_Text_4
-SaffronCity_Dojo_Bruno_1:
+	msgbox(format("I come back to restore the honor of this Gym\p Do you think I need to step up to archive this?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 1) {
+        msgbox(format("I disagree with you. All trainers here should be pround of thenselfs."))
+        
+    } else {
+        release
+        checktrainerflag(TRAINER_YAZ_LEADER)
+        if(var(VAR_RESULT) == 1) {
+            trainerbattle_single(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
+        } else {
+            msgbox(format("True! Came here another day to see the result of our hard work."))
+        }
+    }
 	release
 	end
+}
 
-SaffronCity_Dojo_Bruno_2:
-	msgbox SaffronCity_Dojo_Bruno_Text_1
-	goto SaffronCity_Dojo_Bruno_1
-
-SaffronCity_Dojo_Bruno_5:
-	release
-	trainerbattle_single TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_Bruno_Text_3, SaffronCity_Dojo_afterbattle
-	goto SaffronCity_Dojo_Bruno_1
-
-
-SaffronCity_Dojo_afterbattle::
-	setflag FLAG_BADGE10_GET
-	msgbox SaffronCity_Dojo_afterbattle_Text_0
+script SaffronCity_Dojo_afterbattle {
+    setflag(FLAG_BADGE10_GET)
+    msgbox(format("You got the FIGHTING VALOR BADGE"))
+    release
 	end
+}
 
-
-SaffronCity_Dojo_Bruno_Text_0:
-	.string "I come back to restore the honor of\n"
-	.string "this Gym\p"
-	.string "Do you think I need to step up to\n"
-	.string "archive this?$"
-
-SaffronCity_Dojo_Bruno_Text_1:
-	.string "I disagree with you. All trainers here\n"
-	.string "should be pround of thenselfs.$"
-
-SaffronCity_Dojo_Bruno_Text_2:
-	.string "I see your value.\n"
-	.string "Be part of the rebirth of our Gym!$"
-
-SaffronCity_Dojo_Bruno_Text_3:
-	.string "Tank you! Take this to prove your valor.$"
-
-SaffronCity_Dojo_Bruno_Text_4:
-	.string "True! Came here another day to see the\n"
-	.string "result of our hard work.$"
-
-SaffronCity_Dojo_afterbattle_Text_0:
-	.string "You got the FIGHTING VALOR BADGE$"

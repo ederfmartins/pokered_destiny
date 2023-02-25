@@ -11089,3 +11089,41 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderLorelei[] = {
         .moves = {MOVE_CONFUSE_RAY, MOVE_ICY_WIND, MOVE_WATER_GUN, MOVE_BODY_SLAM},
     },
 };
+
+static const struct TrainerMonItemCustomMoves sParty_BlackBeltBruno[] = {
+    {
+        .iv = 250,
+        .lvl = 37,
+        .species = SPECIES_HITMONTOP,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_EARTHQUAKE, MOVE_BULK_UP, MOVE_MACH_PUNCH, MOVE_JUMP_KICK},
+    },
+    {
+        .iv = 250,
+        .lvl = 37,
+        .species = SPECIES_HITMONCHAN,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_SKY_UPPERCUT, MOVE_MACH_PUNCH, MOVE_ROCK_TOMB, MOVE_COUNTER},
+    },
+    {
+        .iv = 250,
+        .lvl = 37,
+        .species = SPECIES_HITMONLEE,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_MEGA_KICK, MOVE_FORESIGHT, MOVE_BRICK_BREAK, MOVE_FACADE},
+    },
+    {
+        .iv = 250,
+        .lvl = 40,
+        .species = SPECIES_ONIX,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_IRON_TAIL, MOVE_SAND_TOMB},
+    },
+    {
+        .iv = 250,
+        .lvl = 39,
+        .species = SPECIES_BLAZIKEN,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_FIRE_BLAST, MOVE_SKY_UPPERCUT, MOVE_FOCUS_PUNCH, MOVE_ROCK_SLIDE},
+    },
+};

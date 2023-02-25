@@ -52,9 +52,14 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	end
 
 EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
-        givemon SPECIES_CHARMANDER, 26
-		givemon SPECIES_BULBASAUR, 25
-		givemon SPECIES_SQUIRTLE, 25
-		givemon SPECIES_GEODUDE, 25
-		givemon SPECIES_PRIMEAPE, 25
-        end
+	setflag FLAG_BADGE06_GET
+	settrainerflag TRAINER_YAZ_LEADER
+	settrainerflag TRAINER_BLACK_BELT_KOICHI
+	
+	givemon SPECIES_KADABRA, 40
+	givemon SPECIES_CHARMANDER, 40
+	givemon SPECIES_BULBASAUR, 40
+	givemon SPECIES_SQUIRTLE, 40
+	givemon SPECIES_GEODUDE, 40
+	givemon SPECIES_PRIMEAPE, 40
+	end
