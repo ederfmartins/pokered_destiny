@@ -215,3 +215,14 @@ TwoIsland_EventScript_JoyfulGameCornerSign::
 TwoIsland_EventScript_FastCurrentSign::
 	msgbox TwoIsland_Text_DangerFastCurrent, MSGBOX_SIGN
 	end
+
+TwoIsland_boy_lorelei::
+	lock
+	faceplayer
+	msgbox TwoIsland_boy_lorelei_Text_0
+	release
+	end
+
+TwoIsland_boy_lorelei_Text_0:
+	.string "Do you know that Lorelei came regularly\n"
+	.string "here to teach us about POKéMON?$"

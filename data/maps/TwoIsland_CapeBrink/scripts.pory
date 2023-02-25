@@ -1,0 +1,60 @@
+raw `
+TwoIsland_CapeBrink_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, TwoIsland_CapeBrink_BadgeEvent
+	.byte 0
+`
+
+script TwoIsland_CapeBrink_gilr {
+    lock
+	faceplayer
+	msgbox(format("I'm learning a lot with LORELEI."))
+	release
+	end
+}
+
+script TwoIsland_CapeBrink_gilr2 {
+    lock
+	faceplayer
+	msgbox(format("I love LORELEI. She is like water and teach us the secrets to be a POKéMON master."))
+	release
+	end
+}
+
+script TwoIsland_CapeBrink_boy {
+    lock
+	faceplayer
+	msgbox(format("One day, I will battle against the ELITE FOUR!"))
+	release
+	end
+}
+
+script TwoIsland_CapeBrink_lorelei {
+    lock
+	faceplayer
+	msgbox(format("When I battle I try to be like water...\p Ohh, I see a powefull stream in you! Are you able to adapt in any situation?"), MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 1) {
+        trainerbattle_single(TRAINER_LORELEI_GYMLEADER, format("Try to follow the stream."), format("Tank you! I have a special gift for your help."), TwoIsland_CapeBrink_afterbattle)
+    } else {
+        msgbox(format("I already finished my lessons for today. Come back another day to participate."))
+    }
+	release
+	end
+}
+
+script TwoIsland_CapeBrink_afterbattle {
+    setflag(FLAG_BADGE09_GET)
+    msgbox(format("You got the ADAPTATIVE STREAM BADGE"))
+    release
+	end
+}
+
+script TwoIsland_CapeBrink_BadgeEvent {
+    if (flag(FLAG_BADGE09_GET) == true) {
+        setflag(FLAG_TEMP_1)
+    } else {
+        specialvar(VAR_RESULT, TrainerMetIceGymPrereq)
+        if (var(VAR_RESULT) == 0) {
+            setflag(FLAG_TEMP_1)
+        }
+    }
+}

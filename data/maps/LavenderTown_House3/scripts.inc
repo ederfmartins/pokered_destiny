@@ -46,13 +46,14 @@ LavenderTown_House3_agatha_11:
 LavenderTown_House3_afterbattle::
 	setflag FLAG_BADGE12_GET
 	msgbox LavenderTown_House3_afterbattle_Text_0
-	return
+	release
+	end
 
 
 LavenderTown_House3_girl_Text_0:
 	.string "I'm studing with my grand mother to\n"
-	.string "became the best gym leader of all time.\l"
-	.string "I'm not affraid of ghosts anymore.$"
+	.string "became the best Gym Leader of all time.\l"
+	.string "I'm not affraid of GHOSTS anymore.$"
 
 LavenderTown_House3_agatha_Text_0:
 	.string "It was nice to\n"
@@ -67,8 +68,8 @@ LavenderTown_House3_agatha_Text_1:
 	.string "What do you think?$"
 
 LavenderTown_House3_agatha_Text_2:
-	.string "As a GHOST type lover, can you help me\n"
-	.string "with my grand daugther.$"
+	.string "As a GHOST lover, can you help me with\n"
+	.string "my grand daugther?$"
 
 LavenderTown_House3_agatha_Text_3:
 	.string "Let see what you can do!$"
