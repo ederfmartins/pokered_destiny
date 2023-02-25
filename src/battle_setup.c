@@ -639,6 +639,8 @@ static u8 GetTrainerBattleTransition(void)
             return B_TRANSITION_AGATHA;
         if (gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LANCE || gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LANCE_2)
             return B_TRANSITION_LANCE;
+        if (gTrainerBattleOpponent_A == TRAINER_AGATHA_GYMLEADER)
+            return B_TRANSITION_AGATHA;
         return B_TRANSITION_BLUE;
     }
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
