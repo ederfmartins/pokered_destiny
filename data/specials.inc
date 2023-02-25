@@ -452,4 +452,5 @@ gSpecials::
 	def_special UpdateLoreleiDollCollection
 	def_special LoopWingFlapSound
 	def_special CreateEventLegalEnemyMon
+	def_special TrainerMetGhostGymPrereq
 gSpecialsEnd::

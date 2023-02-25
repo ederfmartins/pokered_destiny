@@ -11034,3 +11034,34 @@ static const struct TrainerMonNoItemCustomMoves sParty_yas_Leader[] = {
         .moves = {MOVE_SLASH, MOVE_HYPER_BEAM, MOVE_DOUBLE_EDGE, MOVE_SWORDS_DANCE},
     },
 };
+
+static const struct TrainerMonItemCustomMoves sParty_agatha_daugther[] = {
+    {
+        .iv = 250,
+        .lvl = 31,
+        .species = SPECIES_MISDREAVUS,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_THUNDER_SHOCK, MOVE_HYPNOSIS, MOVE_TOXIC, MOVE_TOXIC},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_UMBREON,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_PROTECT, MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_DIG},
+    },
+    {
+        .iv = 250,
+        .lvl = 33,
+        .species = SPECIES_SNEASEL,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_SHADOW_BALL, MOVE_ICY_WIND, MOVE_AERIAL_ACE, MOVE_BITE},
+    },
+    {
+        .iv = 250,
+        .lvl = 34,
+        .species = SPECIES_HAUNTER,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_LICK, MOVE_PSYCHIC, MOVE_TOXIC, MOVE_SHADOW_BALL},
+    }
+};

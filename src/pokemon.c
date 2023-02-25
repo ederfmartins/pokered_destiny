@@ -6283,3 +6283,26 @@ void *OakSpeechNidoranFGetBuffer(u8 bufferId)
         return sOakSpeechNidoranResources->bufferPtrs[bufferId];
     }
 }
+
+u8 TrainerMetGhostGymPrereq() {
+    u8 partyCount = CalculatePlayerPartyCount();
+    u8 i;
+    u8 level;
+    u8 species;
+    u8 has_ghost = 0;
+    struct Pokemon * pokemon;
+
+    if (partyCount != PARTY_SIZE) return 0;
+    
+    for (i = 0; i < partyCount; i++)
+    {
+        pokemon = &gPlayerParty[i];
+        level = GetMonData(pokemon, MON_DATA_LEVEL, 0);
+        if (level < 30 || level > 35)
+            return 0;
+        species = GetMonData(pokemon, MON_DATA_SPECIES, 0);
+        if (gBaseStats[species].type1 == TYPE_GHOST || gBaseStats[species].type2 == TYPE_GHOST)
+            has_ghost = 1;
+    }
+    return has_ghost;
+}

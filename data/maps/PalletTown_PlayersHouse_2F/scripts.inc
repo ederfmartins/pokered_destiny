@@ -52,7 +52,10 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	end
 
 EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
-        givemon SPECIES_BULBASAUR, 30
-        givemon SPECIES_SQUIRTLE, 30
-        givemon SPECIES_CHARMANDER, 30
+        givemon SPECIES_CHARMANDER, 35
+		givemon SPECIES_BULBASAUR, 35
+		givemon SPECIES_HAUNTER, 35
+		givemon SPECIES_KADABRA, 35
+		givemon SPECIES_UMBREON, 35
+		givemon SPECIES_PRIMEAPE, 35
         end

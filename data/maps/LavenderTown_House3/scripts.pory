@@ -1,0 +1,45 @@
+raw `
+LavenderTown_House3_MapScripts::
+	.byte 0
+`
+
+script LavenderTown_House3_girl {
+    lock
+	faceplayer
+	msgbox(format("I'm studing with my grand mother to became the best Gym Leader of all time. I'm not affraid of GHOSTS anymore."))
+	release
+	end
+}
+
+script LavenderTown_House3_agatha {
+    lock
+	faceplayer
+    if (flag(FLAG_BADGE12_GET) == true) {
+        msgbox(format("It was nice to\nbattle with you.\pI see what the old duff sees in\nyou.\pI belive we will meet again\n in the Indigo Plateau."))
+    } else {
+        specialvar(VAR_RESULT, TrainerMetGhostGymPrereq)
+        if (var(VAR_RESULT) == 1) {
+            msgbox(format("I belive POKéMON are for battling!\p What do you think?"), MSGBOX_YESNO)
+            if (var(VAR_RESULT) == 1) {
+                msgbox(format("As a GHOST type lover, can you help me with my grand daugther."), MSGBOX_YESNO)
+                if (var(VAR_RESULT) == 1) {
+                    trainerbattle_single(TRAINER_AGATHA_GYMLEADER, "Let see what you can do!", format("Well done! I have a special gift for you."), LavenderTown_House3_afterbattle)
+                }
+            } else {
+                msgbox(format("I don't know what the old duff sees in you."))
+            }
+        } else {
+            msgbox(format("Due to my duties, I had to put the GHOST Gym into a pause. One day it will be available again."))
+        }
+        
+    }
+	release
+	end
+}
+
+script LavenderTown_House3_afterbattle {
+    setflag(FLAG_BADGE12_GET)
+    msgbox(format("You got the DARK SOUL BADGE"))
+    release
+	end
+}
