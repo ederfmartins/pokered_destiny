@@ -755,12 +755,13 @@
 #define TRAINER_YAZ_MAN2                         749
 #define TRAINER_YAZ_LEADER                       750
 #define TRAINER_AGATHA_GYMLEADER                 751
+#define TRAINER_LORELEI_GYMLEADER                752
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             752
+#define NUM_TRAINERS                             753
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

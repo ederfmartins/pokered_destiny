@@ -21,7 +21,7 @@ script LavenderTown_House3_agatha {
         if (var(VAR_RESULT) == 1) {
             msgbox(format("I belive POKéMON are for battling!\p What do you think?"), MSGBOX_YESNO)
             if (var(VAR_RESULT) == 1) {
-                msgbox(format("As a GHOST type lover, can you help me with my grand daugther."), MSGBOX_YESNO)
+                msgbox(format("As a GHOST lover, can you help me with my grand daugther?"), MSGBOX_YESNO)
                 if (var(VAR_RESULT) == 1) {
                     trainerbattle_single(TRAINER_AGATHA_GYMLEADER, "Let see what you can do!", format("Well done! I have a special gift for you."), LavenderTown_House3_afterbattle)
                 }

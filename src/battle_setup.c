@@ -631,7 +631,7 @@ static u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_BLUE;
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ELITE_FOUR)
     {
-        if (gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI || gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI_2)
+        if (gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI || gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_LORELEI_2 || gTrainerBattleOpponent_A == TRAINER_LORELEI_GYMLEADER)
             return B_TRANSITION_LORELEI;
         if (gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_BRUNO || gTrainerBattleOpponent_A == TRAINER_ELITE_FOUR_BRUNO_2)
             return B_TRANSITION_BRUNO;

@@ -11065,3 +11065,27 @@ static const struct TrainerMonItemCustomMoves sParty_agatha_daugther[] = {
         .moves = {MOVE_LICK, MOVE_PSYCHIC, MOVE_TOXIC, MOVE_SHADOW_BALL},
     }
 };
+
+static const struct TrainerMonItemCustomMoves sParty_LeaderLorelei[] = {
+    {
+        .iv = 250,
+        .lvl = 24,
+        .species = SPECIES_GLALIE,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_HAIL, MOVE_ICY_WIND, MOVE_BLOCK, MOVE_ENDURE},
+    },
+    {
+        .iv = 250,
+        .lvl = 22,
+        .species = SPECIES_SWINUB,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_SPIKES, MOVE_POWDER_SNOW, MOVE_RAIN_DANCE, MOVE_TACKLE},
+    },
+    {
+        .iv = 250,
+        .lvl = 24,
+        .species = SPECIES_LAPRAS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_CONFUSE_RAY, MOVE_ICY_WIND, MOVE_WATER_GUN, MOVE_BODY_SLAM},
+    },
+};

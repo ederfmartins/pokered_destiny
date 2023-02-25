@@ -6284,6 +6284,23 @@ void *OakSpeechNidoranFGetBuffer(u8 bufferId)
     }
 }
 
+u8 CountBadges() {
+    u8 badges = 0;
+    int i, badgeFlag;
+    for (i = 0, badgeFlag = FLAG_BADGE01_GET; badgeFlag <= FLAG_BADGE08_GET; badgeFlag++, i++)
+    {
+        if (FlagGet(badgeFlag))
+            badges++;
+    }
+    // To avoid move all game flags doing this in a dirt way
+    for (badgeFlag = FLAG_BADGE09_GET; badgeFlag <= FLAG_BADGE15_GET; badgeFlag++, i++)
+    {
+        if (FlagGet(badgeFlag))
+            badges++;
+    }
+    return badges;
+}
+
 u8 TrainerMetGhostGymPrereq() {
     u8 partyCount = CalculatePlayerPartyCount();
     u8 i;
@@ -6305,4 +6322,24 @@ u8 TrainerMetGhostGymPrereq() {
             has_ghost = 1;
     }
     return has_ghost;
+}
+
+u8 TrainerMetIceGymPrereq() {
+    u8 partyCount = CalculatePlayerPartyCount();
+    u8 badges = CountBadges();
+    u8 i;
+    u8 level;
+    struct Pokemon * pokemon;
+
+    if (badges > 2 && badges <= 8)
+        return 0;
+    
+    for (i = 0; i < partyCount; i++)
+    {
+        pokemon = &gPlayerParty[i];
+        level = GetMonData(pokemon, MON_DATA_LEVEL, 0);
+        if (level < 20 || level > 25)
+            return 0;
+    }
+    return 1;
 }
