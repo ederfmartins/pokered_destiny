@@ -17,17 +17,12 @@
     {
       "map": "MAP_FUCHSIA_CITY",
       "offset": -12,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "map": "MAP_ROUTE19",
       "offset": 0,
       "direction": "down"
-    },
-    {
-      "map": "MAP_FUCHSIA_CITY",
-      "offset": -12,
-      "direction": "up"
     },
     {
       "map": "MAP_DARK_CITY",

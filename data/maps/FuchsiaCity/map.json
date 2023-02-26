@@ -25,16 +25,6 @@
       "direction": "right"
     },
     {
-      "map": "MAP_ROUTE19",
-      "offset": 12,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE19N",
-      "offset": 12,
-      "direction": "up"
-    },
-    {
       "map": "MAP_ROUTE19N",
       "offset": 12,
       "direction": "down"
