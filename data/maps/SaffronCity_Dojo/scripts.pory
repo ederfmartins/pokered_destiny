@@ -156,8 +156,7 @@ SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
 
 script SaffronCity_Dojo_BadgeEvent {
     if (flag(FLAG_BADGE10_GET) == true || flag(FLAG_BADGE06_GET) == false) {
-        checktrainerflag(TRAINER_BLACK_BELT_KOICHI)
-        if(var(VAR_RESULT) == 0) {
+        if(flag(TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI) == false) {
             setflag(FLAG_TEMP_1)
         }
     }
@@ -169,11 +168,8 @@ script SaffronCity_Dojo_Bruno {
 	msgbox(format("I come back to restore the honor of this Gym\p Do you think I need to step up to archive this?"), MSGBOX_YESNO)
     if (var(VAR_RESULT) == 1) {
         msgbox(format("I disagree with you. All trainers here should be pround of thenselfs."))
-        
     } else {
-        release
-        checktrainerflag(TRAINER_YAZ_LEADER)
-        if(var(VAR_RESULT) == 1) {
+        if(flag(TRAINER_FLAGS_START + TRAINER_YAZ_LEADER) == true) {
             trainerbattle_single(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
         } else {
             msgbox(format("True! Came here another day to see the result of our hard work."))

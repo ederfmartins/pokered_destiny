@@ -158,9 +158,7 @@ SaffronCity_Dojo_BadgeEvent::
 	return
 
 SaffronCity_Dojo_BadgeEvent_1:
-	checktrainerflag TRAINER_BLACK_BELT_KOICHI
-	compare VAR_RESULT, 0
-	goto_if_eq SaffronCity_Dojo_BadgeEvent_5
+	goto_if_unset TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_BadgeEvent_5
 	return
 
 SaffronCity_Dojo_BadgeEvent_5:
@@ -174,9 +172,7 @@ SaffronCity_Dojo_Bruno::
 	msgbox SaffronCity_Dojo_Bruno_Text_0, MSGBOX_YESNO
 	compare VAR_RESULT, 1
 	goto_if_eq SaffronCity_Dojo_Bruno_2
-	checktrainerflag TRAINER_YAZ_LEADER
-	compare VAR_RESULT, 1
-	goto_if_eq SaffronCity_Dojo_Bruno_5
+	goto_if_set TRAINER_FLAGS_START + TRAINER_YAZ_LEADER, SaffronCity_Dojo_Bruno_5
 	msgbox SaffronCity_Dojo_Bruno_Text_4
 SaffronCity_Dojo_Bruno_1:
 	release
@@ -187,7 +183,6 @@ SaffronCity_Dojo_Bruno_2:
 	goto SaffronCity_Dojo_Bruno_1
 
 SaffronCity_Dojo_Bruno_5:
-	release
 	trainerbattle_single TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_Bruno_Text_3, SaffronCity_Dojo_afterbattle
 	goto SaffronCity_Dojo_Bruno_1
 
@@ -195,6 +190,7 @@ SaffronCity_Dojo_Bruno_5:
 SaffronCity_Dojo_afterbattle::
 	setflag FLAG_BADGE10_GET
 	msgbox SaffronCity_Dojo_afterbattle_Text_0
+	release
 	end
 
 
