@@ -5604,9 +5604,21 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     {
         .iv = 0,
-        .lvl = 14,
+        .lvl = 13,
         .species = SPECIES_GEODUDE,
         .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 13,
+        .species = SPECIES_ZUBAT,
+        .moves = {MOVE_SUPERSONIC, MOVE_MEGA_DRAIN, MOVE_GUST, MOVE_ASTONISH},
+    },
+    {
+        .iv = 0,
+        .lvl = 12,
+        .species = SPECIES_VULPIX,
+        .moves = {MOVE_TACKLE, MOVE_EMBER, MOVE_QUICK_ATTACK, MOVE_NONE},
     },
     {
         .iv = 0,
@@ -5622,6 +5634,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
         .lvl = 18,
         .species = SPECIES_STARYU,
         .moves = {MOVE_TACKLE, MOVE_HARDEN, MOVE_RECOVER, MOVE_WATER_PULSE},
+    },
+    {
+        .iv = 0,
+        .lvl = 18,
+        .species = SPECIES_PSYDUCK,
+        .moves = {MOVE_WATER_GUN, MOVE_SCRATCH, MOVE_CONFUSION, MOVE_DISABLE},
     },
     {
         .iv = 0,
