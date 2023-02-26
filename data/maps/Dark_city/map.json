@@ -69,13 +69,6 @@
       "elevation": 0,
       "dest_map": "MAP_DARK_CITY_YAZ_GYM",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 4,
-      "y": 11,
-      "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
-      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

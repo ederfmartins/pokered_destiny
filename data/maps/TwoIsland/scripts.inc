@@ -225,4 +225,5 @@ TwoIsland_boy_lorelei::
 
 TwoIsland_boy_lorelei_Text_0:
 	.string "Do you know that Lorelei came regularly\n"
-	.string "here to teach us about POKéMON?$"
+	.string "here to teach us about POKéMON?\p"
+	.string "She never fights with strong POKéMON.\p It is amazing!$"

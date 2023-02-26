@@ -22,7 +22,7 @@ Dark_city_yaz_gym_man2::
 Dark_city_yaz_gym_leader::
 	lock
 	faceplayer
-	trainerbattle TRAINER_BATTLE_SINGLE, TRAINER_YAZ_LEADER, 0, Dark_city_yaz_gym_leader_start, Dark_city_yaz_gym_leader_end
+	trainerbattle_single TRAINER_YAZ_LEADER, Dark_city_yaz_gym_leader_start, Dark_city_yaz_gym_leader_end
 	closemessage
 	releaseall
 	end
