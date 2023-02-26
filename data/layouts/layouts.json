@@ -4500,6 +4500,18 @@
       "secondary_tileset": "gTileset_GenericBuilding1",
       "border_filepath": "data/layouts/LavenderTown_House3/border.bin",
       "blockdata_filepath": "data/layouts/LavenderTown_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_RANGE",
+      "name": "MountainRange_Layout",
+      "width": 40,
+      "height": 33,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PewterCity",
+      "border_filepath": "data/layouts/MountainRange/border.bin",
+      "blockdata_filepath": "data/layouts/MountainRange/map.bin"
     }
   ]
 }

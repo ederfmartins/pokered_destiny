@@ -1389,3 +1389,6 @@ Text_TestMsg::
 
 	.include "data/maps/LavenderTown_House3/scripts.inc"
 	.include "data/maps/LavenderTown_House3/text.inc"
+
+	.include "data/maps/MountainRange/scripts.inc"
+	.include "data/maps/MountainRange/text.inc"

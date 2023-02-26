@@ -269,6 +269,7 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE (66 | (3 << 8))
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (67 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (68 | (3 << 8))
+#define MAP_MOUNTAIN_RANGE                       (69 | (3 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (4 << 8))
