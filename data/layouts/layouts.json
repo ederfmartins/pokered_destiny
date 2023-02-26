@@ -4413,7 +4413,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PewterCity",
+      "secondary_tileset": "gTileset_SaffronCity",
       "border_filepath": "data/layouts/Dark_city/border.bin",
       "blockdata_filepath": "data/layouts/Dark_city/map.bin"
     },
@@ -4449,7 +4449,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_SaffronCity",
       "border_filepath": "data/layouts/Grampa_Canion/border.bin",
       "blockdata_filepath": "data/layouts/Grampa_Canion/map.bin"
     },
