@@ -15,15 +15,70 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN",
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MountainRange_Old_Woman",
+      "flag": "0"
+    }
   ],
   "warp_events": [
-
+    {
+      "x": 34,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_MOUNTAIN_RANGE_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_MOUNTAIN_RANGE_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MOUNTAIN_RANGE_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_MOUNTAIN_RANGE_MART",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 25,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "MountainRange_Door"
+    },
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "MountainRange_Gym_Sign"
+    }
   ]
 }

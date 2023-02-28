@@ -75,5 +75,6 @@ EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
 	givemon SPECIES_SQUIRTLE, 40
 	givemon SPECIES_PIDGEOTTO, 40
 	givemon SPECIES_PRIMEAPE, 40
+	givemon SPECIES_PIKACHU, 40
 	setflag FLAG_SYS_POKEMON_GET
 	end

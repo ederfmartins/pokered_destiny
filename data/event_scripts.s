@@ -1392,3 +1392,18 @@ Text_TestMsg::
 
 	.include "data/maps/MountainRange/scripts.inc"
 	.include "data/maps/MountainRange/text.inc"
+
+	.include "data/maps/MountainRange_Mart/scripts.inc"
+	.include "data/maps/MountainRange_Mart/text.inc"
+
+	.include "data/maps/DragoniteIsle/scripts.inc"
+	.include "data/maps/DragoniteIsle/text.inc"
+
+	.include "data/maps/MountainRange_PokemonCenter/scripts.inc"
+	.include "data/maps/MountainRange_PokemonCenter/text.inc"
+
+	.include "data/maps/MountainRange_House1/scripts.inc"
+	.include "data/maps/MountainRange_House1/text.inc"
+
+	.include "data/maps/MountainRange_Gym/scripts.inc"
+	.include "data/maps/MountainRange_Gym/text.inc"

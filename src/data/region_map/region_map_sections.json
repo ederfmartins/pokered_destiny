@@ -874,23 +874,7 @@
     },
     {
       "map_section": "MAPSEC_DARKCITY",
-      "name": "Dark City",
-      "x": 13,
-      "y": 13,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "map_section": "",
-      "name": "",
-      "x": 1,
-      "y": 0,
-      "width": 1,
-      "height": 1
-    },
-    {
-      "map_section": "MAPSEC_DARK_CITY",
-      "name": "Dark City",
+      "name": "DARK CITY",
       "x": 13,
       "y": 13,
       "width": 1,
@@ -901,6 +885,14 @@
       "name": "MOUTAIN RANGE",
       "x": 5,
       "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_DRAGONITEISLE",
+      "name": "DRAGONITE ISLAND",
+      "x": 10,
+      "y": 10,
       "width": 1,
       "height": 1
     }

@@ -5,6 +5,7 @@
     "gMapGroup_Dungeons",
     "gMapGroup_SpecialArea",
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_IndoorHiddenLocations",
     "gMapGroup_IndoorPallet",
     "gMapGroup_IndoorViridian",
     "gMapGroup_IndoorPewter",
@@ -310,7 +311,14 @@
     "SevenIsland_SevaultCanyon_Entrance",
     "SevenIsland_SevaultCanyon",
     "SevenIsland_TanobyRuins",
-    "MountainRange"
+    "MountainRange",
+    "DragoniteIsle"
+  ],
+  "gMapGroup_IndoorHiddenLocations": [
+    "MountainRange_Mart",
+    "MountainRange_PokemonCenter",
+    "MountainRange_House1",
+    "MountainRange_Gym"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

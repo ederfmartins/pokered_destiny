@@ -4512,6 +4512,54 @@
       "secondary_tileset": "gTileset_PewterCity",
       "border_filepath": "data/layouts/MountainRange/border.bin",
       "blockdata_filepath": "data/layouts/MountainRange/map.bin"
+    },
+    {
+      "id": "LAYOUT_DRAGONITE_ISLE",
+      "name": "DragoniteIsle_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BerryForest",
+      "border_filepath": "data/layouts/DragoniteIsle/border.bin",
+      "blockdata_filepath": "data/layouts/DragoniteIsle/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_RANGE_POKEMON_CENTER",
+      "name": "MountainRange_PokemonCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/MountainRange_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/MountainRange_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_RANGE_HOUSE1",
+      "name": "MountainRange_House1_Layout",
+      "width": 15,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/MountainRange_House1/border.bin",
+      "blockdata_filepath": "data/layouts/MountainRange_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_RANGE_GYM",
+      "name": "MountainRange_Gym_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FuchsiaGym",
+      "border_filepath": "data/layouts/MountainRange_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/MountainRange_Gym/map.bin"
     }
   ]
 }

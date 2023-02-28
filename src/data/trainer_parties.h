@@ -11145,3 +11145,137 @@ static const struct TrainerMonItemCustomMoves sParty_BlackBeltBruno[] = {
         .moves = {MOVE_FIRE_BLAST, MOVE_SKY_UPPERCUT, MOVE_FOCUS_PUNCH, MOVE_ROCK_SLIDE},
     },
 };
+
+static const struct TrainerMonItemCustomMoves sParty_LeaderLance[] = {
+    {
+        .iv = 250,
+        .lvl = 40,
+        .species = SPECIES_KINGDRA,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SURF, MOVE_DRAGON_DANCE, MOVE_OUTRAGE, MOVE_ICE_BEAM},
+    },
+    {
+        .iv = 250,
+        .lvl = 40,
+        .species = SPECIES_LATIOS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_FLY, MOVE_PSYCHIC, MOVE_THUNDER_WAVE, MOVE_RECOVER},
+    },
+    {
+        .iv = 250,
+        .lvl = 40,
+        .species = SPECIES_DRAGONITE,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BirdKeeperBob[] = {
+    {
+        .iv = 250,
+        .lvl = 30,
+        .species = SPECIES_IVYSAUR,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_RAZOR_LEAF, MOVE_SLEEP_POWDER, MOVE_MEGA_DRAIN, MOVE_SWORDS_DANCE},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_DRAGON_RAGE, MOVE_FLY, MOVE_SUPERSONIC, MOVE_WING_ATTACK},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_SCYTHER,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_QUICK_ATTACK, MOVE_FOCUS_ENERGY, MOVE_FLY, MOVE_SLASH},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BirdKeeperJoe[] = {
+    {
+        .iv = 250,
+        .lvl = 29,
+        .species = SPECIES_RHYHORN,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_ROCK_BLAST, MOVE_FURY_ATTACK, MOVE_SCARY_FACE, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_BUTTERFREE,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SLEEP_POWDER, MOVE_FLY, MOVE_SUPERSONIC, MOVE_CONFUSION},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_BITE, MOVE_DRAGON_RAGE, MOVE_FLY, MOVE_HYDRO_PUMP},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_BirdKeeperOldCrow[] = {
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_MURKROW,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_ASTONISH, MOVE_PURSUIT, MOVE_FLY, MOVE_PROTECT},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_FEAROW,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_FURY_ATTACK, MOVE_PECK, MOVE_MIRROR_MOVE, MOVE_FLY},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_DODRIO,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_TRI_ATTACK, MOVE_RAGE, MOVE_FLY, MOVE_PURSUIT},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LeaderKahili[] = {
+    {
+        .iv = 250,
+        .lvl = 34,
+        .species = SPECIES_CHARIZARD,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_FLAMETHROWER, MOVE_METAL_CLAW, MOVE_FLY, MOVE_SCARY_FACE},
+    },
+    {
+        .iv = 250,
+        .lvl = 34,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_BITE, MOVE_DRAGON_RAGE, MOVE_FLY, MOVE_HYDRO_PUMP},
+    },
+    {
+        .iv = 250,
+        .lvl = 34,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_DRAGON_RAGE, MOVE_FLY, MOVE_SUPERSONIC, MOVE_WING_ATTACK},
+    },
+    {
+        .iv = 250,
+        .lvl = 32,
+        .species = SPECIES_MURKROW,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_ASTONISH, MOVE_PURSUIT, MOVE_FLY, MOVE_PROTECT},
+    },
+    {
+        .iv = 250,
+        .lvl = 36,
+        .species = SPECIES_PIDGEOT,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SAND_ATTACK, MOVE_QUICK_ATTACK, MOVE_WING_ATTACK, MOVE_FLY},
+    },
+};
