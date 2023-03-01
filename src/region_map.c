@@ -934,6 +934,8 @@ static const u8 sMapFlyDestinations[][3] = {
     [MAPSEC_RIXY_CHAMBER        - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_VIAPOIS_CHAMBER     - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_EMBER_SPA           - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
+    [MAPSEC_MOUTAINRANGE        - MAPSECS_KANTO] = {MAP(MOUNTAIN_RANGE),                          SPAWN_MOUNTAIN_RANGE},
+    [MAPSEC_DRAGONITEISLE       - MAPSECS_KANTO] = {MAP(DRAGONITE_ISLE),                          SPAWN_DRAGONITE_ISLE},
 };
 
 static void RegionMap_DarkenPalette(u16 *pal, u16 size, u16 tint)
@@ -2954,7 +2956,7 @@ static u8 GetMapsecType(u8 mapsec)
     switch (mapsec)
     {
     case MAPSEC_PALLET_TOWN:
-        return FlagGet(FLAG_WORLD_MAP_PALLET_TOWN) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
+        return MAPSECTYPE_VISITED;
     case MAPSEC_VIRIDIAN_CITY:
         return FlagGet(FLAG_WORLD_MAP_VIRIDIAN_CITY) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_PEWTER_CITY:
@@ -2995,6 +2997,10 @@ static u8 GetMapsecType(u8 mapsec)
         return FlagGet(FLAG_WORLD_MAP_ROUTE4_POKEMON_CENTER_1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_ROUTE_10_POKECENTER:
         return FlagGet(FLAG_WORLD_MAP_ROUTE10_POKEMON_CENTER_1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
+    case MAPSEC_MOUTAINRANGE:
+        return MAPSECTYPE_VISITED;
+    case MAPSEC_DRAGONITEISLE:
+        return MAPSECTYPE_VISITED;
     case MAPSEC_NONE:
         return MAPSECTYPE_NONE;
     default:

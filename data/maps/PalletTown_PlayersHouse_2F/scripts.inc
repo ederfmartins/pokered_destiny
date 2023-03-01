@@ -69,11 +69,12 @@ EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
 	additem ITEM_POKE_FLUTE
 	additem ITEM_BICYCLE
 	
-	givemon SPECIES_KADABRA, 40
-	givemon SPECIES_CHARMANDER, 40
-	givemon SPECIES_BULBASAUR, 40
-	givemon SPECIES_SQUIRTLE, 40
-	givemon SPECIES_PIDGEOTTO, 40
+	givemon SPECIES_KADABRA, 35
+	givemon SPECIES_NINETALES, 35
+	givemon SPECIES_IVYSAUR, 36
+	givemon SPECIES_STARYU, 35
+	givemon SPECIES_PIDGEOTTO, 36
 	givemon SPECIES_PRIMEAPE, 40
+	givemon SPECIES_RAICHU, 36
 	setflag FLAG_SYS_POKEMON_GET
 	end

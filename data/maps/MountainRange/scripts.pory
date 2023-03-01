@@ -1,0 +1,24 @@
+raw `
+MountainRange_MapScripts::
+	.byte 0
+`
+
+script MountainRange_Old_Woman {
+    lock
+	faceplayer
+	msgbox(format("Nuzlockers are not welcome here."))
+	release
+	end
+}
+
+script MountainRange_Door {
+    lock
+    msgbox(format("This door is locked."))
+	release
+}
+
+script MountainRange_Gym_Sign {
+    lock
+    msgbox(format("MOUTAIN RAGE CITY POKéMON GYM\nLEADER: KAHILI\lThe freedon POKéMON TRAINER!"))
+	release
+}

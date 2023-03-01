@@ -1,0 +1,88 @@
+raw `
+MountainRange_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_LOAD, MountainRange_Gym_SetTrap
+	.byte 0
+`
+
+script MountainRange_Gym_SetTrap {
+    setvar(VAR_TEMP_0, 0)
+    if(flag(FLAG_BADGE14_GET) == false) {
+        cleartrainerflag(TRAINER_FLYGYM1)
+        cleartrainerflag(TRAINER_FLYGYM2)
+        cleartrainerflag(TRAINER_FLYGYM3)
+    }
+}
+
+script MountainRange_Gym_ActivateTrap {
+    setvar(VAR_TEMP_0, 1)
+    end
+}
+
+script MountainRange_Gym_Trap {
+    if(var(VAR_TEMP_0) == 1 && flag(FLAG_BADGE14_GET) == false) {
+        lockall
+        msgbox(format("A strong wind blocked your passage."))
+        releaseall
+        applymovement(OBJ_EVENT_ID_PLAYER, MountainRange_Gym_Trap_ForceMove)
+    }
+    end
+}
+
+movement MountainRange_Gym_Trap_ForceMove {
+    walk_up * 2
+    face_down
+}
+
+script MountainRange_Gym_Guy {
+    lockall
+	faceplayer
+	msgbox(format("KAHILI has a well prepared FLYING team. Be ready!."))
+	releaseall
+	end
+}
+
+script MountainRange_Gym_Battle1 {
+    trainerbattle_single(TRAINER_FLYGYM1, format("You shall not pass!"), format("Well done, prepare yourself for the next battle."))
+    specialvar(VAR_RESULT, ShouldTryRematchBattle)
+    if(var(VAR_RESULT) == 1) {
+        trainerbattle_rematch(TRAINER_FLYGYM1, format("You shall not pass!"), format("Well done, prepare yourself for the next battle."))
+    }
+    msgbox(format("You're prepared for KAHILI"), MSGBOX_AUTOCLOSE)
+    end
+}
+
+script MountainRange_Gym_Battle2 {
+    trainerbattle_single(TRAINER_FLYGYM2, format("You shall not pass!"), format("Well done, prepare yourself for the next battle."))
+    specialvar(VAR_RESULT, ShouldTryRematchBattle)
+    if(var(VAR_RESULT) == 1) {
+        trainerbattle_rematch(TRAINER_FLYGYM2, format("Are you ready for KAHILI?"), format("At least, you are prepared for me."))
+    }
+    msgbox(format("I did my part, now is up to KAHILI."), MSGBOX_AUTOCLOSE)
+    end
+}
+
+script MountainRange_Gym_Battle3 {
+    trainerbattle_single(TRAINER_FLYGYM3, format("Now it is my time"), format("You got me."))
+    specialvar(VAR_RESULT, ShouldTryRematchBattle)
+    if(var(VAR_RESULT) == 1) {
+        trainerbattle_rematch(TRAINER_FLYGYM3, format("This time will be different."), format("You got me again."))
+    }
+    msgbox(format("KAHILI will revenge me!"), MSGBOX_AUTOCLOSE)
+    end
+}
+
+script MountainRange_Gym_LeaderKahili {
+    lock
+    faceplayer
+    trainerbattle_single(TRAINER_LIDER_KAHILI, format("Do you want the FREEDON BADGE? Proof you are a good trainer!"), format("I love this battle. We should battle in the future again."), MountainRange_Gym_LeaderKahili_afterbattle)
+    msgbox(format("We should battle in the future again."), MSGBOX_AUTOCLOSE)
+    end
+}
+
+script MountainRange_Gym_LeaderKahili_afterbattle {
+    setflag(FLAG_BADGE14_GET)
+    msgbox(format("You got the FREEDON BADGE"))
+    setvar(VAR_TEMP_0, 2)
+    release
+	end
+}
