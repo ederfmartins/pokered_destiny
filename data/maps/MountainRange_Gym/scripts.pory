@@ -7,9 +7,9 @@ MountainRange_Gym_MapScripts::
 script MountainRange_Gym_SetTrap {
     setvar(VAR_TEMP_0, 0)
     if(flag(FLAG_BADGE14_GET) == false) {
-        clearflag(TRAINER_FLYGYM1)
-        clearflag(TRAINER_FLYGYM2)
-        clearflag(TRAINER_FLYGYM3)
+        cleartrainerflag(TRAINER_FLYGYM1)
+        cleartrainerflag(TRAINER_FLYGYM2)
+        cleartrainerflag(TRAINER_FLYGYM3)
     }
 }
 

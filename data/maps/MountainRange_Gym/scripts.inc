@@ -8,9 +8,9 @@ MountainRange_Gym_SetTrap::
 	return
 
 MountainRange_Gym_SetTrap_1:
-	clearflag TRAINER_FLYGYM1
-	clearflag TRAINER_FLYGYM2
-	clearflag TRAINER_FLYGYM3
+	cleartrainerflag TRAINER_FLYGYM1
+	cleartrainerflag TRAINER_FLYGYM2
+	cleartrainerflag TRAINER_FLYGYM3
 	return
 
 
