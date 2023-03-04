@@ -4560,6 +4560,30 @@
       "secondary_tileset": "gTileset_FuchsiaGym",
       "border_filepath": "data/layouts/MountainRange_Gym/border.bin",
       "blockdata_filepath": "data/layouts/MountainRange_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_FOREST_HIDDEN_GYM",
+      "name": "ViridianForest_HiddenGym_Layout",
+      "width": 15,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/ViridianForest_HiddenGym/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianForest_HiddenGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_FOREST_GYM",
+      "name": "ViridianForest_Gym_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_ViridianGym",
+      "border_filepath": "data/layouts/ViridianForest_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianForest_Gym/map.bin"
     }
   ]
 }

@@ -26,7 +26,7 @@ gBattleAI_ScriptsTable::
 	.4byte AI_DoubleBattle
 	.4byte AI_HPAware
 	.4byte AI_Unknown
-	.4byte AI_Ret
+	.4byte AI_Avoid_IneficientMove
 	.4byte AI_Ret
 	.4byte AI_Ret
 	.4byte AI_Ret
@@ -49,9 +49,30 @@ gBattleAI_ScriptsTable::
 	.4byte AI_Safari
 	.4byte AI_FirstBattle
 
+AI_Avoid_IneficientMove::
+	if_move MOVE_GROWL, Score_Minus100
+	if_move MOVE_ROAR, Score_Minus100
+	if_move MOVE_LEER, Score_Minus100
+	if_move MOVE_SAND_ATTACK, Score_Minus100
+	if_move MOVE_TAIL_WHIP, Score_Minus100
+	if_move MOVE_GROWTH, Score_Minus2
+	if_move MOVE_STRING_SHOT, Score_Minus100
+	if_move MOVE_AGILITY, Score_Minus2
+	if_move MOVE_HARDEN, Score_Minus2
+	if_move MOVE_DEFENSE_CURL, Score_Minus2
+	if_move MOVE_FOCUS_ENERGY, Score_Minus2
+	if_move MOVE_SCARY_FACE, Score_Minus2
+	if_move MOVE_SWEET_SCENT, Score_Minus12
+	if_move MOVE_SCREECH, Score_Minus100
+	if_move MOVE_SNORE, Score_Minus100
+	if_move MOVE_UPROAR, Score_Minus100
+	if_move MOVE_METAL_SOUND, Score_Minus100
+	if_move MOVE_GRASS_WHISTLE, Score_Minus100
+	goto AI_CheckBadMove
+
 AI_CheckBadMove::
-@	if_move MOVE_FISSURE, AI_CBM_CheckIfNegatesType  @ Improvement in Emerald
-@	if_move MOVE_HORN_DRILL, AI_CBM_CheckIfNegatesType
+	if_move MOVE_FISSURE, AI_CBM_CheckIfNegatesType  @ Improvement in Emerald
+	if_move MOVE_HORN_DRILL, AI_CBM_CheckIfNegatesType
 	get_how_powerful_move_is
 	if_equal MOVE_POWER_DISCOURAGED, AI_CheckBadMove_CheckSoundproof
 
@@ -218,7 +239,7 @@ AI_CBM_Sleep::
 	if_equal ABILITY_INSOMNIA, Score_Minus10
 	if_equal ABILITY_VITAL_SPIRIT, Score_Minus10
 	if_status AI_TARGET, STATUS1_ANY, Score_Minus10
-@	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
+	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
 	end
 
 AI_CBM_Explosion::
@@ -287,8 +308,8 @@ AI_CBM_DefenseDown::
 
 AI_CBM_SpeedDown::
 	if_stat_level_equal AI_TARGET, STAT_SPEED, 0, Score_Minus10
-@	get_ability AI_TARGET  @ Improvement in Emerald
-@	if_equal ABILITY_SPEED_BOOST, Score_Minus10
+	get_ability AI_TARGET  @ Improvement in Emerald
+	if_equal ABILITY_SPEED_BOOST, Score_Minus10
 	goto CheckIfAbilityBlocksStatChange
 
 AI_CBM_SpAtkDown::
@@ -351,7 +372,7 @@ AI_CBM_Poison::
 	get_ability AI_TARGET
 	if_equal ABILITY_IMMUNITY, Score_Minus10
 	if_status AI_TARGET, STATUS1_ANY, Score_Minus10
-@	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
+	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
 	end
 
 AI_CBM_LightScreen::
@@ -391,7 +412,7 @@ AI_CBM_Confuse::
 	if_status2 AI_TARGET, STATUS2_CONFUSION, Score_Minus5
 	get_ability AI_TARGET
 	if_equal ABILITY_OWN_TEMPO, Score_Minus10
-@	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
+	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
 	end
 
 AI_CBM_Reflect::
@@ -403,7 +424,7 @@ AI_CBM_Paralyze::
 	get_ability AI_TARGET
 	if_equal ABILITY_LIMBER, Score_Minus10
 	if_status AI_TARGET, STATUS1_ANY, Score_Minus10
-@	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
+	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
 	end
 
 AI_CBM_Substitute::
@@ -504,7 +525,7 @@ AI_CBM_SunnyDay::
 
 AI_CBM_FutureSight::
 	if_side_affecting AI_TARGET, SIDE_STATUS_FUTUREATTACK, Score_Minus10
-@	if_side_affecting AI_USER, SIDE_STATUS_FUTUREATTACK, Score_Minus12  @ Improvement in Emerald
+	if_side_affecting AI_USER, SIDE_STATUS_FUTUREATTACK, Score_Minus12  @ Improvement in Emerald
 	end
 
 AI_CBM_FakeOut::
@@ -539,7 +560,7 @@ AI_CBM_WillOWisp::
 	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
 	if_type_effectiveness AI_EFFECTIVENESS_x0_5, Score_Minus10
 	if_type_effectiveness AI_EFFECTIVENESS_x0_25, Score_Minus10
-@	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
+	if_side_affecting AI_TARGET, SIDE_STATUS_SAFEGUARD, Score_Minus10  @ Improvement in Emerald
 	end
 
 AI_CBM_HelpingHand::
@@ -625,6 +646,10 @@ Score_Minus10::
 	score -10
 	end
 
+Score_Minus100::
+	score -100
+	end
+
 Score_Minus12::
 	score -12
 	end
@@ -646,9 +671,9 @@ Score_Plus5::
 	end
 
 @ Improvement in Emerald
-@Score_Plus10::
-@	score +10
-@	end
+Score_Plus10::
+	score +10
+	end
 
 AI_CheckViability::
 	if_effect EFFECT_SLEEP, AI_CV_Sleep
@@ -702,7 +727,7 @@ AI_CheckViability::
 	if_effect EFFECT_REFLECT, AI_CV_Reflect
 	if_effect EFFECT_POISON, AI_CV_Poison
 	if_effect EFFECT_PARALYZE, AI_CV_Paralyze
-	@ if_effect EFFECT_SWAGGER, AI_CV_Swagger  @ Improvement in Emerald
+	if_effect EFFECT_SWAGGER, AI_CV_Swagger  @ Improvement in Emerald
 	if_effect EFFECT_SPEED_DOWN_HIT, AI_CV_SpeedDownFromChance
 	if_effect EFFECT_SKY_ATTACK, AI_CV_ChargeUpMove
 	if_effect EFFECT_VITAL_THROW, AI_CV_VitalThrow
@@ -1547,8 +1572,8 @@ AI_CV_HighCrit_End::
 	end
 
 @ Improvement in Emerald
-@AI_CV_Swagger:
-@	if_has_move AI_USER, MOVE_PSYCH_UP, AI_CV_SwaggerHasPsychUp
+AI_CV_Swagger:
+	if_has_move AI_USER, MOVE_PSYCH_UP, AI_CV_SwaggerHasPsychUp
 
 AI_CV_Flatter::
 	if_random_less_than 128, AI_CV_Confuse
@@ -1569,19 +1594,19 @@ AI_CV_Confuse_End::
 	end
 
 @ Improvement in Emerald
-@AI_CV_SwaggerHasPsychUp:
-@	if_stat_level_more_than AI_TARGET, STAT_ATK, 3, AI_CV_SwaggerHasPsychUp_Minus5
-@	score +3
-@	get_turn_count
-@	if_not_equal 0, AI_CV_SwaggerHasPsychUp_End
-@	score +2
-@	goto AI_CV_SwaggerHasPsychUp_End
-@
-@AI_CV_SwaggerHasPsychUp_Minus5:
-@	score -5
-@
-@AI_CV_SwaggerHasPsychUp_End:
-@	end
+AI_CV_SwaggerHasPsychUp:
+	if_stat_level_more_than AI_TARGET, STAT_ATK, 3, AI_CV_SwaggerHasPsychUp_Minus5
+	score +3
+	get_turn_count
+	if_not_equal 0, AI_CV_SwaggerHasPsychUp_End
+	score +2
+	goto AI_CV_SwaggerHasPsychUp_End
+
+AI_CV_SwaggerHasPsychUp_Minus5:
+	score -5
+
+AI_CV_SwaggerHasPsychUp_End:
+	end
 
 AI_CV_Reflect::
 	if_hp_less_than AI_USER, 50, AI_CV_Reflect_ScoreDown2
@@ -1736,7 +1761,7 @@ AI_CV_Counter2::
 	score -1
 
 AI_CV_Counter3::
-@	if_has_move AI_USER, MOVE_MIRROR_COAT, AI_CV_Counter7  @ Improvement in Emerald
+	if_has_move AI_USER, MOVE_MIRROR_COAT, AI_CV_Counter7  @ Improvement in Emerald
 	get_last_used_move AI_TARGET
 	get_move_power_from_result
 	if_equal 0, AI_CV_Counter5
@@ -1765,12 +1790,12 @@ AI_CV_Counter6::
 	if_random_less_than 50, AI_CV_Counter_End
 
 @ Improvement in Emerald
-@AI_CV_Counter7:
-@	if_random_less_than 100, AI_CV_Counter8
-@	score +4
-@
-@AI_CV_Counter8:
-@	end
+AI_CV_Counter7:
+	if_random_less_than 100, AI_CV_Counter8
+	score +4
+
+AI_CV_Counter8:
+	end
 
 AI_CV_Counter_ScoreDown1::
 	score -1
@@ -1903,7 +1928,7 @@ AI_CV_LockOn_End::
 	end
 
 AI_CV_SleepTalk::
-@	if_status AI_USER, STATUS1_SLEEP, Score_Plus10  @ Improvement in Emerald
+	if_status AI_USER, STATUS1_SLEEP, Score_Plus10  @ Improvement in Emerald
 	score +2   @ Change to -5
 	end
 
@@ -2037,8 +2062,8 @@ AI_CV_Protect_ScoreUp2::
 	score +2
 
 AI_CV_Protect2::
-@	if_random_less_than 128, AI_CV_Protect4  @ Improvement in Emerald
-@	score -1
+	if_random_less_than 128, AI_CV_Protect4  @ Improvement in Emerald
+	score -1
 
 AI_CV_Protect4::
 	get_protect_count AI_USER
@@ -2232,7 +2257,7 @@ AI_CV_PsychUp_ScoreUp1::
 AI_CV_PsychUp3::
 	if_random_less_than 128, AI_CV_PsychUp_End  @ Remove this line
 	score +1
-@	end  @ Improvement in Emerald
+	end  @ Improvement in Emerald
 
 AI_CV_PsychUp_ScoreDown2::
 	score -2
@@ -2254,7 +2279,7 @@ AI_CV_MirrorCoat2::
 	score -1
 
 AI_CV_MirrorCoat3::
-@	if_has_move AI_USER, MOVE_COUNTER, AI_CV_MirrorCoat_ScoreUp4  @ Improvement in Emerald
+	if_has_move AI_USER, MOVE_COUNTER, AI_CV_MirrorCoat_ScoreUp4  @ Improvement in Emerald
 	get_last_used_move AI_TARGET
 	get_move_power_from_result
 	if_equal 0, AI_CV_MirrorCoat5
@@ -2283,12 +2308,12 @@ AI_CV_MirrorCoat6::
 	if_random_less_than 50, AI_CV_MirrorCoat_End
 
 @ Improvement in Emerald
-@AI_CV_MirrorCoat_ScoreUp4:
-@	if_random_less_than 100, AI_CV_MirrorCoat_ScoreUp4_End
-@	score +4
-@
-@AI_CV_MirrorCoat_ScoreUp4_End:
-@	end
+AI_CV_MirrorCoat_ScoreUp4:
+	if_random_less_than 100, AI_CV_MirrorCoat_ScoreUp4_End
+	score +4
+
+AI_CV_MirrorCoat_ScoreUp4_End:
+	end
 
 AI_CV_MirrorCoat_ScoreDown1::
 	score -1
@@ -2550,7 +2575,7 @@ AI_CV_MagicCoat2::
 	if_random_less_than 50, AI_CV_MagicCoat_End
 
 AI_CV_MagicCoat3::
-@	if_random_less_than 50, AI_CV_MagicCoat_End  @ Improvement in Emerald
+	if_random_less_than 50, AI_CV_MagicCoat_End  @ Improvement in Emerald
 
 AI_CV_MagicCoat4::
 	if_random_less_than 30, AI_CV_MagicCoat_End
@@ -2768,14 +2793,14 @@ AI_TryToFaint::
 	if_can_faint AI_TryToFaint_TryToEncourageQuickAttack
 	get_how_powerful_move_is
 	if_equal MOVE_NOT_MOST_POWERFUL, Score_Minus1
-@	if_type_effectiveness AI_EFFECTIVENESS_x4, AI_TryToFaint_DoubleSuperEffective  @ Improvement in Emerald
+	if_type_effectiveness AI_EFFECTIVENESS_x4, AI_TryToFaint_DoubleSuperEffective  @ Improvement in Emerald
 	end
 
 @ Improvement in Emerald
-@AI_TryToFaint_DoubleSuperEffective:
-@	if_random_less_than 80, AI_TryToFaint_End
-@	score +2
-@	end
+AI_TryToFaint_DoubleSuperEffective:
+	if_random_less_than 80, AI_TryToFaint_End
+	score +2
+	end
 
 AI_TryToFaint_TryToEncourageQuickAttack::
 	if_effect EFFECT_EXPLOSION, AI_TryToFaint_End
@@ -2996,7 +3021,7 @@ AI_HPAware_End::
 	end
 
 AI_HPAware_DiscouragedEffectsWhenHighHP::
-	.byte EFFECT_EXPLOSION
+@	.byte EFFECT_EXPLOSION
 	.byte EFFECT_RESTORE_HP
 	.byte EFFECT_REST
 	.byte EFFECT_DESTINY_BOND
@@ -3012,7 +3037,7 @@ AI_HPAware_DiscouragedEffectsWhenHighHP::
 	.byte -1
 
 AI_HPAware_DiscouragedEffectsWhenMediumHP::
-	.byte EFFECT_EXPLOSION
+@	.byte EFFECT_EXPLOSION
 	.byte EFFECT_ATTACK_UP
 	.byte EFFECT_DEFENSE_UP
 	.byte EFFECT_SPEED_UP

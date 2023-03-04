@@ -1407,3 +1407,9 @@ Text_TestMsg::
 
 	.include "data/maps/MountainRange_Gym/scripts.inc"
 	.include "data/maps/MountainRange_Gym/text.inc"
+
+	.include "data/maps/ViridianForest_HiddenGym/scripts.inc"
+	.include "data/maps/ViridianForest_HiddenGym/text.inc"
+
+	.include "data/maps/ViridianForest_Gym/scripts.inc"
+	.include "data/maps/ViridianForest_Gym/text.inc"

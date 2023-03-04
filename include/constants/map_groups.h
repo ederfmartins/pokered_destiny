@@ -277,6 +277,8 @@
 #define MAP_MOUNTAIN_RANGE_POKEMON_CENTER (1 | (4 << 8))
 #define MAP_MOUNTAIN_RANGE_HOUSE1         (2 | (4 << 8))
 #define MAP_MOUNTAIN_RANGE_GYM            (3 | (4 << 8))
+#define MAP_VIRIDIAN_FOREST_HIDDEN_GYM    (4 | (4 << 8))
+#define MAP_VIRIDIAN_FOREST_GYM           (5 | (4 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (5 << 8))

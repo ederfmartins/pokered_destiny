@@ -103,3 +103,8 @@ ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
 
+ViridianForest_Text_BugGymWarp::
+    .string "Can I show to you a very\n"
+    .string "special secret about\n"
+    .string "this place?$"
+

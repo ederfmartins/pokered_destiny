@@ -318,7 +318,9 @@
     "MountainRange_Mart",
     "MountainRange_PokemonCenter",
     "MountainRange_House1",
-    "MountainRange_Gym"
+    "MountainRange_Gym",
+    "ViridianForest_HiddenGym",
+    "ViridianForest_Gym"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

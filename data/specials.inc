@@ -454,4 +454,5 @@ gSpecials::
 	def_special CreateEventLegalEnemyMon
 	def_special TrainerMetGhostGymPrereq
 	def_special TrainerMetIceGymPrereq
+	def_special TrainerMetBugGymPrereq
 gSpecialsEnd::

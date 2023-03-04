@@ -44,7 +44,9 @@
 #define AI_SCRIPT_DOUBLE_BATTLE (1 << 7)
 #define AI_SCRIPT_HP_AWARE (1 << 8)
 #define AI_SCRIPT_UNKNOWN (1 << 9)
-// 10 - 28 are not used
+// 10 - 28 are not used - not anymore :P
+#define AI_SCRIPT_AVOID_INEFFICIENT_MOVE (1 << 10)
+
 #define AI_SCRIPT_ROAMING (1 << 29)
 #define AI_SCRIPT_SAFARI (1 << 30)
 #define AI_SCRIPT_FIRST_BATTLE (1 << 31)

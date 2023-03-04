@@ -6343,3 +6343,23 @@ u8 TrainerMetIceGymPrereq() {
     }
     return 1;
 }
+
+u8 TrainerMetBugGymPrereq() {
+    u8 partyCount = CalculatePlayerPartyCount();
+    u8 i, species, level;
+    u8 has_bug = 0;
+    struct Pokemon * pokemon;
+    
+    for (i = 0; i < partyCount; i++)
+    {
+        pokemon = &gPlayerParty[i];
+        level = GetMonData(pokemon, MON_DATA_LEVEL, 0);
+        if (level > 20)
+            return 0;
+
+        species = GetMonData(pokemon, MON_DATA_SPECIES, 0);
+        if (gBaseStats[species].type1 == TYPE_BUG || gBaseStats[species].type2 == TYPE_BUG)
+            has_bug = 1;
+    }
+    return has_bug;
+}
