@@ -1045,7 +1045,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_BUG_CATCHER_ANTHONY] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .trainerName = _("ANTHONY"),
         .items = {},
         .doubleBattle = FALSE,
@@ -1089,7 +1089,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JAMES"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherJames),
     },
     [TRAINER_BUG_CATCHER_KENT] = {
@@ -1179,7 +1179,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JANICE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassJanice),
     },
     [TRAINER_LASS_SALLY] = {
@@ -1189,7 +1189,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("SALLY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassSally),
     },
     [TRAINER_LASS_ROBIN] = {
@@ -1199,7 +1199,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("ROBIN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_RISKY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassRobin),
     },
     [TRAINER_LASS_CRISSY] = {
@@ -2039,7 +2039,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("RUBEN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_BikerRuben),
     },
     [TRAINER_BIKER_BILLY] = {

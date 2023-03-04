@@ -66,11 +66,7 @@ ViridianForest_EventScript_Charlie::
 	end
 
 ViridianForest_OnLoadWeather::
-	cleartrainerflag TRAINER_BUG_CATCHER_RICK
-	cleartrainerflag TRAINER_BUG_CATCHER_DOUG
-	cleartrainerflag TRAINER_BUG_CATCHER_SAMMY
-	cleartrainerflag TRAINER_BUG_CATCHER_ANTHONY
-	cleartrainerflag TRAINER_BUG_CATCHER_CHARLIE
+	
 	random 10
 	compare VAR_RESULT, 3
 	goto_if_le ViridianForest_EventScript_ChangeWeather
