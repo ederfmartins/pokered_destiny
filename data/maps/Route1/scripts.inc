@@ -27,7 +27,10 @@ Route1_EventScript_AlreadyGotPotion::
 	end
 
 Route1_EventScript_Boy::
+	lock
+	faceplayer
 	msgbox Route1_Text_CanJumpFromLedges, MSGBOX_NPC
+	trainerbattle_single TRAINER_BUG_CATCHER_COLTON, Route3_Text_ColtonIntro, Route3_Text_ColtonPostBattle
 	end
 
 Route1_EventScript_RouteSign::

@@ -52,29 +52,43 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	end
 
 EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
-	setflag FLAG_BADGE06_GET
-	setflag FLAG_BADGE01_GET
-	setflag FLAG_BADGE02_GET
-	setflag FLAG_BADGE03_GET
-	settrainerflag TRAINER_YAZ_LEADER
-	settrainerflag TRAINER_BLACK_BELT_KOICHI
-	additem ITEM_HM01
-	additem ITEM_HM02
-	additem ITEM_HM03
-	additem ITEM_HM04
-	additem ITEM_HM05
-	additem ITEM_HM06
-	additem ITEM_HM07
-	additem ITEM_HM08
-	additem ITEM_POKE_FLUTE
-	additem ITEM_BICYCLE
-	
-	givemon SPECIES_KADABRA, 35
-	givemon SPECIES_NINETALES, 35
-	givemon SPECIES_IVYSAUR, 36
-	givemon SPECIES_STARYU, 35
-	givemon SPECIES_PIDGEOTTO, 36
-	givemon SPECIES_PRIMEAPE, 40
-	givemon SPECIES_RAICHU, 36
-	setflag FLAG_SYS_POKEMON_GET
+	additem ITEM_REPEL
+	additem ITEM_REPEL
+	additem ITEM_REPEL
+	additem ITEM_GREAT_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POKE_BALL
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+	additem ITEM_POTION
+
+	givemon SPECIES_BULBASAUR, 6
+
 	end

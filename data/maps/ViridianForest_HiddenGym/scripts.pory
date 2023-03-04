@@ -1,0 +1,23 @@
+raw `
+ViridianForest_HiddenGym_MapScripts::
+	.byte 0
+`
+
+script ViridianForest_HiddenGym_BugGymWarp {
+    lockall
+	faceplayer
+	msgbox("Should we come back?", MSGBOX_YESNO)
+    if (var(VAR_RESULT) == 1) {
+        warp(MAP_VIRIDIAN_FOREST, 29, 61)
+    }
+	releaseall
+	end
+}
+
+script ViridianForest_HiddenGym_GymSign {
+    lockall
+	faceplayer
+	msgbox("Viridian hidden Bug Gym")
+	releaseall
+	end
+}

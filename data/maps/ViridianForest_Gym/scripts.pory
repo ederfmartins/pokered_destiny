@@ -1,0 +1,65 @@
+raw `
+ViridianForest_Gym_MapScripts::
+    map_script MAP_SCRIPT_ON_LOAD, ViridianForest_Gym_SetTrap
+	.byte 0
+`
+
+script ViridianForest_Gym_SetTrap {
+    if(flag(FLAG_BADGE11_GET) == false) {
+        cleartrainerflag(TRAINER_BUG1)
+        cleartrainerflag(TRAINER_BUG2)
+        cleartrainerflag(TRAINER_BUG3)
+    }
+}
+
+
+script ViridianForest_Gym_Gymman {
+    lockall
+	faceplayer
+	msgbox(format("This is the Hidden Bug Gym. Be carefull there are bugs everywere! Also, avoid the triple twins, they do not behave well."))
+	releaseall
+	end
+}
+
+script ViridianForest_Gym_Bug1 {
+    lock
+	faceplayer
+    trainerbattle_single(TRAINER_BUG1, format("Bugs are amazing and will make shit of your life."), format("It is impossible, I lose!"))
+    msgbox(format("Next time, I will show the bug power to you."))
+	release
+	end
+}
+
+script ViridianForest_Gym_Bug2 {
+    lock
+	faceplayer
+    trainerbattle_single(TRAINER_BUG2, format("I love bugs, they are fundamental to nature."), format("Now you are prepared for the next challenge."))
+    msgbox(format("Do you know that I love bugs?"))
+	release
+	end
+}
+
+script ViridianForest_Gym_Bug3 {
+    lock
+	faceplayer
+    trainerbattle_single(TRAINER_BUG3, format("Are you smeling this?"), format("Dan it, I lose again!"))
+    msgbox(format("It was not fare. Bug will revenge me!"))
+	release
+	end
+}
+
+script ViridianForest_Gym_BugLeader {
+    lock
+	faceplayer
+    trainerbattle_single(TRAINER_LIDER_BUG, format("You have passed bug maze. Congrats. Now you are prepared for the hidden bug."), format("You deserve that!"), ViridianForest_Gym_BugLeader_afterbattle)
+    msgbox(format("It was not fare. Bug will revenge me!"))
+	release
+	end
+}
+
+script ViridianForest_Gym_BugLeader_afterbattle {
+    setflag(FLAG_BADGE11_GET)
+    msgbox(format("You got the HIDDEN BUG BADGE"))
+    release
+	end
+}

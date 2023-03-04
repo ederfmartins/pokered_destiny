@@ -1,3 +1,4 @@
+raw `
 ViridianForest_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, ViridianForest_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, ViridianForest_OnLoadWeather
@@ -77,29 +78,22 @@ ViridianForest_EventScript_ChangeWeather::
 	doweather
 	end
 
-ViridianForest_EventScript_BugGymWarp::
-	lockall
+`
+
+script ViridianForest_EventScript_BugGymWarp {
+    lockall
 	faceplayer
-	specialvar VAR_RESULT, TrainerMetBugGymPrereq
-	compare VAR_RESULT, 1
-	goto_if_eq ViridianForest_EventScript_BugGymWarp_2
-	msgbox ViridianForest_EventScript_BugGymWarp_Text_0
-ViridianForest_EventScript_BugGymWarp_1:
+
+	specialvar(VAR_RESULT, TrainerMetBugGymPrereq)
+	if (var(VAR_RESULT) == 1) {
+		msgbox(ViridianForest_Text_BugGymWarp, MSGBOX_YESNO)
+		if (var(VAR_RESULT) == 1) {
+			warp(MAP_VIRIDIAN_FOREST_HIDDEN_GYM, 7, 7)
+		}
+	} else {
+		msgbox(format("I love Bugs, if you are able to show the right one to me, I will tell you a very special secret."))
+	}
+	
 	releaseall
 	end
-
-ViridianForest_EventScript_BugGymWarp_2:
-	msgbox ViridianForest_Text_BugGymWarp, MSGBOX_YESNO
-	compare VAR_RESULT, 1
-	goto_if_eq ViridianForest_EventScript_BugGymWarp_5
-	goto ViridianForest_EventScript_BugGymWarp_1
-
-ViridianForest_EventScript_BugGymWarp_5:
-	warp MAP_VIRIDIAN_FOREST_HIDDEN_GYM, 7, 7
-	goto ViridianForest_EventScript_BugGymWarp_1
-
-
-ViridianForest_EventScript_BugGymWarp_Text_0:
-	.string "I love Bugs, if you are able to show the\n"
-	.string "right one to me, I will tell you a very\l"
-	.string "special secret.$"
+}

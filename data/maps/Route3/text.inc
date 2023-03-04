@@ -5,15 +5,16 @@ Route3_Text_TunnelFromCeruleanTiring::
     .string "lot out of you!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "By the way! This is a preview\n"
+    .string "of what will happen in VIRIDIAN FOREST!$"
 
 Route3_Text_ColtonDefeat::
     .string "You beat me again!$"
 
 Route3_Text_ColtonPostBattle::
     .string "There are other kinds of POKéMON\n"
-    .string "than the ones you find in forests.$"
+    .string "here than the ones you you would\n"
+    .string "normally expected.$"
 
 Route3_Text_BenIntro::
     .string "Hi!\n"

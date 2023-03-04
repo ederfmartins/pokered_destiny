@@ -23,14 +23,6 @@ Route3_EventScript_CalvinRematch::
 	end
 
 Route3_EventScript_Colton::
-	trainerbattle_single TRAINER_BUG_CATCHER_COLTON, Route3_Text_ColtonIntro, Route3_Text_ColtonDefeat
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route3_EventScript_ColtonRematch
-	msgbox Route3_Text_ColtonPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route3_EventScript_ColtonRematch::
-	trainerbattle_rematch TRAINER_BUG_CATCHER_COLTON, Route3_Text_ColtonRematchIntro, Route3_Text_ColtonDefeat
 	msgbox Route3_Text_ColtonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
