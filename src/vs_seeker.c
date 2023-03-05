@@ -1146,6 +1146,7 @@ static u8 GetRunningBehaviorFromGraphicsId(u8 graphicsId)
         case OBJ_EVENT_GFX_BLACKBELT:
         case OBJ_EVENT_GFX_HIKER:
         case OBJ_EVENT_GFX_SAILOR:
+        case OBJ_EVENT_GFX_TEAM_MAGMA:
             return MOVEMENT_TYPE_RAISE_HAND_AND_JUMP;
         case OBJ_EVENT_GFX_TUBER_M_WATER:
         case OBJ_EVENT_GFX_SWIMMER_M_WATER:
