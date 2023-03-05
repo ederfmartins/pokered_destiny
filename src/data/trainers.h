@@ -1093,14 +1093,14 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherJames),
     },
     [TRAINER_BUG_CATCHER_KENT] = {
-        .trainerClass = TRAINER_CLASS_BUG_CATCHER,
+        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .trainerName = _("KENT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherKent),
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_BugCatcherKent),
     },
     [TRAINER_BUG_CATCHER_ROBBY] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
