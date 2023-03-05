@@ -2926,12 +2926,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = 4,
+    .paletteSlot = 5, //this controls the real pallete
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
@@ -2939,6 +2939,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_TeamMagma, //sPicTable_BugCatcher 
+    .images = sPicTable_TeamMagma,
     .affineAnims = gDummySpriteAffineAnimTable,
 };

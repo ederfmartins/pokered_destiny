@@ -185,7 +185,9 @@ static const struct SinglesTrainerInfo sSingleBattleTrainerInfo[] = {
     {OBJ_EVENT_GFX_WOMAN_2,        FACILITY_CLASS_AROMA_LADY,        FEMALE},
     {OBJ_EVENT_GFX_HIKER,          FACILITY_CLASS_RUIN_MANIAC,         MALE},
     {OBJ_EVENT_GFX_WOMAN_2,        FACILITY_CLASS_LADY,              FEMALE},
-    {OBJ_EVENT_GFX_LASS,           FACILITY_CLASS_PAINTER,           FEMALE}
+    {OBJ_EVENT_GFX_LASS,           FACILITY_CLASS_PAINTER,           FEMALE},
+    {OBJ_EVENT_GFX_TEAM_MAGMA,     FACILITY_CLASS_MAGMA_GRUNT_M,       MALE},
+    
 };
 
 static const struct DoublesTrainerInfo sDoubleBattleTrainerInfo[] = {
