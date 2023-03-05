@@ -50,5 +50,10 @@ Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
     .string "store some using any PC.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
-    .string "It's a newspaper.$"
+    .string "Missing trainers in MT MOON\p"
+    .string "...\p"
+    .string "It is being reported an increasing\n"
+    .string "number of cases of missing or robbed\p"
+    .string "trainers in MT MOON. Autorities\n"
+    .string "are recommending to avoid this path.$"
 
