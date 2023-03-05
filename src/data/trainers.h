@@ -3332,7 +3332,7 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlyCharmander),
     },
-    [TRAINER_RIVAL_CERULEAN_SQUIRTLE] = {
+    [TRAINER_RIVAL_CERULEAN] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,

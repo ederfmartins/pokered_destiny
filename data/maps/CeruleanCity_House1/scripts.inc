@@ -19,7 +19,13 @@ CeruleanCity_House1_EventScript_BadgeGuy::
 	case 5, CeruleanCity_House1_EventScript_DescribeMarshBadge
 	case 6, CeruleanCity_House1_EventScript_DescribeVolcanoBadge
 	case 7, CeruleanCity_House1_EventScript_DescribeEarthBadge
-	case 8, CeruleanCity_House1_EventScript_StopDescribingBadges
+	case 8, CeruleanCity_House1_EventScript_DescribeStreamBadge
+	case 9, CeruleanCity_House1_EventScript_DescribeValorBadge
+	case 10, CeruleanCity_House1_EventScript_DescribeBugBadge
+	case 12, CeruleanCity_House1_EventScript_DescribeGhostBadge
+	case 11, CeruleanCity_House1_EventScript_DescribeCupperBadge
+	case 13, CeruleanCity_House1_EventScript_DescribeFreedonBadge
+	case 14, CeruleanCity_House1_EventScript_DescribeHeartBadge
 	case 127, CeruleanCity_House1_EventScript_StopDescribingBadges
 	end
 
@@ -37,7 +43,13 @@ CeruleanCity_House1_EventScript_DescribeAnotherBadge::
 	case 5, CeruleanCity_House1_EventScript_DescribeMarshBadge
 	case 6, CeruleanCity_House1_EventScript_DescribeVolcanoBadge
 	case 7, CeruleanCity_House1_EventScript_DescribeEarthBadge
-	case 8, CeruleanCity_House1_EventScript_StopDescribingBadges
+	case 8, CeruleanCity_House1_EventScript_DescribeStreamBadge
+	case 9, CeruleanCity_House1_EventScript_DescribeValorBadge
+	case 10, CeruleanCity_House1_EventScript_DescribeBugBadge
+	case 12, CeruleanCity_House1_EventScript_DescribeGhostBadge
+	case 11, CeruleanCity_House1_EventScript_DescribeCupperBadge
+	case 13, CeruleanCity_House1_EventScript_DescribeFreedonBadge
+	case 14, CeruleanCity_House1_EventScript_DescribeHeartBadge
 	case 127, CeruleanCity_House1_EventScript_StopDescribingBadges
 	end
 
@@ -78,6 +90,41 @@ CeruleanCity_House1_EventScript_DescribeVolcanoBadge::
 
 CeruleanCity_House1_EventScript_DescribeEarthBadge::
 	msgbox CeruleanCity_House1_Text_AllMonsWillObeyYou
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeStreamBadge::
+	msgbox CeruleanCity_House1_Text_Stream
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeValorBadge::
+	msgbox CeruleanCity_House1_Text_Valor
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeBugBadge::
+	msgbox CeruleanCity_House1_Text_Bug
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeGhostBadge::
+	msgbox CeruleanCity_House1_Text_Ghost
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeCupperBadge::
+	msgbox CeruleanCity_House1_Text_Cupper
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeFreedonBadge::
+	msgbox CeruleanCity_House1_Text_Freedon
+	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
+	end
+
+CeruleanCity_House1_EventScript_DescribeHeartBadge::
+	msgbox CeruleanCity_House1_Text_Heart
 	goto CeruleanCity_House1_EventScript_DescribeAnotherBadge
 	end
 

@@ -1172,7 +1172,7 @@ void ListMenu(void)
         {
         case LISTMENU_BADGES:
             task->data[0] = 4;
-            task->data[1] = 9;
+            task->data[1] = 16;
             task->data[2] = 1;
             task->data[3] = 1;
             task->data[4] = 12;
@@ -1252,7 +1252,7 @@ void ListMenu(void)
     }
 }
 
-static const u8 *const sListMenuLabels[][12] = {
+static const u8 *const sListMenuLabels[][16] = {
     [LISTMENU_BADGES] = 
     {
         gText_BoulderBadge,
@@ -1263,7 +1263,14 @@ static const u8 *const sListMenuLabels[][12] = {
         gText_MarshBadge,
         gText_VolcanoBadge,
         gText_EarthBadge,
-        gOtherText_Exit,
+        gText_StreamBadge,
+        gText_ValorBadge,
+        gText_BugBadge,
+        gText_CupperBadge,
+        gText_GhostBadge,
+        gText_FreedonBadge,
+        gText_HeartBadge,
+        gOtherText_Exit
     }, 
     [LISTMENU_SILPHCO_FLOORS] = 
     {

@@ -1463,13 +1463,13 @@
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        (SYS_FLAGS + 0xC2)
 
 /* badges order
- * - ice
- * - lutador
- * - bug
- * - fantasma
- * - normal
- * - fly
- * - dragao
+ * - ice - STREAMBADGE
+ * - lutador - VALORBADGE
+ * - bug - BUGBADGE
+ * - fantasma - GHOUSTBADGE
+ * - normal - CUPPERBADGE
+ * - fly - FREEDON BADGE
+ * - dragao - HEART BADGE
  */
 #define FLAG_BADGE09_GET                                            (SYS_FLAGS + 0xC3)
 #define FLAG_BADGE10_GET                                           (SYS_FLAGS + 0xC4)

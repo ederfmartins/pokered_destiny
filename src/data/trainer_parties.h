@@ -3833,22 +3833,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanSquirtle[] =
         .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
     },
     {
-        .iv = 50,
-        .lvl = 16,
-        .species = SPECIES_ABRA,
-        .moves = {MOVE_TELEPORT, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+        .iv = 70,
+        .lvl = 18,
+        .species = SPECIES_BULBASAUR,
+        .moves = {MOVE_SLEEP_POWDER, MOVE_POISON_POWDER, MOVE_VINE_WHIP, MOVE_LEECH_SEED},
     },
     {
-        .iv = 50,
-        .lvl = 15,
-        .species = SPECIES_RATTATA,
-        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_QUICK_ATTACK, MOVE_NONE},
+        .iv = 70,
+        .lvl = 18,
+        .species = SPECIES_CHARMANDER,
+        .moves = {MOVE_METAL_CLAW, MOVE_EMBER, MOVE_GROWL, MOVE_SCRATCH},
     },
     {
-        .iv = 100,
+        .iv = 70,
         .lvl = 18,
         .species = SPECIES_SQUIRTLE,
         .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_WITHDRAW, MOVE_WATER_GUN},
+    },
+    {
+        .iv = 50,
+        .lvl = 17,
+        .species = SPECIES_NIDORAN_M,
+        .moves = {MOVE_POISON_STING, MOVE_PECK, MOVE_FURY_ATTACK, MOVE_NONE},
     },
 };
 
