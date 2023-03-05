@@ -60,14 +60,15 @@ AI_Avoid_IneficientMove::
 	if_move MOVE_AGILITY, Score_Minus2
 	if_move MOVE_HARDEN, Score_Minus2
 	if_move MOVE_DEFENSE_CURL, Score_Minus2
-	if_move MOVE_FOCUS_ENERGY, Score_Minus2
-	if_move MOVE_SCARY_FACE, Score_Minus2
+	if_move MOVE_FOCUS_ENERGY, Score_Minus100
+	if_move MOVE_SCARY_FACE, Score_Minus12
 	if_move MOVE_SWEET_SCENT, Score_Minus12
 	if_move MOVE_SCREECH, Score_Minus100
 	if_move MOVE_SNORE, Score_Minus100
 	if_move MOVE_UPROAR, Score_Minus100
 	if_move MOVE_METAL_SOUND, Score_Minus100
 	if_move MOVE_GRASS_WHISTLE, Score_Minus100
+	if_move MOVE_CHARGE, Score_Minus2
 	goto AI_CheckBadMove
 
 AI_CheckBadMove::

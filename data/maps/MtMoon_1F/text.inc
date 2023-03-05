@@ -70,16 +70,15 @@ MtMoon_1F_Text_KentPostBattle::
     .string "I'm sure they're from TEAM ROCKET!$"
 
 MtMoon_1F_Text_RobbyIntro::
-    .string "You need to go through this cave\n"
-    .string "to get to CERULEAN CITY.$"
+    .string "You should not be here!\n"
+    .string "Now you will pay the price.$"
 
 MtMoon_1F_Text_RobbyDefeat::
     .string "I lost.$"
 
 MtMoon_1F_Text_RobbyPostBattle::
-    .string "ZUBAT is tough!\n"
-    .string "But if you can catch one, you'll\l"
-    .string "be able to count on it.$"
+    .string "You need to go through this cave\n"
+    .string "to get to CERULEAN CITY.$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker::
     .string "Beware!\n"

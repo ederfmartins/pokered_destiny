@@ -909,7 +909,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JOSH"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterJosh),
     },
     [TRAINER_YOUNGSTER_TIMMY] = {
@@ -1103,13 +1103,13 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_CUSTOM_MOVES(sParty_BugCatcherKent),
     },
     [TRAINER_BUG_CATCHER_ROBBY] = {
-        .trainerClass = TRAINER_CLASS_BUG_CATCHER,
+        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .trainerName = _("ROBBY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherRobby),
     },
     [TRAINER_BUG_CATCHER_CALE] = {
@@ -1219,7 +1219,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("MIRIAM"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_RISKY | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassMiriam),
     },
     [TRAINER_LASS_IRIS] = {
@@ -1709,7 +1709,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JOVAN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_RISKY | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_SuperNerdJovan),
     },
     [TRAINER_SUPER_NERD_MIGUEL] = {
@@ -1719,7 +1719,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("MIGUEL"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_SuperNerdMiguel),
     },
     [TRAINER_SUPER_NERD_AIDAN] = {
@@ -1823,13 +1823,13 @@ const struct Trainer gTrainers[] = {
         .party = NO_ITEM_DEFAULT_MOVES(sParty_SuperNerdZac),
     },
     [TRAINER_HIKER_MARCOS] = {
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_HIKER,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .trainerName = _("MARCOS"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_HP_AWARE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_HikerMarcos),
     },
     [TRAINER_HIKER_FRANKLIN] = {
@@ -3529,7 +3529,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GRUNT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_HP_AWARE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_TeamRocketGrunt),
     },
     [TRAINER_TEAM_ROCKET_GRUNT_2] = {
@@ -3539,7 +3539,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GRUNT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_HP_AWARE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_TeamRocketGrunt2),
     },
     [TRAINER_TEAM_ROCKET_GRUNT_3] = {
@@ -3549,7 +3549,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GRUNT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_HP_AWARE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_TeamRocketGrunt3),
     },
     [TRAINER_TEAM_ROCKET_GRUNT_4] = {
@@ -3559,7 +3559,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GRUNT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_HP_AWARE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_TeamRocketGrunt4),
     },
     [TRAINER_TEAM_ROCKET_GRUNT_5] = {
