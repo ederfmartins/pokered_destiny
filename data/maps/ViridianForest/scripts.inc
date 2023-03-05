@@ -65,7 +65,6 @@ ViridianForest_EventScript_Charlie::
 	end
 
 ViridianForest_OnLoadWeather::
-	
 	random 10
 	compare VAR_RESULT, 3
 	goto_if_le ViridianForest_EventScript_ChangeWeather
