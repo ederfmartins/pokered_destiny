@@ -306,5 +306,5 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
-    [OBJ_EVENT_GFX_TEAM_MAGMA]               = &gObjectEventGraphicsInfo_BugCatcher,
+    [OBJ_EVENT_GFX_TEAM_MAGMA]               = &gObjectEventGraphicsInfo_TeamMagma,
 };
