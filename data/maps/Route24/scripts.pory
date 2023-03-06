@@ -1,3 +1,4 @@
+raw `
 .equ LOCALID_ROCKET, 1
 
 Route24_MapScripts::
@@ -111,43 +112,30 @@ Route24_EventScript_CaleRematch::
 	trainerbattle_rematch TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleRematchIntro, Route24_Text_CaleDefeat
 	msgbox Route24_Text_CalePostBattle, MSGBOX_AUTOCLOSE
 	end
+`
 
-Route24_SetTrap::
-	setvar VAR_TEMP_0, 0
-	return
+script Route24_SetTrap {
+    setvar(VAR_TEMP_0, 0)
+}
 
+script Route24_ActivateTrap {
+    setvar(VAR_TEMP_0, 1)
+    end
+}
 
-Route24_ActivateTrap::
-	setvar VAR_TEMP_0, 1
-	end
+script Route24_Trap {
+    if(var(VAR_TEMP_0) == 1 && flag(TRAINER_FLAGS_START + TRAINER_TEAM_ROCKET_GRUNT_6) == false) {
+        lockall
+        msgbox(format("I forgot to mention, you should defeat all the trainers now!"), MSGBOX_AUTOCLOSE)
+        releaseall
+        applymovement(OBJ_EVENT_ID_PLAYER, Route24_Trap_ForceMove)
+    } else {
+        setvar(VAR_TEMP_0, 0)
+    }
+    end
+}
 
-
-Route24_Trap::
-	compare VAR_TEMP_0, 1
-	goto_if_eq Route24_Trap_4
-Route24_Trap_3:
-	setvar VAR_TEMP_0, 0
-Route24_Trap_1:
-	end
-
-Route24_Trap_2:
-	lockall
-	msgbox Route24_Trap_Text_0, MSGBOX_AUTOCLOSE
-	releaseall
-	applymovement OBJ_EVENT_ID_PLAYER, Route24_Trap_ForceMove
-	goto Route24_Trap_1
-
-Route24_Trap_4:
-	goto_if_unset TRAINER_FLAGS_START + TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Trap_2
-	goto Route24_Trap_3
-
-
-Route24_Trap_ForceMove:
-	walk_up
-	walk_up
-	face_down
-	step_end
-
-Route24_Trap_Text_0:
-	.string "I forgot to mention, you should defeat\n"
-	.string "all the trainers now!$"
+movement Route24_Trap_ForceMove {
+    walk_up * 2
+    face_down
+}

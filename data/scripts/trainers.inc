@@ -110,18 +110,6 @@ Route24_EventScript_TimmyRematch::
 	msgbox Route24_Text_TimmyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route24_EventScript_Cale::
-	trainerbattle_single TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleIntro, Route24_Text_CaleDefeat
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_CaleRematch
-	msgbox Route24_Text_CalePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route24_EventScript_CaleRematch::
-	trainerbattle_rematch TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleRematchIntro, Route24_Text_CaleDefeat
-	msgbox Route24_Text_CalePostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route24_EventScript_Reli::
 	trainerbattle_single TRAINER_LASS_RELI, Route24_Text_ReliIntro, Route24_Text_ReliDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
