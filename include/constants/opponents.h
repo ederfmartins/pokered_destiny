@@ -336,9 +336,10 @@
 #define TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR    330
 #define TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER   331
 // Originally TRAINER_RIVAL_CERULEAN_SQUIRTLE TRAINER_RIVAL_CERULEAN_BULBASAUR and TRAINER_RIVAL_CERULEAN_CHARMANDER
-// the two other are free to use as more trainers
+// the last one is free to use as more trainers TRAINER_RIVAL_CERULEAN_BULBASAUR was borrowed to be a new
+// rival in ss ane
 #define TRAINER_RIVAL_CERULEAN                   332
-#define TRAINER_RIVAL_CERULEAN_BULBASAUR         333
+#define TRAINER_RIVAL_SS_ANNE_OTHER              333
 #define TRAINER_RIVAL_CERULEAN_CHARMANDER        334
 #define TRAINER_SCIENTIST_TED                    335
 #define TRAINER_SCIENTIST_CONNOR                 336
