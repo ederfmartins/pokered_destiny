@@ -466,5 +466,6 @@ struct OakSpeechNidoranFStruct *OakSpeechNidoranFSetup(u8 battlePosition, bool8 
 void OakSpeechNidoranFFreeResources(void);
 void *OakSpeechNidoranFGetBuffer(u8 bufferId);
 bool8 MonKnowsTMHM(struct Pokemon *mon);
+u8 CountBadges();
 
 #endif // GUARD_POKEMON_H

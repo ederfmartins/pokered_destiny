@@ -20,6 +20,13 @@ VermilionCity_PokemonCenter_1F_EventScript_Man::
 
 VermilionCity_PokemonCenter_1F_EventScript_Hiker::
 	msgbox VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild, MSGBOX_NPC
+	additem ITEM_SUPER_POTION
+	additem ITEM_SUPER_POTION
+	additem ITEM_SUPER_POTION
+	additem ITEM_FULL_HEAL
+	additem ITEM_REVIVE
+	additem ITEM_REVIVE
+	additem ITEM_REVIVE
 	end
 
 VermilionCity_PokemonCenter_1F_EventScript_Youngster::
