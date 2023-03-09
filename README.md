@@ -10,8 +10,8 @@ Some of the features that you can find in this game includes:
 * 6 pokemons to start with.
 
 Some changes already implemented
-* Infinite TM uses
+* Infinite TM uses (but you can use only one TM or HM on each pokemon)
 * Battle aggainst an unofitial gym (AJ, kaz, yas)
 * You can capture all 150 pokemons
 
-At this moment, this hack is a work in progress. It is not ready to be played yet.
+At this moment, this hack is a work in progress, but is already playable.
