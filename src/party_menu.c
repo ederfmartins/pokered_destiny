@@ -91,7 +91,8 @@ enum
     CAN_LEARN_MOVE,
     CANNOT_LEARN_MOVE,
     ALREADY_KNOWS_MOVE,
-    CANNOT_LEARN_MOVE_IS_EGG
+    CANNOT_LEARN_MOVE_IS_EGG,
+    CANNOT_LEARN_ALREADY_HAS_TMHM,
 };
 
 enum
@@ -888,6 +889,9 @@ static void DisplayPartyPokemonDataToTeachMove(u8 slot, u16 item, u8 tutor)
         break;
     case ALREADY_KNOWS_MOVE:
         DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_LEARNED);
+        break;
+    case CANNOT_LEARN_ALREADY_HAS_TMHM:
+        DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_HAS_TM);
         break;
     default:
         DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
@@ -1885,8 +1889,10 @@ static u8 CanMonLearnTMTutor(struct Pokemon *mon, u16 item, u8 tutor)
 
     if (MonKnowsMove(mon, move) == TRUE)
         return ALREADY_KNOWS_MOVE;
-    else
+    else {
+        if (MonKnowsTMHM(mon)) return CANNOT_LEARN_ALREADY_HAS_TMHM;
         return CAN_LEARN_MOVE;
+    }
 }
 
 static u16 GetTutorMove(u8 tutor)
@@ -4291,8 +4297,6 @@ static void CB2_UseItem(void)
     {
         GiveMoveToMon(&gPlayerParty[gPartyMenu.slotId], ItemIdToBattleMoveId(gSpecialVar_ItemId));
         AdjustFriendship(&gPlayerParty[gPartyMenu.slotId], FRIENDSHIP_EVENT_LEARN_TMHM);
-        if (gSpecialVar_ItemId <= ITEM_TM50)
-            RemoveBagItem(gSpecialVar_ItemId, 1);
         SetMainCallback2(gPartyMenu.exitCallback);
     }
     else
@@ -4311,8 +4315,6 @@ static void CB2_UseTMHMAfterForgettingMove(void)
         SetMonMoveSlot(mon, ItemIdToBattleMoveId(gSpecialVar_ItemId), moveIdx);
         AdjustFriendship(mon, FRIENDSHIP_EVENT_LEARN_TMHM);
         ItemUse_SetQuestLogEvent(QL_EVENT_USED_ITEM, mon, gSpecialVar_ItemId, move);
-        if (gSpecialVar_ItemId <= ITEM_TM50)
-            RemoveBagItem(gSpecialVar_ItemId, 1);
         SetMainCallback2(gPartyMenu.exitCallback);
     }
     else
@@ -4781,12 +4783,15 @@ void ItemUseCB_TMHM(u8 taskId, TaskFunc func)
     learnMoveMethod = LEARN_VIA_TMHM;
     switch (CanMonLearnTMTutor(mon, item, 0))
     {
-    case CANNOT_LEARN_MOVE:
-        DisplayLearnMoveMessageAndClose(taskId, gText_PkmnCantLearnMove);
-        return;
-    case ALREADY_KNOWS_MOVE:
-        DisplayLearnMoveMessageAndClose(taskId, gText_PkmnAlreadyKnows);
-        return;
+        case CANNOT_LEARN_MOVE:
+            DisplayLearnMoveMessageAndClose(taskId, gText_PkmnCantLearnMove);
+            return;
+        case ALREADY_KNOWS_MOVE:
+            DisplayLearnMoveMessageAndClose(taskId, gText_PkmnAlreadyKnows);
+            return;
+        case CANNOT_LEARN_ALREADY_HAS_TMHM:
+            DisplayLearnMoveMessageAndClose(taskId, gText_PkmnAlreadyKnowsHm);
+            return;
     }
     if (GiveMoveToMon(mon, learnMoveId) != MON_HAS_MAX_MOVES)
     {
@@ -5412,6 +5417,9 @@ static void TryTutorSelectedMon(u8 taskId)
             return;
         case ALREADY_KNOWS_MOVE:
             DisplayLearnMoveMessageAndClose(taskId, gText_PkmnAlreadyKnows);
+            return;
+        case CANNOT_LEARN_ALREADY_HAS_TMHM:
+            DisplayLearnMoveMessageAndClose(taskId, gText_PkmnAlreadyKnowsHm);
             return;
         default:
             if (GiveMoveToMon(mon, gPartyMenu.learnMoveId) != MON_HAS_MAX_MOVES)
