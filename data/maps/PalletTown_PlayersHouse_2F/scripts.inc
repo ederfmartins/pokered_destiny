@@ -84,10 +84,13 @@ EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
 	additem ITEM_POTION
 	additem ITEM_POTION
 	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
+	additem ITEM_SUPER_POTION
+	additem ITEM_SUPER_POTION
+	additem ITEM_SUPER_POTION
+	additem ITEM_FULL_HEAL
+	additem ITEM_REVIVE
+	additem ITEM_REVIVE
+	additem ITEM_REVIVE
 
 	givemon SPECIES_BULBASAUR, 6
 

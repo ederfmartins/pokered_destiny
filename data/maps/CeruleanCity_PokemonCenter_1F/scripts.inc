@@ -16,19 +16,6 @@ CeruleanCity_PokemonCenter_1F_EventScript_Nurse::
 
 CeruleanCity_PokemonCenter_1F_EventScript_Gentleman::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac, MSGBOX_NPC
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
 	end
 
 CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
