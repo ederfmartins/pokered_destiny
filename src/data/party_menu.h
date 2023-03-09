@@ -643,6 +643,7 @@ static const u8 *const sDescriptionStringTable[] =
     [PARTYBOX_DESC_ABLE_2]     = gText_Able3,
     [PARTYBOX_DESC_NOT_ABLE_2] = gText_NotAble2,
     [PARTYBOX_DESC_LEARNED]    = gText_Learned,
+    [PARTYBOX_DESC_HAS_TM]     = gText_NotAble3,
 };
 
 static const u8 *const sFieldMoveDescriptionTable[] =

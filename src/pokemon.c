@@ -6364,3 +6364,27 @@ u8 TrainerMetBugGymPrereq() {
     }
     return has_bug;
 }
+
+bool8 MonKnowsTMHM(struct Pokemon *mon)
+{
+    u8 i;
+    u16 move, pokemon_move;
+    u32 species = GetMonData(mon, MON_DATA_SPECIES, 0);
+    bool8 has_move;
+
+    for (i = 0; i < MAX_MON_MOVES; ++i)
+    {
+        has_move = FALSE;
+        move = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
+        if (move == MOVE_NONE) continue;
+        for (pokemon_move = 0; gLevelUpLearnsets[species][pokemon_move] != LEVEL_UP_END; pokemon_move++) {
+            if (move == (gLevelUpLearnsets[species][pokemon_move] & 0x00FF)) {
+                has_move = TRUE;
+                break;
+            }
+        }
+        if (!has_move)
+            return TRUE;
+    }
+    return FALSE;
+}
