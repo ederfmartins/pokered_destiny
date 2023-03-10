@@ -3153,26 +3153,10 @@ u8 IsMonDisobedient(void)
 
     if (IsMonEventLegal(gBattlerAttacker)) // only false if illegal Mew or Deoxys
     {
-        if (!IsOtherTrainer(gBattleMons[gBattlerAttacker].otId, gBattleMons[gBattlerAttacker].otName))
-            return 0;
-        if (FlagGet(FLAG_BADGE08_GET))
-            return 0;
-
-        obedienceLevel = 10;
-
-        if (FlagGet(FLAG_BADGE02_GET))
-            obedienceLevel = 30;
-        if (FlagGet(FLAG_BADGE04_GET))
-            obedienceLevel = 50;
-        if (FlagGet(FLAG_BADGE06_GET))
-            obedienceLevel = 70;
+        obedienceLevel = CountBadges() * 5 + 15;
     }
 
     if (gBattleMons[gBattlerAttacker].level <= obedienceLevel)
-        return 0;
-    rnd = (Random() & 255);
-    calc = (gBattleMons[gBattlerAttacker].level + obedienceLevel) * rnd >> 8;
-    if (calc < obedienceLevel)
         return 0;
 
     // is not obedient
@@ -3184,10 +3168,15 @@ u8 IsMonDisobedient(void)
         return 1;
     }
 
-    rnd = (Random() & 255);
-    calc = (gBattleMons[gBattlerAttacker].level + obedienceLevel) * rnd >> 8;
-    if (calc < obedienceLevel && gCurrentMove != MOVE_FOCUS_PUNCH) // Additional check for focus punch in FR
+    // Additional check for focus punch in FR
+    if (gCurrentMove != MOVE_FOCUS_PUNCH)
     {
+        if ((Random() & 255) < 64) // 25% chance to sleep
+        {
+            gBattlescriptCurrInstr = BattleScript_IgnoresAndFallsAsleep;
+            return 1;
+        }
+
         calc = CheckMoveLimitations(gBattlerAttacker, gBitTable[gCurrMovePos], MOVE_LIMITATIONS_ALL);
         if (calc == 0xF) // all moves cannot be used
         {
