@@ -28,13 +28,11 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "Farewell!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "The EARTHBADGE makes POKéMON of\n"
-    .string "any level obey without question.\p"
-    .string "It is evidence of your mastery as\n"
-    .string "a POKéMON TRAINER.\p"
+    .string "The EARTHBADGE is evidence of your \n"
+    .string "mastery as a POKéMON TRAINER.\p"
     .string "With it, you can challenge the\n"
     .string "POKéMON LEAGUE.\p"
-    .string "Also, take this TM.\p"
+    .string "Take this TM.\p"
     .string "Consider it a gift for your POKéMON\n"
     .string "LEAGUE challenge.$"
 
