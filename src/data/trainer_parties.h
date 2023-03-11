@@ -885,7 +885,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SailorDwayne[] = {
     {
         .iv = 0,
         .lvl = 21,
-        .species = SPECIES_PIKACHU,
+        .species = SPECIES_LANTURN,
     },
     {
         .iv = 0,
@@ -5704,19 +5704,25 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderLtSurge[] = {
         .iv = 0,
         .lvl = 21,
         .species = SPECIES_VOLTORB,
-        .moves = {MOVE_SONIC_BOOM, MOVE_TACKLE, MOVE_SCREECH, MOVE_SHOCK_WAVE},
+        .moves = {MOVE_SONIC_BOOM, MOVE_SELF_DESTRUCT, MOVE_CHARGE, MOVE_SPARK},
     },
     {
         .iv = 0,
         .lvl = 18,
-        .species = SPECIES_PIKACHU,
-        .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM, MOVE_SHOCK_WAVE},
+        .species = SPECIES_AMPHAROS,
+        .moves = {MOVE_TACKLE, MOVE_THUNDER_SHOCK, MOVE_THUNDER_WAVE, MOVE_FACADE},
+    },
+    {
+        .iv = 0,
+        .lvl = 18,
+        .species = SPECIES_LANTURN,
+        .moves = {MOVE_WATER_GUN, MOVE_SUPERSONIC, MOVE_THUNDER_WAVE, MOVE_SHOCK_WAVE},
     },
     {
         .iv = 0,
         .lvl = 24,
         .species = SPECIES_RAICHU,
-        .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM, MOVE_SHOCK_WAVE},
+        .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM, MOVE_THUNDERBOLT},
     },
 };
 
@@ -5857,7 +5863,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GentlemanTucker[] = {
     {
         .iv = 0,
         .lvl = 23,
-        .species = SPECIES_PIKACHU,
+        .species = SPECIES_AMPHAROS,
     },
 };
 
