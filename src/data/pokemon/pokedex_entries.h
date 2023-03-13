@@ -5030,4 +5030,43 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 337,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_GIBLE] =
+    {
+        .categoryName = _("DRAGON"),
+        .height = 2,
+        .weight = 45,
+        .description = gGiblePokedexText,
+        .unusedDescription = gGiblePokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_GABITE] =
+    {
+        .categoryName = _("DRAGON"),
+        .height = 2,
+        .weight = 45,
+        .description = gGiblePokedexText,
+        .unusedDescription = gGiblePokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_GARCHOMP] =
+    {
+        .categoryName = _("DRAGON"),
+        .height = 2,
+        .weight = 45,
+        .description = gGiblePokedexText,
+        .unusedDescription = gGiblePokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
 };

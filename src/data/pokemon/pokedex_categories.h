@@ -559,8 +559,9 @@ static const u16 sDexCategory_MountainPkmn_Page1[] = {
 static const u16 sDexCategory_MountainPkmn_Page2[] = {
     SPECIES_MANKEY,
     SPECIES_PRIMEAPE,
-    SPECIES_SPOINK,
-    SPECIES_GRUMPIG,
+    SPECIES_ANNIHILAPE,
+    //SPECIES_SPOINK,
+    //SPECIES_GRUMPIG,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page3[] = {
@@ -644,6 +645,12 @@ static const u16 sDexCategory_MountainPkmn_Page16[] = {
 
 static const u16 sDexCategory_MountainPkmn_Page17[] = {
     SPECIES_JIRACHI,
+};
+
+static const u16 sDexCategory_MountainPkmn_Page18[] = {
+    SPECIES_GIBLE,
+    SPECIES_GABITE,
+    SPECIES_GARCHOMP
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page1[] = {
@@ -943,6 +950,7 @@ static const struct PokedexCategoryPage sDexCategory_MountainPkmn[] = {
     DEX_CATEGORY(MountainPkmn_Page15),
     DEX_CATEGORY(MountainPkmn_Page16),
     DEX_CATEGORY(MountainPkmn_Page17),
+    DEX_CATEGORY(MountainPkmn_Page18),
 };
 
 static const struct PokedexCategoryPage sDexCategory_RoughTerrainPkmn[] = {

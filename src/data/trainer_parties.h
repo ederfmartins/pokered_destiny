@@ -509,7 +509,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherBrent[] = {
     {
         .iv = 0,
         .lvl = 19,
-        .species = SPECIES_BEEDRILL,
+        .species = SPECIES_BUTTERFREE,
     },
 };
 
@@ -517,7 +517,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherConner[] = {
     {
         .iv = 0,
         .lvl = 20,
-        .species = SPECIES_CATERPIE,
+        .species = SPECIES_HERACROSS,
     },
     {
         .iv = 0,
@@ -970,12 +970,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CamperDrew[] = {
     {
         .iv = 0,
         .lvl = 19,
-        .species = SPECIES_RATTATA,
+        .species = SPECIES_RATICATE,
     },
     {
         .iv = 0,
         .lvl = 19,
-        .species = SPECIES_SANDSHREW,
+        .species = SPECIES_SWINUB,
     },
     {
         .iv = 0,
@@ -1082,6 +1082,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerHeidi[] = {
         .iv = 0,
         .lvl = 20,
         .species = SPECIES_CLEFAIRY,
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_SNEASEL,
     },
 };
 
@@ -1548,7 +1553,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_HikerBrice[] = {
     {
         .iv = 0,
         .lvl = 20,
-        .species = SPECIES_GEODUDE,
+        .species = SPECIES_ANORITH,
     },
     {
         .iv = 0,
@@ -6618,7 +6623,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_HikerJeremy[] = {
     {
         .iv = 0,
         .lvl = 20,
-        .species = SPECIES_ONIX,
+        .species = SPECIES_COMBUSKEN,
     },
 };
 

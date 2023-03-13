@@ -2718,3 +2718,10 @@ const u8 gDeoxysPokedexText[] = _(
     "altering its appearance.");
 
 const u8 gDeoxysPokedexTextUnused[] = _("");
+
+const u8 gGiblePokedexText[] = _(
+    "It nests in small, horizontal holes in \n"
+    "cave walls. It pounces to catch prey \n"
+    "that stray too close.");
+
+const u8 gGiblePokedexTextUnused[] = _("");

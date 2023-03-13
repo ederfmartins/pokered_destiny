@@ -1159,7 +1159,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("BRENT"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherBrent),
     },
     [TRAINER_BUG_CATCHER_CONNER] = {
@@ -1169,7 +1169,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CONNER"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherConner),
     },
     [TRAINER_LASS_JANICE] = {
@@ -1499,7 +1499,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CHRIS"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CamperChris),
     },
     [TRAINER_CAMPER_DREW] = {
@@ -1551,7 +1551,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_PicnickerKelsey),
-    },
+    }, 
     [TRAINER_PICNICKER_ALICIA] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
@@ -1569,7 +1569,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CAITLIN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_PicnickerCaitlin),
     },
     [TRAINER_PICNICKER_HEIDI] = {
@@ -4669,7 +4669,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JEREMY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_HP_AWARE | AI_SCRIPT_TRY_TO_FAINT,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_HikerJeremy),
     },
     [TRAINER_PICNICKER_ALMA] = {

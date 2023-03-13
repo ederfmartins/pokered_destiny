@@ -36,6 +36,10 @@ types := normal fight flying poison ground rock bug ghost steel mystery fire wat
 contest_types := cool beauty cute smart tough
 
 CASTFORMGFXDIR := graphics/pokemon/castform
+
+graphics/object_events/pics/people/magma_member_m.4bpp: graphics/object_events/pics/people/magma_member_m.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(CASTFORMGFXDIR)/front.4bpp: $(CASTFORMGFXDIR)/normal/front.4bpp \
 											$(CASTFORMGFXDIR)/sunny/front.4bpp \
 											$(CASTFORMGFXDIR)/rainy/front.4bpp \

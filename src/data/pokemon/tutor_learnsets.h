@@ -2810,4 +2810,8 @@ static const u16 sTutorLearnsets[] =
                        | TUTOR(MOVE_MIMIC)
                        | TUTOR(MOVE_DREAM_EATER)
                        | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_GIBLE] = 0,
+    [SPECIES_GABITE] = 0,
+    [SPECIES_GARCHOMP] = 0,
+    [SPECIES_ANNIHILAPE] = 0,
 };
