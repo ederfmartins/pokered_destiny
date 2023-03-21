@@ -55,7 +55,7 @@ AI_Avoid_IneficientMove::
 	if_move MOVE_LEER, Score_Minus100
 	if_move MOVE_SAND_ATTACK, Score_Minus100
 	if_move MOVE_TAIL_WHIP, Score_Minus100
-	if_move MOVE_GROWTH, Score_Minus2
+	if_move MOVE_GROWTH, Score_Minus1
 	if_move MOVE_STRING_SHOT, Score_Minus100
 	if_move MOVE_AGILITY, Score_Minus2
 	if_move MOVE_HARDEN, Score_Minus2
@@ -690,6 +690,7 @@ AI_CheckViability::
 	if_effect EFFECT_ACCURACY_UP, AI_CV_AccuracyUp
 	if_effect EFFECT_EVASION_UP, AI_CV_EvasionUp
 	if_effect EFFECT_ALWAYS_HIT, AI_CV_AlwaysHit
+	if_effect EFFECT_ALWAYS_HIT_SP, AI_CV_AlwaysHit
 	if_effect EFFECT_ATTACK_DOWN, AI_CV_AttackDown
 	if_effect EFFECT_DEFENSE_DOWN, AI_CV_DefenseDown
 	if_effect EFFECT_SPEED_DOWN, AI_CV_SpeedDown

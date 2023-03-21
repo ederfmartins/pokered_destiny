@@ -411,6 +411,16 @@
 	.byte \param1
 	.endm
 
+	.macro setDamageTypeForMove dmgType:req
+		.if \dmgType == 0
+			.byte 0xF8
+		.elseif \dmgType == 1
+			.byte 0xF9
+		.elseif \dmgType == 2
+			.byte 0xFA
+		.endif
+	.endm
+
 	@ Help macros for 5 uses of moveend command
 
 	@ All cases

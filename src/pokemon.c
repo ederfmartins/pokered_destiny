@@ -2373,6 +2373,8 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     u8 defenderHoldEffectParam;
     u8 attackerHoldEffect;
     u8 attackerHoldEffectParam;
+    u8 isTypePhysical;
+    u8 isTypeSpecial;
 
     if (!powerOverride)
         gBattleMovePower = gBattleMoves[move].power;
@@ -2383,6 +2385,31 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         type = gBattleMoves[move].type;
     else
         type = typeOverride & 0x3F;
+
+    if (type == TYPE_MYSTERY) 
+    {
+        isTypePhysical = 0;
+        isTypeSpecial = 0;
+    }
+    else
+    {
+        switch (gDamageTypeForMove)
+        {
+        case 1:
+            isTypePhysical = 1;
+            isTypeSpecial = 0;
+            break;
+        case 2:
+            isTypePhysical = 0;
+            isTypeSpecial = 1;
+            break;
+        
+        default:
+            isTypePhysical = IS_TYPE_PHYSICAL(type);
+            isTypeSpecial = IS_TYPE_SPECIAL(type);
+            break;
+        }
+    }
 
     attack = attacker->attack;
     defense = defender->defense;
@@ -2446,7 +2473,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         if (attackerHoldEffect == sHoldEffectToType[i][0]
             && type == sHoldEffectToType[i][1])
         {
-            if (IS_TYPE_PHYSICAL(type))
+            if (isTypePhysical)
                 attack = (attack * (attackerHoldEffectParam + 100)) / 100;
             else
                 spAttack = (spAttack * (attackerHoldEffectParam + 100)) / 100;
@@ -2497,7 +2524,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
         defense /= 2;
 
-    if (IS_TYPE_PHYSICAL(type))
+    if (isTypePhysical)
     {
         if (gCritMultiplier == 2)
         {
@@ -2547,7 +2574,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (type == TYPE_MYSTERY)
         damage = 0; // is ??? type. does 0 damage.
 
-    if (IS_TYPE_SPECIAL(type))
+    if (isTypeSpecial)
     {
         if (gCritMultiplier == 2)
         {
