@@ -154,8 +154,12 @@
 #define OBJ_EVENT_GFX_DEOXYS_N 150
 #define OBJ_EVENT_GFX_SS_ANNE 151
 #define OBJ_EVENT_GFX_TEAM_MAGMA 152
+#define OBJ_EVENT_GFX_JESSIEJAMES 153
+#define OBJ_EVENT_GFX_PSYCHIC 154
+#define OBJ_EVENT_GFX_ARTIST 155
+#define OBJ_EVENT_GFX_SPENSER 156
 
-#define NUM_OBJ_EVENT_GFX     153
+#define NUM_OBJ_EVENT_GFX     157
 
 // These are dynamic object gfx ids.
 // They correspond with the values of the VAR_OBJ_GFX_ID_X vars.
