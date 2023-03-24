@@ -717,7 +717,7 @@ static const u16 sDexCategory_RoughTerrainPkmn_Page11[] = {
 static const u16 sDexCategory_UrbanPkmn_Page1[] = {
     SPECIES_MEOWTH,
     SPECIES_PERSIAN,
-    SPECIES_SNUBBULL,
+    //SPECIES_SNUBBULL,
     SPECIES_GRANBULL,
 };
 

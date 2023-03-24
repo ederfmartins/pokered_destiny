@@ -2527,7 +2527,8 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					//.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ARCTBAX,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_CHARM, MOVE_LICK, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -5742,7 +5743,8 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					//.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ARCTBAX,
 					.heldItem = ITEM_PECHA_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_CRUNCH, MOVE_SHADOW_BALL},
 					.hpEV = 110,

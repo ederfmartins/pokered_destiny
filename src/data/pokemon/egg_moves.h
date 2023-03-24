@@ -724,7 +724,7 @@ const u16 gEggMoves[] = {
               MOVE_COUNTER,
               MOVE_SAND_TOMB),
 
-    egg_moves(SNUBBULL,
+    /*egg_moves(SNUBBULL,
               MOVE_METRONOME,
               MOVE_FAINT_ATTACK,
               MOVE_REFLECT,
@@ -732,7 +732,7 @@ const u16 gEggMoves[] = {
               MOVE_CRUNCH,
               MOVE_HEAL_BELL,
               MOVE_SNORE,
-              MOVE_SMELLING_SALT),
+              MOVE_SMELLING_SALT),*/
 
     egg_moves(QWILFISH,
               MOVE_FLAIL,

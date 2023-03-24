@@ -6485,7 +6485,7 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
-    [SPECIES_SNUBBULL] =
+    /*[SPECIES_SNUBBULL] =
     {
         .baseHP = 60,
         .baseAttack = 80,
@@ -6515,7 +6515,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
-    },
+    },*/
     [SPECIES_GRANBULL] =
     {
         .baseHP = 90,

@@ -208,7 +208,7 @@ const u8 gSpeciesNames[][11] = {
     _("DUNSPARCE"),
     _("GLIGAR"),
     _("STEELIX"),
-    _("SNUBBULL"),
+    _("ARCTBAX"),// _("SNUBBULL"),
     _("GRANBULL"),
     _("QWILFISH"),
     _("SCIZOR"),
@@ -415,5 +415,4 @@ const u8 gSpeciesNames[][11] = {
     _("GABITE"),
     _("GARCHOMP"),
     _("ANNIHILAPE"),
-    _("ARCTBAX")
 };

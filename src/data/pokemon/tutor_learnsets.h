@@ -1508,7 +1508,7 @@ static const u16 sTutorLearnsets[] =
                       | TUTOR(MOVE_ROCK_SLIDE)
                       | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_SNUBBULL] = TUTOR(MOVE_MEGA_PUNCH)
+    /*[SPECIES_SNUBBULL] = TUTOR(MOVE_MEGA_PUNCH)
                        | TUTOR(MOVE_MEGA_KICK)
                        | TUTOR(MOVE_BODY_SLAM)
                        | TUTOR(MOVE_DOUBLE_EDGE)
@@ -1517,7 +1517,7 @@ static const u16 sTutorLearnsets[] =
                        | TUTOR(MOVE_MIMIC)
                        | TUTOR(MOVE_METRONOME)
                        | TUTOR(MOVE_THUNDER_WAVE)
-                       | TUTOR(MOVE_SUBSTITUTE),
+                       | TUTOR(MOVE_SUBSTITUTE),*/
 
     [SPECIES_GRANBULL] = TUTOR(MOVE_MEGA_PUNCH)
                        | TUTOR(MOVE_MEGA_KICK)
