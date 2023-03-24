@@ -2080,6 +2080,11 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 15,
     },
+    [SPECIES_ARCTBAX] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 15,
+    },
     [SPECIES_EGG] =
     {
         .size = MON_COORDS_SIZE(24, 48),

@@ -2749,6 +2749,13 @@ const u32 gMonShinyPalette_Annihilape[] = INCBIN_U32("graphics/pokemon/annihilap
 const u8 gMonIcon_Annihilape[] = INCBIN_U8("graphics/pokemon/annihilape/icon.4bpp");
 const u8 gMonFootprint_Annihilape[] = INCBIN_U8("graphics/pokemon/annihilape/footprint.1bpp");
 
+const u32 gMonFrontPic_Arctbax[] = INCBIN_U32("graphics/pokemon/arctbax/front.4bpp.lz");
+const u32 gMonPalette_Arctbax[] = INCBIN_U32("graphics/pokemon/arctbax/normal.gbapal.lz");
+const u32 gMonBackPic_Arctbax[] = INCBIN_U32("graphics/pokemon/arctbax/back.4bpp.lz");
+const u32 gMonShinyPalette_Arctbax[] = INCBIN_U32("graphics/pokemon/arctbax/shiny.gbapal.lz");
+const u8 gMonIcon_Arctbax[] = INCBIN_U8("graphics/pokemon/arctbax/icon.4bpp");
+const u8 gMonFootprint_Arctbax[] = INCBIN_U8("graphics/pokemon/arctbax/footprint.1bpp");
+
 
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/front.4bpp.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");

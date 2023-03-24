@@ -414,5 +414,6 @@ const u8 gSpeciesNames[][11] = {
     _("GIBLE"),
     _("GABITE"),
     _("GARCHOMP"),
-    _("ANNIHILAPE")
+    _("ANNIHILAPE"),
+    _("ARCTBAX")
 };

@@ -2814,4 +2814,5 @@ static const u16 sTutorLearnsets[] =
     [SPECIES_GABITE] = 0,
     [SPECIES_GARCHOMP] = 0,
     [SPECIES_ANNIHILAPE] = 0,
+    [SPECIES_ARCTBAX] = 0,
 };

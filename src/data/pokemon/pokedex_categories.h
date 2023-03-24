@@ -698,9 +698,10 @@ static const u16 sDexCategory_RoughTerrainPkmn_Page8[] = {
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page9[] = {
-    SPECIES_BAGON,
-    SPECIES_SHELGON,
+    //SPECIES_BAGON,
+    //SPECIES_SHELGON,
     SPECIES_SALAMENCE,
+    SPECIES_ARCTBAX,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page10[] = {

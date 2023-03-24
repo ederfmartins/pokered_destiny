@@ -9431,5 +9431,15 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM50_OVERHEAT)
                                         | TMHM(TM25_THUNDER)),
+    [SPECIES_ARCTBAX]       = TMHM_LEARNSET(TMHM(TM17_PROTECT)
+                                        | TMHM(TM13_ICE_BEAM)
+                                        | TMHM(TM42_FACADE)
+                                        | TMHM(TM40_AERIAL_ACE)
+                                        | TMHM(TM18_RAIN_DANCE)
+                                        | TMHM(TM28_DIG)
+                                        | TMHM(TM31_BRICK_BREAK)
+                                        | TMHM(TM02_DRAGON_CLAW)
+                                        | TMHM(TM44_REST)
+                                        | TMHM(TM14_BLIZZARD)),
 
 };
