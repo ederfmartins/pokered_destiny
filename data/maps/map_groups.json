@@ -320,7 +320,8 @@
     "MountainRange_House1",
     "MountainRange_Gym",
     "ViridianForest_HiddenGym",
-    "ViridianForest_Gym"
+    "ViridianForest_Gym",
+    "BulbaGardem"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",
