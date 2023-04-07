@@ -1413,3 +1413,6 @@ Text_TestMsg::
 
 	.include "data/maps/ViridianForest_Gym/scripts.inc"
 	.include "data/maps/ViridianForest_Gym/text.inc"
+
+	.include "data/maps/BulbaGardem/scripts.inc"
+	.include "data/maps/BulbaGardem/text.inc"
