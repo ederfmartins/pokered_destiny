@@ -308,6 +308,9 @@ static void Cmd_subattackerhpbydmg(void);
 static void Cmd_removeattackerstatus1(void);
 static void Cmd_finishaction(void);
 static void Cmd_finishturn(void);
+static void Cmd_SetDamageTypeDefaultForMove(void);
+static void Cmd_SetDamageTypePhysicalForMove(void);
+static void Cmd_SetDamageTypeSpecialForMove(void);
 
 void (* const gBattleScriptingCommandsTable[])(void) =
 {
@@ -559,6 +562,9 @@ void (* const gBattleScriptingCommandsTable[])(void) =
     Cmd_removeattackerstatus1,                   //0xF5
     Cmd_finishaction,                            //0xF6
     Cmd_finishturn,                              //0xF7
+    Cmd_SetDamageTypeDefaultForMove,             //0xF8
+    Cmd_SetDamageTypePhysicalForMove,            //0xF9
+    Cmd_SetDamageTypeSpecialForMove,             //0xFA
 };
 
 struct StatFractions
@@ -991,7 +997,7 @@ static bool8 AccuracyCalcHelper(u16 move)
     gHitMarker &= ~HITMARKER_IGNORE_UNDERWATER;
 
     if ((WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_RAIN) && gBattleMoves[move].effect == EFFECT_THUNDER)
-     || (gBattleMoves[move].effect == EFFECT_ALWAYS_HIT || gBattleMoves[move].effect == EFFECT_VITAL_THROW))
+     || (gBattleMoves[move].effect == EFFECT_ALWAYS_HIT || gBattleMoves[move].effect == EFFECT_ALWAYS_HIT_SP || gBattleMoves[move].effect == EFFECT_VITAL_THROW))
     {
         JumpIfMoveFailed(7, move);
         return TRUE;
@@ -1219,6 +1225,24 @@ static void Cmd_damagecalc(void)
     if (gProtectStructs[gBattlerAttacker].helpingHand)
         gBattleMoveDamage = gBattleMoveDamage * 15 / 10;
 
+    gBattlescriptCurrInstr++;
+}
+
+static void Cmd_SetDamageTypeDefaultForMove(void)
+{
+    gDamageTypeForMove = 0;
+    gBattlescriptCurrInstr++;
+}
+
+static void Cmd_SetDamageTypePhysicalForMove(void)
+{
+    gDamageTypeForMove = 1;
+    gBattlescriptCurrInstr++;
+}
+
+static void Cmd_SetDamageTypeSpecialForMove(void)
+{
+    gDamageTypeForMove = 2;
     gBattlescriptCurrInstr++;
 }
 

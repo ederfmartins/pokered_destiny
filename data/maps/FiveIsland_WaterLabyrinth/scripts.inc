@@ -47,8 +47,8 @@ FiveIsland_WaterLabyrinth_EventScript_PostEggComment::
 	setvar VAR_0x8004, SPECIES_TOGEPI
 	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_WaterLabyrinth_EventScript_MonDaisyComment
-	bufferspeciesname STR_VAR_2, SPECIES_TOGETIC
-	setvar VAR_0x8004, SPECIES_TOGETIC
+	bufferspeciesname STR_VAR_2, SPECIES_TOGEPI @SPECIES_TOGETIC
+	setvar VAR_0x8004, SPECIES_TOGEPI @SPECIES_TOGETIC
 	specialvar VAR_RESULT, PlayerPartyContainsSpeciesWithPlayerID
 	goto_if_eq VAR_RESULT, TRUE, FiveIsland_WaterLabyrinth_EventScript_MonDaisyComment
 	msgbox FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou

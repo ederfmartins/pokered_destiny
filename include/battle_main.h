@@ -61,6 +61,7 @@ extern const u8 gTypeEffectiveness[336];
 extern const struct TrainerMoney gTrainerMoneyTable[];
 extern const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT];
 extern const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1];
+extern u8 gDamageTypeForMove;
 
 void CB2_InitBattle(void);
 void BattleMainCB2(void);

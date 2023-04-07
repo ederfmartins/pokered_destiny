@@ -27,6 +27,12 @@ VermilionCity_PokemonCenter_1F_EventScript_Hiker::
 	additem ITEM_REVIVE
 	additem ITEM_REVIVE
 	additem ITEM_REVIVE
+	additem ITEM_ULTRA_BALL
+	additem ITEM_ULTRA_BALL
+	additem ITEM_ULTRA_BALL
+	additem ITEM_ULTRA_BALL
+	additem ITEM_ULTRA_BALL
+	additem ITEM_ULTRA_BALL
 	end
 
 VermilionCity_PokemonCenter_1F_EventScript_Youngster::

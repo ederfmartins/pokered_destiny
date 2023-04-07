@@ -1152,6 +1152,9 @@ static u8 GetRunningBehaviorFromGraphicsId(u8 graphicsId)
         case OBJ_EVENT_GFX_SWIMMER_M_WATER:
         case OBJ_EVENT_GFX_SWIMMER_F_WATER:
             return MOVEMENT_TYPE_RAISE_HAND_AND_SWIM;
+        case OBJ_EVENT_GFX_SPENSER:
+        case OBJ_EVENT_GFX_PSYCHIC:
+        case OBJ_EVENT_GFX_ARTIST:
         default:
             return MOVEMENT_TYPE_RAISE_HAND_AND_STOP;
     }

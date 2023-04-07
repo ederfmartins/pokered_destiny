@@ -820,6 +820,13 @@ const u8 gHorseaPokedexText[] = _(
 
 const u8 gHorseaPokedexTextUnused[] = _("");
 
+const u8 gGiblePokedexText[] = _(
+    "It nests in small, horizontal holes in \n"
+    "cave walls. It pounces to catch prey \n"
+    "that stray too close.");
+
+const u8 gGiblePokedexTextUnused[] = _("");
+
 const u8 gSeadraPokedexText[] = _(
     "It is capable of swimming backwards by\n"
     "rapidly flapping its winglike pectoral fins\n"

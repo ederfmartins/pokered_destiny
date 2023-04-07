@@ -2198,8 +2198,8 @@ static u32 DexScreen_GetDefaultPersonality(int species)
 {
     switch (species)
     {
-    case SPECIES_SPINDA:
-        return gSaveBlock2Ptr->pokedex.spindaPersonality;
+    //case SPECIES_SPINDA:
+    //    return gSaveBlock2Ptr->pokedex.spindaPersonality;
     case SPECIES_UNOWN:
         return gSaveBlock2Ptr->pokedex.unownPersonality;
     default:

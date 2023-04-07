@@ -61,7 +61,7 @@
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GYM_GUY",
       "x": 8,
-      "y": 17,
+      "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -89,6 +89,20 @@
   "warp_events": [
     {
       "x": 9,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_VIRIDIAN_FOREST_HIDDEN_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_VIRIDIAN_FOREST_HIDDEN_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_FOREST_HIDDEN_GYM",

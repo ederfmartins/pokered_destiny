@@ -23,6 +23,11 @@
       "map": "MAP_THREE_ISLAND_BOND_BRIDGE",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_PROTOTYPE_SEVII_ISLE_6",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [

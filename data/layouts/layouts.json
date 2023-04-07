@@ -4584,6 +4584,18 @@
       "secondary_tileset": "gTileset_ViridianGym",
       "border_filepath": "data/layouts/ViridianForest_Gym/border.bin",
       "blockdata_filepath": "data/layouts/ViridianForest_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_BULBA_GARDEM",
+      "name": "BulbaGardem_Layout",
+      "width": 20,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/BulbaGardem/border.bin",
+      "blockdata_filepath": "data/layouts/BulbaGardem/map.bin"
     }
   ]
 }

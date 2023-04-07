@@ -64,6 +64,9 @@ const u16 gObjectEventPic_Woman3[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_BugCatcher[] = INCBIN_U16("graphics/object_events/pics/people/bug_catcher.4bpp");
 
 const u16 gObjectEventPic_MagmaMemberM[] = INCBIN_U16("graphics/object_events/pics/people/magma_member_m.4bpp");
+const u16 gObjectEventPic_Psychic[] = INCBIN_U16("graphics/object_events/pics/people/psychic_m.4bpp");
+const u16 gObjectEventPic_Artist[] = INCBIN_U16("graphics/object_events/pics/people/artist.4bpp");
+const u16 gObjectEventPic_Spenser[] = INCBIN_U16("graphics/object_events/pics/people/spenser.4bpp");
 
 const u16 gObjectEventPic_BattleGirl[] = INCBIN_U16("graphics/object_events/pics/people/battle_girl.4bpp");
 const u16 gObjectEventPic_RichBoy[] = INCBIN_U16("graphics/object_events/pics/people/rich_boy.4bpp"); // Unused

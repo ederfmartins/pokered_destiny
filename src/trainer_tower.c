@@ -187,10 +187,13 @@ static const struct SinglesTrainerInfo sSingleBattleTrainerInfo[] = {
     {OBJ_EVENT_GFX_WOMAN_2,        FACILITY_CLASS_LADY,              FEMALE},
     {OBJ_EVENT_GFX_LASS,           FACILITY_CLASS_PAINTER,           FEMALE},
     {OBJ_EVENT_GFX_TEAM_MAGMA,     FACILITY_CLASS_MAGMA_GRUNT_M,       MALE},
-    
+    {OBJ_EVENT_GFX_JESSIEJAMES,    FACILITY_CLASS_JESSIEJAMES,       FEMALE},
+    {OBJ_EVENT_GFX_PSYCHIC,        FACILITY_CLASS_CHANNELER,         FEMALE},
+    {OBJ_EVENT_GFX_ARTIST,         FACILITY_CLASS_RS_GENTLEMAN,        MALE},
+    {OBJ_EVENT_GFX_SPENSER,        FACILITY_CLASS_BRENDAN,             MALE},
 };
 
-static const struct DoublesTrainerInfo sDoubleBattleTrainerInfo[] = {
+static const struct DoublesTrainerInfo sDoubleBattleTrainerInfo[] = { 
     {OBJ_EVENT_GFX_BEAUTY,         OBJ_EVENT_GFX_WOMAN_1,        FACILITY_CLASS_SR_AND_JR,       FEMALE, FEMALE},
     {OBJ_EVENT_GFX_LITTLE_GIRL,    OBJ_EVENT_GFX_LITTLE_GIRL,    FACILITY_CLASS_RS_TWINS,        FEMALE, FEMALE},
     {OBJ_EVENT_GFX_BEAUTY,         OBJ_EVENT_GFX_MAN,            FACILITY_CLASS_RS_YOUNG_COUPLE, FEMALE,   MALE},

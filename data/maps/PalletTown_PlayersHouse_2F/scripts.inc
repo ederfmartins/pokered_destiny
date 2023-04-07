@@ -52,46 +52,17 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	end
 
 EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
-	additem ITEM_REPEL
-	additem ITEM_REPEL
-	additem ITEM_REPEL
-	additem ITEM_GREAT_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POKE_BALL
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_POTION
-	additem ITEM_SUPER_POTION
-	additem ITEM_SUPER_POTION
-	additem ITEM_SUPER_POTION
-	additem ITEM_FULL_HEAL
-	additem ITEM_REVIVE
-	additem ITEM_REVIVE
-	additem ITEM_REVIVE
+	@ additem ITEM_REPEL, 3
+	@ additem ITEM_GREAT_BALL, 10
+	@ additem ITEM_POKE_BALL, 10
+	@ additem ITEM_POTION, 10
+	@ additem ITEM_FULL_HEAL, 3
+	@ additem ITEM_REVIVE, 3
+	@ givemon SPECIES_BULBASAUR, 6
 
-	givemon SPECIES_BULBASAUR, 6
-
+	lockall
+	msgbox PalletTown_PlayersHouse_2F_Text_Give_Item
+	giveitem_msg PalletTown_PlayersHouse_2F_Text_Give_Item1, ITEM_RARE_CANDY, 20
+	closemessage
+	releaseall
 	end
