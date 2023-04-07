@@ -1,6 +1,6 @@
 const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 {
-	{
+	/*{
 		.species = SPECIES_LINOONE,
 		.heldItem = BATTLE_TOWER_ITEM_RAWST_BERRY,
 		.teamFlags = 0x42,
@@ -3899,5 +3899,5 @@ const struct BattleTowerPokemonTemplate gBattleTowerLevel100Mons[] =
 		},
 		.evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
 		.nature = NATURE_HARDY,
-	},
+	},*/
 };

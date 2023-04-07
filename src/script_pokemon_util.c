@@ -10,6 +10,7 @@
 #include "script_pokemon_util.h"
 #include "constants/items.h"
 #include "constants/pokemon.h"
+#include "random.h"
 
 static void CB2_ReturnFromChooseHalfParty(void);
 static void CB2_ReturnFromChooseBattleTowerParty(void);
@@ -49,10 +50,14 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 u
 {
     u16 nationalDexNum;
     int sentToPc;
+    u32 personality;
     u8 heldItem[2];
     struct Pokemon *mon = AllocZeroed(sizeof(struct Pokemon));
 
-    CreateMon(mon, species, level, 32, 0, 0, OT_ID_PLAYER_ID, 0);
+    // pokemons that are given have a neutral nature (12) and good ivs (31) by default.
+    personality = Random32();
+    personality = personality - personality % NUM_NATURES + NATURE_SERIOUS;
+    CreateMon(mon, species, level, 31, 1, personality, OT_ID_PLAYER_ID, 0);
     heldItem[0] = item;
     heldItem[1] = item >> 8;
     SetMonData(mon, MON_DATA_HELD_ITEM, heldItem);

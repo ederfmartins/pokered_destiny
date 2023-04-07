@@ -343,7 +343,7 @@ const u8 gTypeEffectiveness[336] =
     TYPE_GRASS, TYPE_FLYING, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_BUG, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_ROCK, TYPE_MUL_SUPER_EFFECTIVE,
-    TYPE_GRASS, TYPE_DRAGON, TYPE_MUL_NOT_EFFECTIVE,
+    //TYPE_GRASS, TYPE_DRAGON, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ICE, TYPE_WATER, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ICE, TYPE_GRASS, TYPE_MUL_SUPER_EFFECTIVE,
@@ -1867,13 +1867,13 @@ static void TryCorrectShedinjaLanguage(struct Pokemon *mon)
     u8 nickname[POKEMON_NAME_LENGTH + 1];
     u8 language = LANGUAGE_JAPANESE;
 
-    if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_SHEDINJA
+    /*if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_SHEDINJA
      && GetMonData(mon, MON_DATA_LANGUAGE) != language)
     {
         GetMonData(mon, MON_DATA_NICKNAME, nickname);
         if (StringCompareWithoutExtCtrlCodes(nickname, sText_ShedinjaJpnName) == 0)
             SetMonData(mon, MON_DATA_LANGUAGE, &language);
-    }
+    }*/
 }
 
 #define sBattler            data[0]
@@ -1972,10 +1972,10 @@ void SpriteCB_FaintOpponentMon(struct Sprite *sprite)
 
         yOffset = gMonFrontPicCoords[unownSpecies].y_offset;
     }
-    else if (species == SPECIES_CASTFORM)
-    {
-        yOffset = gCastformFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
-    }
+    //else if (species == SPECIES_CASTFORM)
+    //{
+    //    yOffset = gCastformFrontSpriteCoords[gBattleMonForms[battler]].y_offset;
+    //}
     else if (species > NUM_SPECIES)
     {
         yOffset = gMonFrontPicCoords[SPECIES_NONE].y_offset;

@@ -52,10 +52,12 @@ NavelRock_Base_EventScript_Lugia::
 	delay 30
 	delay 50
 	waitse
-	playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
+	@playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_NONE, CRY_MODE_ENCOUNTER
 	waitmoncry
 	delay 20
-	seteventmon SPECIES_LUGIA, 70
+	@ seteventmon SPECIES_LUGIA, 70
+	seteventmon SPECIES_MEW, 70
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	special StartLegendaryBattle
 	waitstate
@@ -70,11 +72,11 @@ NavelRock_Base_EventScript_Lugia::
 
 NavelRock_Base_EventScript_DefeatedLugia::
 	setflag FLAG_LUGIA_FLEW_AWAY
-	setvar VAR_0x8004, SPECIES_LUGIA
+	setvar VAR_0x8004, SPECIES_MEW @SPECIES_LUGIA
 	goto EventScript_MonFlewAway
 	end
 
 NavelRock_Base_EventScript_RanFromLugia::
-	setvar VAR_0x8004, SPECIES_LUGIA
+	setvar VAR_0x8004, SPECIES_MEW @SPECIES_LUGIA
 	goto EventScript_MonFlewAway
 	end
