@@ -13,6 +13,10 @@ Some of the features that you can find in this game includes:
 * Battle aggainst an unofitial gym (AJ, kaz, yas)
 * 15 gyms, one for each type, to explain why Gary was able to get 10 badges in the anime. The new gyms are hidden in the traditional Kanto map, you should try to find them.
 * Improved trainers strategies.
+* Starters allways have neutral natures.
+* Starters allways have good ivs.
+* Badges don't grant 10% status increases.
+* Each badge only increase in 5 levels the maximum level to a Pokemon to obey your orders.
 
 Coming...
  * Rockets will steal your Pokemons when they defeated some of them.
