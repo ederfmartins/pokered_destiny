@@ -4596,6 +4596,54 @@
       "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/BulbaGardem/border.bin",
       "blockdata_filepath": "data/layouts/BulbaGardem/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_GYM_CITY",
+      "name": "NormalGymCity_Layout",
+      "width": 22,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCity",
+      "border_filepath": "data/layouts/NormalGymCity/border.bin",
+      "blockdata_filepath": "data/layouts/NormalGymCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_GYM",
+      "name": "NormalGym_Layout",
+      "width": 19,
+      "height": 16,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonLeague",
+      "border_filepath": "data/layouts/NormalGym/border.bin",
+      "blockdata_filepath": "data/layouts/NormalGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_GYM_CITY_POKEMON_CENTER",
+      "name": "NormalGymCity_PokemonCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NormalGymCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NormalGymCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE14_CAVE",
+      "name": "Route14_Cave_Layout",
+      "width": 9,
+      "height": 100,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Route14_Cave/border.bin",
+      "blockdata_filepath": "data/layouts/Route14_Cave/map.bin"
     }
   ]
 }

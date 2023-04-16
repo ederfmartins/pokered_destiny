@@ -11285,14 +11285,14 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderLance[] = {
         .lvl = 40,
         .species = SPECIES_ARCTBAX,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_FLY, MOVE_PSYCHIC, MOVE_THUNDER_WAVE, MOVE_RECOVER},
+        .moves = {MOVE_DRAGON_CLAW, MOVE_ICE_BEAM, MOVE_THUNDER, MOVE_RECOVER},
     },
     {
         .iv = 250,
         .lvl = 40,
-        .species = SPECIES_DRAGONITE,
+        .species = SPECIES_GIRATINA,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH},
+        .moves = {MOVE_DRAGON_BREATH, MOVE_DRAGON_CLAW, MOVE_SHADOW_PUNCH, MOVE_FIRE_PUNCH},
     },
 };
 
@@ -11471,5 +11471,50 @@ static const struct TrainerMonItemCustomMoves sParty_LiderBug[] = {
         .species = SPECIES_BEEDRILL,
         .heldItem = ITEM_SITRUS_BERRY,
         .moves = {MOVE_TWINEEDLE, MOVE_FOCUS_ENERGY, MOVE_CUT, MOVE_NONE},
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_LiderNormal[] = {
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_TAUROS,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_HYPER_BEAM, MOVE_PURSUIT, MOVE_STOMP, MOVE_REST},
+    },
+    {
+        .iv = 0,
+        .lvl = 23,
+        .species = SPECIES_GIRAFARIG,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_PSYBEAM, MOVE_STOMP, MOVE_CRUNCH, MOVE_BATON_PASS},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_SNORLAX,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_REST, MOVE_BODY_SLAM, MOVE_YAWN, MOVE_SNORE},
+    },
+    {
+        .iv = 0,
+        .lvl = 60,
+        .species = SPECIES_DODRIO,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_DRILL_PECK, MOVE_PURSUIT, MOVE_TRI_ATTACK, MOVE_HYPER_BEAM},
+    },
+    {
+        .iv = 0,
+        .lvl = 20,
+        .species = SPECIES_CLEFABLE,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SING, MOVE_MOONLIGHT, MOVE_DREAM_EATER, MOVE_DOUBLE_SLAP},
+    },
+    {
+        .iv = 0,
+        .lvl = 60,
+        .species = SPECIES_PERSIAN,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SLASH, MOVE_BITE, MOVE_WATER_PULSE, MOVE_FAKE_OUT},
     },
 };

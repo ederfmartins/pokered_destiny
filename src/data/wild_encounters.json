@@ -25660,6 +25660,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_ROUTE14_CAVE",
+          "base_label": "gRoute14_Cave0",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GIBLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_SLUGMA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_SWINUB"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_SWINUB"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLALIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLALIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLALIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 30,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GLIGAR"
+              }
+            ]
+          }
         }
       ]
     }

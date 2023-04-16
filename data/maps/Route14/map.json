@@ -43,8 +43,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
-      "x": 18,
-      "y": 35,
+      "x": 17,
+      "y": 33,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 2,
@@ -238,7 +238,13 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 18,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE14_CAVE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

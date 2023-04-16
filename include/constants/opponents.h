@@ -769,13 +769,14 @@
 #define TRAINER_BUG2                             760
 #define TRAINER_BUG3                             761
 #define TRAINER_LIDER_BUG                        762
+#define TRAINER_LIDER_NORMAN                     763
 
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             763
+#define NUM_TRAINERS                             764
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

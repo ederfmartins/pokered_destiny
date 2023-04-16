@@ -1416,3 +1416,18 @@ Text_TestMsg::
 
 	.include "data/maps/BulbaGardem/scripts.inc"
 	.include "data/maps/BulbaGardem/text.inc"
+
+	.include "data/maps/NormalGymCity/scripts.inc"
+	.include "data/maps/NormalGymCity/text.inc"
+
+	.include "data/maps/NormalGym/scripts.inc"
+	.include "data/maps/NormalGym/text.inc"
+
+	.include "data/maps/NormalGymCity_Mart/scripts.inc"
+	.include "data/maps/NormalGymCity_Mart/text.inc"
+
+	.include "data/maps/NormalGymCity_PokemonCenter/scripts.inc"
+	.include "data/maps/NormalGymCity_PokemonCenter/text.inc"
+
+	.include "data/maps/Route14_Cave/scripts.inc"
+	.include "data/maps/Route14_Cave/text.inc"

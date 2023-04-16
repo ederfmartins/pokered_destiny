@@ -39,7 +39,9 @@ SSAnne_2F_Corridor_EventScript_RivalTrigger::
 	call_if_eq VAR_STARTER_MON, 2, SSAnne_2F_Corridor_EventScript_RivalSquirtle
 	call_if_eq VAR_STARTER_MON, 1, SSAnne_2F_Corridor_EventScript_RivalBulbasaur
 	call_if_eq VAR_STARTER_MON, 0, SSAnne_2F_Corridor_EventScript_RivalCharmander
-	call_if_gt VAR_STARTER_MON, 2, SSAnne_2F_Corridor_EventScript_RivalOther
+	call_if_gt VAR_STARTER_MON, 3, SSAnne_2F_Corridor_EventScript_RivalOther
+	call_if_gt VAR_STARTER_MON, 4, SSAnne_2F_Corridor_EventScript_RivalOther
+	call_if_gt VAR_STARTER_MON, 5, SSAnne_2F_Corridor_EventScript_RivalOther
 	msgbox SSAnne_2F_Corridor_Text_RivalPostBattle
 	closemessage
 	delay 10

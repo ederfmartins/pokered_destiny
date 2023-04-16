@@ -224,6 +224,8 @@ include json_data_rules.mk
 include songs.mk
 include make_tools.mk
 
+data/maps/ViridianForest/scripts.inc: data/maps/ViridianForest/scripts.pory; $(SCRIPT) -i $< -o $@ -fc tools/poryscript/font_config.json
+
 %.s: ;
 %.png: ;
 %.pal: ;

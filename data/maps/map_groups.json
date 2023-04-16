@@ -321,7 +321,12 @@
     "MountainRange_Gym",
     "ViridianForest_HiddenGym",
     "ViridianForest_Gym",
-    "BulbaGardem"
+    "BulbaGardem",
+    "NormalGymCity",
+    "NormalGym",
+    "NormalGymCity_Mart",
+    "NormalGymCity_PokemonCenter",
+    "Route14_Cave"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

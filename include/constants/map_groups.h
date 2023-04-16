@@ -273,13 +273,18 @@
 #define MAP_DRAGONITE_ISLE                       (70 | (3 << 8))
 
 // gMapGroup_IndoorHiddenLocations
-#define MAP_MOUNTAIN_RANGE_MART           (0 | (4 << 8))
-#define MAP_MOUNTAIN_RANGE_POKEMON_CENTER (1 | (4 << 8))
-#define MAP_MOUNTAIN_RANGE_HOUSE1         (2 | (4 << 8))
-#define MAP_MOUNTAIN_RANGE_GYM            (3 | (4 << 8))
-#define MAP_VIRIDIAN_FOREST_HIDDEN_GYM    (4 | (4 << 8))
-#define MAP_VIRIDIAN_FOREST_GYM           (5 | (4 << 8))
-#define MAP_BULBA_GARDEM                  (6 | (4 << 8))
+#define MAP_MOUNTAIN_RANGE_MART            (0 | (4 << 8))
+#define MAP_MOUNTAIN_RANGE_POKEMON_CENTER  (1 | (4 << 8))
+#define MAP_MOUNTAIN_RANGE_HOUSE1          (2 | (4 << 8))
+#define MAP_MOUNTAIN_RANGE_GYM             (3 | (4 << 8))
+#define MAP_VIRIDIAN_FOREST_HIDDEN_GYM     (4 | (4 << 8))
+#define MAP_VIRIDIAN_FOREST_GYM            (5 | (4 << 8))
+#define MAP_BULBA_GARDEM                   (6 | (4 << 8))
+#define MAP_NORMAL_GYM_CITY                (7 | (4 << 8))
+#define MAP_NORMAL_GYM                     (8 | (4 << 8))
+#define MAP_NORMAL_GYM_CITY_MART           (9 | (4 << 8))
+#define MAP_NORMAL_GYM_CITY_POKEMON_CENTER (10 | (4 << 8))
+#define MAP_ROUTE14_CAVE                   (11 | (4 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (5 << 8))
