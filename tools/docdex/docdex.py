@@ -88,6 +88,55 @@ class StatsParser:
         return self.base_stats.parseString(text)[0]
 
 
+class Learnsets:
+    static = pyparsing.Keyword("static")
+    const = pyparsing.Keyword("const")
+    u16 = pyparsing.Keyword("u16")
+    move_word = pyparsing.Keyword("LEVEL_UP_MOVE")
+    move_end = pyparsing.Keyword("LEVEL_UP_END")
+    name = pyparsing.Word(pyparsing.alphanums + "_")
+    move = move_word + pyparsing.Char("(") + name + pyparsing.Char(",") + name + pyparsing.Char(")") + pyparsing.Char(",")
+    move_list = pyparsing.OneOrMore(move)
+    learnset = static + const + u16 + name + pyparsing.Char("[") + pyparsing.Char("]") + pyparsing.Char("=") + pyparsing.Char("{") + move_list + move_end + pyparsing.Char("}") + pyparsing.Char(";")
+    learnset_list = pyparsing.OneOrMore(learnset)
+
+    @name.setParseAction
+    def emite_name(results: pyparsing.ParseResults):
+        return results[0]
+
+    @move.setParseAction
+    def emite_move(results: pyparsing.ParseResults):
+        return [results[2], results[4]]
+    
+    @move_list.setParseAction
+    def emite_move_list(results: pyparsing.ParseResults):
+        return {
+            results[idx]: results[idx + 1]
+            for idx in range(0, len(results) - 1, 2)
+        }
+    
+    @learnset.setParseAction
+    def emite_learnset(results: pyparsing.ParseResults):
+        # Change sBulbasaurLevelUpLearnset to SPECIES_BULBASAUR
+        move_name = "SPECIES_" + results[3].replace("LevelUpLearnset", "")[1:].upper()
+        
+        return {move_name: results[8]}
+    
+    @learnset_list.setParseAction
+    def emite_learnset_list(results: pyparsing.ParseResults):
+        all_mons = {}
+        for mon in results:
+            for k, v in mon.items():
+                all_mons[k] = v
+        return all_mons
+    
+    def __init__(self, file_path: str):
+        self.raw_learnsets = "".join(open(file_path).readlines()[2:])
+    
+    def parse(self) -> Dict[str, Dict[str, str]]:
+        return self.learnset_list.parseString(self.raw_learnsets)[0]
+
+
 class WildEncounters:
     def __init__(self, file_path: str) -> None:
         self.wild_encounters = json.load(open(file_path))
@@ -127,7 +176,7 @@ class WildEncounters:
 
 
 
-def generate_pokedex_markdown(wild_encounters: WildEncounters, base_stats: Dict[str, Any]) -> str:
+def generate_pokedex_markdown(wild_encounters: WildEncounters, base_stats: Dict[str, Any], learnsets: Learnsets) -> str:
     text = ["# POKEMON Stats, Locations & Move sets"]
     map_by_pokemon = wild_encounters.get_map_by_pokemon()
     for mon_name, mon_stats in base_stats.items():
@@ -140,6 +189,8 @@ def generate_pokedex_markdown(wild_encounters: WildEncounters, base_stats: Dict[
         mon_table = build_mon_stats_table(mon_stats)
         text.append("\n".join(mon_table))
         text.extend(build_mon_location(mon_name, map_by_pokemon))
+        mon_learnset = build_mon_mon_learnset_table(mon_name, learnsets)
+        text.append("\n".join(mon_learnset))
         
     return "\n\n".join(text)
 
@@ -161,6 +212,16 @@ def build_mon_location(mon_name, map_by_pokemon) -> List[str]:
     return [f"**Found at:** {', '.join(map_by_pokemon.get(mon_name, []))}"]
 
 
+def build_mon_mon_learnset_table(mon_name, learnsets) -> List[str]:
+    table = []
+    if mon_name in learnsets:
+        table.append("| Level | Move Name |")
+        table.append("|---------|---------|")
+        for level, move in learnsets[mon_name].items():
+            table.append(f"| {level} | {move} |")
+    return table
+
+
 def parse_base_stats(file_path: str) -> Dict[str, Any]:
     raw_base_stats = open(file_path).readlines()#[38:]
     raw_base_stats = " ".join(raw_base_stats)
@@ -180,9 +241,11 @@ if __name__ == "__main__":
 
     parser.add_argument("--wild_encounters", default="src/data/wild_encounters.json", required=True)
     parser.add_argument("--base_stats", default="src/data/pokemon/base_stats.h", required=True)
+    parser.add_argument("--learnsets", default="src/data/pokemon/level_up_learnsets.h", required=True)
     args = parser.parse_args()
 
     wild_encounters = WildEncounters(args.wild_encounters)
+    learnsets = Learnsets(args.learnsets).parse()
     base_stats = parse_base_stats(args.base_stats)
-    print(generate_pokedex_markdown(wild_encounters=wild_encounters, base_stats=base_stats))
+    print(generate_pokedex_markdown(wild_encounters=wild_encounters, base_stats=base_stats, learnsets=learnsets))
 
