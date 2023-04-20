@@ -1,67 +1,9 @@
 import argparse
 import json
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Set
 import re
 import pyparsing
 
-
-def parse_wild_encounters(file_path: str) -> List[Dict[str, Any]]:
-    wild_encounters = json.load(open(file_path))
-    if "wild_encounter_groups" not in wild_encounters:
-        raise ValueError("Invalid wild encounters file. It should contain wild_encounter_groups field.")
-    if "encounters" not in wild_encounters["wild_encounter_groups"][0]:
-        raise ValueError("Invalid wild encounters file. It should contain encounters field.")
-    return [
-        parse_map_from_wild_encounters(map_desc)
-        for map_desc in wild_encounters["wild_encounter_groups"][0]["encounters"]
-        if "FireRed" in map_desc["base_label"]
-    ]
-
-def parse_map_from_wild_encounters(map_desc: Dict[str, Any]):
-    data = {
-        "map": map_desc["map"],
-    }
-    for land_type in ["land_mons", "water_mons", "rock_smash_mons", "fishing_mons"]:
-        data[land_type] = map_desc.get(land_type, {}).get("mons", [])
-        data[land_type] = [mon["species"] for mon in data[land_type]]
-        data[land_type] = list(set(data[land_type]))
-    return data
-
-
-def generate_pokedex_markdown(wild_encounters: List[Dict[str, Any]], base_stats: Dict[str, Any]) -> str:
-    text = ["# POKEMON Stats, Locations & Move sets", "##Locations"]
-    for location in wild_encounters:
-        if len(location) > 1:
-            text.append(f"### {location['map']}")
-            for land_type in location:
-                if land_type != "map" and len(location[land_type]) > 0:
-                    text.append(f"**{land_type}:** {', '.join(location[land_type])}")
-    text.append("##Stats")
-    for mon_name, mon_stats in base_stats.items():
-        if len(mon_stats) == 0:
-            continue
-        text.append(f"### {mon_name}")
-        text.append(f"**XP**: {mon_stats['expYield']} / {mon_stats['genderRatio']}")
-        mon_table = []
-        mon_table.append("|         |         |         |         |         |         |         |         |")
-        mon_table.append("|---------|---------|---------|---------|---------|---------|---------|---------|")
-        mon_table.append(f"| **type1** | {mon_stats['type1']} | **type2** | {mon_stats['type2']} | **catchRate** | {mon_stats['catchRate']} | **safariZoneFleeRate** | {mon_stats['safariZoneFleeRate']} |")
-        mon_table.append(f"| **baseAttack** | {mon_stats['baseAttack']} | **baseSpAttack** | {mon_stats['baseSpAttack']} | **evYield_Attack** | {mon_stats['evYield_Attack']} | **evYield_SpAttack** | {mon_stats['evYield_SpAttack']} |")
-        mon_table.append(f"| **baseDefense** | {mon_stats['baseDefense']} | **baseSpDefense** | {mon_stats['baseSpDefense']} | **evYield_Defense** | {mon_stats['evYield_Defense']} | **evYield_SpDefense** | {mon_stats['evYield_SpDefense']} |")
-        mon_table.append(f"| **baseHP** | {mon_stats['baseHP']} | **baseSpeed** | {mon_stats['baseSpeed']} | **evYield_HP** | {mon_stats['evYield_HP']} | **evYield_SpDefense** | {mon_stats['evYield_SpDefense']} |")
-        mon_table.append(f"| **eggGroup1** | {mon_stats['eggGroup1']} | **eggGroup2** | {mon_stats['eggGroup2']} | **eggCycles** | {mon_stats['eggCycles']} | **friendship** | {mon_stats['friendship']} |")
-        mon_table.append(f"| **item1** | {mon_stats['item1']} | **item2** | {mon_stats['item2']} | **abilities** | {mon_stats['abilities']} | **growthRate** | {mon_stats['growthRate']} |")
-        text.append("\n".join(mon_table))
-        
-    return "\n\n".join(text)
-
-def parse_base_stats(file_path: str) -> Dict[str, Any]:
-    raw_base_stats = open(file_path).readlines()#[38:]
-    raw_base_stats = " ".join(raw_base_stats)
-    raw_base_stats = re.sub(r"\s+", " ", raw_base_stats)
-    pokemon_stats_pattern = re.compile("\[[a-zA-Z_]+\] = \{.*},")
-    text = re.findall(pokemon_stats_pattern, raw_base_stats)[0]
-    return StatsParser().parse(text)
 
 class StatsParser:
     name = pyparsing.Word(pyparsing.alphanums + "_")
@@ -144,7 +86,88 @@ class StatsParser:
     
     def parse(self, text):
         return self.base_stats.parseString(text)[0]
+
+
+class WildEncounters:
+    def __init__(self, file_path: str) -> None:
+        self.wild_encounters = json.load(open(file_path))
+        if "wild_encounter_groups" not in self.wild_encounters:
+            raise ValueError("Invalid wild encounters file. It should contain wild_encounter_groups field.")
+        if "encounters" not in self.wild_encounters["wild_encounter_groups"][0]:
+            raise ValueError("Invalid wild encounters file. It should contain encounters field.")
         
+    def get_pokemon_by_map(self) -> Dict[str, Dict[str, Any]]:
+        ret = {}
+        for map_desc in self.wild_encounters["wild_encounter_groups"][0]["encounters"]:
+            if "FireRed" in map_desc["base_label"]:
+                the_map = self.parse_map_from_wild_encounters(map_desc)
+                ret[the_map["map"]] = the_map
+        return ret
+
+    def parse_map_from_wild_encounters(self, map_desc: Dict[str, Any]):
+        data = {
+            "map": map_desc["map"],
+        }
+        for land_type in ["land_mons", "water_mons", "rock_smash_mons", "fishing_mons"]:
+            data[land_type] = map_desc.get(land_type, {}).get("mons", [])
+            data[land_type] = [mon["species"] for mon in data[land_type]]
+            data[land_type] = list(set(data[land_type]))
+        return data
+    
+    def get_map_by_pokemon(self) -> Dict[str, Set[str]]:
+        pokemon_by_map = self.get_pokemon_by_map()
+        pokemons = {}
+        for map_name in pokemon_by_map:
+            for land_type in ["land_mons", "water_mons", "rock_smash_mons", "fishing_mons"]:
+                for pokemon in pokemon_by_map[map_name].get(land_type, []):
+                    if pokemon not in pokemons:
+                        pokemons[pokemon] = set()
+                    pokemons[pokemon].add(map_name)
+        return pokemons
+
+
+
+def generate_pokedex_markdown(wild_encounters: WildEncounters, base_stats: Dict[str, Any]) -> str:
+    text = ["# POKEMON Stats, Locations & Move sets"]
+    map_by_pokemon = wild_encounters.get_map_by_pokemon()
+    for mon_name, mon_stats in base_stats.items():
+        if len(mon_stats) == 0:
+            continue
+        name = mon_name.replace("SPECIES_", "")
+        text.append(f"### {name}")
+        text.append(f"![{name}](graphics/pokemon/{mon_name.lower()}/front.png)")
+        text.append(f"**XP**: {mon_stats['expYield']} / {mon_stats['genderRatio']}")
+        mon_table = build_mon_stats_table(mon_stats)
+        text.append("\n".join(mon_table))
+        text.extend(build_mon_location(mon_name, map_by_pokemon))
+        
+    return "\n\n".join(text)
+
+
+def build_mon_stats_table(mon_stats) -> List[str]:
+    mon_table = []
+    mon_table.append("|         |         |         |         |         |         |         |         |")
+    mon_table.append("|---------|---------|---------|---------|---------|---------|---------|---------|")
+    mon_table.append(f"| **type1** | {mon_stats['type1']} | **type2** | {mon_stats['type2']} | **catchRate** | {mon_stats['catchRate']} | **safariZoneFleeRate** | {mon_stats['safariZoneFleeRate']} |")
+    mon_table.append(f"| **baseAttack** | {mon_stats['baseAttack']} | **baseSpAttack** | {mon_stats['baseSpAttack']} | **evYield_Attack** | {mon_stats['evYield_Attack']} | **evYield_SpAttack** | {mon_stats['evYield_SpAttack']} |")
+    mon_table.append(f"| **baseDefense** | {mon_stats['baseDefense']} | **baseSpDefense** | {mon_stats['baseSpDefense']} | **evYield_Defense** | {mon_stats['evYield_Defense']} | **evYield_SpDefense** | {mon_stats['evYield_SpDefense']} |")
+    mon_table.append(f"| **baseHP** | {mon_stats['baseHP']} | **baseSpeed** | {mon_stats['baseSpeed']} | **evYield_HP** | {mon_stats['evYield_HP']} | **evYield_SpDefense** | {mon_stats['evYield_SpDefense']} |")
+    mon_table.append(f"| **eggGroup1** | {mon_stats['eggGroup1']} | **eggGroup2** | {mon_stats['eggGroup2']} | **eggCycles** | {mon_stats['eggCycles']} | **friendship** | {mon_stats['friendship']} |")
+    mon_table.append(f"| **item1** | {mon_stats['item1']} | **item2** | {mon_stats['item2']} | **abilities** | {mon_stats['abilities']} | **growthRate** | {mon_stats['growthRate']} |")
+    return mon_table
+
+
+def build_mon_location(mon_name, map_by_pokemon) -> List[str]:
+    return [f"**Found at:** {', '.join(map_by_pokemon.get(mon_name, []))}"]
+
+
+def parse_base_stats(file_path: str) -> Dict[str, Any]:
+    raw_base_stats = open(file_path).readlines()#[38:]
+    raw_base_stats = " ".join(raw_base_stats)
+    raw_base_stats = re.sub(r"\s+", " ", raw_base_stats)
+    pokemon_stats_pattern = re.compile("\[[a-zA-Z_]+\] = \{.*},")
+    text = re.findall(pokemon_stats_pattern, raw_base_stats)[0]
+    return StatsParser().parse(text)
 
 
 if __name__ == "__main__":
@@ -159,7 +182,7 @@ if __name__ == "__main__":
     parser.add_argument("--base_stats", default="src/data/pokemon/base_stats.h", required=True)
     args = parser.parse_args()
 
-    wild_encounters = parse_wild_encounters(args.wild_encounters)
+    wild_encounters = WildEncounters(args.wild_encounters)
     base_stats = parse_base_stats(args.base_stats)
     print(generate_pokedex_markdown(wild_encounters=wild_encounters, base_stats=base_stats))
 
