@@ -95,8 +95,9 @@ class Learnsets:
     move_word = pyparsing.Keyword("LEVEL_UP_MOVE")
     move_end = pyparsing.Keyword("LEVEL_UP_END")
     name = pyparsing.Word(pyparsing.alphanums + "_")
+    comment_line = pyparsing.Char("#") + pyparsing.Regex(".*") + pyparsing.lineEnd()
     move = move_word + pyparsing.Char("(") + name + pyparsing.Char(",") + name + pyparsing.Char(")") + pyparsing.Char(",")
-    move_list = pyparsing.OneOrMore(move)
+    move_list = pyparsing.OneOrMore(move | comment_line)
     learnset = static + const + u16 + name + pyparsing.Char("[") + pyparsing.Char("]") + pyparsing.Char("=") + pyparsing.Char("{") + move_list + move_end + pyparsing.Char("}") + pyparsing.Char(";")
     learnset_list = pyparsing.OneOrMore(learnset)
 
@@ -130,6 +131,10 @@ class Learnsets:
             for k, v in mon.items():
                 all_mons[k] = v
         return all_mons
+    
+    @comment_line.setParseAction
+    def emite_comment(results: pyparsing.ParseResults):
+        return []
     
     def __init__(self, file_path: str):
         self.raw_learnsets = "".join(open(file_path).readlines()[2:])
@@ -283,7 +288,7 @@ def build_mon_mon_learnset_table(mon_name, learnsets) -> List[str]:
 def build_mon_mon_tmhm_table(mon_name, learnsets) -> List[str]:
     table = []
     if mon_name in learnsets:
-        table.append("| Move Name |")
+        table.append("| TM or HM |")
         table.append("|---------|")
         for move in learnsets[mon_name]:
             table.append(f"| {move} |")

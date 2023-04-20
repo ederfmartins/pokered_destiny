@@ -15,7 +15,7 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OVERGROW | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE24, MAP_ROUTE21_NORTH
+**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE24
 
 | Level | Move Name |
 |---------|---------|
@@ -32,7 +32,7 @@
 | 39 | Synthesis |
 | 46 | Solar beam |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -84,7 +84,7 @@
 | 47 | Synthesis |
 | 56 | Solar beam |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -136,7 +136,7 @@
 | 55 | Sleep powder |
 | 65 | Solar beam |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -192,7 +192,7 @@
 | 43 | Dragon rage |
 | 49 | Fire spin |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm02 dragon claw |
@@ -245,7 +245,7 @@
 | 48 | Dragon rage |
 | 55 | Fire spin |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm02 dragon claw |
@@ -301,7 +301,7 @@
 | 54 | Dragon rage |
 | 64 | Fire spin |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm02 dragon claw |
@@ -347,7 +347,7 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_TORRENT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE4, MAP_PALLET_TOWN
+**Found at:** MAP_ROUTE4, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN
 
 | Level | Move Name |
 |---------|---------|
@@ -363,7 +363,7 @@
 | 40 | Skull bash |
 | 47 | Hydro pump |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -421,7 +421,7 @@
 | 45 | Skull bash |
 | 53 | Hydro pump |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -479,7 +479,7 @@
 | 55 | Skull bash |
 | 65 | Hydro pump |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -524,13 +524,13 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE25, MAP_VIRIDIAN_FOREST, MAP_ROUTE2
+**Found at:** MAP_VIRIDIAN_FOREST, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE2, MAP_ROUTE25, MAP_ROUTE24
 
 | Level | Move Name |
 |---------|---------|
 | 1 | String shot |
 
-| Move Name |
+| TM or HM |
 |---------|
 
 ### METAPOD
@@ -555,7 +555,7 @@
 | 1 | Harden |
 | 7 | Harden |
 
-| Move Name |
+| TM or HM |
 |---------|
 
 ### BUTTERFREE
@@ -589,7 +589,7 @@
 | 40 | Safeguard |
 | 47 | Silver wind |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -629,13 +629,13 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE25, MAP_VIRIDIAN_FOREST, MAP_ROUTE2
+**Found at:** MAP_VIRIDIAN_FOREST, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE2, MAP_ROUTE25, MAP_ROUTE24
 
 | Level | Move Name |
 |---------|---------|
 | 1 | String shot |
 
-| Move Name |
+| TM or HM |
 |---------|
 
 ### KAKUNA
@@ -660,7 +660,7 @@
 | 1 | Harden |
 | 7 | Harden |
 
-| Move Name |
+| TM or HM |
 |---------|
 
 ### BEEDRILL
@@ -693,7 +693,7 @@
 | 37 | Sludge |
 | 45 | Endeavor |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -731,7 +731,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE24, MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE7, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE8, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE9, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE15, MAP_ROUTE1, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE2
+**Found at:** MAP_ROUTE13, MAP_ROUTE6, MAP_ROUTE9, MAP_ROUTE8, MAP_ROUTE14, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE12, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE2, MAP_ROUTE24, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE1, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE7
 
 | Level | Move Name |
 |---------|---------|
@@ -746,7 +746,7 @@
 | 39 | Agility |
 | 47 | Mirror move |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -780,7 +780,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_ROUTE13, MAP_ROUTE14, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_THREE_ISLAND_BERRY_FOREST
 
 | Level | Move Name |
 |---------|---------|
@@ -795,7 +795,7 @@
 | 43 | Agility |
 | 52 | Mirror move |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -844,7 +844,7 @@
 | 48 | Agility |
 | 62 | Mirror move |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -879,7 +879,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_ROUTE16, MAP_ROUTE4, MAP_POKEMON_MANSION_2F, MAP_ROUTE2, MAP_ROUTE17, MAP_POKEMON_MANSION_3F, MAP_ROUTE1, MAP_ROUTE9, MAP_ROUTE22, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_ROUTE17, MAP_ROUTE16, MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_ROUTE4, MAP_ROUTE9, MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE22, MAP_ROUTE2, MAP_ROUTE1
 
 | Level | Move Name |
 |---------|---------|
@@ -892,7 +892,7 @@
 | 34 | Super fang |
 | 41 | Endeavor |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -934,7 +934,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_ORAN_BERRY | **item2** | ITEM_SITRUS_BERRY | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_ROUTE16, MAP_POKEMON_MANSION_2F, MAP_ROUTE17, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_ROUTE17, MAP_ROUTE16, MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F
 
 | Level | Move Name |
 |---------|---------|
@@ -947,7 +947,7 @@
 | 40 | Super fang |
 | 50 | Endeavor |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -992,7 +992,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_ROUTE16, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE4, MAP_ROUTE3, MAP_ROUTE11, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE23, MAP_ROUTE10, MAP_ROUTE17, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE9, MAP_ROUTE22, MAP_ROUTE2
+**Found at:** MAP_ROUTE17, MAP_MT_EMBER_EXTERIOR, MAP_ROUTE16, MAP_ROUTE23, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE4, MAP_ROUTE9, MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE2, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE22, MAP_ROUTE11, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE10, MAP_ROUTE3
 
 | Level | Move Name |
 |---------|---------|
@@ -1005,7 +1005,7 @@
 | 37 | Drill peck |
 | 43 | Agility |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -1039,7 +1039,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SHARP_BEAK | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE23, MAP_ROUTE17, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_ROUTE17, MAP_MT_EMBER_EXTERIOR, MAP_ROUTE23, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE18, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ONE_ISLAND_TREASURE_BEACH
 
 | Level | Move Name |
 |---------|---------|
@@ -1051,7 +1051,7 @@
 | 40 | Drill peck |
 | 47 | Agility |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -1086,7 +1086,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE11, MAP_ROUTE8, MAP_ROUTE23, MAP_ROUTE10, MAP_ROUTE9
+**Found at:** MAP_ROUTE23, MAP_ROUTE9, MAP_ROUTE4, MAP_ROUTE8, MAP_ROUTE11, MAP_ROUTE10
 
 | Level | Move Name |
 |---------|---------|
@@ -1101,7 +1101,7 @@
 | 37 | Spit up |
 | 44 | Haze |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -1140,7 +1140,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_POISON_BARB | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_1F, MAP_ROUTE23, MAP_VICTORY_ROAD_3F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_1F, MAP_VICTORY_ROAD_3F, MAP_ROUTE23
 
 | Level | Move Name |
 |---------|---------|
@@ -1153,7 +1153,7 @@
 | 46 | Spit up |
 | 56 | Haze |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -1208,7 +1208,7 @@
 | 41 | Thunder |
 | 50 | Light screen |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -1254,7 +1254,7 @@
 |---------|---------|
 | 1 | Thunderbolt |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -1296,7 +1296,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SAND_VEIL | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE9, MAP_ROUTE11, MAP_ROUTE4, MAP_ROUTE8
+**Found at:** MAP_ROUTE4, MAP_ROUTE8, MAP_ROUTE11, MAP_ROUTE9
 
 | Level | Move Name |
 |---------|---------|
@@ -1311,7 +1311,7 @@
 | 53 | Sandstorm |
 | 65 | Earthquake |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -1367,7 +1367,7 @@
 | 62 | Sandstorm |
 | 68 | Earthquake |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -1409,11 +1409,11 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_ROUTE3
+**Found at:** MAP_ROUTE22, MAP_ROUTE3, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST
 
 
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -1472,7 +1472,7 @@
 | 43 | Flatter |
 | 53 | Crunch |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -1528,7 +1528,7 @@
 | 47 | Toxic |
 | 65 | Ice beam |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -1585,11 +1585,11 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_WEST, MAP_ROUTE3, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE22
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_ROUTE22, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE3
 
 
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -1632,7 +1632,7 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST
 
 | Level | Move Name |
 |---------|---------|
@@ -1647,7 +1647,7 @@
 | 43 | Flatter |
 | 53 | Horn drill |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -1700,7 +1700,7 @@
 | 48 | Sand tomb |
 | 58 | Megahorn |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -1773,7 +1773,7 @@
 | 41 | Light screen |
 | 45 | Meteor mash |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -1834,7 +1834,7 @@
 | 45 | Light screen |
 | 49 | Meteor mash |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -1887,7 +1887,7 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_RAWST_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_FLASH_FIRE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7, MAP_ROUTE8, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_ROUTE8, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7
 
 | Level | Move Name |
 |---------|---------|
@@ -1904,7 +1904,7 @@
 | 37 | Grudge |
 | 41 | Fire spin |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -1950,7 +1950,7 @@
 | 44 | Grudge |
 | 49 | Fire spin |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -2003,7 +2003,7 @@
 | 44 | Hyper voice |
 | 49 | Double edge |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -2063,7 +2063,7 @@
 | 44 | Hyper voice |
 | 49 | Double edge |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -2114,7 +2114,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_SEAFOAM_ISLANDS_1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_MT_MOON_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_VICTORY_ROAD_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_ROCK_TUNNEL_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_SEAFOAM_ISLANDS_B1F, MAP_MT_MOON_B2F, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_ROCK_TUNNEL_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_MT_MOON_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_ROCK_TUNNEL_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_VICTORY_ROAD_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_MT_MOON_B2F, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_SEAFOAM_ISLANDS_B3F
 
 | Level | Move Name |
 |---------|---------|
@@ -2130,7 +2130,7 @@
 | 41 | Poison fang |
 | 46 | Haze |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2169,7 +2169,7 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_SEAFOAM_ISLANDS_1F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_CERULEAN_CAVE_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_CERULEAN_CAVE_1F, MAP_SEAFOAM_ISLANDS_B4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_VICTORY_ROAD_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_SEAFOAM_ISLANDS_B1F, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_CERULEAN_CAVE_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_VICTORY_ROAD_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_SEAFOAM_ISLANDS_B4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_SEAFOAM_ISLANDS_B3F
 
 | Level | Move Name |
 |---------|---------|
@@ -2184,7 +2184,7 @@
 | 49 | Poison fang |
 | 56 | Haze |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2224,7 +2224,7 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE13, MAP_ROUTE7, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_ROUTE13, MAP_ROUTE6, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE14, MAP_ROUTE15, MAP_ROUTE12, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE24, MAP_ROUTE25, MAP_ROUTE5, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE7
 
 | Level | Move Name |
 |---------|---------|
@@ -2239,7 +2239,7 @@
 | 37 | Giga drain |
 | 41 | Petal dance |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -2274,7 +2274,7 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE13, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_ROUTE13, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE14, MAP_ROUTE15, MAP_ROUTE12, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE6, MAP_THREE_ISLAND_BERRY_FOREST
 
 | Level | Move Name |
 |---------|---------|
@@ -2288,7 +2288,7 @@
 | 47 | Giga drain |
 | 53 | Petal dance |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -2331,7 +2331,7 @@
 | 53 | Petal dance |
 | 65 | Solar beam |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -2367,7 +2367,7 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_TINY_MUSHROOM | **item2** | ITEM_BIG_MUSHROOM | **abilities** | ABILITY_EFFECT_SPORE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_MT_MOON_1F, MAP_SAFARI_ZONE_EAST, MAP_MT_MOON_B2F, MAP_SAFARI_ZONE_NORTH, MAP_MT_MOON_B1F
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_MT_MOON_1F, MAP_MT_MOON_B1F, MAP_MT_MOON_B2F, MAP_SAFARI_ZONE_EAST
 
 | Level | Move Name |
 |---------|---------|
@@ -2379,7 +2379,7 @@
 | 33 | Giga drain |
 | 38 | Aromatherapy |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -2418,7 +2418,7 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_TINY_MUSHROOM | **item2** | ITEM_BIG_MUSHROOM | **abilities** | ABILITY_EFFECT_SPORE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_CENTER, MAP_CERULEAN_CAVE_2F
 
 | Level | Move Name |
 |---------|---------|
@@ -2429,7 +2429,7 @@
 | 39 | Giga drain |
 | 47 | Aromatherapy |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -2469,7 +2469,7 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_COMPOUND_EYES | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_WEST, MAP_ROUTE13, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE12, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_ROUTE13, MAP_ROUTE14, MAP_ROUTE15, MAP_ROUTE12, MAP_SAFARI_ZONE_WEST, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST
 
 | Level | Move Name |
 |---------|---------|
@@ -2485,7 +2485,7 @@
 | 41 | Poison fang |
 | 47 | Psychic |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2521,7 +2521,7 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SILVER_POWDER | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_THREE_ISLAND_BERRY_FOREST
+**Found at:** MAP_SAFARI_ZONE_WEST, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_NORTH
 
 | Level | Move Name |
 |---------|---------|
@@ -2536,7 +2536,7 @@
 | 42 | Sleep powder |
 | 52 | Psychic |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2588,7 +2588,7 @@
 | 41 | Earthquake |
 | 49 | Fissure |
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2627,9 +2627,19 @@
 
 **Found at:** MAP_DIGLETTS_CAVE_B1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 9 | Magnitude |
+| 17 | Dig |
+| 21 | Fury swipes |
+| 25 | Mud slap |
+| 26 | Sand tomb |
+| 38 | Slash |
+| 51 | Earthquake |
+| 64 | Fissure |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -2667,11 +2677,21 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NUGGET | **abilities** | ABILITY_PICKUP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE7, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE6, MAP_ROUTE8, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE5, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE8, MAP_FIVE_ISLAND_MEADOW, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE5, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE6, MAP_ROUTE7
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 6 | Bite |
+| 9 | Fake out |
+| 14 | Fury swipes |
+| 22 | Pay day |
+| 25 | Taunt |
+| 30 | Screech |
+| 33 | Slash |
+| 61 | Swagger |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -2715,11 +2735,22 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LIMBER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_FIVE_ISLAND_MEADOW, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ONE_ISLAND_TREASURE_BEACH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 6 | Bite |
+| 9 | Fake out |
+| 14 | Fury swipes |
+| 22 | Pay day |
+| 29 | Faint attack |
+| 38 | Taunt |
+| 46 | Screech |
+| 53 | Slash |
+| 59 | Swagger |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm05 roar |
@@ -2765,11 +2796,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_DAMP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FOUR_ISLAND, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_CELADON_CITY, MAP_SEAFOAM_ISLANDS_1F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SEAFOAM_ISLANDS_B2F, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE11, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_EAST, MAP_ROUTE10, MAP_SEAFOAM_ISLANDS_B1F
+**Found at:** MAP_ROUTE21_NORTH, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE23, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SAFARI_ZONE_WEST, MAP_ROUTE12, MAP_ROUTE20, MAP_CELADON_CITY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_FOUR_ISLAND, MAP_VERMILION_CITY, MAP_SEAFOAM_ISLANDS_B2F, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FUCHSIA_CITY, MAP_SEAFOAM_ISLANDS_1F, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_SAFARI_ZONE_EAST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE24, MAP_ROUTE10, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE13, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE4, MAP_ROUTE21_SOUTH, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE22, MAP_ROUTE11, MAP_SAFARI_ZONE_CENTER, MAP_SSANNE_EXTERIOR, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_ROUTE6, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CITY, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE25, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND, MAP_VIRIDIAN_CITY, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Scratch |
+| 5 | Tail whip |
+| 9 | Water gun |
+| 14 | Disable |
+| 16 | Confusion |
+| 23 | Screech |
+| 31 | Psych up |
+| 40 | Fury swipes |
+| 50 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -2814,11 +2855,22 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_DAMP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_THREE_ISLAND_BERRY_FOREST, MAP_CERULEAN_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B1F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B1F, MAP_TWO_ISLAND_CAPE_BRINK, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Scratch |
+| 5 | Tail whip |
+| 9 | Water gun |
+| 14 | Disable |
+| 16 | Confusion |
+| 23 | Screech |
+| 31 | Psych up |
+| 38 | Water pulse |
+| 44 | Fury swipes |
+| 58 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -2864,11 +2916,22 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE3, MAP_ROCK_TUNNEL_B1F, MAP_ROUTE23, MAP_ROCK_TUNNEL_1F, MAP_ROUTE22
+**Found at:** MAP_ROCK_TUNNEL_B1F, MAP_ROUTE23, MAP_ROUTE4, MAP_ROUTE22, MAP_ROCK_TUNNEL_1F, MAP_ROUTE3
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 6 | Low kick |
+| 11 | Karate chop |
+| 16 | Fury swipes |
+| 21 | Focus energy |
+| 26 | Seismic toss |
+| 31 | Cross chop |
+| 36 | Swagger |
+| 41 | Screech |
+| 46 | Thrash |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -2913,11 +2976,23 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_2F, MAP_ROUTE23, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_CERULEAN_CAVE_1F, MAP_ROUTE23
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Rage |
+| 6 | Low kick |
+| 11 | Karate chop |
+| 16 | Fury swipes |
+| 21 | Focus energy |
+| 26 | Seismic toss |
+| 28 | Rage |
+| 35 | Cross chop |
+| 44 | Swagger |
+| 53 | Screech |
+| 62 | Thrash |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -2963,11 +3038,21 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_RAWST_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7, MAP_ROUTE8, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_ROUTE8, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Roar |
+| 7 | Ember |
+| 13 | Leer |
+| 19 | Odor sleuth |
+| 25 | Take down |
+| 31 | Flame wheel |
+| 37 | Helping hand |
+| 43 | Agility |
+| 49 | Flamethrower |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -3008,9 +3093,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Roar |
+| 7 | Ember |
+| 13 | Leer |
+| 19 | Odor sleuth |
+| 25 | Take down |
+| 37 | Flame wheel |
+| 43 | Helping hand |
+| 47 | Agility |
+| 52 | Flamethrower |
+| 56 | Extreme speed |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -3050,11 +3146,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_WATER_ABSORB | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_SAFARI_ZONE_EAST, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22
+**Found at:** MAP_ROUTE6, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE23, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_FUCHSIA_CITY, MAP_SAFARI_ZONE_WEST, MAP_CERULEAN_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_CERULEAN_CAVE_B1F, MAP_SAFARI_ZONE_EAST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE22, MAP_ROUTE25, MAP_SAFARI_ZONE_CENTER, MAP_FOUR_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_VIRIDIAN_CITY
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Bubble |
+| 7 | Hypnosis |
+| 13 | Water gun |
+| 19 | Double slap |
+| 25 | Rain dance |
+| 31 | Body slam |
+| 37 | Belly drum |
+| 43 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -3093,11 +3198,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_WATER_ABSORB | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE6, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22
+**Found at:** MAP_ROUTE23, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_CERULEAN_CAVE_B1F, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE22, MAP_ROUTE25, MAP_FOUR_ISLAND, MAP_ROUTE6, MAP_VIRIDIAN_CITY
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Water gun |
+| 7 | Hypnosis |
+| 13 | Water gun |
+| 19 | Double slap |
+| 27 | Rain dance |
+| 35 | Body slam |
+| 43 | Belly drum |
+| 51 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -3143,9 +3257,15 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Water gun |
+| 7 | Hypnosis |
+| 13 | Water gun |
+| 35 | Submission |
+| 51 | Mind reader |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -3192,11 +3312,13 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_TWISTED_SPOON | **abilities** | ABILITY_SYNCHRONIZE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE24, MAP_ROUTE25
+**Found at:** MAP_ROUTE25, MAP_ROUTE24
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Teleport |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -3241,11 +3363,22 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_TWISTED_SPOON | **abilities** | ABILITY_SYNCHRONIZE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F
+**Found at:** MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Confusion |
+| 16 | Confusion |
+| 18 | Disable |
+| 21 | Psybeam |
+| 23 | Reflect |
+| 25 | Recover |
+| 30 | Future sight |
+| 33 | Role play |
+| 36 | Psychic |
+| 43 | Trick |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -3292,9 +3425,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Confusion |
+| 16 | Confusion |
+| 18 | Disable |
+| 21 | Psybeam |
+| 23 | Reflect |
+| 25 | Recover |
+| 30 | Future sight |
+| 33 | Calm mind |
+| 36 | Psychic |
+| 43 | Trick |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -3340,11 +3484,23 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_GUTS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_VICTORY_ROAD_2F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_EXTERIOR, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_VICTORY_ROAD_3F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_ROCK_TUNNEL_1F, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_MT_EMBER_EXTERIOR, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_VICTORY_ROAD_1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_ROCK_TUNNEL_1F, MAP_MT_EMBER_SUMMIT_PATH_3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 7 | Focus energy |
+| 13 | Karate chop |
+| 19 | Seismic toss |
+| 22 | Foresight |
+| 25 | Revenge |
+| 31 | Vital throw |
+| 37 | Submission |
+| 40 | Cross chop |
+| 43 | Scary face |
+| 49 | Dynamic punch |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -3385,11 +3541,23 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_FOCUS_BAND | **abilities** | ABILITY_GUTS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_VICTORY_ROAD_2F, MAP_CERULEAN_CAVE_2F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_VICTORY_ROAD_1F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_1F, MAP_VICTORY_ROAD_1F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Focus energy |
+| 7 | Focus energy |
+| 13 | Karate chop |
+| 19 | Seismic toss |
+| 22 | Foresight |
+| 25 | Revenge |
+| 33 | Vital throw |
+| 41 | Submission |
+| 46 | Cross chop |
+| 51 | Scary face |
+| 59 | Dynamic punch |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -3432,9 +3600,21 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Focus energy |
+| 7 | Focus energy |
+| 13 | Karate chop |
+| 19 | Seismic toss |
+| 22 | Foresight |
+| 25 | Revenge |
+| 33 | Vital throw |
+| 41 | Submission |
+| 46 | Cross chop |
+| 51 | Scary face |
+| 59 | Dynamic punch |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -3476,11 +3656,22 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_ROUTE12, MAP_ROUTE6, MAP_ROUTE25, MAP_ROUTE5
+**Found at:** MAP_ROUTE13, MAP_ROUTE12, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE6
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Vine whip |
+| 6 | Growth |
+| 11 | Wrap |
+| 15 | Sleep powder |
+| 17 | Poison powder |
+| 19 | Stun spore |
+| 23 | Acid |
+| 30 | Sweet scent |
+| 37 | Razor leaf |
+| 45 | Slam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -3516,11 +3707,22 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE12, MAP_ROUTE6, MAP_ROUTE13
+**Found at:** MAP_ROUTE13, MAP_ROUTE6, MAP_ROUTE12
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Wrap |
+| 6 | Growth |
+| 11 | Wrap |
+| 15 | Sleep powder |
+| 17 | Poison powder |
+| 19 | Stun spore |
+| 24 | Acid |
+| 33 | Sweet scent |
+| 42 | Razor leaf |
+| 54 | Slam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -3558,9 +3760,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Wrap |
+| 6 | Growth |
+| 11 | Wrap |
+| 15 | Sleep powder |
+| 17 | Poison powder |
+| 19 | Stun spore |
+| 42 | Razor leaf |
+| 46 | Stockpile |
+| 50 | Swallow |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -3597,11 +3809,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CLEAR_BODY | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE18, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_CERULEAN_CITY, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SSANNE_EXTERIOR, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE10
+**Found at:** MAP_ROUTE21_NORTH, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE12, MAP_ROUTE20, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_VERMILION_CITY, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE18, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE24, MAP_ROUTE10, MAP_ROUTE13, MAP_ROUTE21_SOUTH, MAP_ROUTE4, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SSANNE_EXTERIOR, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SIX_ISLAND_GREEN_PATH, MAP_CERULEAN_CITY, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Poison sting |
+| 6 | Supersonic |
+| 12 | Constrict |
+| 19 | Acid |
+| 25 | Bubble beam |
+| 30 | Wrap |
+| 36 | Barrier |
+| 43 | Screech |
+| 49 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -3641,11 +3863,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CLEAR_BODY | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE10, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_SIX_ISLAND_GREEN_PATH, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE10, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Constrict |
+| 6 | Supersonic |
+| 12 | Constrict |
+| 19 | Acid |
+| 25 | Bubble beam |
+| 30 | Wrap |
+| 38 | Barrier |
+| 47 | Screech |
+| 55 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -3686,11 +3918,22 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_ROCK_TUNNEL_1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_MT_MOON_1F, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_RUBY_PATH_1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_VICTORY_ROAD_2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_MT_MOON_B2F, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_ROCK_TUNNEL_B1F, MAP_MT_MOON_1F, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_CERULEAN_CAVE_B1F, MAP_ROCK_TUNNEL_1F, MAP_CERULEAN_CAVE_2F, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_VICTORY_ROAD_1F, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_MT_MOON_B2F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_RUBY_PATH_B1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Defense curl |
+| 6 | Mud sport |
+| 11 | Rock throw |
+| 16 | Magnitude |
+| 21 | Self destruct |
+| 26 | Rollout |
+| 31 | Rock blast |
+| 36 | Earthquake |
+| 41 | Explosion |
+| 46 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -3729,11 +3972,22 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_HARD_STONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_ROCK_TUNNEL_B1F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_2F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_MT_EMBER_EXTERIOR, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Rock throw |
+| 6 | Mud sport |
+| 11 | Rock throw |
+| 16 | Magnitude |
+| 21 | Self destruct |
+| 29 | Rollout |
+| 37 | Rock blast |
+| 45 | Earthquake |
+| 53 | Explosion |
+| 62 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -3774,9 +4028,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Rock throw |
+| 6 | Mud sport |
+| 11 | Rock throw |
+| 16 | Magnitude |
+| 21 | Self destruct |
+| 29 | Rollout |
+| 37 | Rock blast |
+| 45 | Earthquake |
+| 53 | Explosion |
+| 62 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm05 roar |
@@ -3819,9 +4084,20 @@
 
 **Found at:** MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 5 | Growl |
+| 9 | Tail whip |
+| 14 | Ember |
+| 19 | Stomp |
+| 25 | Fire spin |
+| 28 | Take down |
+| 34 | Agility |
+| 38 | Fire blast |
+| 44 | Bounce |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -3856,11 +4132,23 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR
+**Found at:** MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 5 | Growl |
+| 9 | Tail whip |
+| 14 | Ember |
+| 19 | Stomp |
+| 25 | Fire spin |
+| 28 | Take down |
+| 34 | Agility |
+| 38 | Fire blast |
+| 44 | Bounce |
+| 53 | Extreme speed |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -3896,11 +4184,21 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE6, MAP_VIRIDIAN_CITY, MAP_ROUTE25, MAP_SEAFOAM_ISLANDS_1F, MAP_FUCHSIA_CITY, MAP_ROUTE22
+**Found at:** MAP_FUCHSIA_CITY, MAP_SEAFOAM_ISLANDS_1F, MAP_ROUTE22, MAP_ROUTE25, MAP_ROUTE6, MAP_VIRIDIAN_CITY
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 6 | Growl |
+| 13 | Water gun |
+| 17 | Confusion |
+| 24 | Disable |
+| 29 | Headbutt |
+| 36 | Amnesia |
+| 40 | Psychic |
+| 47 | Psych up |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm04 calm mind |
@@ -3948,11 +4246,22 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SEAFOAM_ISLANDS_B1F
+**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B1F, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 6 | Growl |
+| 13 | Water gun |
+| 17 | Confusion |
+| 24 | Disable |
+| 29 | Headbutt |
+| 36 | Amnesia |
+| 37 | Withdraw |
+| 44 | Psychic |
+| 55 | Psych up |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -4006,9 +4315,20 @@
 
 **Found at:** MAP_POWER_PLANT
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 6 | Thunder shock |
+| 11 | Supersonic |
+| 16 | Sonic boom |
+| 21 | Thunder wave |
+| 26 | Spark |
+| 32 | Lock on |
+| 38 | Swift |
+| 44 | Screech |
+| 50 | Zap cannon |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4042,11 +4362,22 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_MAGNET | **abilities** | ABILITY_MAGNET_PULL | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_CERULEAN_CAVE_2F, MAP_POWER_PLANT, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F
+**Found at:** MAP_CERULEAN_CAVE_1F, MAP_POWER_PLANT, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Supersonic |
+| 6 | Thunder shock |
+| 11 | Supersonic |
+| 16 | Sonic boom |
+| 21 | Thunder wave |
+| 26 | Spark |
+| 35 | Lock on |
+| 44 | Tri attack |
+| 53 | Screech |
+| 62 | Zap cannon |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4083,9 +4414,21 @@
 
 **Found at:** MAP_ROUTE16
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Sand attack |
+| 5 | Leer |
+| 10 | Fury cutter |
+| 15 | Detect |
+| 21 | Knock off |
+| 26 | Air cutter |
+| 32 | Slash |
+| 36 | Agility |
+| 40 | Brick break |
+| 45 | Swords dance |
+| 50 | False swipe |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4120,11 +4463,20 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_ROUTE16, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_ROUTE17
+**Found at:** MAP_ROUTE17, MAP_ROUTE16, MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 9 | Pursuit |
+| 13 | Fury attack |
+| 21 | Tri attack |
+| 25 | Rage |
+| 33 | Uproar |
+| 37 | Drill peck |
+| 45 | Agility |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4159,9 +4511,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Fury attack |
+| 9 | Pursuit |
+| 13 | Fury attack |
+| 21 | Tri attack |
+| 25 | Rage |
+| 38 | Uproar |
+| 47 | Drill peck |
+| 60 | Agility |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4197,11 +4558,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_THICK_FAT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Headbutt |
+| 9 | Growl |
+| 17 | Icy wind |
+| 21 | Aurora beam |
+| 29 | Rest |
+| 37 | Take down |
+| 41 | Ice beam |
+| 49 | Safeguard |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4239,11 +4609,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NEVER_MELT_ICE | **abilities** | ABILITY_THICK_FAT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Aurora beam |
+| 9 | Growl |
+| 17 | Icy wind |
+| 21 | Aurora beam |
+| 29 | Rest |
+| 34 | Sheer cold |
+| 42 | Take down |
+| 51 | Ice beam |
+| 64 | Safeguard |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4282,11 +4662,21 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_STENCH | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_B1F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Pound |
+| 4 | Harden |
+| 8 | Disable |
+| 13 | Sludge |
+| 19 | Minimize |
+| 26 | Screech |
+| 34 | Acid armor |
+| 43 | Sludge bomb |
+| 53 | Memento |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4330,9 +4720,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Harden |
+| 4 | Harden |
+| 8 | Disable |
+| 13 | Sludge |
+| 19 | Minimize |
+| 26 | Screech |
+| 34 | Acid armor |
+| 47 | Sludge bomb |
+| 61 | Memento |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -4379,11 +4779,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_PEARL | **item2** | ITEM_BIG_PEARL | **abilities** | ABILITY_SHELL_ARMOR | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_CINNABAR_ISLAND, MAP_VERMILION_CITY, MAP_PALLET_TOWN, MAP_FIVE_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SSANNE_EXTERIOR, MAP_ONE_ISLAND
+**Found at:** MAP_CINNABAR_ISLAND, MAP_ONE_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SSANNE_EXTERIOR, MAP_PALLET_TOWN, MAP_FIVE_ISLAND, MAP_VERMILION_CITY
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Withdraw |
+| 8 | Icicle spear |
+| 15 | Supersonic |
+| 22 | Aurora beam |
+| 29 | Protect |
+| 36 | Leer |
+| 43 | Clamp |
+| 50 | Ice beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4420,9 +4829,15 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Protect |
+| 36 | Spikes |
+| 43 | Clamp |
+| 50 | Spike cannon |
+| 65 | Ice beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4459,11 +4874,22 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
+**Found at:** MAP_POKEMON_TOWER_5F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_3F, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Lick |
+| 8 | Spite |
+| 13 | Curse |
+| 16 | Night shade |
+| 21 | Confuse ray |
+| 28 | Dream eater |
+| 33 | Destiny bond |
+| 36 | Shadow ball |
+| 41 | Nightmare |
+| 48 | Mean look |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4503,11 +4929,23 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SPELL_TAG | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
+**Found at:** MAP_POKEMON_TOWER_5F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_3F, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Spite |
+| 8 | Spite |
+| 13 | Curse |
+| 16 | Night shade |
+| 21 | Confuse ray |
+| 25 | Shadow punch |
+| 31 | Dream eater |
+| 39 | Destiny bond |
+| 45 | Shadow ball |
+| 53 | Nightmare |
+| 64 | Mean look |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4549,9 +4987,21 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Spite |
+| 8 | Spite |
+| 13 | Curse |
+| 16 | Night shade |
+| 21 | Confuse ray |
+| 25 | Shadow punch |
+| 31 | Dream eater |
+| 39 | Destiny bond |
+| 45 | Shadow ball |
+| 53 | Nightmare |
+| 64 | Mean look |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -4597,11 +5047,23 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_HARD_STONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_2F, MAP_ROCK_TUNNEL_B1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_VICTORY_ROAD_1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_B1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_VICTORY_ROAD_1F, MAP_ROCK_TUNNEL_1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Screech |
+| 8 | Bind |
+| 12 | Rock throw |
+| 19 | Harden |
+| 23 | Rage |
+| 30 | Dragon breath |
+| 34 | Sandstorm |
+| 41 | Slam |
+| 45 | Iron tail |
+| 52 | Sand tomb |
+| 56 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -4640,11 +5102,22 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INSOMNIA | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE11, MAP_THREE_ISLAND_BERRY_FOREST
+**Found at:** MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE11
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Hypnosis |
+| 7 | Disable |
+| 11 | Confusion |
+| 17 | Headbutt |
+| 21 | Poison gas |
+| 27 | Meditate |
+| 31 | Psychic |
+| 37 | Psych up |
+| 41 | Swagger |
+| 47 | Future sight |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -4690,9 +5163,20 @@
 
 **Found at:** MAP_THREE_ISLAND_BERRY_FOREST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Confusion |
+| 7 | Disable |
+| 11 | Confusion |
+| 17 | Headbutt |
+| 21 | Poison gas |
+| 29 | Meditate |
+| 35 | Psychic |
+| 43 | Psych up |
+| 49 | Swagger |
+| 57 | Future sight |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -4737,11 +5221,22 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_HYPER_CUTTER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_VERMILION_CITY, MAP_SEAFOAM_ISLANDS_B3F, MAP_CINNABAR_ISLAND, MAP_ROUTE11, MAP_ROUTE21_NORTH, MAP_ROUTE12, MAP_CERULEAN_CITY, MAP_SSANNE_EXTERIOR, MAP_ROUTE10, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_ROUTE19
+**Found at:** MAP_ROUTE13, MAP_ROUTE19, MAP_ROUTE21_NORTH, MAP_ROUTE21_SOUTH, MAP_ROUTE4, MAP_ROUTE18, MAP_SEAFOAM_ISLANDS_B4F, MAP_CINNABAR_ISLAND, MAP_ROUTE12, MAP_ROUTE20, MAP_CERULEAN_CITY, MAP_VERMILION_CITY, MAP_ROUTE24, MAP_ROUTE11, MAP_ROUTE10, MAP_SSANNE_EXTERIOR, MAP_PALLET_TOWN, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Bubble |
+| 5 | Leer |
+| 12 | Vice grip |
+| 16 | Harden |
+| 23 | Mud shot |
+| 27 | Stomp |
+| 34 | Guillotine |
+| 38 | Protect |
+| 45 | Crabhammer |
+| 49 | Flail |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4784,9 +5279,20 @@
 
 **Found at:** MAP_ROUTE18
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Harden |
+| 5 | Leer |
+| 12 | Vice grip |
+| 16 | Harden |
+| 23 | Mud shot |
+| 27 | Stomp |
+| 38 | Guillotine |
+| 42 | Protect |
+| 57 | Crabhammer |
+| 65 | Flail |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -4830,9 +5336,20 @@
 
 **Found at:** MAP_POWER_PLANT, MAP_ROUTE10
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 8 | Screech |
+| 15 | Sonic boom |
+| 21 | Spark |
+| 27 | Self destruct |
+| 32 | Rollout |
+| 37 | Light screen |
+| 42 | Swift |
+| 46 | Explosion |
+| 49 | Mirror coat |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4868,11 +5385,22 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SOUNDPROOF | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F
+**Found at:** MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Sonic boom |
+| 8 | Screech |
+| 15 | Sonic boom |
+| 21 | Spark |
+| 27 | Self destruct |
+| 34 | Rollout |
+| 41 | Light screen |
+| 48 | Swift |
+| 54 | Explosion |
+| 59 | Mirror coat |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -4909,11 +5437,20 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Hypnosis |
+| 7 | Reflect |
+| 13 | Leech seed |
+| 19 | Confusion |
+| 25 | Stun spore |
+| 31 | Poison powder |
+| 37 | Sleep powder |
+| 43 | Solar beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -4955,9 +5492,13 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Confusion |
+| 19 | Stomp |
+| 31 | Egg bomb |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -4998,11 +5539,24 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_MONSTER | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_THICK_CLUB | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_TOWER_6F, MAP_POKEMON_TOWER_4F, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_POKEMON_TOWER_3F
+**Found at:** MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_POKEMON_TOWER_6F, MAP_POKEMON_TOWER_3F, MAP_POKEMON_TOWER_4F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 5 | Tail whip |
+| 9 | Bone club |
+| 13 | Headbutt |
+| 17 | Leer |
+| 21 | Focus energy |
+| 25 | Bonemerang |
+| 29 | Rage |
+| 33 | False swipe |
+| 37 | Thrash |
+| 41 | Bone rush |
+| 45 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -5048,9 +5602,22 @@
 
 **Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_1F, MAP_VICTORY_ROAD_3F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Headbutt |
+| 5 | Tail whip |
+| 9 | Bone club |
+| 13 | Headbutt |
+| 17 | Leer |
+| 21 | Focus energy |
+| 25 | Bonemerang |
+| 32 | Rage |
+| 39 | False swipe |
+| 46 | Thrash |
+| 53 | Bone rush |
+| 61 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -5097,9 +5664,22 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Double kick |
+| 6 | Meditate |
+| 11 | Rolling kick |
+| 16 | Jump kick |
+| 20 | Brick break |
+| 21 | Focus energy |
+| 26 | Hi jump kick |
+| 31 | Mind reader |
+| 36 | Foresight |
+| 41 | Endure |
+| 46 | Mega kick |
+| 51 | Reversal |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -5139,9 +5719,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Comet punch |
+| 7 | Agility |
+| 13 | Pursuit |
+| 20 | Mach punch |
+| 26 | Fire punch |
+| 32 | Sky uppercut |
+| 38 | Mega punch |
+| 44 | Detect |
+| 50 | Counter |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -5181,9 +5771,20 @@
 
 **Found at:** MAP_ROUTE21_NORTH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Lick |
+| 7 | Supersonic |
+| 12 | Defense curl |
+| 18 | Knock off |
+| 23 | Stomp |
+| 29 | Wrap |
+| 34 | Disable |
+| 40 | Slam |
+| 45 | Screech |
+| 51 | Refresh |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -5236,11 +5837,21 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_B1F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 9 | Smog |
+| 17 | Self destruct |
+| 21 | Sludge |
+| 25 | Smokescreen |
+| 33 | Haze |
+| 41 | Explosion |
+| 45 | Destiny bond |
+| 49 | Memento |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -5281,11 +5892,21 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_2F, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_1F, MAP_POKEMON_MANSION_3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Self destruct |
+| 9 | Smog |
+| 17 | Self destruct |
+| 21 | Sludge |
+| 25 | Smokescreen |
+| 33 | Haze |
+| 44 | Explosion |
+| 51 | Destiny bond |
+| 58 | Memento |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -5329,9 +5950,19 @@
 
 **Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tail whip |
+| 10 | Stomp |
+| 15 | Fury attack |
+| 24 | Scary face |
+| 29 | Rock blast |
+| 38 | Horn drill |
+| 43 | Take down |
+| 52 | Earthquake |
+| 57 | Megahorn |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -5379,9 +6010,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Fury attack |
+| 10 | Stomp |
+| 15 | Fury attack |
+| 24 | Scary face |
+| 29 | Rock blast |
+| 38 | Horn drill |
+| 46 | Take down |
+| 58 | Earthquake |
+| 66 | Megahorn |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm05 roar |
@@ -5434,9 +6075,21 @@
 
 **Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 5 | Tail whip |
+| 9 | Refresh |
+| 13 | Soft boiled |
+| 17 | Double slap |
+| 23 | Minimize |
+| 29 | Sing |
+| 35 | Egg bomb |
+| 41 | Defense curl |
+| 49 | Light screen |
+| 57 | Double edge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -5493,11 +6146,23 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE21_NORTH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE21_SOUTH
+**Found at:** MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE21_NORTH, MAP_ROUTE21_SOUTH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Constrict |
+| 4 | Sleep powder |
+| 10 | Absorb |
+| 13 | Growth |
+| 19 | Poison powder |
+| 22 | Vine whip |
+| 28 | Bind |
+| 31 | Mega drain |
+| 37 | Stun spore |
+| 40 | Slam |
+| 46 | Tickle |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm09 bullet seed |
@@ -5535,11 +6200,21 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_MONSTER | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_EARLY_BIRD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
+**Found at:** MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 7 | Bite |
+| 13 | Tail whip |
+| 19 | Fake out |
+| 25 | Mega punch |
+| 31 | Rage |
+| 37 | Endure |
+| 43 | Dizzy punch |
+| 49 | Reversal |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -5595,11 +6270,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE10
+**Found at:** MAP_ROUTE21_NORTH, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE12, MAP_ROUTE20, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_VERMILION_CITY, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE18, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE24, MAP_ROUTE10, MAP_ROUTE13, MAP_ROUTE21_SOUTH, MAP_ROUTE4, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SSANNE_EXTERIOR, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CITY, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Bubble |
+| 8 | Smokescreen |
+| 15 | Leer |
+| 22 | Water gun |
+| 29 | Twister |
+| 36 | Agility |
+| 43 | Hydro pump |
+| 50 | Dragon dance |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5635,11 +6319,20 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_PALLET_TOWN, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE
+**Found at:** MAP_ROUTE21_NORTH, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE20, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE21_SOUTH, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Water gun |
+| 8 | Smokescreen |
+| 15 | Leer |
+| 22 | Water gun |
+| 29 | Twister |
+| 40 | Agility |
+| 51 | Hydro pump |
+| 62 | Dragon dance |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5676,11 +6369,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_PALLET_TOWN, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE21_NORTH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_SAFARI_ZONE_EAST, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22
+**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE6, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE23, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_FUCHSIA_CITY, MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_CERULEAN_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_CERULEAN_CAVE_B1F, MAP_SAFARI_ZONE_EAST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE22, MAP_ROUTE25, MAP_SAFARI_ZONE_CENTER, MAP_FOUR_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_VIRIDIAN_CITY, MAP_PALLET_TOWN
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Water sport |
+| 10 | Supersonic |
+| 15 | Horn attack |
+| 24 | Flail |
+| 29 | Fury attack |
+| 38 | Waterfall |
+| 43 | Horn drill |
+| 52 | Agility |
+| 57 | Megahorn |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5716,11 +6419,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Supersonic |
+| 10 | Supersonic |
+| 15 | Horn attack |
+| 24 | Flail |
+| 29 | Fury attack |
+| 41 | Waterfall |
+| 49 | Horn drill |
+| 61 | Agility |
+| 69 | Megahorn |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5757,11 +6470,23 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_STARDUST | **item2** | ITEM_STAR_PIECE | **abilities** | ABILITY_ILLUMINATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_VERMILION_CITY, MAP_ROUTE13
+**Found at:** MAP_ROUTE13, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE18, MAP_VERMILION_CITY
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Harden |
+| 6 | Water gun |
+| 10 | Rapid spin |
+| 15 | Recover |
+| 19 | Camouflage |
+| 24 | Swift |
+| 28 | Bubble beam |
+| 33 | Minimize |
+| 37 | Light screen |
+| 42 | Cosmic power |
+| 46 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5804,9 +6529,12 @@
 
 **Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Swift |
+| 33 | Confuse ray |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -5853,7 +6581,7 @@
 
 
 
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -5902,11 +6630,22 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWARM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SAFARI_ZONE_EAST
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 6 | Focus energy |
+| 11 | Pursuit |
+| 16 | False swipe |
+| 21 | Agility |
+| 26 | Wing attack |
+| 31 | Slash |
+| 36 | Swords dance |
+| 41 | Double team |
+| 46 | Fury cutter |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -5944,9 +6683,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Powder snow |
+| 9 | Lovely kiss |
+| 13 | Powder snow |
+| 21 | Double slap |
+| 25 | Ice punch |
+| 35 | Mean look |
+| 41 | Fake tears |
+| 51 | Body slam |
+| 57 | Perish song |
+| 67 | Blizzard |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -5994,9 +6744,18 @@
 
 **Found at:** MAP_POWER_PLANT
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Thunder punch |
+| 9 | Thunder punch |
+| 17 | Light screen |
+| 21 | Shock wave |
+| 25 | Swift |
+| 36 | Screech |
+| 47 | Thunderbolt |
+| 58 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -6040,9 +6799,19 @@
 
 **Found at:** MAP_MT_EMBER_RUBY_PATH_B3F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Fire punch |
+| 7 | Leer |
+| 13 | Flame wheel |
+| 19 | Fire punch |
+| 25 | Smokescreen |
+| 33 | Sunny day |
+| 41 | Flamethrower |
+| 49 | Confuse ray |
+| 57 | Fire blast |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -6083,9 +6852,19 @@
 
 **Found at:** MAP_SAFARI_ZONE_CENTER
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Focus energy |
+| 7 | Bind |
+| 13 | Seismic toss |
+| 19 | Harden |
+| 25 | Revenge |
+| 31 | Brick break |
+| 37 | Guillotine |
+| 43 | Submission |
+| 49 | Swords dance |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -6126,11 +6905,22 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SIX_ISLAND_ALTERING_CAVE, MAP_SAFARI_ZONE_WEST, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_NORTH, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEVEN_ISLAND_SEVAULT_CANYON
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_FIVE_ISLAND_MEADOW, MAP_SAFARI_ZONE_WEST, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_SIX_ISLAND_ALTERING_CAVE, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_FOUR_ISLAND, MAP_FIVE_ISLAND
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tail whip |
+| 4 | Rage |
+| 8 | Horn attack |
+| 11 | Scary face |
+| 15 | Pursuit |
+| 19 | Rest |
+| 24 | Headbutt |
+| 29 | Swagger |
+| 43 | Thrash |
+| 53 | Take down |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -6177,11 +6967,15 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 5 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_CELADON_CITY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE11, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_EAST, MAP_ROUTE10, MAP_FOUR_ISLAND
+**Found at:** MAP_ROUTE21_NORTH, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE23, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SAFARI_ZONE_WEST, MAP_ROUTE12, MAP_ROUTE20, MAP_CELADON_CITY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_FOUR_ISLAND, MAP_VERMILION_CITY, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FUCHSIA_CITY, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_SAFARI_ZONE_EAST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE24, MAP_ROUTE10, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE13, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE4, MAP_ROUTE21_SOUTH, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_ROUTE22, MAP_ROUTE11, MAP_SAFARI_ZONE_CENTER, MAP_SSANNE_EXTERIOR, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_ROUTE6, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CITY, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE25, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND, MAP_VIRIDIAN_CITY, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Splash |
+| 15 | Tackle |
+| 30 | Flail |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 
 ### GYARADOS
@@ -6199,11 +6993,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 5 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE10, MAP_FOUR_ISLAND
+**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE23, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE12, MAP_ROUTE20, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_FOUR_ISLAND, MAP_VERMILION_CITY, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FUCHSIA_CITY, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE24, MAP_ROUTE10, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE13, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE4, MAP_ROUTE21_SOUTH, MAP_FIVE_ISLAND_MEADOW, MAP_CINNABAR_ISLAND, MAP_ROUTE22, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SSANNE_EXTERIOR, MAP_ROUTE6, MAP_PALLET_TOWN, MAP_ROUTE19, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CITY, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE25, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FIVE_ISLAND, MAP_VIRIDIAN_CITY, MAP_SEAFOAM_ISLANDS_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Thrash |
+| 20 | Bite |
+| 25 | Dragon rage |
+| 30 | Leer |
+| 35 | Twister |
+| 40 | Hydro pump |
+| 45 | Rain dance |
+| 50 | Dragon dance |
+| 55 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm05 roar |
@@ -6253,9 +7057,20 @@
 
 **Found at:** MAP_ROUTE18, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Sing |
+| 7 | Mist |
+| 13 | Body slam |
+| 19 | Confuse ray |
+| 25 | Perish song |
+| 31 | Ice beam |
+| 37 | Rain dance |
+| 43 | Safeguard |
+| 49 | Hydro pump |
+| 55 | Sheer cold |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm05 roar |
@@ -6301,11 +7116,13 @@
 | **eggGroup1** | EGG_GROUP_DITTO | **eggGroup2** | EGG_GROUP_DITTO | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_METAL_POWDER | **abilities** | ABILITY_LIMBER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_ROUTE13, MAP_ROUTE14, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE15, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_ROUTE13, MAP_ROUTE14, MAP_POKEMON_MANSION_B1F, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE15, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Transform |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 
 ### EEVEE
@@ -6325,9 +7142,17 @@
 
 **Found at:** MAP_ROUTE21_NORTH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Growl |
+| 23 | Quick attack |
+| 30 | Bite |
+| 36 | Baton pass |
+| 42 | Take down |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -6362,9 +7187,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Water gun |
+| 23 | Quick attack |
+| 30 | Bite |
+| 36 | Aurora beam |
+| 42 | Haze |
+| 47 | Acid armor |
+| 52 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm05 roar |
@@ -6408,9 +7243,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Thunder shock |
+| 23 | Quick attack |
+| 30 | Double kick |
+| 36 | Pin missile |
+| 42 | Thunder wave |
+| 47 | Agility |
+| 52 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -6451,9 +7296,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Flame wheel |
+| 23 | Quick attack |
+| 30 | Bite |
+| 36 | Fire spin |
+| 42 | Smog |
+| 47 | Leer |
+| 52 | Flamethrower |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -6493,9 +7348,19 @@
 
 **Found at:** MAP_ROUTE16, MAP_THREE_ISLAND_PORT
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Conversion |
+| 9 | Agility |
+| 12 | Psybeam |
+| 20 | Recover |
+| 24 | Sharpen |
+| 32 | Lock on |
+| 36 | Tri attack |
+| 44 | Recycle |
+| 48 | Zap cannon |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -6539,9 +7404,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Withdraw |
+| 13 | Bite |
+| 19 | Water gun |
+| 25 | Mud shot |
+| 31 | Leer |
+| 37 | Protect |
+| 43 | Tickle |
+| 49 | Ancient power |
+| 55 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -6583,9 +7458,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Water gun |
+| 13 | Bite |
+| 19 | Water gun |
+| 25 | Mud shot |
+| 31 | Leer |
+| 37 | Protect |
+| 40 | Spike cannon |
+| 46 | Tickle |
+| 55 | Ancient power |
+| 65 | Hydro pump |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -6628,9 +7514,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Harden |
+| 13 | Absorb |
+| 19 | Leer |
+| 25 | Mud shot |
+| 31 | Sand attack |
+| 37 | Endure |
+| 43 | Metal sound |
+| 49 | Mega drain |
+| 55 | Ancient power |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -6674,9 +7570,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 13 | Absorb |
+| 19 | Leer |
+| 25 | Mud shot |
+| 31 | Sand attack |
+| 37 | Endure |
+| 40 | Slash |
+| 46 | Metal sound |
+| 55 | Mega drain |
+| 65 | Ancient power |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -6724,9 +7631,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Wing attack |
+| 8 | Agility |
+| 15 | Bite |
+| 22 | Supersonic |
+| 29 | Ancient power |
+| 36 | Scary face |
+| 43 | Take down |
+| 50 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm02 dragon claw |
 | Tm05 roar |
@@ -6775,9 +7691,24 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Tackle |
+| 5 | Amnesia |
+| 9 | Defense curl |
+| 13 | Belly drum |
+| 17 | Headbutt |
+| 21 | Yawn |
+| 25 | Rest |
+| 29 | Snore |
+| 33 | Body slam |
+| 37 | Sleep talk |
+| 41 | Block |
+| 45 | Covet |
+| 49 | Rollout |
+| 53 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -6828,9 +7759,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Powder snow |
+| 13 | Mist |
+| 25 | Agility |
+| 37 | Mind reader |
+| 49 | Ice beam |
+| 61 | Reflect |
+| 73 | Blizzard |
+| 85 | Sheer cold |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm05 roar |
@@ -6873,9 +7813,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Thunder shock |
+| 13 | Thunder wave |
+| 25 | Agility |
+| 37 | Detect |
+| 49 | Drill peck |
+| 61 | Charge |
+| 73 | Light screen |
+| 85 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -6918,9 +7867,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Ember |
+| 13 | Fire spin |
+| 25 | Agility |
+| 37 | Endure |
+| 49 | Flamethrower |
+| 61 | Safeguard |
+| 73 | Fire blast |
+| 85 | Sky attack |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -6960,11 +7918,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 40 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHED_SKIN | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 8 | Thunder wave |
+| 15 | Twister |
+| 22 | Dragon rage |
+| 29 | Slam |
+| 36 | Agility |
+| 43 | Safeguard |
+| 50 | Outrage |
+| 57 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -7008,11 +7976,21 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 40 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_DRAGON_FANG | **abilities** | ABILITY_SHED_SKIN | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Twister |
+| 8 | Thunder wave |
+| 15 | Twister |
+| 22 | Dragon rage |
+| 29 | Slam |
+| 38 | Agility |
+| 47 | Safeguard |
+| 56 | Outrage |
+| 65 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -7058,9 +8036,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Twister |
+| 8 | Thunder wave |
+| 15 | Twister |
+| 22 | Dragon rage |
+| 29 | Slam |
+| 38 | Agility |
+| 47 | Safeguard |
+| 55 | Wing attack |
+| 61 | Outrage |
+| 75 | Hyper beam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm02 dragon claw |
@@ -7120,9 +8109,20 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Disable |
+| 11 | Barrier |
+| 22 | Mist |
+| 33 | Swift |
+| 44 | Recover |
+| 55 | Safeguard |
+| 66 | Psychic |
+| 77 | Psych up |
+| 88 | Future sight |
+| 99 | Amnesia |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm03 water pulse |
@@ -7185,9 +8185,16 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Pound |
+| 10 | Transform |
+| 20 | Mega punch |
+| 30 | Metronome |
+| 40 | Psychic |
+| 50 | Ancient power |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm02 dragon claw |
@@ -7263,9 +8270,19 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_YELLOW_SHARD | **abilities** | ABILITY_VOLT_ABSORB | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY, MAP_ROUTE10
+**Found at:** MAP_ROUTE4, MAP_ROUTE18, MAP_ROUTE10, MAP_CERULEAN_CITY, MAP_ROUTE24, MAP_SIX_ISLAND_OUTCAST_ISLAND
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Supersonic |
+| 5 | Supersonic |
+| 13 | Flail |
+| 17 | Water gun |
+| 25 | Spark |
+| 32 | Confuse ray |
+| 43 | Take down |
+| 50 | Hydro pump |
+| 61 | Charge |
 
 
 
@@ -7286,7 +8303,12 @@
 
 **Found at:** MAP_VIRIDIAN_FOREST
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Charm |
+| 6 | Tail whip |
+| 8 | Thunder wave |
+| 11 | Sweet kiss |
 
 
 
@@ -7307,9 +8329,21 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Charm |
+| 4 | Metronome |
+| 9 | Sweet kiss |
+| 13 | Yawn |
+| 17 | Encore |
+| 21 | Ancient power |
+| 25 | Follow me |
+| 29 | Wish |
+| 33 | Safeguard |
+| 37 | Double edge |
+| 41 | Baton pass |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm03 water pulse |
 | Tm06 toxic |
@@ -7353,9 +8387,16 @@
 
 **Found at:** MAP_ONE_ISLAND_TREASURE_BEACH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 10 | Night shade |
+| 20 | Teleport |
+| 35 | Future sight |
+| 50 | Confuse ray |
+| 65 | Psychic |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm04 calm mind |
 | Tm06 toxic |
@@ -7401,9 +8442,16 @@
 
 **Found at:** MAP_ROUTE1, MAP_ROUTE10
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 9 | Thunder shock |
+| 16 | Thunder wave |
+| 23 | Cotton spore |
+| 30 | Light screen |
+| 37 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -7440,9 +8488,16 @@
 
 **Found at:** MAP_ROUTE10
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Thunder shock |
+| 9 | Thunder shock |
+| 18 | Thunder wave |
+| 27 | Cotton spore |
+| 36 | Light screen |
+| 45 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -7481,11 +8536,19 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_STATIC | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_POWER_PLANT
+**Found at:** MAP_POWER_PLANT, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Thunder wave |
+| 9 | Thunder shock |
+| 18 | Thunder wave |
+| 27 | Cotton spore |
+| 30 | Thunder punch |
+| 42 | Light screen |
+| 57 | Thunder |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -7527,9 +8590,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Confusion |
+| 23 | Quick attack |
+| 30 | Swift |
+| 36 | Psybeam |
+| 42 | Psych up |
+| 47 | Psychic |
+| 52 | Morning sun |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm04 calm mind |
 | Tm06 toxic |
@@ -7572,9 +8645,19 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Helping hand |
+| 8 | Sand attack |
+| 16 | Pursuit |
+| 23 | Quick attack |
+| 30 | Confuse ray |
+| 36 | Faint attack |
+| 42 | Mean look |
+| 47 | Screech |
+| 52 | Moonlight |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -7614,11 +8697,20 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 20 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INSOMNIA | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_THREE_ISLAND_PORT, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_ROUTE15, MAP_ROUTE1
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_ROUTE1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_THREE_ISLAND_PORT, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_ROUTE15
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Peck |
+| 9 | Astonish |
+| 14 | Pursuit |
+| 22 | Haze |
+| 27 | Night shade |
+| 35 | Faint attack |
+| 40 | Taunt |
+| 48 | Mean look |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm04 calm mind |
 | Tm06 toxic |
@@ -7657,11 +8749,21 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 25 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SPELL_TAG | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
+**Found at:** MAP_POKEMON_TOWER_5F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_3F, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Psywave |
+| 6 | Spite |
+| 11 | Astonish |
+| 17 | Confuse ray |
+| 23 | Mean look |
+| 30 | Psybeam |
+| 37 | Pain split |
+| 45 | Perish song |
+| 53 | Grudge |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm04 calm mind |
 | Tm06 toxic |
@@ -7704,11 +8806,13 @@
 | **eggGroup1** | EGG_GROUP_UNDISCOVERED | **eggGroup2** | EGG_GROUP_UNDISCOVERED | **eggCycles** | 40 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER
+**Found at:** MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Hidden power |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 
 ### WOBBUFFET
@@ -7726,11 +8830,13 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHADOW_TAG | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE11, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE11, MAP_CERULEAN_CAVE_2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Destiny bond |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 
 ### GIRAFARIG
@@ -7750,9 +8856,19 @@
 
 **Found at:** MAP_ROUTE11
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Growl |
+| 7 | Astonish |
+| 13 | Confusion |
+| 19 | Stomp |
+| 25 | Odor sleuth |
+| 31 | Agility |
+| 37 | Baton pass |
+| 43 | Psybeam |
+| 49 | Crunch |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm04 calm mind |
 | Tm06 toxic |
@@ -7797,11 +8913,20 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_HYPER_CUTTER | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROCK_TUNNEL_1F, MAP_MT_MOON_1F
+**Found at:** MAP_MT_MOON_1F, MAP_ROCK_TUNNEL_1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Poison sting |
+| 6 | Sand attack |
+| 13 | Harden |
+| 20 | Quick attack |
+| 28 | Faint attack |
+| 36 | Slash |
+| 44 | Screech |
+| 52 | Guillotine |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -7845,9 +8970,19 @@
 
 **Found at:** MAP_VIRIDIAN_FOREST, MAP_SIX_ISLAND_PATTERN_BUSH
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 6 | Horn attack |
+| 11 | Endure |
+| 17 | Fury attack |
+| 23 | Brick break |
+| 30 | Counter |
+| 37 | Take down |
+| 45 | Reversal |
+| 53 | Megahorn |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm06 toxic |
@@ -7888,11 +9023,22 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F
+**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_SEAFOAM_ISLANDS_B1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Taunt |
+| 8 | Quick attack |
+| 15 | Screech |
+| 22 | Faint attack |
+| 29 | Fury swipes |
+| 36 | Agility |
+| 43 | Icy wind |
+| 50 | Slash |
+| 57 | Beat up |
+| 64 | Metal claw |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm01 focus punch |
 | Tm04 calm mind |
@@ -7940,11 +9086,20 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_MAGMA_ARMOR | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_MT_EMBER_RUBY_PATH_B3F, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS
+**Found at:** MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B3F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B2F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Smog |
+| 8 | Ember |
+| 15 | Rock throw |
+| 22 | Harden |
+| 29 | Amnesia |
+| 36 | Flamethrower |
+| 43 | Rock slide |
+| 50 | Body slam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -7981,9 +9136,18 @@
 
 **Found at:** MAP_MT_EMBER_RUBY_PATH_B3F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Rock throw |
+| 8 | Ember |
+| 15 | Rock throw |
+| 22 | Harden |
+| 29 | Amnesia |
+| 36 | Flamethrower |
+| 48 | Rock slide |
+| 60 | Body slam |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm06 toxic |
 | Tm10 hidden power |
@@ -8023,11 +9187,19 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F
+**Found at:** MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Odor sleuth |
+| 10 | Powder snow |
+| 19 | Endure |
+| 28 | Take down |
+| 37 | Mist |
+| 46 | Blizzard |
+| 55 | Amnesia |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -8070,9 +9242,18 @@
 
 **Found at:** 
 
+| Level | Move Name |
+|---------|---------|
+| 1 | Endure |
+| 10 | Powder snow |
+| 19 | Endure |
+| 28 | Take down |
+| 33 | Fury attack |
+| 42 | Mist |
+| 56 | Blizzard |
+| 70 | Amnesia |
 
-
-| Move Name |
+| TM or HM |
 |---------|
 | Tm05 roar |
 | Tm06 toxic |
@@ -8114,9 +9295,11 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_THREE_ISLAND_PORT, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F
+**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_SEAFOAM_ISLANDS_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_THREE_ISLAND_PORT
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Present |
 
 
 
@@ -8135,9 +9318,18 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_GREEN_PATH
+**Found at:** MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_ROUTE4, MAP_ROUTE18, MAP_CERULEAN_CITY, MAP_ROUTE24, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Bubble |
+| 8 | Supersonic |
+| 15 | Bubble beam |
+| 22 | Take down |
+| 29 | Agility |
+| 36 | Wing attack |
+| 43 | Water pulse |
+| 50 | Confuse ray |
 
 
 
@@ -8156,9 +9348,19 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_EARLY_BIRD | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE15, MAP_ROUTE14
+**Found at:** MAP_ROUTE14, MAP_ROUTE15
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Ember |
+| 7 | Howl |
+| 13 | Smog |
+| 19 | Roar |
+| 25 | Bite |
+| 31 | Odor sleuth |
+| 37 | Faint attack |
+| 43 | Flamethrower |
+| 49 | Crunch |
 
 
 
@@ -8179,7 +9381,17 @@
 
 **Found at:** MAP_ROUTE17
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Howl |
+| 7 | Howl |
+| 13 | Smog |
+| 19 | Roar |
+| 27 | Bite |
+| 35 | Odor sleuth |
+| 43 | Faint attack |
+| 51 | Flamethrower |
+| 59 | Crunch |
 
 
 
@@ -8200,7 +9412,16 @@
 
 **Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Water gun |
+| 8 | Smokescreen |
+| 15 | Leer |
+| 22 | Water gun |
+| 29 | Twister |
+| 40 | Agility |
+| 51 | Hydro pump |
+| 62 | Dragon dance |
 
 
 
@@ -8221,7 +9442,18 @@
 
 **Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Rolling kick |
+| 7 | Focus energy |
+| 13 | Pursuit |
+| 19 | Quick attack |
+| 20 | Triple kick |
+| 25 | Rapid spin |
+| 31 | Counter |
+| 37 | Agility |
+| 43 | Detect |
+| 49 | Endeavor |
 
 
 
@@ -8242,6 +9474,14 @@
 
 **Found at:** MAP_POWER_PLANT, MAP_ROUTE10
 
-
+| Level | Move Name |
+|---------|---------|
+| 1 | Leer |
+| 9 | Thunder punch |
+| 17 | Light screen |
+| 25 | Swift |
+| 33 | Screech |
+| 41 | Thunderbolt |
+| 49 | Thunder |
 
 
