@@ -15,22 +15,44 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OVERGROW | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE24
+**Found at:** MAP_ROUTE24, MAP_ROUTE21_NORTH
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_TACKLE |
-| 4 | MOVE_GROWL |
-| 7 | MOVE_LEECH_SEED |
-| 10 | MOVE_VINE_WHIP |
-| 15 | MOVE_SLEEP_POWDER |
-| 18 | MOVE_GROWTH |
-| 21 | MOVE_RAZOR_LEAF |
-| 24 | MOVE_MEGA_DRAIN |
-| 27 | MOVE_SWEET_SCENT |
-| 32 | MOVE_SLUDGE |
-| 39 | MOVE_SYNTHESIS |
-| 46 | MOVE_SOLAR_BEAM |
+| 1 | Tackle |
+| 4 | Growl |
+| 7 | Leech seed |
+| 10 | Vine whip |
+| 15 | Sleep powder |
+| 18 | Growth |
+| 21 | Razor leaf |
+| 24 | Mega drain |
+| 27 | Sweet scent |
+| 32 | Sludge |
+| 39 | Synthesis |
+| 46 | Solar beam |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### IVYSAUR
 
@@ -51,16 +73,38 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_VINE_WHIP |
-| 7 | MOVE_LEECH_SEED |
-| 15 | MOVE_SLEEP_POWDER |
-| 22 | MOVE_RAZOR_LEAF |
-| 29 | MOVE_SWEET_SCENT |
-| 34 | MOVE_GROWTH |
-| 38 | MOVE_GIGA_DRAIN |
-| 42 | MOVE_SLUDGE |
-| 47 | MOVE_SYNTHESIS |
-| 56 | MOVE_SOLAR_BEAM |
+| 1 | Vine whip |
+| 7 | Leech seed |
+| 15 | Sleep powder |
+| 22 | Razor leaf |
+| 29 | Sweet scent |
+| 34 | Growth |
+| 38 | Giga drain |
+| 42 | Sludge |
+| 47 | Synthesis |
+| 56 | Solar beam |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### VENUSAUR
 
@@ -81,16 +125,41 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_VINE_WHIP |
-| 7 | MOVE_LEECH_SEED |
-| 10 | MOVE_VINE_WHIP |
-| 15 | MOVE_SLEEP_POWDER |
-| 22 | MOVE_RAZOR_LEAF |
-| 29 | MOVE_SWEET_SCENT |
-| 34 | MOVE_GROWTH |
-| 42 | MOVE_SYNTHESIS |
-| 55 | MOVE_SLEEP_POWDER |
-| 65 | MOVE_SOLAR_BEAM |
+| 1 | Vine whip |
+| 7 | Leech seed |
+| 10 | Vine whip |
+| 15 | Sleep powder |
+| 22 | Razor leaf |
+| 29 | Sweet scent |
+| 34 | Growth |
+| 42 | Synthesis |
+| 55 | Sleep powder |
+| 65 | Solar beam |
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### CHARMANDER
 
@@ -107,21 +176,47 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_BLAZE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE25, MAP_ROUTE21_NORTH
+**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE25
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GROWL |
-| 7 | MOVE_EMBER |
-| 13 | MOVE_METAL_CLAW |
-| 16 | MOVE_SMOKESCREEN |
-| 19 | MOVE_RAGE |
-| 24 | MOVE_FLAME_WHEEL |
-| 27 | MOVE_SCARY_FACE |
-| 31 | MOVE_FLAMETHROWER |
-| 37 | MOVE_SLASH |
-| 43 | MOVE_DRAGON_RAGE |
-| 49 | MOVE_FIRE_SPIN |
+| 1 | Growl |
+| 7 | Ember |
+| 13 | Metal claw |
+| 16 | Smokescreen |
+| 19 | Rage |
+| 24 | Flame wheel |
+| 27 | Scary face |
+| 31 | Flamethrower |
+| 37 | Slash |
+| 43 | Dragon rage |
+| 49 | Fire spin |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm02 dragon claw |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### CHARMELEON
 
@@ -142,13 +237,39 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SMOKESCREEN |
-| 13 | MOVE_METAL_CLAW |
-| 27 | MOVE_SCARY_FACE |
-| 34 | MOVE_FLAMETHROWER |
-| 41 | MOVE_SLASH |
-| 48 | MOVE_DRAGON_RAGE |
-| 55 | MOVE_FIRE_SPIN |
+| 1 | Smokescreen |
+| 13 | Metal claw |
+| 27 | Scary face |
+| 34 | Flamethrower |
+| 41 | Slash |
+| 48 | Dragon rage |
+| 55 | Fire spin |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm02 dragon claw |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### CHARIZARD
 
@@ -169,16 +290,47 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_METAL_CLAW |
-| 7 | MOVE_EMBER |
-| 13 | MOVE_METAL_CLAW |
-| 20 | MOVE_SMOKESCREEN |
-| 27 | MOVE_SCARY_FACE |
-| 34 | MOVE_FLAMETHROWER |
-| 36 | MOVE_WING_ATTACK |
-| 44 | MOVE_SLASH |
-| 54 | MOVE_DRAGON_RAGE |
-| 64 | MOVE_FIRE_SPIN |
+| 1 | Metal claw |
+| 7 | Ember |
+| 13 | Metal claw |
+| 20 | Smokescreen |
+| 27 | Scary face |
+| 34 | Flamethrower |
+| 36 | Wing attack |
+| 44 | Slash |
+| 54 | Dragon rage |
+| 64 | Fire spin |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm02 dragon claw |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm47 steel wing |
+| Tm50 overheat |
+| Hm01 cut |
+| Hm02 fly |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### SQUIRTLE
 
@@ -195,21 +347,48 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_TORRENT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN
+**Found at:** MAP_ROUTE21_NORTH, MAP_ROUTE4, MAP_PALLET_TOWN
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_TACKLE |
-| 4 | MOVE_TAIL_WHIP |
-| 7 | MOVE_BUBBLE |
-| 10 | MOVE_WITHDRAW |
-| 13 | MOVE_WATER_GUN |
-| 18 | MOVE_BITE |
-| 23 | MOVE_RAPID_SPIN |
-| 28 | MOVE_PROTECT |
-| 33 | MOVE_RAIN_DANCE |
-| 40 | MOVE_SKULL_BASH |
-| 47 | MOVE_HYDRO_PUMP |
+| 1 | Tackle |
+| 4 | Tail whip |
+| 7 | Bubble |
+| 10 | Withdraw |
+| 13 | Water gun |
+| 18 | Bite |
+| 23 | Rapid spin |
+| 28 | Protect |
+| 33 | Rain dance |
+| 40 | Skull bash |
+| 47 | Hydro pump |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### WARTORTLE
 
@@ -230,17 +409,44 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_BUBBLE |
-| 4 | MOVE_TAIL_WHIP |
-| 7 | MOVE_BUBBLE |
-| 10 | MOVE_WITHDRAW |
-| 13 | MOVE_WATER_GUN |
-| 19 | MOVE_BITE |
-| 25 | MOVE_RAPID_SPIN |
-| 31 | MOVE_PROTECT |
-| 37 | MOVE_RAIN_DANCE |
-| 45 | MOVE_SKULL_BASH |
-| 53 | MOVE_HYDRO_PUMP |
+| 1 | Bubble |
+| 4 | Tail whip |
+| 7 | Bubble |
+| 10 | Withdraw |
+| 13 | Water gun |
+| 19 | Bite |
+| 25 | Rapid spin |
+| 31 | Protect |
+| 37 | Rain dance |
+| 45 | Skull bash |
+| 53 | Hydro pump |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### BLASTOISE
 
@@ -261,17 +467,47 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_WITHDRAW |
-| 4 | MOVE_TAIL_WHIP |
-| 7 | MOVE_BUBBLE |
-| 10 | MOVE_WITHDRAW |
-| 13 | MOVE_WATER_GUN |
-| 19 | MOVE_BITE |
-| 25 | MOVE_RAPID_SPIN |
-| 31 | MOVE_PROTECT |
-| 42 | MOVE_RAIN_DANCE |
-| 55 | MOVE_SKULL_BASH |
-| 65 | MOVE_HYDRO_PUMP |
+| 1 | Withdraw |
+| 4 | Tail whip |
+| 7 | Bubble |
+| 10 | Withdraw |
+| 13 | Water gun |
+| 19 | Bite |
+| 25 | Rapid spin |
+| 31 | Protect |
+| 42 | Rain dance |
+| 55 | Skull bash |
+| 65 | Hydro pump |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### CATERPIE
 
@@ -288,11 +524,14 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VIRIDIAN_FOREST, MAP_ROUTE2, MAP_ROUTE25, MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH
+**Found at:** MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE25, MAP_VIRIDIAN_FOREST, MAP_ROUTE2
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_STRING_SHOT |
+| 1 | String shot |
+
+| Move Name |
+|---------|
 
 ### METAPOD
 
@@ -313,8 +552,11 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_HARDEN |
-| 7 | MOVE_HARDEN |
+| 1 | Harden |
+| 7 | Harden |
+
+| Move Name |
+|---------|
 
 ### BUTTERFREE
 
@@ -335,17 +577,42 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_CONFUSION |
-| 10 | MOVE_CONFUSION |
-| 13 | MOVE_POISON_POWDER |
-| 14 | MOVE_STUN_SPORE |
-| 15 | MOVE_SLEEP_POWDER |
-| 18 | MOVE_SUPERSONIC |
-| 23 | MOVE_WHIRLWIND |
-| 28 | MOVE_GUST |
-| 34 | MOVE_PSYBEAM |
-| 40 | MOVE_SAFEGUARD |
-| 47 | MOVE_SILVER_WIND |
+| 1 | Confusion |
+| 10 | Confusion |
+| 13 | Poison powder |
+| 14 | Stun spore |
+| 15 | Sleep powder |
+| 18 | Supersonic |
+| 23 | Whirlwind |
+| 28 | Gust |
+| 34 | Psybeam |
+| 40 | Safeguard |
+| 47 | Silver wind |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm05 flash |
 
 ### WEEDLE
 
@@ -362,11 +629,14 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VIRIDIAN_FOREST, MAP_ROUTE2, MAP_ROUTE25, MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH
+**Found at:** MAP_ROUTE24, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_ROUTE25, MAP_VIRIDIAN_FOREST, MAP_ROUTE2
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_STRING_SHOT |
+| 1 | String shot |
+
+| Move Name |
+|---------|
 
 ### KAKUNA
 
@@ -387,8 +657,11 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_HARDEN |
-| 7 | MOVE_HARDEN |
+| 1 | Harden |
+| 7 | Harden |
+
+| Move Name |
+|---------|
 
 ### BEEDRILL
 
@@ -409,16 +682,39 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_FURY_ATTACK |
-| 10 | MOVE_FURY_ATTACK |
-| 13 | MOVE_FOCUS_ENERGY |
-| 16 | MOVE_TWINEEDLE |
-| 19 | MOVE_RAGE |
-| 22 | MOVE_PURSUIT |
-| 28 | MOVE_PIN_MISSILE |
-| 31 | MOVE_AGILITY |
-| 37 | MOVE_SLUDGE |
-| 45 | MOVE_ENDEAVOR |
+| 1 | Fury attack |
+| 10 | Fury attack |
+| 13 | Focus energy |
+| 16 | Twineedle |
+| 19 | Rage |
+| 22 | Pursuit |
+| 28 | Pin missile |
+| 31 | Agility |
+| 37 | Sludge |
+| 45 | Endeavor |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm06 rock smash |
 
 ### PIDGEY
 
@@ -435,20 +731,39 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE2, MAP_ROUTE1, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE25, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE24, MAP_ROUTE12, MAP_ROUTE5, MAP_ROUTE8, MAP_ROUTE14, MAP_ROUTE7, MAP_ROUTE15, MAP_ROUTE9
+**Found at:** MAP_ROUTE24, MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE7, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE8, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE9, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE15, MAP_ROUTE1, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE2
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_TACKLE |
-| 5 | MOVE_SAND_ATTACK |
-| 9 | MOVE_GUST |
-| 13 | MOVE_QUICK_ATTACK |
-| 17 | MOVE_WHIRLWIND |
-| 21 | MOVE_TWISTER |
-| 25 | MOVE_WING_ATTACK |
-| 31 | MOVE_FEATHER_DANCE |
-| 39 | MOVE_AGILITY |
-| 47 | MOVE_MIRROR_MOVE |
+| 1 | Tackle |
+| 5 | Sand attack |
+| 9 | Gust |
+| 13 | Quick attack |
+| 17 | Whirlwind |
+| 21 | Twister |
+| 25 | Wing attack |
+| 31 | Feather dance |
+| 39 | Agility |
+| 47 | Mirror move |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### PIDGEOTTO
 
@@ -465,20 +780,39 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE14, MAP_ROUTE15
+**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GUST |
-| 5 | MOVE_SAND_ATTACK |
-| 9 | MOVE_GUST |
-| 13 | MOVE_QUICK_ATTACK |
-| 20 | MOVE_WHIRLWIND |
-| 24 | MOVE_TWISTER |
-| 27 | MOVE_WING_ATTACK |
-| 34 | MOVE_FEATHER_DANCE |
-| 43 | MOVE_AGILITY |
-| 52 | MOVE_MIRROR_MOVE |
+| 1 | Gust |
+| 5 | Sand attack |
+| 9 | Gust |
+| 13 | Quick attack |
+| 20 | Whirlwind |
+| 24 | Twister |
+| 27 | Wing attack |
+| 34 | Feather dance |
+| 43 | Agility |
+| 52 | Mirror move |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### PIDGEOT
 
@@ -499,16 +833,36 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_QUICK_ATTACK |
-| 5 | MOVE_SAND_ATTACK |
-| 9 | MOVE_GUST |
-| 13 | MOVE_QUICK_ATTACK |
-| 20 | MOVE_WHIRLWIND |
-| 24 | MOVE_TWISTER |
-| 27 | MOVE_WING_ATTACK |
-| 34 | MOVE_FEATHER_DANCE |
-| 48 | MOVE_AGILITY |
-| 62 | MOVE_MIRROR_MOVE |
+| 1 | Quick attack |
+| 5 | Sand attack |
+| 9 | Gust |
+| 13 | Quick attack |
+| 20 | Whirlwind |
+| 24 | Twister |
+| 27 | Wing attack |
+| 34 | Feather dance |
+| 48 | Agility |
+| 62 | Mirror move |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### RATTATA
 
@@ -525,18 +879,45 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_ROUTE4, MAP_ROUTE1, MAP_ROUTE2, MAP_ROUTE17, MAP_ROUTE22, MAP_POKEMON_MANSION_3F, MAP_ROUTE18, MAP_POKEMON_MANSION_2F, MAP_ROUTE16, MAP_ROUTE9, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_ROUTE16, MAP_ROUTE4, MAP_POKEMON_MANSION_2F, MAP_ROUTE2, MAP_ROUTE17, MAP_POKEMON_MANSION_3F, MAP_ROUTE1, MAP_ROUTE9, MAP_ROUTE22, MAP_POKEMON_MANSION_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_TAIL_WHIP |
-| 4 | MOVE_QUICK_ATTACK |
-| 7 | MOVE_FOCUS_ENERGY |
-| 10 | MOVE_BITE |
-| 13 | MOVE_HYPER_FANG |
-| 27 | MOVE_PURSUIT |
-| 34 | MOVE_SUPER_FANG |
-| 41 | MOVE_ENDEAVOR |
+| 1 | Tail whip |
+| 4 | Quick attack |
+| 7 | Focus energy |
+| 10 | Bite |
+| 13 | Hyper fang |
+| 27 | Pursuit |
+| 34 | Super fang |
+| 41 | Endeavor |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm06 rock smash |
 
 ### RATICATE
 
@@ -553,18 +934,48 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_ORAN_BERRY | **item2** | ITEM_SITRUS_BERRY | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_ROUTE17, MAP_POKEMON_MANSION_3F, MAP_ROUTE18, MAP_POKEMON_MANSION_2F, MAP_ROUTE16, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_ROUTE18, MAP_POKEMON_MANSION_B1F, MAP_ROUTE16, MAP_POKEMON_MANSION_2F, MAP_ROUTE17, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_BITE |
-| 7 | MOVE_QUICK_ATTACK |
-| 13 | MOVE_HYPER_FANG |
-| 20 | MOVE_SCARY_FACE |
-| 25 | MOVE_CRUNCH |
-| 30 | MOVE_PURSUIT |
-| 40 | MOVE_SUPER_FANG |
-| 50 | MOVE_ENDEAVOR |
+| 1 | Bite |
+| 7 | Quick attack |
+| 13 | Hyper fang |
+| 20 | Scary face |
+| 25 | Crunch |
+| 30 | Pursuit |
+| 40 | Super fang |
+| 50 | Endeavor |
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### SPEAROW
 
@@ -581,18 +992,37 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE2, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE3, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE10, MAP_ROUTE22, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE11, MAP_ROUTE9, MAP_ROUTE16, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE23, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE17
+**Found at:** MAP_ROUTE18, MAP_ROUTE16, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE4, MAP_ROUTE3, MAP_ROUTE11, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE23, MAP_ROUTE10, MAP_ROUTE17, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE9, MAP_ROUTE22, MAP_ROUTE2
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GROWL |
-| 7 | MOVE_LEER |
-| 13 | MOVE_FURY_ATTACK |
-| 19 | MOVE_PURSUIT |
-| 25 | MOVE_AERIAL_ACE |
-| 31 | MOVE_MIRROR_MOVE |
-| 37 | MOVE_DRILL_PECK |
-| 43 | MOVE_AGILITY |
+| 1 | Growl |
+| 7 | Leer |
+| 13 | Fury attack |
+| 19 | Pursuit |
+| 25 | Aerial ace |
+| 31 | Mirror move |
+| 37 | Drill peck |
+| 43 | Agility |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### FEAROW
 
@@ -609,17 +1039,37 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SHARP_BEAK | **abilities** | ABILITY_KEEN_EYE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SIX_ISLAND_RUIN_VALLEY, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE23, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE17
+**Found at:** MAP_ROUTE18, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_MT_EMBER_EXTERIOR, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE23, MAP_ROUTE17, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_FURY_ATTACK |
-| 7 | MOVE_LEER |
-| 13 | MOVE_FURY_ATTACK |
-| 26 | MOVE_PURSUIT |
-| 32 | MOVE_MIRROR_MOVE |
-| 40 | MOVE_DRILL_PECK |
-| 47 | MOVE_AGILITY |
+| 1 | Fury attack |
+| 7 | Leer |
+| 13 | Fury attack |
+| 26 | Pursuit |
+| 32 | Mirror move |
+| 40 | Drill peck |
+| 47 | Agility |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### EKANS
 
@@ -636,20 +1086,44 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE10, MAP_ROUTE11, MAP_ROUTE8, MAP_ROUTE23, MAP_ROUTE9
+**Found at:** MAP_ROUTE4, MAP_ROUTE11, MAP_ROUTE8, MAP_ROUTE23, MAP_ROUTE10, MAP_ROUTE9
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_LEER |
-| 4 | MOVE_POISON_STING |
-| 9 | MOVE_BITE |
-| 13 | MOVE_POISON_FANG |
-| 17 | MOVE_SCREECH |
-| 20 | MOVE_GLARE |
-| 25 | MOVE_ACID |
-| 32 | MOVE_MUD_SHOT |
-| 37 | MOVE_SPIT_UP |
-| 44 | MOVE_HAZE |
+| 1 | Leer |
+| 4 | Poison sting |
+| 9 | Bite |
+| 13 | Poison fang |
+| 17 | Screech |
+| 20 | Glare |
+| 25 | Acid |
+| 32 | Mud shot |
+| 37 | Spit up |
+| 44 | Haze |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm49 snatch |
+| Hm04 strength |
 
 ### ARBOK
 
@@ -666,18 +1140,43 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_POISON_BARB | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_3F, MAP_VICTORY_ROAD_2F, MAP_ROUTE23, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_1F, MAP_ROUTE23, MAP_VICTORY_ROAD_3F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_BITE |
-| 13 | MOVE_POISON_FANG |
-| 17 | MOVE_SCREECH |
-| 20 | MOVE_GLARE |
-| 32 | MOVE_ACID |
-| 38 | MOVE_MUD_SHOT |
-| 46 | MOVE_SPIT_UP |
-| 56 | MOVE_HAZE |
+| 1 | Bite |
+| 13 | Poison fang |
+| 17 | Screech |
+| 20 | Glare |
+| 32 | Acid |
+| 38 | Mud shot |
+| 46 | Spit up |
+| 56 | Haze |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm49 snatch |
+| Hm04 strength |
 
 ### PIKACHU
 
@@ -698,16 +1197,41 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GROWL |
-| 6 | MOVE_TAIL_WHIP |
-| 8 | MOVE_THUNDER_WAVE |
-| 11 | MOVE_QUICK_ATTACK |
-| 15 | MOVE_DOUBLE_TEAM |
-| 20 | MOVE_SLAM |
-| 26 | MOVE_THUNDERBOLT |
-| 33 | MOVE_AGILITY |
-| 41 | MOVE_THUNDER |
-| 50 | MOVE_LIGHT_SCREEN |
+| 1 | Growl |
+| 6 | Tail whip |
+| 8 | Thunder wave |
+| 11 | Quick attack |
+| 15 | Double team |
+| 20 | Slam |
+| 26 | Thunderbolt |
+| 33 | Agility |
+| 41 | Thunder |
+| 50 | Light screen |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### RAICHU
 
@@ -728,7 +1252,34 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_THUNDERBOLT |
+| 1 | Thunderbolt |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### SANDSHREW
 
@@ -745,20 +1296,46 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SAND_VEIL | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE9, MAP_ROUTE4, MAP_ROUTE8, MAP_ROUTE11
+**Found at:** MAP_ROUTE9, MAP_ROUTE11, MAP_ROUTE4, MAP_ROUTE8
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_DEFENSE_CURL |
-| 6 | MOVE_SAND_ATTACK |
-| 11 | MOVE_ROLLOUT |
-| 17 | MOVE_POISON_STING |
-| 23 | MOVE_SLASH |
-| 30 | MOVE_SWIFT |
-| 37 | MOVE_FURY_SWIPES |
-| 45 | MOVE_SAND_TOMB |
-| 53 | MOVE_SANDSTORM |
-| 65 | MOVE_EARTHQUAKE |
+| 1 | Defense curl |
+| 6 | Sand attack |
+| 11 | Rollout |
+| 17 | Poison sting |
+| 23 | Slash |
+| 30 | Swift |
+| 37 | Fury swipes |
+| 45 | Sand tomb |
+| 53 | Sandstorm |
+| 65 | Earthquake |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### SANDSLASH
 
@@ -779,16 +1356,43 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SAND_ATTACK |
-| 6 | MOVE_ROLLOUT |
-| 11 | MOVE_SAND_ATTACK |
-| 17 | MOVE_POISON_STING |
-| 24 | MOVE_SLASH |
-| 33 | MOVE_SWIFT |
-| 42 | MOVE_FURY_SWIPES |
-| 52 | MOVE_SAND_TOMB |
-| 62 | MOVE_SANDSTORM |
-| 68 | MOVE_EARTHQUAKE |
+| 1 | Sand attack |
+| 6 | Rollout |
+| 11 | Sand attack |
+| 17 | Poison sting |
+| 24 | Slash |
+| 33 | Swift |
+| 42 | Fury swipes |
+| 52 | Sand tomb |
+| 62 | Sandstorm |
+| 68 | Earthquake |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDORAN_F
 
@@ -805,9 +1409,38 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE22, MAP_SAFARI_ZONE_EAST, MAP_ROUTE3, MAP_SAFARI_ZONE_WEST
+**Found at:** MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_ROUTE3
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDORINA
 
@@ -828,16 +1461,45 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SCRATCH |
-| 8 | MOVE_TAIL_WHIP |
-| 12 | MOVE_DOUBLE_KICK |
-| 18 | MOVE_POISON_STING |
-| 22 | MOVE_BITE |
-| 26 | MOVE_HELPING_HAND |
-| 30 | MOVE_TOXIC |
-| 34 | MOVE_FURY_SWIPES |
-| 43 | MOVE_FLATTER |
-| 53 | MOVE_CRUNCH |
+| 1 | Scratch |
+| 8 | Tail whip |
+| 12 | Double kick |
+| 18 | Poison sting |
+| 22 | Bite |
+| 26 | Helping hand |
+| 30 | Toxic |
+| 34 | Fury swipes |
+| 43 | Flatter |
+| 53 | Crunch |
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDOQUEEN
 
@@ -858,13 +1520,55 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GROWL |
-| 12 | MOVE_DOUBLE_KICK |
-| 22 | MOVE_BITE |
-| 27 | MOVE_BODY_SLAM |
-| 43 | MOVE_ICE_BALL |
-| 47 | MOVE_TOXIC |
-| 65 | MOVE_ICE_BEAM |
+| 1 | Growl |
+| 12 | Double kick |
+| 22 | Bite |
+| 27 | Body slam |
+| 43 | Ice ball |
+| 47 | Toxic |
+| 65 | Ice beam |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDORAN_M
 
@@ -881,9 +1585,37 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE3, MAP_ROUTE22, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST
+**Found at:** MAP_SAFARI_ZONE_WEST, MAP_ROUTE3, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDORINO
 
@@ -900,20 +1632,48 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_NORTH
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_PECK |
-| 8 | MOVE_FOCUS_ENERGY |
-| 12 | MOVE_DOUBLE_KICK |
-| 18 | MOVE_POISON_STING |
-| 22 | MOVE_HORN_ATTACK |
-| 26 | MOVE_HELPING_HAND |
-| 30 | MOVE_TOXIC |
-| 34 | MOVE_FURY_ATTACK |
-| 43 | MOVE_FLATTER |
-| 53 | MOVE_HORN_DRILL |
+| 1 | Peck |
+| 8 | Focus energy |
+| 12 | Double kick |
+| 18 | Poison sting |
+| 22 | Horn attack |
+| 26 | Helping hand |
+| 30 | Toxic |
+| 34 | Fury attack |
+| 43 | Flatter |
+| 53 | Horn drill |
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### NIDOKING
 
@@ -934,11 +1694,52 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_FOCUS_ENERGY |
-| 23 | MOVE_THRASH |
-| 43 | MOVE_TOXIC |
-| 48 | MOVE_SAND_TOMB |
-| 58 | MOVE_MEGAHORN |
+| 1 | Focus energy |
+| 23 | Thrash |
+| 43 | Toxic |
+| 48 | Sand tomb |
+| 58 | Megahorn |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### CLEFAIRY
 
@@ -959,18 +1760,55 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_GROWL |
-| 5 | MOVE_ENCORE |
-| 9 | MOVE_SING |
-| 13 | MOVE_DOUBLE_SLAP |
-| 17 | MOVE_FOLLOW_ME |
-| 21 | MOVE_MINIMIZE |
-| 25 | MOVE_DEFENSE_CURL |
-| 29 | MOVE_METRONOME |
-| 33 | MOVE_COSMIC_POWER |
-| 37 | MOVE_MOONLIGHT |
-| 41 | MOVE_LIGHT_SCREEN |
-| 45 | MOVE_METEOR_MASH |
+| 1 | Growl |
+| 5 | Encore |
+| 9 | Sing |
+| 13 | Double slap |
+| 17 | Follow me |
+| 21 | Minimize |
+| 25 | Defense curl |
+| 29 | Metronome |
+| 33 | Cosmic power |
+| 37 | Moonlight |
+| 41 | Light screen |
+| 45 | Meteor mash |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
 
 ### CLEFABLE
 
@@ -991,10 +1829,48 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_COSMIC_POWER |
-| 41 | MOVE_MOONLIGHT |
-| 45 | MOVE_LIGHT_SCREEN |
-| 49 | MOVE_METEOR_MASH |
+| 1 | Cosmic power |
+| 41 | Moonlight |
+| 45 | Light screen |
+| 49 | Meteor mash |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
 
 ### VULPIX
 
@@ -1011,22 +1887,43 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_RAWST_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_FLASH_FIRE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_2F, MAP_ROUTE8, MAP_ROUTE7, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7, MAP_ROUTE8, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_EMBER |
-| 5 | MOVE_TAIL_WHIP |
-| 9 | MOVE_ROAR |
-| 13 | MOVE_QUICK_ATTACK |
-| 16 | MOVE_WILL_O_WISP |
-| 20 | MOVE_FLAME_WHEEL |
-| 24 | MOVE_CONFUSE_RAY |
-| 25 | MOVE_IMPRISON |
-| 29 | MOVE_FLAMETHROWER |
-| 33 | MOVE_SAFEGUARD |
-| 37 | MOVE_GRUDGE |
-| 41 | MOVE_FIRE_SPIN |
+| 1 | Ember |
+| 5 | Tail whip |
+| 9 | Roar |
+| 13 | Quick attack |
+| 16 | Will o wisp |
+| 20 | Flame wheel |
+| 24 | Confuse ray |
+| 25 | Imprison |
+| 29 | Flamethrower |
+| 33 | Safeguard |
+| 37 | Grudge |
+| 41 | Fire spin |
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
 
 ### NINETALES
 
@@ -1047,11 +1944,33 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_IMPRISON |
-| 36 | MOVE_FLAMETHROWER |
-| 40 | MOVE_SAFEGUARD |
-| 44 | MOVE_GRUDGE |
-| 49 | MOVE_FIRE_SPIN |
+| 1 | Imprison |
+| 36 | Flamethrower |
+| 40 | Safeguard |
+| 44 | Grudge |
+| 49 | Fire spin |
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
 
 ### JIGGLYPUFF
 
@@ -1072,17 +1991,52 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SING |
-| 4 | MOVE_POUND |
-| 9 | MOVE_DEFENSE_CURL |
-| 14 | MOVE_DISABLE |
-| 19 | MOVE_ROLLOUT |
-| 24 | MOVE_DOUBLE_SLAP |
-| 29 | MOVE_REST |
-| 34 | MOVE_BODY_SLAM |
-| 39 | MOVE_MIMIC |
-| 44 | MOVE_HYPER_VOICE |
-| 49 | MOVE_DOUBLE_EDGE |
+| 1 | Sing |
+| 4 | Pound |
+| 9 | Defense curl |
+| 14 | Disable |
+| 19 | Rollout |
+| 24 | Double slap |
+| 29 | Rest |
+| 34 | Body slam |
+| 39 | Mimic |
+| 44 | Hyper voice |
+| 49 | Double edge |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
 
 ### WIGGLYTUFF
 
@@ -1103,11 +2057,47 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_REST |
-| 34 | MOVE_BODY_SLAM |
-| 39 | MOVE_MIMIC |
-| 44 | MOVE_HYPER_VOICE |
-| 49 | MOVE_DOUBLE_EDGE |
+| 1 | Rest |
+| 34 | Body slam |
+| 39 | Mimic |
+| 44 | Hyper voice |
+| 49 | Double edge |
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
 
 ### ZUBAT
 
@@ -1124,21 +2114,45 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_SEAFOAM_ISLANDS_B1F, MAP_ROCK_TUNNEL_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_VICTORY_ROAD_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_VICTORY_ROAD_3F, MAP_VICTORY_ROAD_2F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_MT_MOON_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_ROCK_TUNNEL_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_1F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_MT_MOON_B2F
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_SEAFOAM_ISLANDS_1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_MT_MOON_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_VICTORY_ROAD_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_ROCK_TUNNEL_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_SEAFOAM_ISLANDS_B1F, MAP_MT_MOON_B2F, MAP_VICTORY_ROAD_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_LEECH_LIFE |
-| 5 | MOVE_ASTONISH |
-| 9 | MOVE_SUPERSONIC |
-| 13 | MOVE_BITE |
-| 16 | MOVE_GUST |
-| 21 | MOVE_WING_ATTACK |
-| 26 | MOVE_CONFUSE_RAY |
-| 31 | MOVE_AIR_CUTTER |
-| 36 | MOVE_MEAN_LOOK |
-| 41 | MOVE_POISON_FANG |
-| 46 | MOVE_HAZE |
+| 1 | Leech life |
+| 5 | Astonish |
+| 9 | Supersonic |
+| 13 | Bite |
+| 16 | Gust |
+| 21 | Wing attack |
+| 26 | Confuse ray |
+| 31 | Air cutter |
+| 36 | Mean look |
+| 41 | Poison fang |
+| 46 | Haze |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Tm49 snatch |
 
 ### GOLBAT
 
@@ -1155,20 +2169,45 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_SEAFOAM_ISLANDS_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_CERULEAN_CAVE_2F, MAP_VICTORY_ROAD_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_VICTORY_ROAD_2F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_1F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_SEAFOAM_ISLANDS_1F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_CERULEAN_CAVE_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_CERULEAN_CAVE_1F, MAP_SEAFOAM_ISLANDS_B4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_VICTORY_ROAD_2F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_SEAFOAM_ISLANDS_B1F, MAP_VICTORY_ROAD_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SUPERSONIC |
-| 6 | MOVE_ASTONISH |
-| 13 | MOVE_BITE |
-| 16 | MOVE_GUST |
-| 21 | MOVE_WING_ATTACK |
-| 28 | MOVE_CONFUSE_RAY |
-| 35 | MOVE_AIR_CUTTER |
-| 42 | MOVE_MEAN_LOOK |
-| 49 | MOVE_POISON_FANG |
-| 56 | MOVE_HAZE |
+| 1 | Supersonic |
+| 6 | Astonish |
+| 13 | Bite |
+| 16 | Gust |
+| 21 | Wing attack |
+| 28 | Confuse ray |
+| 35 | Air cutter |
+| 42 | Mean look |
+| 49 | Poison fang |
+| 56 | Haze |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Tm49 snatch |
 
 ### ODDISH
 
@@ -1185,20 +2224,40 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE13, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE12, MAP_ROUTE5, MAP_ROUTE25, MAP_ROUTE14, MAP_ROUTE7, MAP_ROUTE15
+**Found at:** MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE13, MAP_ROUTE7, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE25, MAP_ROUTE5, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_ABSORB |
-| 5 | MOVE_SWEET_SCENT |
-| 9 | MOVE_ACID |
-| 13 | MOVE_POISON_POWDER |
-| 15 | MOVE_STUN_SPORE |
-| 17 | MOVE_SLEEP_POWDER |
-| 21 | MOVE_MEGA_DRAIN |
-| 33 | MOVE_MOONLIGHT |
-| 37 | MOVE_GIGA_DRAIN |
-| 41 | MOVE_PETAL_DANCE |
+| 1 | Absorb |
+| 5 | Sweet scent |
+| 9 | Acid |
+| 13 | Poison powder |
+| 15 | Stun spore |
+| 17 | Sleep powder |
+| 21 | Mega drain |
+| 33 | Moonlight |
+| 37 | Giga drain |
+| 41 | Petal dance |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm05 flash |
 
 ### GLOOM
 
@@ -1215,19 +2274,39 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE13, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE15
+**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE13, MAP_SIX_ISLAND_WATER_PATH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE12, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_ACID |
-| 13 | MOVE_POISON_POWDER |
-| 15 | MOVE_STUN_SPORE |
-| 17 | MOVE_SLEEP_POWDER |
-| 23 | MOVE_MEGA_DRAIN |
-| 29 | MOVE_AROMATHERAPY |
-| 41 | MOVE_MOONLIGHT |
-| 47 | MOVE_GIGA_DRAIN |
-| 53 | MOVE_PETAL_DANCE |
+| 1 | Acid |
+| 13 | Poison powder |
+| 15 | Stun spore |
+| 17 | Sleep powder |
+| 23 | Mega drain |
+| 29 | Aromatherapy |
+| 41 | Moonlight |
+| 47 | Giga drain |
+| 53 | Petal dance |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm05 flash |
 
 ### VILEPLUME
 
@@ -1248,9 +2327,30 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_POISON_POWDER |
-| 53 | MOVE_PETAL_DANCE |
-| 65 | MOVE_SOLAR_BEAM |
+| 1 | Poison powder |
+| 53 | Petal dance |
+| 65 | Solar beam |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm01 cut |
+| Hm05 flash |
 
 ### PARAS
 
@@ -1267,17 +2367,41 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_TINY_MUSHROOM | **item2** | ITEM_BIG_MUSHROOM | **abilities** | ABILITY_EFFECT_SPORE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_MT_MOON_B1F, MAP_SAFARI_ZONE_EAST, MAP_MT_MOON_1F, MAP_SAFARI_ZONE_NORTH, MAP_MT_MOON_B2F
+**Found at:** MAP_MT_MOON_1F, MAP_SAFARI_ZONE_EAST, MAP_MT_MOON_B2F, MAP_SAFARI_ZONE_NORTH, MAP_MT_MOON_B1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_POISON_POWDER |
-| 11 | MOVE_LEECH_LIFE |
-| 17 | MOVE_SPORE |
-| 22 | MOVE_SLASH |
-| 27 | MOVE_GROWTH |
-| 33 | MOVE_GIGA_DRAIN |
-| 38 | MOVE_AROMATHERAPY |
+| 1 | Poison powder |
+| 11 | Leech life |
+| 17 | Spore |
+| 22 | Slash |
+| 27 | Growth |
+| 33 | Giga drain |
+| 38 | Aromatherapy |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### PARASECT
 
@@ -1294,16 +2418,41 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_TINY_MUSHROOM | **item2** | ITEM_BIG_MUSHROOM | **abilities** | ABILITY_EFFECT_SPORE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_CERULEAN_CAVE_B1F
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_1F
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_LEECH_LIFE |
-| 17 | MOVE_SPORE |
-| 22 | MOVE_SLASH |
-| 30 | MOVE_GROWTH |
-| 39 | MOVE_GIGA_DRAIN |
-| 47 | MOVE_AROMATHERAPY |
+| 1 | Leech life |
+| 17 | Spore |
+| 22 | Slash |
+| 30 | Growth |
+| 39 | Giga drain |
+| 47 | Aromatherapy |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### VENONAT
 
@@ -1320,21 +2469,42 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_COMPOUND_EYES | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE13, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE12, MAP_SAFARI_ZONE_WEST, MAP_ROUTE14, MAP_ROUTE15
+**Found at:** MAP_SAFARI_ZONE_WEST, MAP_ROUTE13, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE12, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE14, MAP_ROUTE15, MAP_THREE_ISLAND_BOND_BRIDGE
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_FORESIGHT |
-| 5 | MOVE_SUPERSONIC |
-| 11 | MOVE_CONFUSION |
-| 13 | MOVE_POISON_POWDER |
-| 17 | MOVE_LEECH_LIFE |
-| 23 | MOVE_STUN_SPORE |
-| 25 | MOVE_PSYBEAM |
-| 29 | MOVE_SLEEP_POWDER |
-| 35 | MOVE_SIGNAL_BEAM |
-| 41 | MOVE_POISON_FANG |
-| 47 | MOVE_PSYCHIC |
+| 1 | Foresight |
+| 5 | Supersonic |
+| 11 | Confusion |
+| 13 | Poison powder |
+| 17 | Leech life |
+| 23 | Stun spore |
+| 25 | Psybeam |
+| 29 | Sleep powder |
+| 35 | Signal beam |
+| 41 | Poison fang |
+| 47 | Psychic |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm05 flash |
 
 ### VENOMOTH
 
@@ -1351,20 +2521,43 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SILVER_POWDER | **abilities** | ABILITY_SHIELD_DUST | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_NORTH
+**Found at:** MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_THREE_ISLAND_BERRY_FOREST
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SUPERSONIC |
-| 9 | MOVE_SUPERSONIC |
-| 17 | MOVE_CONFUSION |
-| 20 | MOVE_POISON_POWDER |
-| 25 | MOVE_LEECH_LIFE |
-| 28 | MOVE_STUN_SPORE |
-| 31 | MOVE_SILVER_WIND |
-| 36 | MOVE_PSYBEAM |
-| 42 | MOVE_SLEEP_POWDER |
-| 52 | MOVE_PSYCHIC |
+| 1 | Supersonic |
+| 9 | Supersonic |
+| 17 | Confusion |
+| 20 | Poison powder |
+| 25 | Leech life |
+| 28 | Stun spore |
+| 31 | Silver wind |
+| 36 | Psybeam |
+| 42 | Sleep powder |
+| 52 | Psychic |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm05 flash |
 
 ### DIGLETT
 
@@ -1385,15 +2578,37 @@
 
 | Level | Move Name |
 |---------|---------|
-| 1 | MOVE_SCRATCH |
-| 5 | MOVE_GROWL |
-| 9 | MOVE_MAGNITUDE |
-| 17 | MOVE_DIG |
-| 21 | MOVE_FURY_SWIPES |
-| 25 | MOVE_MUD_SLAP |
-| 33 | MOVE_SLASH |
-| 41 | MOVE_EARTHQUAKE |
-| 49 | MOVE_FISSURE |
+| 1 | Scratch |
+| 5 | Growl |
+| 9 | Magnitude |
+| 17 | Dig |
+| 21 | Fury swipes |
+| 25 | Mud slap |
+| 33 | Slash |
+| 41 | Earthquake |
+| 49 | Fissure |
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm06 rock smash |
 
 ### DUGTRIO
 
@@ -1414,6 +2629,29 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm06 rock smash |
+
 ### MEOWTH
 
 ![MEOWTH](graphics/pokemon/meowth/front.png)
@@ -1429,9 +2667,38 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NUGGET | **abilities** | ABILITY_PICKUP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE6, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SIX_ISLAND_WATER_PATH, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE5, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE8, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_ROUTE7, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE7, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE6, MAP_ROUTE8, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ROUTE5, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm49 snatch |
+| Hm01 cut |
+| Hm05 flash |
 
 ### PERSIAN
 
@@ -1448,9 +2715,40 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LIMBER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SIX_ISLAND_WATER_PATH, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm49 snatch |
+| Hm01 cut |
+| Hm05 flash |
 
 ### PSYDUCK
 
@@ -1467,9 +2765,39 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_DAMP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SIX_ISLAND_WATER_PATH, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE10, MAP_SEAFOAM_ISLANDS_B1F, MAP_FUCHSIA_CITY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_CELADON_CITY, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SAFARI_ZONE_EAST, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE11, MAP_ROUTE6, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE19, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SAFARI_ZONE_NORTH, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_1F, MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B3F, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE12, MAP_VERMILION_CITY, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_FOUR_ISLAND, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_CELADON_CITY, MAP_SEAFOAM_ISLANDS_1F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SEAFOAM_ISLANDS_B2F, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE11, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_EAST, MAP_ROUTE10, MAP_SEAFOAM_ISLANDS_B1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### GOLDUCK
 
@@ -1486,9 +2814,40 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_DAMP | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_SEAFOAM_ISLANDS_B3F, MAP_THREE_ISLAND_BERRY_FOREST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEAFOAM_ISLANDS_B1F, MAP_CERULEAN_CAVE_B1F
+**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_THREE_ISLAND_BERRY_FOREST, MAP_CERULEAN_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B1F, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### MANKEY
 
@@ -1505,9 +2864,39 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE3, MAP_ROUTE22, MAP_ROCK_TUNNEL_1F, MAP_ROCK_TUNNEL_B1F, MAP_ROUTE23
+**Found at:** MAP_ROUTE4, MAP_ROUTE3, MAP_ROCK_TUNNEL_B1F, MAP_ROUTE23, MAP_ROCK_TUNNEL_1F, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm50 overheat |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### PRIMEAPE
 
@@ -1524,9 +2913,40 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE23, MAP_VICTORY_ROAD_2F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_ROUTE23, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm50 overheat |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### GROWLITHE
 
@@ -1543,9 +2963,33 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_RAWST_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_2F, MAP_ROUTE8, MAP_ROUTE7, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_ROUTE7, MAP_ROUTE8, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
 
 
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm50 overheat |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### ARCANINE
 
@@ -1566,6 +3010,31 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm50 overheat |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### POLIWAG
 
 ![POLIWAG](graphics/pokemon/poliwag/front.png)
@@ -1581,9 +3050,33 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_WATER_ABSORB | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_THREE_ISLAND_BERRY_FOREST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_SAFARI_ZONE_WEST, MAP_FOUR_ISLAND, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE23, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_SAFARI_ZONE_EAST, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### POLIWHIRL
 
@@ -1600,9 +3093,38 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_WATER_ABSORB | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_ROUTE25, MAP_TWO_ISLAND_CAPE_BRINK, MAP_VIRIDIAN_CITY, MAP_FOUR_ISLAND, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE23, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE6, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### POLIWRATH
 
@@ -1623,6 +3145,38 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
+
 ### ABRA
 
 ![ABRA](graphics/pokemon/abra/front.png)
@@ -1638,9 +3192,39 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_TWISTED_SPOON | **abilities** | ABILITY_SYNCHRONIZE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE25, MAP_ROUTE24
+**Found at:** MAP_ROUTE24, MAP_ROUTE25
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
 
 ### KADABRA
 
@@ -1661,6 +3245,36 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
+
 ### ALAKAZAM
 
 ![ALAKAZAM](graphics/pokemon/alakazam/front.png)
@@ -1680,6 +3294,37 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
+
 ### MACHOP
 
 ![MACHOP](graphics/pokemon/machop/front.png)
@@ -1695,9 +3340,35 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_GUTS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_VICTORY_ROAD_1F, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_VICTORY_ROAD_2F
+**Found at:** MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_VICTORY_ROAD_2F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_EXTERIOR, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_VICTORY_ROAD_3F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_ROCK_TUNNEL_1F, MAP_VICTORY_ROAD_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### MACHOKE
 
@@ -1714,9 +3385,35 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_FOCUS_BAND | **abilities** | ABILITY_GUTS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_2F, MAP_VICTORY_ROAD_1F, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_VICTORY_ROAD_2F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_CERULEAN_CAVE_2F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_VICTORY_ROAD_1F, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### MACHAMP
 
@@ -1737,6 +3434,33 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### BELLSPROUT
 
 ![BELLSPROUT](graphics/pokemon/bellsprout/front.png)
@@ -1752,9 +3476,30 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE13, MAP_ROUTE25, MAP_ROUTE12, MAP_ROUTE5
+**Found at:** MAP_ROUTE13, MAP_ROUTE12, MAP_ROUTE6, MAP_ROUTE25, MAP_ROUTE5
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
 
 ### WEEPINBELL
 
@@ -1771,9 +3516,30 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE13, MAP_ROUTE12
+**Found at:** MAP_ROUTE12, MAP_ROUTE6, MAP_ROUTE13
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
 
 ### VICTREEBEL
 
@@ -1794,6 +3560,28 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
+
 ### TENTACOOL
 
 ![TENTACOOL](graphics/pokemon/tentacool/front.png)
@@ -1809,9 +3597,34 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CLEAR_BODY | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE10, MAP_ROUTE18, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SSANNE_EXTERIOR, MAP_ROUTE11, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE24, MAP_ROUTE19, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE12, MAP_VERMILION_CITY, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_ROUTE18, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_CERULEAN_CITY, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SSANNE_EXTERIOR, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE10
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### TENTACRUEL
 
@@ -1828,9 +3641,35 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CLEAR_BODY | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_SIX_ISLAND_WATER_PATH, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE10, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FIVE_ISLAND, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ONE_ISLAND
+**Found at:** MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE10, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_THREE_ISLAND_BOND_BRIDGE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### GEODUDE
 
@@ -1847,9 +3686,33 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_2F, MAP_VICTORY_ROAD_1F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_VICTORY_ROAD_2F, MAP_CERULEAN_CAVE_1F, MAP_MT_MOON_1F, MAP_ROCK_TUNNEL_1F, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_MT_MOON_B2F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS
+**Found at:** MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_VICTORY_ROAD_3F, MAP_CERULEAN_CAVE_B1F, MAP_ROCK_TUNNEL_1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_MT_MOON_1F, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_SUMMIT_PATH_1F, MAP_MT_EMBER_SUMMIT_PATH_3F, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_RUBY_PATH_1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_VICTORY_ROAD_2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_ROCK_TUNNEL_B1F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_MT_MOON_B2F, MAP_VICTORY_ROAD_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### GRAVELER
 
@@ -1866,9 +3729,33 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 15 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_HARD_STONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_MT_EMBER_EXTERIOR, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_ROCK_TUNNEL_B1F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B2F
+**Found at:** MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_EXTERIOR, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_ROCK_TUNNEL_B1F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_2F, MAP_MT_EMBER_SUMMIT_PATH_2F, MAP_CERULEAN_CAVE_B1F, MAP_MT_EMBER_RUBY_PATH_1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### GOLEM
 
@@ -1889,6 +3776,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### PONYTA
 
 ![PONYTA](graphics/pokemon/ponyta/front.png)
@@ -1907,6 +3820,26 @@
 **Found at:** MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm04 strength |
 
 ### RAPIDASH
 
@@ -1927,6 +3860,27 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm04 strength |
+
 ### SLOWPOKE
 
 ![SLOWPOKE](graphics/pokemon/slowpoke/front.png)
@@ -1942,9 +3896,42 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE6, MAP_ROUTE25, MAP_ROUTE22, MAP_VIRIDIAN_CITY, MAP_FUCHSIA_CITY, MAP_SEAFOAM_ISLANDS_1F
+**Found at:** MAP_ROUTE6, MAP_VIRIDIAN_CITY, MAP_ROUTE25, MAP_SEAFOAM_ISLANDS_1F, MAP_FUCHSIA_CITY, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm48 skill swap |
+| Hm03 surf |
+| Hm04 strength |
+| Hm05 flash |
+| Hm08 dive |
 
 ### SLOWBRO
 
@@ -1961,9 +3948,46 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B1F
+**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SEAFOAM_ISLANDS_B1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm48 skill swap |
+| Hm03 surf |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+| Hm08 dive |
 
 ### MAGNEMITE
 
@@ -1984,6 +4008,25 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Hm05 flash |
+
 ### MAGNETON
 
 ![MAGNETON](graphics/pokemon/magneton/front.png)
@@ -1999,9 +4042,29 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_MAGNET | **abilities** | ABILITY_MAGNET_PULL | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_2F, MAP_POWER_PLANT, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_CERULEAN_CAVE_2F, MAP_POWER_PLANT, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Hm05 flash |
 
 ### FARFETCHD
 
@@ -2022,6 +4085,26 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm01 cut |
+| Hm02 fly |
+
 ### DODUO
 
 ![DODUO](graphics/pokemon/doduo/front.png)
@@ -2037,9 +4120,27 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_RUN_AWAY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_EAST, MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_ROUTE16, MAP_ROUTE17
+**Found at:** MAP_ROUTE18, MAP_ROUTE16, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST, MAP_ROUTE17
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
 
 ### DODRIO
 
@@ -2060,6 +4161,27 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
+
 ### SEEL
 
 ![SEEL](graphics/pokemon/seel/front.png)
@@ -2075,9 +4197,32 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_THICK_FAT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEAFOAM_ISLANDS_B2F, MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B3F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B2F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### DEWGONG
 
@@ -2094,9 +4239,33 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NEVER_MELT_ICE | **abilities** | ABILITY_THICK_FAT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_B3F
+**Found at:** MAP_SEAFOAM_ISLANDS_B3F, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### GRIMER
 
@@ -2113,9 +4282,36 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_STENCH | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
 
 ### MUK
 
@@ -2136,6 +4332,38 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### SHELLDER
 
 ![SHELLDER](graphics/pokemon/shellder/front.png)
@@ -2151,9 +4379,29 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_PEARL | **item2** | ITEM_BIG_PEARL | **abilities** | ABILITY_SHELL_ARMOR | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_VERMILION_CITY, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_PALLET_TOWN, MAP_ONE_ISLAND
+**Found at:** MAP_CINNABAR_ISLAND, MAP_VERMILION_CITY, MAP_PALLET_TOWN, MAP_FIVE_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SSANNE_EXTERIOR, MAP_ONE_ISLAND
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm08 dive |
 
 ### CLOYSTER
 
@@ -2174,6 +4422,28 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm08 dive |
+
 ### GASTLY
 
 ![GASTLY](graphics/pokemon/gastly/front.png)
@@ -2189,9 +4459,34 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_POKEMON_TOWER_3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_POKEMON_TOWER_5F
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
 
 ### HAUNTER
 
@@ -2208,9 +4503,34 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SPELL_TAG | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_POKEMON_TOWER_3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_POKEMON_TOWER_5F
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_POKEMON_TOWER_6F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
 
 ### GENGAR
 
@@ -2231,6 +4551,37 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### ONIX
 
 ![ONIX](graphics/pokemon/onix/front.png)
@@ -2246,9 +4597,33 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_HARD_STONE | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_ROCK_TUNNEL_B1F, MAP_VICTORY_ROAD_2F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_ROCK_TUNNEL_B1F, MAP_VICTORY_ROAD_3F, MAP_ROCK_TUNNEL_1F, MAP_VICTORY_ROAD_1F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
 
 
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### DROWZEE
 
@@ -2265,9 +4640,38 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INSOMNIA | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE11
+**Found at:** MAP_ROUTE11, MAP_THREE_ISLAND_BERRY_FOREST
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
 
 ### HYPNO
 
@@ -2288,6 +4692,36 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
+
 ### KRABBY
 
 ![KRABBY](graphics/pokemon/krabby/front.png)
@@ -2303,9 +4737,35 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_HYPER_CUTTER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE13, MAP_ROUTE4, MAP_SEAFOAM_ISLANDS_B4F, MAP_SEAFOAM_ISLANDS_B3F, MAP_ROUTE10, MAP_ROUTE24, MAP_ROUTE12, MAP_ROUTE19, MAP_ROUTE21_SOUTH, MAP_ROUTE18, MAP_VERMILION_CITY, MAP_CINNABAR_ISLAND, MAP_ROUTE21_NORTH, MAP_ROUTE20, MAP_SSANNE_EXTERIOR, MAP_CERULEAN_CITY, MAP_PALLET_TOWN, MAP_ROUTE11
+**Found at:** MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_VERMILION_CITY, MAP_SEAFOAM_ISLANDS_B3F, MAP_CINNABAR_ISLAND, MAP_ROUTE11, MAP_ROUTE21_NORTH, MAP_ROUTE12, MAP_CERULEAN_CITY, MAP_SSANNE_EXTERIOR, MAP_ROUTE10, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_ROUTE19
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm08 dive |
 
 ### KINGLER
 
@@ -2326,6 +4786,33 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm08 dive |
+
 ### VOLTORB
 
 ![VOLTORB](graphics/pokemon/voltorb/front.png)
@@ -2341,9 +4828,30 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SOUNDPROOF | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE10, MAP_POWER_PLANT
+**Found at:** MAP_POWER_PLANT, MAP_ROUTE10
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm12 taunt |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm46 thief |
+| Hm05 flash |
 
 ### ELECTRODE
 
@@ -2360,9 +4868,31 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SOUNDPROOF | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F
+**Found at:** MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm46 thief |
+| Hm05 flash |
 
 ### EXEGGCUTE
 
@@ -2379,9 +4909,34 @@
 | **eggGroup1** | EGG_GROUP_GRASS | **eggGroup2** | EGG_GROUP_GRASS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_CHLOROPHYLL | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST
+**Found at:** MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm04 strength |
+| Hm05 flash |
 
 ### EXEGGUTOR
 
@@ -2402,6 +4957,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm04 strength |
+| Hm05 flash |
+
 ### CUBONE
 
 ![CUBONE](graphics/pokemon/cubone/front.png)
@@ -2417,9 +4998,38 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_MONSTER | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_THICK_CLUB | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_TOWER_6F, MAP_POKEMON_TOWER_3F, MAP_POKEMON_TOWER_7F, MAP_POKEMON_TOWER_4F, MAP_POKEMON_TOWER_5F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
+**Found at:** MAP_POKEMON_TOWER_6F, MAP_POKEMON_TOWER_4F, MAP_POKEMON_TOWER_5F, MAP_POKEMON_TOWER_7F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_POKEMON_TOWER_3F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### MAROWAK
 
@@ -2436,9 +5046,39 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_MONSTER | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_THICK_CLUB | **abilities** | ABILITY_ROCK_HEAD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_VICTORY_ROAD_3F, MAP_VICTORY_ROAD_2F, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_VICTORY_ROAD_1F
+**Found at:** MAP_VICTORY_ROAD_2F, MAP_VICTORY_ROAD_1F, MAP_VICTORY_ROAD_3F, MAP_SEVEN_ISLAND_SEVAULT_CANYON
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### HITMONLEE
 
@@ -2459,6 +5099,29 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### HITMONCHAN
 
 ![HITMONCHAN](graphics/pokemon/hitmonchan/front.png)
@@ -2477,6 +5140,29 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### LICKITUNG
 
@@ -2497,6 +5183,44 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### KOFFING
 
 ![KOFFING](graphics/pokemon/koffing/front.png)
@@ -2512,9 +5236,35 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_CELADON_CITY, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm38 fire blast |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm05 flash |
 
 ### WEEZING
 
@@ -2531,9 +5281,36 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_2F, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_1F
+**Found at:** MAP_POKEMON_MANSION_3F, MAP_POKEMON_MANSION_B1F, MAP_POKEMON_MANSION_2F, MAP_POKEMON_MANSION_1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm38 fire blast |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm05 flash |
 
 ### RHYHORN
 
@@ -2554,6 +5331,37 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### RHYDON
 
 ![RHYDON](graphics/pokemon/rhydon/front.png)
@@ -2572,6 +5380,42 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### CHANSEY
 
@@ -2592,6 +5436,48 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+
 ### TANGELA
 
 ![TANGELA](graphics/pokemon/tangela/front.png)
@@ -2611,6 +5497,29 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm05 flash |
+| Hm06 rock smash |
+
 ### KANGASKHAN
 
 ![KANGASKHAN](graphics/pokemon/kangaskhan/front.png)
@@ -2626,9 +5535,50 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_MONSTER | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_EARLY_BIRD | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST
+**Found at:** MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### HORSEA
 
@@ -2645,9 +5595,30 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE10, MAP_ROUTE18, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SSANNE_EXTERIOR, MAP_ROUTE11, MAP_SEAFOAM_ISLANDS_B4F, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE24, MAP_ROUTE19, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY, MAP_SEAFOAM_ISLANDS_B3F, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE12, MAP_VERMILION_CITY, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_ROUTE18, MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE10
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### SEADRA
 
@@ -2664,9 +5635,31 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_POISON_POINT | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_WATER_PATH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE19, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_PALLET_TOWN, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_ONE_ISLAND, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_ROUTE19, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### GOLDEEN
 
@@ -2683,9 +5676,30 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE6, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_THREE_ISLAND_BERRY_FOREST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE25, MAP_ROUTE18, MAP_SAFARI_ZONE_NORTH, MAP_VIRIDIAN_CITY, MAP_ROUTE21_NORTH, MAP_SAFARI_ZONE_WEST, MAP_FUCHSIA_CITY, MAP_FOUR_ISLAND, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE23, MAP_PALLET_TOWN, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_ROUTE18, MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_PALLET_TOWN, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE21_NORTH, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_SAFARI_ZONE_EAST, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_ROUTE23, MAP_CERULEAN_CAVE_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### SEAKING
 
@@ -2702,9 +5716,31 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE18, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY, MAP_SAFARI_ZONE_WEST
+**Found at:** MAP_ROUTE18, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_CENTER, MAP_THREE_ISLAND_BERRY_FOREST, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_NORTH, MAP_FUCHSIA_CITY
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### STARYU
 
@@ -2721,9 +5757,35 @@
 | **eggGroup1** | EGG_GROUP_WATER_3 | **eggGroup2** | EGG_GROUP_WATER_3 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_STARDUST | **item2** | ITEM_STAR_PIECE | **abilities** | ABILITY_ILLUMINATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_VERMILION_CITY, MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD
+**Found at:** MAP_ROUTE18, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_VERMILION_CITY, MAP_ROUTE13
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Hm03 surf |
+| Hm05 flash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### STARMIE
 
@@ -2744,6 +5806,34 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm48 skill swap |
+| Hm03 surf |
+| Hm05 flash |
+| Hm07 waterfall |
+| Hm08 dive |
+
 ### MR_MIME
 
 ![MR_MIME](graphics/pokemon/mr_mime/front.png)
@@ -2763,6 +5853,40 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
+
 ### SCYTHER
 
 ![SCYTHER](graphics/pokemon/scyther/front.png)
@@ -2778,9 +5902,30 @@
 | **eggGroup1** | EGG_GROUP_BUG | **eggGroup2** | EGG_GROUP_BUG | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWARM | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SAFARI_ZONE_EAST
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm01 cut |
+| Hm06 rock smash |
 
 ### JYNX
 
@@ -2801,6 +5946,37 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm05 flash |
+
 ### ELECTABUZZ
 
 ![ELECTABUZZ](graphics/pokemon/electabuzz/front.png)
@@ -2820,6 +5996,33 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+
 ### MAGMAR
 
 ![MAGMAR](graphics/pokemon/magmar/front.png)
@@ -2835,9 +6038,33 @@
 | **eggGroup1** | EGG_GROUP_HUMAN_LIKE | **eggGroup2** | EGG_GROUP_HUMAN_LIKE | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_FLAME_BODY | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_RUBY_PATH_B3F, MAP_MT_EMBER_EXTERIOR
+**Found at:** MAP_MT_EMBER_RUBY_PATH_B3F, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_MT_EMBER_EXTERIOR, MAP_FIVE_ISLAND_MEMORIAL_PILLAR
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm29 psychic |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### PINSIR
 
@@ -2858,6 +6085,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### TAUROS
 
 ![TAUROS](graphics/pokemon/tauros/front.png)
@@ -2873,9 +6126,41 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SIX_ISLAND_WATER_PATH, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_SAFARI_ZONE_NORTH, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SAFARI_ZONE_WEST, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_FOUR_ISLAND, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND, MAP_SIX_ISLAND_ALTERING_CAVE, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_SEVEN_ISLAND_SEVAULT_CANYON, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE
+**Found at:** MAP_SIX_ISLAND_ALTERING_CAVE, MAP_SAFARI_ZONE_WEST, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SIX_ISLAND_PATTERN_BUSH, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_WATER_PATH, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_FOUR_ISLAND, MAP_SAFARI_ZONE_NORTH, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEVEN_ISLAND_SEVAULT_CANYON
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### MAGIKARP
 
@@ -2892,9 +6177,12 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 5 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SIX_ISLAND_WATER_PATH, MAP_SAFARI_ZONE_CENTER, MAP_ROUTE10, MAP_FUCHSIA_CITY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_CELADON_CITY, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_SAFARI_ZONE_EAST, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE11, MAP_ROUTE6, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE19, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SAFARI_ZONE_NORTH, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_SAFARI_ZONE_WEST, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_B3F, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE12, MAP_VERMILION_CITY, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_CELADON_CITY, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_SAFARI_ZONE_CENTER, MAP_FIVE_ISLAND_MEADOW, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_ROUTE11, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_SAFARI_ZONE_NORTH, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_SAFARI_ZONE_WEST, MAP_TWO_ISLAND_CAPE_BRINK, MAP_SAFARI_ZONE_EAST, MAP_ROUTE10, MAP_FOUR_ISLAND
 
 
+
+| Move Name |
+|---------|
 
 ### GYARADOS
 
@@ -2911,9 +6199,42 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 5 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INTIMIDATE | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE13, MAP_FIVE_ISLAND_MEADOW, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE10, MAP_FUCHSIA_CITY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_ROUTE21_NORTH, MAP_PALLET_TOWN, MAP_ONE_ISLAND, MAP_ROUTE4, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_SIX_ISLAND_GREEN_PATH, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE11, MAP_ROUTE6, MAP_SEAFOAM_ISLANDS_B4F, MAP_CERULEAN_CAVE_1F, MAP_ROUTE22, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE24, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE19, MAP_ROUTE25, MAP_VIRIDIAN_CITY, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_SEAFOAM_ISLANDS_B3F, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE12, MAP_VERMILION_CITY, MAP_ROUTE21_SOUTH, MAP_CINNABAR_ISLAND, MAP_FIVE_ISLAND, MAP_ROUTE20, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_PALLET_TOWN, MAP_ROUTE13, MAP_FIVE_ISLAND_RESORT_GORGEOUS, MAP_ROUTE21_NORTH, MAP_SIX_ISLAND_WATER_PATH, MAP_ROUTE25, MAP_ONE_ISLAND_KINDLE_ROAD, MAP_CERULEAN_CAVE_B1F, MAP_ONE_ISLAND, MAP_FUCHSIA_CITY, MAP_ROUTE4, MAP_SEVEN_ISLAND_TRAINER_TOWER, MAP_VERMILION_CITY, MAP_FIVE_ISLAND_WATER_LABYRINTH, MAP_ROUTE12, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_ROUTE23, MAP_SIX_ISLAND_GREEN_PATH, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_CERULEAN_CAVE_1F, MAP_ROUTE19, MAP_SEAFOAM_ISLANDS_B4F, MAP_ROUTE24, MAP_CINNABAR_ISLAND, MAP_SEAFOAM_ISLANDS_B3F, MAP_FIVE_ISLAND_MEADOW, MAP_ROUTE11, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_THREE_ISLAND_BERRY_FOREST, MAP_ROUTE6, MAP_VIRIDIAN_CITY, MAP_FIVE_ISLAND, MAP_SSANNE_EXTERIOR, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE20, MAP_ROUTE21_SOUTH, MAP_THREE_ISLAND_BOND_BRIDGE, MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE, MAP_ROUTE22, MAP_TWO_ISLAND_CAPE_BRINK, MAP_ROUTE10, MAP_FOUR_ISLAND
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### LAPRAS
 
@@ -2930,9 +6251,40 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 40 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_WATER_ABSORB | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK, MAP_ROUTE18
+**Found at:** MAP_ROUTE18, MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### DITTO
 
@@ -2949,9 +6301,12 @@
 | **eggGroup1** | EGG_GROUP_DITTO | **eggGroup2** | EGG_GROUP_DITTO | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_METAL_POWDER | **abilities** | ABILITY_LIMBER | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_POKEMON_MANSION_B1F, MAP_ROUTE13, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_ROUTE14, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE15
+**Found at:** MAP_POKEMON_MANSION_B1F, MAP_ROUTE13, MAP_ROUTE14, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE15, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
 
 ### EEVEE
 
@@ -2972,6 +6327,24 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+
 ### VAPOREON
 
 ![VAPOREON](graphics/pokemon/vaporeon/front.png)
@@ -2990,6 +6363,33 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### JOLTEON
 
@@ -3010,6 +6410,30 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm05 flash |
+
 ### FLAREON
 
 ![FLAREON](graphics/pokemon/flareon/front.png)
@@ -3029,6 +6453,29 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+
 ### PORYGON
 
 ![PORYGON](graphics/pokemon/porygon/front.png)
@@ -3044,9 +6491,36 @@
 | **eggGroup1** | EGG_GROUP_MINERAL | **eggGroup2** | EGG_GROUP_MINERAL | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_TRACE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_THREE_ISLAND_PORT, MAP_ROUTE16
+**Found at:** MAP_ROUTE16, MAP_THREE_ISLAND_PORT
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm46 thief |
+| Hm05 flash |
 
 ### OMANYTE
 
@@ -3067,6 +6541,31 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
+
 ### OMASTAR
 
 ![OMASTAR](graphics/pokemon/omastar/front.png)
@@ -3085,6 +6584,32 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### KABUTO
 
@@ -3105,6 +6630,33 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm03 surf |
+| Hm06 rock smash |
+| Hm07 waterfall |
+
 ### KABUTOPS
 
 ![KABUTOPS](graphics/pokemon/kabutops/front.png)
@@ -3123,6 +6675,37 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm03 surf |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
 
 ### AERODACTYL
 
@@ -3143,6 +6726,38 @@
 
 
 
+| Move Name |
+|---------|
+| Tm02 dragon claw |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm02 fly |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### SNORLAX
 
 ![SNORLAX](graphics/pokemon/snorlax/front.png)
@@ -3161,6 +6776,40 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm04 strength |
 
 ### ARTICUNO
 
@@ -3181,6 +6830,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm37 sandstorm |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm47 steel wing |
+| Hm02 fly |
+| Hm06 rock smash |
+
 ### ZAPDOS
 
 ![ZAPDOS](graphics/pokemon/zapdos/front.png)
@@ -3199,6 +6874,32 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm37 sandstorm |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm47 steel wing |
+| Hm02 fly |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### MOLTRES
 
@@ -3219,6 +6920,31 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm47 steel wing |
+| Tm50 overheat |
+| Hm02 fly |
+| Hm06 rock smash |
+
 ### DRATINI
 
 ![DRATINI](graphics/pokemon/dratini/front.png)
@@ -3234,9 +6960,38 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 40 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHED_SKIN | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_NORTH
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
 
 ### DRAGONAIR
 
@@ -3253,9 +7008,38 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_DRAGON | **eggCycles** | 40 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_DRAGON_FANG | **abilities** | ABILITY_SHED_SKIN | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_EAST, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_NORTH
+**Found at:** MAP_SAFARI_ZONE_CENTER, MAP_SAFARI_ZONE_NORTH, MAP_SAFARI_ZONE_WEST, MAP_SAFARI_ZONE_EAST
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm03 surf |
+| Hm07 waterfall |
 
 ### DRAGONITE
 
@@ -3276,6 +7060,49 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm02 dragon claw |
+| Tm03 water pulse |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm47 steel wing |
+| Hm01 cut |
+| Hm02 fly |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
+
 ### MEWTWO
 
 ![MEWTWO](graphics/pokemon/mewtwo/front.png)
@@ -3294,6 +7121,52 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### MEW
 
@@ -3314,6 +7187,67 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm02 dragon claw |
+| Tm03 water pulse |
+| Tm04 calm mind |
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm08 bulk up |
+| Tm09 bullet seed |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm36 sludge bomb |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Tm50 overheat |
+| Hm01 cut |
+| Hm02 fly |
+| Hm03 surf |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+| Hm07 waterfall |
+| Hm08 dive |
+
 ### LANTURN
 
 ![LANTURN](graphics/pokemon/lanturn/front.png)
@@ -3329,7 +7263,9 @@
 | **eggGroup1** | EGG_GROUP_WATER_2 | **eggGroup2** | EGG_GROUP_WATER_2 | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_YELLOW_SHARD | **abilities** | ABILITY_VOLT_ABSORB | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE4, MAP_ROUTE10, MAP_ROUTE24, MAP_ROUTE18, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY
+**Found at:** MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_SIX_ISLAND_OUTCAST_ISLAND, MAP_CERULEAN_CITY, MAP_ROUTE10
+
+
 
 
 
@@ -3352,6 +7288,8 @@
 
 
 
+
+
 ### TOGEPI
 
 ![TOGEPI](graphics/pokemon/togepi/front.png)
@@ -3370,6 +7308,33 @@
 **Found at:** 
 
 
+
+| Move Name |
+|---------|
+| Tm03 water pulse |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm20 safeguard |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### XATU
 
@@ -3390,6 +7355,35 @@
 
 
 
+| Move Name |
+|---------|
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm19 giga drain |
+| Tm21 frustration |
+| Tm22 solar beam |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Tm48 skill swap |
+| Hm02 fly |
+| Hm05 flash |
+
 ### MAREEP
 
 ![MAREEP](graphics/pokemon/mareep/front.png)
@@ -3405,9 +7399,29 @@
 | **eggGroup1** | EGG_GROUP_MONSTER | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_STATIC | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_ROUTE10, MAP_ROUTE1
+**Found at:** MAP_ROUTE1, MAP_ROUTE10
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm05 flash |
 
 ### FLAAFFY
 
@@ -3428,6 +7442,30 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+
 ### AMPHAROS
 
 ![AMPHAROS](graphics/pokemon/ampharos/front.png)
@@ -3446,6 +7484,31 @@
 **Found at:** MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_POWER_PLANT
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
 
 ### ESPEON
 
@@ -3466,6 +7529,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm48 skill swap |
+| Hm01 cut |
+| Hm05 flash |
+
 ### UMBREON
 
 ![UMBREON](graphics/pokemon/umbreon/front.png)
@@ -3485,6 +7574,31 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm49 snatch |
+| Hm01 cut |
+| Hm05 flash |
+
 ### MURKROW
 
 ![MURKROW](graphics/pokemon/murkrow/front.png)
@@ -3500,9 +7614,33 @@
 | **eggGroup1** | EGG_GROUP_FLYING | **eggGroup2** | EGG_GROUP_FLYING | **eggCycles** | 20 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INSOMNIA | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_ROUTE1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_THREE_ISLAND_PORT, MAP_ROUTE15
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_THREE_ISLAND_PORT, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_ROUTE15, MAP_ROUTE1
 
 
+
+| Move Name |
+|---------|
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm27 return |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Tm49 snatch |
+| Hm02 fly |
 
 ### MISDREAVUS
 
@@ -3519,9 +7657,37 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 25 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_SPELL_TAG | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_FAST |
 
-**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_POKEMON_TOWER_3F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_POKEMON_TOWER_5F
+**Found at:** MAP_FIVE_ISLAND_LOST_CAVE_ROOM12, MAP_FIVE_ISLAND_LOST_CAVE_ROOM11, MAP_FIVE_ISLAND_LOST_CAVE_ROOM10, MAP_FIVE_ISLAND_LOST_CAVE_ROOM14, MAP_FIVE_ISLAND_LOST_CAVE_ROOM8, MAP_FIVE_ISLAND_LOST_CAVE_ROOM1, MAP_FIVE_ISLAND_LOST_CAVE_ROOM4, MAP_FIVE_ISLAND_LOST_CAVE_ROOM6, MAP_FIVE_ISLAND_LOST_CAVE_ROOM2, MAP_POKEMON_TOWER_4F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM7, MAP_FIVE_ISLAND_LOST_CAVE_ROOM13, MAP_FIVE_ISLAND_LOST_CAVE_ROOM9, MAP_POKEMON_TOWER_5F, MAP_FIVE_ISLAND_LOST_CAVE_ROOM3, MAP_FIVE_ISLAND_LOST_CAVE_ROOM5, MAP_POKEMON_TOWER_3F
 
 
+
+| Move Name |
+|---------|
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm34 shock wave |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Tm49 snatch |
+| Hm05 flash |
 
 ### UNOWN
 
@@ -3538,9 +7704,12 @@
 | **eggGroup1** | EGG_GROUP_UNDISCOVERED | **eggGroup2** | EGG_GROUP_UNDISCOVERED | **eggCycles** | 40 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_LEVITATE | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER
+**Found at:** MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER, MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER
 
 
+
+| Move Name |
+|---------|
 
 ### WOBBUFFET
 
@@ -3557,9 +7726,12 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SHADOW_TAG | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_1F, MAP_CERULEAN_CAVE_B1F, MAP_ROUTE11
+**Found at:** MAP_ROUTE11, MAP_SIX_ISLAND_RUIN_VALLEY, MAP_CERULEAN_CAVE_2F, MAP_CERULEAN_CAVE_B1F, MAP_CERULEAN_CAVE_1F
 
 
+
+| Move Name |
+|---------|
 
 ### GIRAFARIG
 
@@ -3580,6 +7752,36 @@
 
 
 
+| Move Name |
+|---------|
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm24 thunderbolt |
+| Tm25 thunder |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm29 psychic |
+| Tm30 shadow ball |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm34 shock wave |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm48 skill swap |
+| Hm04 strength |
+| Hm05 flash |
+| Hm06 rock smash |
+
 ### GLIGAR
 
 ![GLIGAR](graphics/pokemon/gligar/front.png)
@@ -3598,6 +7800,33 @@
 **Found at:** MAP_ROCK_TUNNEL_1F, MAP_MT_MOON_1F
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm36 sludge bomb |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm40 aerial ace |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm47 steel wing |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### HERACROSS
 
@@ -3618,6 +7847,32 @@
 
 
 
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm06 toxic |
+| Tm08 bulk up |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Hm01 cut |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### SNEASEL
 
 ![SNEASEL](graphics/pokemon/sneasel/front.png)
@@ -3633,9 +7888,42 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 35 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_INNER_FOCUS | **growthRate** | GROWTH_MEDIUM_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_SEAFOAM_ISLANDS_B1F
+**Found at:** MAP_SEAFOAM_ISLANDS_B1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F
 
 
+
+| Move Name |
+|---------|
+| Tm01 focus punch |
+| Tm04 calm mind |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm12 taunt |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm23 iron tail |
+| Tm27 return |
+| Tm28 dig |
+| Tm30 shadow ball |
+| Tm31 brick break |
+| Tm32 double team |
+| Tm40 aerial ace |
+| Tm41 torment |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm46 thief |
+| Tm49 snatch |
+| Hm01 cut |
+| Hm03 surf |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### SLUGMA
 
@@ -3652,9 +7940,29 @@
 | **eggGroup1** | EGG_GROUP_AMORPHOUS | **eggGroup2** | EGG_GROUP_AMORPHOUS | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_MAGMA_ARMOR | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_MT_EMBER_RUBY_PATH_B2F, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B3F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS
+**Found at:** MAP_MT_EMBER_RUBY_PATH_B3F, MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS, MAP_MT_EMBER_RUBY_PATH_B2F, MAP_MT_EMBER_RUBY_PATH_B1F, MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS
 
 
+
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm27 return |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm35 flamethrower |
+| Tm38 fire blast |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm06 rock smash |
 
 ### MAGCARGO
 
@@ -3675,6 +7983,31 @@
 
 
 
+| Move Name |
+|---------|
+| Tm06 toxic |
+| Tm10 hidden power |
+| Tm11 sunny day |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm35 flamethrower |
+| Tm37 sandstorm |
+| Tm38 fire blast |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Tm50 overheat |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### SWINUB
 
 ![SWINUB](graphics/pokemon/swinub/front.png)
@@ -3690,9 +8023,35 @@
 | **eggGroup1** | EGG_GROUP_FIELD | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_ASPEAR_BERRY | **item2** | ITEM_NONE | **abilities** | ABILITY_OBLIVIOUS | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_ONE_ISLAND_TREASURE_BEACH
+**Found at:** MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_ONE_ISLAND_TREASURE_BEACH, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F
 
 
+
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
 
 ### PILOSWINE
 
@@ -3713,6 +8072,33 @@
 
 
 
+| Move Name |
+|---------|
+| Tm05 roar |
+| Tm06 toxic |
+| Tm07 hail |
+| Tm10 hidden power |
+| Tm13 ice beam |
+| Tm14 blizzard |
+| Tm15 hyper beam |
+| Tm16 light screen |
+| Tm17 protect |
+| Tm18 rain dance |
+| Tm21 frustration |
+| Tm26 earthquake |
+| Tm27 return |
+| Tm28 dig |
+| Tm32 double team |
+| Tm33 reflect |
+| Tm37 sandstorm |
+| Tm39 rock tomb |
+| Tm42 facade |
+| Tm43 secret power |
+| Tm44 rest |
+| Tm45 attract |
+| Hm04 strength |
+| Hm06 rock smash |
+
 ### DELIBIRD
 
 ![DELIBIRD](graphics/pokemon/delibird/front.png)
@@ -3728,7 +8114,9 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_FIELD | **eggCycles** | 20 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_VITAL_SPIRIT | **growthRate** | GROWTH_FAST |
 
-**Found at:** MAP_THREE_ISLAND_PORT, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F, MAP_SEAFOAM_ISLANDS_1F
+**Found at:** MAP_SEAFOAM_ISLANDS_1F, MAP_FOUR_ISLAND_ICEFALL_CAVE_1F, MAP_THREE_ISLAND_PORT, MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F
+
+
 
 
 
@@ -3747,7 +8135,9 @@
 | **eggGroup1** | EGG_GROUP_WATER_1 | **eggGroup2** | EGG_GROUP_WATER_1 | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_SWIFT_SWIM | **growthRate** | GROWTH_SLOW |
 
-**Found at:** MAP_ROUTE4, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_ROUTE24, MAP_ROUTE18, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_SIX_ISLAND_GREEN_PATH, MAP_CERULEAN_CITY
+**Found at:** MAP_ROUTE18, MAP_ROUTE24, MAP_ROUTE4, MAP_SEVEN_ISLAND_TANOBY_RUINS, MAP_CERULEAN_CITY, MAP_FIVE_ISLAND_MEMORIAL_PILLAR, MAP_SIX_ISLAND_GREEN_PATH
+
+
 
 
 
@@ -3770,6 +8160,8 @@
 
 
 
+
+
 ### HOUNDOOM
 
 ![HOUNDOOM](graphics/pokemon/houndoom/front.png)
@@ -3786,6 +8178,8 @@
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_EARLY_BIRD | **growthRate** | GROWTH_SLOW |
 
 **Found at:** MAP_ROUTE17
+
+
 
 
 
@@ -3808,6 +8202,8 @@
 
 
 
+
+
 ### HITMONTOP
 
 ![HITMONTOP](graphics/pokemon/hitmontop/front.png)
@@ -3827,6 +8223,8 @@
 
 
 
+
+
 ### ELEKID
 
 ![ELEKID](graphics/pokemon/elekid/front.png)
@@ -3842,6 +8240,8 @@
 | **eggGroup1** | EGG_GROUP_UNDISCOVERED | **eggGroup2** | EGG_GROUP_UNDISCOVERED | **eggCycles** | 25 | **friendship** | 70 |
 | **item1** | ITEM_NONE | **item2** | ITEM_NONE | **abilities** | ABILITY_STATIC | **growthRate** | GROWTH_MEDIUM_FAST |
 
-**Found at:** MAP_ROUTE10, MAP_POWER_PLANT
+**Found at:** MAP_POWER_PLANT, MAP_ROUTE10
+
+
 
 
