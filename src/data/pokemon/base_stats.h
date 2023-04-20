@@ -7445,8 +7445,8 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = TRUE,
-    },/*
-    [SPECIES_MAGBY] =
+    },
+    /*[SPECIES_MAGBY] =
     {
         .baseHP = 45,
         .baseAttack = 75,

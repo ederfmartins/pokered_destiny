@@ -14,7 +14,7 @@ class StatsParser:
     attr_list = pyparsing.OneOrMore(attr)
     attr_void = pyparsing.Word("0")
     attr_list_or_void = attr_list | attr_void
-    attr_dict = pyparsing.Char("{") + attr_list_or_void + pyparsing.Char("}")
+    attr_dict = pyparsing.Char("{") + attr_list_or_void + pyparsing.Char("}") | name
     mon_def = pyparsing.Char("[") + name + pyparsing.Char("]") + pyparsing.Char("=") + attr_dict + pyparsing.Char(",")
     mon_dict = pyparsing.OneOrMore(mon_def)
     comment = pyparsing.Char("/") + pyparsing.Char("*") + mon_dict + pyparsing.Char("*") + pyparsing.Char("/")
