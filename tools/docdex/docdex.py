@@ -135,7 +135,7 @@ def generate_pokedex_markdown(wild_encounters: WildEncounters, base_stats: Dict[
             continue
         name = mon_name.replace("SPECIES_", "")
         text.append(f"### {name}")
-        text.append(f"![{name}](graphics/pokemon/{mon_name.lower()}/front.png)")
+        text.append(f"![{name}](graphics/pokemon/{name.lower()}/front.png)")
         text.append(f"**XP**: {mon_stats['expYield']} / {mon_stats['genderRatio']}")
         mon_table = build_mon_stats_table(mon_stats)
         text.append("\n".join(mon_table))
