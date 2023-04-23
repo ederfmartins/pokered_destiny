@@ -6,7 +6,7 @@ NormalGym_MapScripts::
 script NormalGym_LeaderNorman {
     lock
     faceplayer
-    trainerbattle_single(TRAINER_LIDER_NORMAN, format("Let's see if Oak is right about you!"), format("Nice done. You really is ready to become a champion."), NormalGym_LeaderNorman_afterbattle)
+    trainerbattle_enforce_set(TRAINER_LIDER_NORMAN, format("Let's see if Oak is right about you!"), format("Nice done. You really is ready to become a champion."), NormalGym_LeaderNorman_afterbattle)
     msgbox(format("It was a memorable battle, last time. Nice to see you back. We should try again in the future."), MSGBOX_AUTOCLOSE)
     end
 }

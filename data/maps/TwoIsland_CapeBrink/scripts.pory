@@ -33,7 +33,7 @@ script TwoIsland_CapeBrink_lorelei {
 	faceplayer
 	msgbox(format("When I battle I try to be like water...\p Ohh, I see a powefull stream in you! Are you able to adapt in any situation?"), MSGBOX_YESNO)
     if (var(VAR_RESULT) == 1) {
-        trainerbattle_single(TRAINER_LORELEI_GYMLEADER, format("Try to follow the stream."), format("Tank you! I have a special gift for your help."), TwoIsland_CapeBrink_afterbattle)
+        trainerbattle_enforce_set(TRAINER_LORELEI_GYMLEADER, format("Try to follow the stream."), format("Tank you! I have a special gift for your help."), TwoIsland_CapeBrink_afterbattle)
     } else {
         msgbox(format("I already finished my lessons for today. Come back another day to participate."))
     }

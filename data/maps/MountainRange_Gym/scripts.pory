@@ -74,7 +74,7 @@ script MountainRange_Gym_Battle3 {
 script MountainRange_Gym_LeaderKahili {
     lock
     faceplayer
-    trainerbattle_single(TRAINER_LIDER_KAHILI, format("Do you want the FREEDON BADGE? Proof you are a good trainer!"), format("I love this battle. We should battle in the future again."), MountainRange_Gym_LeaderKahili_afterbattle)
+    trainerbattle_enforce_set(TRAINER_LIDER_KAHILI, format("Do you want the FREEDON BADGE? Proof you are a good trainer!"), format("I love this battle. We should battle in the future again."), MountainRange_Gym_LeaderKahili_afterbattle)
     msgbox(format("We should battle in the future again."), MSGBOX_AUTOCLOSE)
     end
 }
