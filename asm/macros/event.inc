@@ -698,6 +698,9 @@
 		.elseif \type == TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE
 			.4byte \pointer1 @ text
 			.4byte \pointer2 @ text
+		.elseif \type == TRAINER_BATTLE_SINGLE_ROCKET
+			.4byte \pointer1 @ text
+			.4byte \pointer2 @ text
 		.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC
 			.4byte \pointer1 @ text
 			.4byte \pointer2 @ text
@@ -707,6 +710,10 @@
 			.4byte \pointer2 @ text
 			.4byte \pointer3 @ event script
 		.elseif \type == TRAINER_BATTLE_ENFORCE_SET_MODE
+			.4byte \pointer1 @ text
+			.4byte \pointer2 @ text
+			.4byte \pointer3 @ event script
+		.elseif \type == TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET
 			.4byte \pointer1 @ text
 			.4byte \pointer2 @ text
 			.4byte \pointer3 @ event script
@@ -758,6 +765,14 @@
 	trainerbattle TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE, \trainer, 0, \intro_text, \lose_text
 	.else
 	trainerbattle TRAINER_BATTLE_ENFORCE_SET_MODE, \trainer, 0, \intro_text, \lose_text, \event_script
+	.endif
+	.endm
+
+	.macro trainerbattle_rocket trainer:req, intro_text:req, lose_text:req, event_script=FALSE
+	.if \event_script == FALSE
+	trainerbattle TRAINER_BATTLE_SINGLE_ROCKET, \trainer, 0, \intro_text, \lose_text
+	.else
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET, \trainer, 0, \intro_text, \lose_text, \event_script
 	.endif
 	.endm
 

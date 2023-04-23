@@ -2257,7 +2257,11 @@ static void BattleStartClearSetData(void)
     if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_POKEDUDE)) && gSaveBlock2Ptr->optionsBattleSceneOff)
         gHitMarker |= HITMARKER_NO_ANIMATIONS;
 
-    if (GetTrainerBattleMode() == TRAINER_BATTLE_ENFORCE_SET_MODE || GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE)
+    if (
+        GetTrainerBattleMode() == TRAINER_BATTLE_ENFORCE_SET_MODE || 
+        GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE || 
+        GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ROCKET ||
+        GetTrainerBattleMode() == TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET)
         gBattleScripting.battleStyle = OPTIONS_BATTLE_STYLE_SET;
     else
         gBattleScripting.battleStyle = gSaveBlock2Ptr->optionsBattleStyle;
