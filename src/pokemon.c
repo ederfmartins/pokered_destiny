@@ -6434,3 +6434,40 @@ bool8 MonKnowsTMHM(struct Pokemon *mon)
     }
     return FALSE;
 }
+
+u8 TryTakeMonItem(struct Pokemon *mon)
+{
+    u16 item = GetMonData(mon, MON_DATA_HELD_ITEM, NULL);
+
+    if (item == ITEM_NONE)
+        return 0;
+    if (AddBagItem(item, 1) == FALSE)
+        return 1;
+    item = ITEM_NONE;
+    SetMonData(mon, MON_DATA_HELD_ITEM, &item);
+    return 2;
+}
+
+void killFaithedMons()
+{
+    int i, parrySize;
+    u32 hp = 0;
+    u16 noneSpecies = SPECIES_NONE;
+    int removedMons = 0;
+
+    parrySize = CalculatePlayerPartyCount();
+
+    for (i = 0; i < parrySize; i++)
+    {
+        hp = GetMonData(&gPlayerParty[i], MON_DATA_HP, NULL);
+        if (hp == 0 && removedMons < parrySize - 1)
+        {
+            TryTakeMonItem(&gPlayerParty[i]);
+            ZeroMonData(&gPlayerParty[i]);
+            removedMons += 1;
+        }
+    }
+
+    CompactPartySlots();
+    CalculatePlayerPartyCount();
+}

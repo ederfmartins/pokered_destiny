@@ -8,7 +8,7 @@ script DragoniteIsle_Lance {
 	faceplayer
 	msgbox(format("Oh! It is a great deed to find this place. Sometimes, I went here to relax and allow my POKéMON to be with other of their kind. This island has some special power. I have a gift for you. Do you want to battle me?"), MSGBOX_YESNO)
     if (var(VAR_RESULT) == 1) {
-        trainerbattle_single(TRAINER_LANCE_GYMLEADER, format("Let see if you are able to feel the Dragon Heart."), format("I feel nostalgic. It is being long time I don't battle in my GYM."), DragoniteIsle_afterbattle)
+        trainerbattle_enforce_set(TRAINER_LANCE_GYMLEADER, format("Let see if you are able to feel the Dragon Heart."), format("I feel nostalgic. It is being long time I don't battle in my GYM."), DragoniteIsle_afterbattle)
     } else {
         
         msgbox(format("Sorry, but we already battle before. If you want to do it again, the Indigo Plateau is the perfect place."))

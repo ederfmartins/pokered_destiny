@@ -1635,19 +1635,6 @@ static void GiveItemToMon(struct Pokemon *mon, u16 item)
     SetMonData(mon, MON_DATA_HELD_ITEM, itemBytes);
 }
 
-static u8 TryTakeMonItem(struct Pokemon *mon)
-{
-    u16 item = GetMonData(mon, MON_DATA_HELD_ITEM);
-
-    if (item == ITEM_NONE)
-        return 0;
-    if (AddBagItem(item, 1) == FALSE)
-        return 1;
-    item = ITEM_NONE;
-    SetMonData(mon, MON_DATA_HELD_ITEM, &item);
-    return 2;
-}
-
 static void BufferBagFullCantTakeItemMessage(u16 itemId)
 {
     const u8 *string;

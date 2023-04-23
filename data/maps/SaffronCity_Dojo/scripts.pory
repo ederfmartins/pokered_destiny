@@ -170,7 +170,7 @@ script SaffronCity_Dojo_Bruno {
         msgbox(format("I disagree with you. All trainers here should be pround of thenselfs."))
     } else {
         if(flag(TRAINER_FLAGS_START + TRAINER_YAZ_LEADER) == true) {
-            trainerbattle_single(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
+            trainerbattle_enforce_set(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
         } else {
             msgbox(format("True! Came here another day to see the result of our hard work."))
         }

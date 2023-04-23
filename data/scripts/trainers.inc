@@ -2785,3 +2785,13 @@ SevenIsland_TanobyRuins_EventScript_CliffordRematch::
 	trainerbattle_rematch TRAINER_GENTLEMAN_CLIFFORD, SevenIsland_TanobyRuins_Text_CliffordRematchIntro, SevenIsland_TanobyRuins_Text_CliffordDefeat
 	msgbox SevenIsland_TanobyRuins_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Kill_Pokemon_Warning::
+	lockall
+	msgbox Kill_Pokemon_Warning_Text, MSGBOX_AUTOCLOSE
+	releaseall
+	end
+
+Kill_Pokemon_Warning_Text::
+	.string "Nuzlock effect: defeated POKEMON\n"
+	.string "are being killed!$"

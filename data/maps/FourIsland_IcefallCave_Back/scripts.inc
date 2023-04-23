@@ -50,7 +50,7 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox FourIsland_IcefallCave_Back_Text_GruntIntro
 	setvar VAR_LAST_TALKED, LOCALID_ROCKET3
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_45, FourIsland_IcefallCave_Back_Text_GruntDefeat
+	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_45, GruntIntro_Text_Nuzlock, FourIsland_IcefallCave_Back_Text_GruntDefeat
 	applymovement LOCALID_LORELEI, FourIsland_IcefallCave_Back_Movement_WalkInPlaceUp
 	waitmovement 0
 	textcolor NPC_TEXT_COLOR_FEMALE
@@ -90,6 +90,9 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	setvar VAR_MAP_SCENE_ICEFALL_CAVE_BACK, 1
 	releaseall
 	end
+
+GruntIntro_Text_Nuzlock::
+	.string "Nuzlock!$"
 
 FourIsland_IcefallCave_Back_Movement_PlayerToRockets::
 	walk_up

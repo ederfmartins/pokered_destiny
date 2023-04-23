@@ -58,7 +58,7 @@ Route24_EventScript_BattleRocket::
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROCKET
     setvar VAR_TEMP_1, 0
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
+	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_6, GruntIntro_Text_Nuzlock, Route24_Text_RocketDefeat
 	msgbox Route24_Text_YoudBecomeTopRocketLeader
 	setvar VAR_MAP_SCENE_ROUTE24, 1
 	return

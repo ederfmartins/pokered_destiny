@@ -17,10 +17,12 @@ Some of the features that you can find in this game includes:
 * Starters allways have good ivs.
 * Badges don't grant 10% status increases.
 * Each badge only increase in 5 levels the maximum level to a Pokemon to obey your orders.
+* Important battles, including most of the gym leaders, enforce the set mode, making then more interesting.
+* You lose POKEMONs defeated by Rocket's team.
+* Some trainers will ask for a nuzlock battle. POKEMONs defeated in this battles are also lost.
 
 Coming...
- * Rockets will steal your Pokemons when they defeated some of them.
  * A real Pokemon leage after defeating elite 4.
- * Important battles will enforce the set mode, making then more interesting.
+ 
 
 At this moment, this hack is already playable.

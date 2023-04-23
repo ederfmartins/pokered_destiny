@@ -23,7 +23,7 @@ script LavenderTown_House3_agatha {
             if (var(VAR_RESULT) == 1) {
                 msgbox(format("As a GHOST lover, can you help me with my grand daugther?"), MSGBOX_YESNO)
                 if (var(VAR_RESULT) == 1) {
-                    trainerbattle_single(TRAINER_AGATHA_GYMLEADER, "Let see what you can do!", format("Well done! I have a special gift for you."), LavenderTown_House3_afterbattle)
+                    trainerbattle_enforce_set(TRAINER_AGATHA_GYMLEADER, "Let see what you can do!", format("Well done! I have a special gift for you."), LavenderTown_House3_afterbattle)
                 }
             } else {
                 msgbox(format("I don't know what the old duff sees in you."))

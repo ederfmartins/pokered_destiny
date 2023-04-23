@@ -796,6 +796,8 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
         TrainerBattleLoadArgs(sDoubleBattleParams, data);
         SetMapVarsToTrainer();
         return EventScript_TryDoDoubleTrainerBattle;
+    case TRAINER_BATTLE_ENFORCE_SET_MODE:
+    case TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET:
     case TRAINER_BATTLE_CONTINUE_SCRIPT:
     case TRAINER_BATTLE_CONTINUE_SCRIPT_NO_MUSIC:
         TrainerBattleLoadArgs(sContinueScriptBattleParams, data);
@@ -904,6 +906,12 @@ void StartTrainerBattle(void)
 
 static void CB2_EndTrainerBattle(void)
 {
+
+    if (sTrainerBattleMode == TRAINER_BATTLE_SINGLE_ROCKET || sTrainerBattleMode == TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET)
+    {
+        killFaithedMons();
+    }
+
     if (sTrainerBattleMode == TRAINER_BATTLE_EARLY_RIVAL)
     {
         if (IsPlayerDefeated(gBattleOutcome) == TRUE)

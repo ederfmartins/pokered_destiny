@@ -162,10 +162,13 @@ CeruleanCity_EventScript_Grunt::
 	waitmessage
 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	waitbuttonpress
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_Text_GruntDefeat
+	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_5, CeruleanCity_EventScript_Grunt_Msg, CeruleanCity_Text_GruntDefeat
 	setvar VAR_MAP_SCENE_CERULEAN_CITY_ROCKET, 1
 	goto CeruleanCity_EventScript_GruntDefeated
 	end
+
+CeruleanCity_EventScript_Grunt_Msg::
+	.string "Nuzlock!$"
 
 CeruleanCity_EventScript_GruntDefeated::
 	msgbox CeruleanCity_Text_OkayIllReturnStolenTM
