@@ -42,7 +42,7 @@ MtEmber_Exterior_EventScript_BattleGrunt1::
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	msgbox MtEmber_Exterior_Text_Grunt1Intro
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_Text_Grunt1Defeat
+	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_43, GruntIntro_Text_Nuzlock, MtEmber_Exterior_Text_Grunt1Defeat
 	msgbox MtEmber_Exterior_Text_Grunt1PostBattle
 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
@@ -78,7 +78,7 @@ MtEmber_Exterior_EventScript_DefeatedGrunt2::
 MtEmber_Exterior_EventScript_BattleGrunt2::
 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	msgbox MtEmber_Exterior_Text_Grunt2Intro
-	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_44, MtEmber_Exterior_Text_Grunt2Defeat
+	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_44, GruntIntro_Text_Nuzlock, MtEmber_Exterior_Text_Grunt2Defeat
 	msgbox MtEmber_Exterior_Text_Grunt2PostBattle
 	goto_if_defeated TRAINER_TEAM_ROCKET_GRUNT_43, MtEmber_Exterior_EventScript_DefeatedBothGrunts
 	release
