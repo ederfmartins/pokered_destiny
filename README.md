@@ -3,7 +3,7 @@
 This is a ROM Hack based on Pokemon FireRed. It uses [pokefirered](https://github.com/pret/pokefirered) as base and add some elements present in the anime to the game, while trying to keep its original look.
 
 Some of the features that you can find in this game includes:
-* About 230 Pokemons can be caught, including all 151 gen 1 pokemons. Look at pokemons_and_wild_enconters.md to know all moves each POKEMON can learn, as well as, the location where it apears.
+* About 230 Pokemons can be caught, including all 151 gen 1 pokemons. Look at ![pokemons_and_wild_enconters.md](pokemons_and_wild_enconters.md) to know all moves each POKEMON can learn, as well as, the location where it apears.
 * 6 pokemons to start with.
 * TM are not spend when given to a Pokemon, but you can use only one TM or HM on each pokemon.
 * Half split between physical and special moves. Some types get access to both move kinds when it makes sense.
