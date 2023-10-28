@@ -12,9 +12,9 @@ Route3_Text_ColtonDefeat::
     .string "You beat me again!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of POKéMON\n"
-    .string "here than the ones you you would\n"
-    .string "normally expected.$"
+    .string "You will need a bug type\n"
+    .string "POKéMON under 20 level to\n"
+    .string "find the BUG BADGE.$"
 
 Route3_Text_BenIntro::
     .string "Hi!\n"
@@ -85,8 +85,8 @@ Route3_Text_JamesDefeat::
     .string "Done like dinner!$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained POKéMON are stronger than\n"
-    .string "the wild ones.$"
+    .string "I got my BUG BADGE\n"
+    .string "during a raining day.$"
 
 Route3_Text_RobinIntro::
     .string "Eek!\n"

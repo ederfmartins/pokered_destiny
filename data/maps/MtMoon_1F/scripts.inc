@@ -11,7 +11,7 @@ MtMoon_1F_EventScript_ZubatSign::
 	end
 
 MtMoon_1F_EventScript_Marcos::
-	trainerbattle_single TRAINER_HIKER_MARCOS, MtMoon_1F_Text_MarcosIntro, MtMoon_1F_Text_MarcosDefeat
+	trainerbattle_rocket TRAINER_HIKER_MARCOS, MtMoon_1F_Text_MarcosIntro, MtMoon_1F_Text_MarcosDefeat
 	msgbox MtMoon_1F_Text_MarcosPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -36,11 +36,11 @@ MtMoon_1F_EventScript_Jovan::
 	end
 
 MtMoon_1F_EventScript_Kent::
-	trainerbattle_single TRAINER_BUG_CATCHER_KENT, MtMoon_1F_Text_KentIntro, MtMoon_1F_Text_KentDefeat
+	trainerbattle_rocket TRAINER_BUG_CATCHER_KENT, MtMoon_1F_Text_KentIntro, MtMoon_1F_Text_KentDefeat
 	msgbox MtMoon_1F_Text_KentPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtMoon_1F_EventScript_Robby::
-	trainerbattle_single TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat
+	trainerbattle_rocket TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat
 	msgbox MtMoon_1F_Text_RobbyPostBattle, MSGBOX_AUTOCLOSE
 	end

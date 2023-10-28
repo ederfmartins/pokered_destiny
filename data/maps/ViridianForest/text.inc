@@ -49,7 +49,9 @@ ViridianForest_Text_AnthonyIntro::
 
 ViridianForest_Text_AnthonyDefeat::
     .string "Oh, boo.\n"
-    .string "Nothing went right.$"
+    .string "Nothing went right.\n"
+    .string "I need to train more to.\n"
+    .string "defeat the hidden BUG GYM.$"
 
 ViridianForest_Text_AnthonyPostBattle::
     .string "I lost some of my allowance…$"
