@@ -58,7 +58,7 @@ Route24_EventScript_BattleRocket::
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROCKET
     setvar VAR_TEMP_1, 0
-	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_6, GruntIntro_Text_Nuzlock, Route24_Text_RocketDefeat
+	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
 	msgbox Route24_Text_YoudBecomeTopRocketLeader
 	setvar VAR_MAP_SCENE_ROUTE24, 1
 	return
@@ -101,7 +101,7 @@ Route24_Movement_WalkDown::
 	step_end
 
 Route24_EventScript_Cale::
-	trainerbattle_single TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleIntro, Route24_Text_CaleDefeat, Route24_ActivateTrap
+	trainerbattle_enforce_set TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleIntro, Route24_Text_CaleDefeat, Route24_ActivateTrap
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_CaleRematch
 	msgbox Route24_Text_CalePostBattle, MSGBOX_AUTOCLOSE

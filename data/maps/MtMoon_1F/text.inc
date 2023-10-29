@@ -60,7 +60,8 @@ MtMoon_1F_Text_IrisPostBattle::
 
 MtMoon_1F_Text_KentIntro::
     .string "Suspicious men are in the cave.\n"
-    .string "What about you?$"
+    .string "They know how to kill POKéMON.\n"
+    .string "Nuzlock mode activated!$"
 
 MtMoon_1F_Text_KentDefeat::
     .string "You got me!$"

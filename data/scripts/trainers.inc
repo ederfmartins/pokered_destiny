@@ -99,7 +99,7 @@ Route4_EventScript_CrissyRematch::
 	end
 
 Route24_EventScript_Timmy::
-	trainerbattle_single TRAINER_YOUNGSTER_TIMMY, Route24_Text_TimmyIntro, Route24_Text_TimmyDefeat
+	trainerbattle_enforce_set TRAINER_YOUNGSTER_TIMMY, Route24_Text_TimmyIntro, Route24_Text_TimmyDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_TimmyRematch
 	msgbox Route24_Text_TimmyPostBattle, MSGBOX_AUTOCLOSE
@@ -111,7 +111,7 @@ Route24_EventScript_TimmyRematch::
 	end
 
 Route24_EventScript_Reli::
-	trainerbattle_single TRAINER_LASS_RELI, Route24_Text_ReliIntro, Route24_Text_ReliDefeat
+	trainerbattle_enforce_set TRAINER_LASS_RELI, Route24_Text_ReliIntro, Route24_Text_ReliDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_ReliRematch
 	msgbox Route24_Text_ReliPostBattle, MSGBOX_AUTOCLOSE
@@ -123,7 +123,7 @@ Route24_EventScript_ReliRematch::
 	end
 
 Route24_EventScript_Ali::
-	trainerbattle_single TRAINER_LASS_ALI, Route24_Text_AliIntro, Route24_Text_AliDefeat
+	trainerbattle_enforce_set TRAINER_LASS_ALI, Route24_Text_AliIntro, Route24_Text_AliDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_AliRematch
 	msgbox Route24_Text_AliPostBattle, MSGBOX_AUTOCLOSE
@@ -147,7 +147,7 @@ Route24_EventScript_ShaneRematch::
 	end
 
 Route24_EventScript_Ethan::
-	trainerbattle_single TRAINER_CAMPER_ETHAN, Route24_Text_EthanIntro, Route24_Text_EthanDefeat
+	trainerbattle_enforce_set TRAINER_CAMPER_ETHAN, Route24_Text_EthanIntro, Route24_Text_EthanDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_EthanRematch
 	msgbox Route24_Text_EthanPostBattle, MSGBOX_AUTOCLOSE

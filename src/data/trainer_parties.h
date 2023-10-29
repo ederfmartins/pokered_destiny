@@ -459,18 +459,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherCale[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherKeigo[] = {
     {
         .iv = 0,
-        .lvl = 16,
+        .lvl = 70,
         .species = SPECIES_WEEDLE,
     },
     {
         .iv = 0,
-        .lvl = 16,
+        .lvl = 70,
         .species = SPECIES_CATERPIE,
-    },
-    {
-        .iv = 0,
-        .lvl = 16,
-        .species = SPECIES_WEEDLE,
     },
 };
 
@@ -3893,7 +3888,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyCharmand
 static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanSquirtle[] = {
     {
         .iv = 50,
-        .lvl = 17,
+        .lvl = 18,
         .species = SPECIES_PIDGEOTTO,
         .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
     },
@@ -3917,9 +3912,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalCeruleanSquirtle[] =
     },
     {
         .iv = 50,
-        .lvl = 17,
+        .lvl = 19,
         .species = SPECIES_NIDORAN_M,
         .moves = {MOVE_POISON_STING, MOVE_PECK, MOVE_FURY_ATTACK, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 17,
+        .species = SPECIES_GEODUDE,
+        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_MAGNITUDE},
     },
 };
 

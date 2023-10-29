@@ -47,9 +47,8 @@ CeruleanCity_EventScript_Rival::
 	addobject LOCALID_RIVAL
 	applymovement LOCALID_RIVAL, CeruleanCity_Movement_RivalEnter
 	waitmovement 0
-	msgbox CeruleanCity_Text_RivalIntro
 	setvar VAR_LAST_TALKED, LOCALID_RIVAL
-	trainerbattle_no_intro TRAINER_RIVAL_CERULEAN, CeruleanCity_Text_RivalDefeat
+	trainerbattle_enforce_set TRAINER_RIVAL_CERULEAN, CeruleanCity_Text_RivalIntro, CeruleanCity_Text_RivalDefeat
 	famechecker FAMECHECKER_BILL, 0
 	msgbox CeruleanCity_Text_RivalPostBattle
 	closemessage

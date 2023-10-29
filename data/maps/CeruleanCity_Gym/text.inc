@@ -60,10 +60,9 @@ CeruleanCity_Gym_Text_LuisPostBattle::
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
-    .string "Champ in the making!\p"
     .string "Let me give you some advice!\p"
-    .string "The LEADER, MISTY, is a pro who\n"
-    .string "uses WATER-type POKéMON.\p"
+    .string "LEADER MISTY uses WATER-type POKéMON\n"
+    .string "in SET mode.\p"
     .string "You can drain all their water with\n"
     .string "GRASS-type POKéMON.\p"
     .string "Or, you might use ELECTRIC-type\n"

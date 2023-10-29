@@ -102,7 +102,7 @@ Route24_Movement_WalkDown::
 	step_end
 
 Route24_EventScript_Cale::
-	trainerbattle_single TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleIntro, Route24_Text_CaleDefeat, Route24_ActivateTrap
+	trainerbattle_enforce_set TRAINER_BUG_CATCHER_CALE, Route24_Text_CaleIntro, Route24_Text_CaleDefeat, Route24_ActivateTrap
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_CaleRematch
 	msgbox Route24_Text_CalePostBattle, MSGBOX_AUTOCLOSE
