@@ -22,7 +22,7 @@ Route6_Text_NancyPostBattle::
     .string "Whisper…$"
 
 Route6_Text_KeigoIntro::
-    .string "There aren't many bugs out here.$"
+    .string "Ready to be defeated by a bug?$"
 
 Route6_Text_KeigoDefeat::
     .string "No!\n"

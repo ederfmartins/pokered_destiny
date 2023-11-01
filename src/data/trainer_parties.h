@@ -1009,7 +1009,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerIsabelle[] = {
     {
         .iv = 0,
         .lvl = 16,
-        .species = SPECIES_PIDGEY,
+        .species = SPECIES_SPEAROW,
     },
     {
         .iv = 0,
@@ -1019,7 +1019,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerIsabelle[] = {
     {
         .iv = 0,
         .lvl = 16,
-        .species = SPECIES_PIDGEY,
+        .species = SPECIES_DODUO,
     },
 };
 
@@ -3928,18 +3928,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalSsAnneOther[] = {
     {
         .iv = 50,
         .lvl = 18,
-        .species = SPECIES_KADABRA,
-        .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    },
-    {
-        .iv = 50,
-        .lvl = 18,
         .species = SPECIES_PIDGEOTTO,
         .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK},
     },
     {
         .iv = 50,
-        .lvl = 18,
+        .lvl = 20,
+        .species = SPECIES_KADABRA,
+        .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 21,
         .species = SPECIES_RATICATE,
         .moves = {MOVE_TACKLE, MOVE_HYPER_FANG, MOVE_QUICK_ATTACK, MOVE_NONE},
     },
@@ -5963,7 +5963,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GentlemanWalter[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneSquirtle[] = {
     {
         .iv = 50,
-        .lvl = 19,
+        .lvl = 21,
         .species = SPECIES_RATICATE,
     },
     {
@@ -5986,7 +5986,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneSquirtle[] = 
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneBulbasaur[] = {
     {
         .iv = 50,
-        .lvl = 19,
+        .lvl = 21,
         .species = SPECIES_RATICATE,
     },
     {
@@ -6009,7 +6009,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneBulbasaur[] =
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneCharmander[] = {
     {
         .iv = 50,
-        .lvl = 19,
+        .lvl = 21,
         .species = SPECIES_RATICATE,
     },
     {

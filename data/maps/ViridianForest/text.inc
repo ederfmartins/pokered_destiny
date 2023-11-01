@@ -107,6 +107,6 @@ ViridianForest_Text_LeavingViridianForest::
 
 ViridianForest_Text_BugGymWarp::
     .string "Can I show to you a very\n"
-    .string "special secret about\n"
+    .string "special secret about\p"
     .string "this place?$"
 
