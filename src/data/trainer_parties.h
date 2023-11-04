@@ -1347,18 +1347,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_SuperNerdAidan[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_SuperNerdGlenn[] = {
     {
         .iv = 0,
-        .lvl = 22,
+        .lvl = 36,
         .species = SPECIES_GRIMER,
     },
     {
         .iv = 0,
-        .lvl = 22,
+        .lvl = 28,
         .species = SPECIES_MUK,
-    },
-    {
-        .iv = 0,
-        .lvl = 22,
-        .species = SPECIES_GRIMER,
     },
 };
 

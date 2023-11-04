@@ -1299,7 +1299,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("PAIGE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassPaige),
     },
     [TRAINER_LASS_ANDREA] = {
@@ -1309,7 +1309,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("ANDREA"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassAndrea),
     },
     [TRAINER_LASS_MEGAN] = {
@@ -1739,7 +1739,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("GLENN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_SuperNerdGlenn),
     },
     [TRAINER_SUPER_NERD_LESLIE] = {
@@ -1749,7 +1749,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("LESLIE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_SuperNerdLeslie),
     },
     [TRAINER_SUPER_NERD_1] = {
