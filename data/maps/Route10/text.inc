@@ -19,9 +19,9 @@ Route10_Text_ClarkDefeat::
     .string "Ha-hay fever! Haha-ha-choo!$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "AGATHA is training her \n"
+    .string "grand daugther to be the \l"
+    .string "next GHOST GYM Leader$"
 
 Route10_Text_HermanIntro::
     .string "Hi, kid!\n"
@@ -58,7 +58,9 @@ Route10_Text_TrentDefeat::
     .string "That cleared my head!$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "To unlock a secret, you\n"
+    .string "should use POKéMON of level\p"
+    .string "between 30 and 35!$"
 
 Route10_Text_CarolIntro::
     .string "I'm feeling a bit faint.\n"

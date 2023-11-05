@@ -4519,12 +4519,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt14[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt15[] = {
     {
         .iv = 0,
-        .lvl = 25,
+        .lvl = 35,
         .species = SPECIES_GRAVELER,
     },
     {
         .iv = 0,
-        .lvl = 25,
+        .lvl = 35,
         .species = SPECIES_MACHOP,
     },
 };
@@ -11178,17 +11178,17 @@ static const struct TrainerMonNoItemCustomMoves sParty_yas_Leader[] = {
 static const struct TrainerMonItemCustomMoves sParty_agatha_daugther[] = {
     {
         .iv = 250,
-        .lvl = 31,
+        .lvl = 33,
         .species = SPECIES_MISDREAVUS,
         .heldItem = ITEM_NONE,
-        .moves = {MOVE_THUNDER_SHOCK, MOVE_HYPNOSIS, MOVE_TOXIC, MOVE_TOXIC},
+        .moves = {MOVE_THUNDER_SHOCK, MOVE_HYPNOSIS, MOVE_PSYBEAM, MOVE_CONFUSE_RAY},
     },
     {
         .iv = 250,
-        .lvl = 32,
-        .species = SPECIES_GIRATINA,
+        .lvl = 35,
+        .species = SPECIES_BANETTE,
         .heldItem = ITEM_NONE,
-        .moves = {MOVE_PROTECT, MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_DIG},
+        .moves = {MOVE_SCREECH, MOVE_CURSE, MOVE_SHADOW_PUNCH, MOVE_NIGHT_SHADE},
     },
     {
         .iv = 250,
@@ -11199,7 +11199,7 @@ static const struct TrainerMonItemCustomMoves sParty_agatha_daugther[] = {
     },
     {
         .iv = 250,
-        .lvl = 34,
+        .lvl = 35,
         .species = SPECIES_HAUNTER,
         .heldItem = ITEM_NONE,
         .moves = {MOVE_LICK, MOVE_PSYCHIC, MOVE_TOXIC, MOVE_SHADOW_BALL},
