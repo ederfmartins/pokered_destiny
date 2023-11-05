@@ -762,7 +762,7 @@ u8 DoBattlerEndTurnEffects(void)
                  && gBattleMons[gActiveBattler].hp != gBattleMons[gActiveBattler].maxHP
                  && gBattleMons[gActiveBattler].hp != 0)
                 {
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 16;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     gBattleMoveDamage *= -1;
@@ -792,7 +792,7 @@ u8 DoBattlerEndTurnEffects(void)
                  && gBattleMons[gActiveBattler].hp != 0)
                 {
                     gBattlerTarget = gStatuses3[gActiveBattler] & STATUS3_LEECHSEED_BATTLER; // Notice gBattlerTarget is actually the HP receiver.
-                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 6;
                     if (gBattleMoveDamage == 0)
                         gBattleMoveDamage = 1;
                     gBattleScripting.animArg1 = gBattlerTarget;
