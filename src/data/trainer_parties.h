@@ -5750,7 +5750,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
         .iv = 0,
         .lvl = 18,
         .species = SPECIES_PSYDUCK,
-        .moves = {MOVE_WATER_GUN, MOVE_SCRATCH, MOVE_CONFUSION, MOVE_DISABLE},
+        .moves = {MOVE_WATER_GUN, MOVE_DIG, MOVE_CONFUSION, MOVE_NONE},
     },
     {
         .iv = 0,
