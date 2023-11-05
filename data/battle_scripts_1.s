@@ -1972,7 +1972,10 @@ BattleScript_SolarBeamOnFirstTurn::
 	setmoveeffect MOVE_EFFECT_CHARGING | MOVE_EFFECT_AFFECTS_USER
 	seteffectprimary
 	ppreduce
+	setstatchanger STAT_SPATK, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_TwoTurnMovesSecondTurn
 	goto BattleScript_TwoTurnMovesSecondTurn
+
 
 BattleScript_EffectThunder::
 	setmoveeffect MOVE_EFFECT_PARALYSIS
