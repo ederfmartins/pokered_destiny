@@ -241,6 +241,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectFlinchHitPhisical      @ EFFECT_FLINCH_HIT_PHYSICAL
 	.4byte BattleScript_EffectSpUp                   @ EFFECT_GROWTH
 	.4byte BattleScript_EffectSpecialDefenseDownHitSp @ EFFECT_SPECIAL_DEFENSE_DOWN_HIT_SP
+	.4byte BattleScript_EffectConfuseAlwaysHit       @ EFFECT_SPECIAL_DEFENSE_DOWN_HIT_SP
 	
 
 BattleScript_EffectHitNormal::
@@ -1124,6 +1125,10 @@ BattleScript_EffectSkyAttack::
 	goto BattleScript_MoveEnd
 
 BattleScript_EffectConfuseHit::
+	setmoveeffect MOVE_EFFECT_CONFUSION
+	goto BattleScript_EffectHit
+
+BattleScript_EffectConfuseAlwaysHit::
 	setmoveeffect MOVE_EFFECT_CONFUSION
 	goto BattleScript_EffectHit
 
