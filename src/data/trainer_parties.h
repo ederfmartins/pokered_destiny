@@ -4581,13 +4581,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt18[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt19[] = {
     {
         .iv = 0,
-        .lvl = 25,
-        .species = SPECIES_ZUBAT,
+        .lvl = 30,
+        .species = SPECIES_TENTACRUEL,
     },
     {
         .iv = 0,
         .lvl = 25,
-        .species = SPECIES_ZUBAT,
+        .species = SPECIES_SANDSLASH,
     },
     {
         .iv = 0,
@@ -4599,12 +4599,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt19[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt20[] = {
     {
         .iv = 0,
-        .lvl = 26,
+        .lvl = 30,
         .species = SPECIES_KOFFING,
     },
     {
         .iv = 0,
-        .lvl = 26,
+        .lvl = 30,
         .species = SPECIES_DROWZEE,
     },
 };
@@ -4612,23 +4612,28 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt20[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt21[] = {
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_ZUBAT,
+        .lvl = 30,
+        .species = SPECIES_WOBBUFFET,
     },
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_RATTATA,
+        .lvl = 35,
+        .species = SPECIES_ARBOK,
     },
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_RATICATE,
+        .lvl = 30,
+        .species = SPECIES_VICTREEBEL,
     },
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_ZUBAT,
+        .lvl = 35,
+        .species = SPECIES_WEEZING,
+    },
+    {
+        .iv = 0,
+        .lvl = 25,
+        .species = SPECIES_MEOWTH,
     },
 };
 
@@ -6027,27 +6032,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalSsAnneCharmander[] 
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerSquirtle[] = {
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_PIDGEOTTO,
     },
     {
         .iv = 100,
-        .lvl = 23,
+        .lvl = 30,
         .species = SPECIES_GROWLITHE,
     },
     {
         .iv = 100,
-        .lvl = 22,
+        .lvl = 30,
         .species = SPECIES_EXEGGCUTE,
     },
     {
         .iv = 100,
-        .lvl = 20,
+        .lvl = 30,
         .species = SPECIES_KADABRA,
     },
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_WARTORTLE,
     },
 };
@@ -6055,27 +6060,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerSquirtl
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerBulbasaur[] = {
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_PIDGEOTTO,
     },
     {
         .iv = 100,
-        .lvl = 23,
+        .lvl = 30,
         .species = SPECIES_GYARADOS,
     },
     {
         .iv = 100,
-        .lvl = 22,
+        .lvl = 30,
         .species = SPECIES_GROWLITHE,
     },
     {
         .iv = 100,
-        .lvl = 20,
+        .lvl = 30,
         .species = SPECIES_KADABRA,
     },
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_IVYSAUR,
     },
 };
@@ -6083,27 +6088,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerBulbasa
 static const struct TrainerMonNoItemDefaultMoves sParty_RivalPokenonTowerCharmander[] = {
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_PIDGEOTTO,
     },
     {
         .iv = 100,
-        .lvl = 23,
+        .lvl = 30,
         .species = SPECIES_EXEGGCUTE,
     },
     {
         .iv = 100,
-        .lvl = 22,
+        .lvl = 30,
         .species = SPECIES_GYARADOS,
     },
     {
         .iv = 100,
-        .lvl = 20,
+        .lvl = 30,
         .species = SPECIES_KADABRA,
     },
     {
         .iv = 100,
-        .lvl = 25,
+        .lvl = 30,
         .species = SPECIES_CHARMELEON,
     },
 };
@@ -6456,7 +6461,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerCarly[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_GASTLY,
+        .species = SPECIES_MISDREAVUS,
     },
 };
 
@@ -6464,15 +6469,15 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerHope[] = {
     {
         .iv = 0,
         .lvl = 23,
-        .species = SPECIES_GASTLY,
+        .species = SPECIES_SABLEYE,
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerPaula[] = {
     {
         .iv = 0,
-        .lvl = 24,
-        .species = SPECIES_GASTLY,
+        .lvl = 35,
+        .species = SPECIES_PARASECT,
     },
 };
 
@@ -6484,15 +6489,15 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerLaurel[] = {
     },
     {
         .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_GASTLY,
+        .lvl = 28,
+        .species = SPECIES_ANNIHILAPE,
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerJody[] = {
     {
         .iv = 0,
-        .lvl = 22,
+        .lvl = 50,
         .species = SPECIES_GASTLY,
     },
 };
@@ -6517,7 +6522,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerKarina[] = {
     {
         .iv = 0,
         .lvl = 24,
-        .species = SPECIES_GASTLY,
+        .species = SPECIES_BANETTE,
     },
 };
 
@@ -6525,25 +6530,25 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerJanae[] = {
     {
         .iv = 0,
         .lvl = 22,
-        .species = SPECIES_GASTLY,
+        .species = SPECIES_MISDREAVUS,
     },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_ChannelerAngelica[] = {
     {
         .iv = 0,
-        .lvl = 22,
-        .species = SPECIES_GASTLY,
+        .lvl = 28,
+        .species = SPECIES_HAUNTER,
     },
     {
         .iv = 0,
-        .lvl = 22,
-        .species = SPECIES_GASTLY,
+        .lvl = 28,
+        .species = SPECIES_MISDREAVUS,
     },
     {
         .iv = 0,
-        .lvl = 22,
-        .species = SPECIES_GASTLY,
+        .lvl = 28,
+        .species = SPECIES_BANETTE,
     },
 };
 
