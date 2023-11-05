@@ -23,11 +23,7 @@ RocketHideout_B4F_EventScript_Giovanni::
 	lock
 	faceplayer
 	famechecker FAMECHECKER_GIOVANNI, 0
-	message RocketHideout_B4F_Text_GiovanniIntro
-	waitmessage
-	playbgm MUS_ENCOUNTER_ROCKET, 0
-	waitbuttonpress
-	trainerbattle_no_intro TRAINER_BOSS_GIOVANNI, RocketHideout_B4F_Text_GiovanniDefeat
+	trainerbattle_rocket TRAINER_BOSS_GIOVANNI, RocketHideout_B4F_Text_GiovanniIntro, RocketHideout_B4F_Text_GiovanniDefeat
 	msgbox RocketHideout_B4F_Text_GiovanniPostBattle
 	fadescreen FADE_TO_BLACK
 	closemessage
