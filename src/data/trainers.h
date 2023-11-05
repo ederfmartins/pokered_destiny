@@ -1319,7 +1319,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("MEGAN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_LassMegan),
     },
     [TRAINER_LASS_JULIA] = {
