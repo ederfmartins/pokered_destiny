@@ -1,7 +1,7 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "If you can use FLY, you.\p"
+    .string "can travel to MOUNTAIN \n"
+    .string "RANGE.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
     .string "Heheh! This GYM is great!\n"
