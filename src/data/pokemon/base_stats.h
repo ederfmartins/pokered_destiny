@@ -10942,7 +10942,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = TRUE,
-    },
+    },*/
     [SPECIES_SHUPPET] =
     {
         .baseHP = 44,
@@ -10973,7 +10973,7 @@ const struct BaseStats gBaseStats[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
-    },*/
+    },
     [SPECIES_BANETTE] =
     {
         .baseHP = 64,

@@ -649,4 +649,9 @@ const u8 gSpeciesNames[][11] = {
     _("GIRATINA"),
     _("KINGDRA"),
     _("DEOXYS"),
+    _("SHUPPET"),
+    _("SABLEYE"),
+    _("ESPEON"),
+    _("UMBREON"),
+    _("TOGEPI"),
 };
