@@ -19,6 +19,6 @@ script MountainRange_Door {
 
 script MountainRange_Gym_Sign {
     lock
-    msgbox(format("MOUTAIN RAGE CITY POKéMON GYM\nLEADER: KAHILI\lThe freedon POKéMON TRAINER!"))
+    msgbox(format("MOUNTAIN RAGE CITY POKéMON GYM\nLEADER: KAHILI\lThe freedon POKéMON TRAINER!"))
 	release
 }
