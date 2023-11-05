@@ -241,6 +241,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectFlinchHitPhisical      @ EFFECT_FLINCH_HIT_PHYSICAL
 	.4byte BattleScript_EffectSpUp                   @ EFFECT_GROWTH
 	.4byte BattleScript_EffectSpecialDefenseDownHitSp @ EFFECT_SPECIAL_DEFENSE_DOWN_HIT_SP
+	.4byte BattleScript_EffectConfuseAlwaysHit       @ EFFECT_SPECIAL_DEFENSE_DOWN_HIT_SP
 	
 
 BattleScript_EffectHitNormal::
@@ -1127,6 +1128,10 @@ BattleScript_EffectConfuseHit::
 	setmoveeffect MOVE_EFFECT_CONFUSION
 	goto BattleScript_EffectHit
 
+BattleScript_EffectConfuseAlwaysHit::
+	setmoveeffect MOVE_EFFECT_CONFUSION
+	goto BattleScript_EffectHit
+
 BattleScript_EffectTwineedle::
 	attackcanceler
 	accuracycheck BattleScript_PrintMoveMissed, ACC_CURR_MOVE
@@ -1972,7 +1977,10 @@ BattleScript_SolarBeamOnFirstTurn::
 	setmoveeffect MOVE_EFFECT_CHARGING | MOVE_EFFECT_AFFECTS_USER
 	seteffectprimary
 	ppreduce
+	setstatchanger STAT_SPATK, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_TwoTurnMovesSecondTurn
 	goto BattleScript_TwoTurnMovesSecondTurn
+
 
 BattleScript_EffectThunder::
 	setmoveeffect MOVE_EFFECT_PARALYSIS

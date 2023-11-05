@@ -39,7 +39,7 @@ LavenderTown_House3_agatha_8:
 	goto LavenderTown_House3_agatha_1
 
 LavenderTown_House3_agatha_11:
-	trainerbattle_single TRAINER_AGATHA_GYMLEADER, LavenderTown_House3_agatha_Text_3, LavenderTown_House3_agatha_Text_4, LavenderTown_House3_afterbattle
+	trainerbattle_enforce_set TRAINER_AGATHA_GYMLEADER, LavenderTown_House3_agatha_Text_3, LavenderTown_House3_agatha_Text_4, LavenderTown_House3_afterbattle
 	goto LavenderTown_House3_agatha_1
 
 

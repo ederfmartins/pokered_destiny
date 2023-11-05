@@ -2,8 +2,8 @@ LavenderTown_Text_DoYouBelieveInGhosts::
     .string "Do you believe in ghosts?$"
 
 LavenderTown_Text_SoThereAreBelievers::
-    .string "Really?\n"
-    .string "So there are believers…$"
+    .string "Do you know? There is a\n"
+    .string "secret GYM in this town?$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
     .string "Hahaha, I guess not.\p"

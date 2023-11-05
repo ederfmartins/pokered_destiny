@@ -15,6 +15,7 @@ static const u16 sTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_EXPLOSION] = MOVE_EXPLOSION,
     [TUTOR_MOVE_ROCK_SLIDE] = MOVE_ROCK_SLIDE,
     [TUTOR_MOVE_SUBSTITUTE] = MOVE_SUBSTITUTE,
+    [TUTOR_MOVE_SHADOW_PUNCH] = MOVE_SHADOW_PUNCH,
 };
 
 #define TUTOR(move) (1 << (TUTOR_##move))
@@ -2539,14 +2540,14 @@ static const u16 sTutorLearnsets[] =
                     | TUTOR(MOVE_ROCK_SLIDE)
                     | TUTOR(MOVE_SUBSTITUTE),*/
 
-    [SPECIES_SHUPPET] = TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_SHUPPET] = TUTOR(MOVE_SHADOW_PUNCH)
                       | TUTOR(MOVE_DOUBLE_EDGE)
                       | TUTOR(MOVE_MIMIC)
                       | TUTOR(MOVE_DREAM_EATER)
                       | TUTOR(MOVE_THUNDER_WAVE)
                       | TUTOR(MOVE_SUBSTITUTE),
 
-    [SPECIES_BANETTE] = TUTOR(MOVE_BODY_SLAM)
+    [SPECIES_BANETTE] = TUTOR(MOVE_SHADOW_PUNCH)
                       | TUTOR(MOVE_DOUBLE_EDGE)
                       | TUTOR(MOVE_MIMIC)
                       | TUTOR(MOVE_METRONOME)
