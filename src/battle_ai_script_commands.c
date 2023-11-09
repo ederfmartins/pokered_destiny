@@ -968,14 +968,14 @@ static void Cmd_get_how_powerful_move_is(void)
     s32 i, checkedMove;
     s32 moveDmgs[MAX_MON_MOVES];
 
-    for (i = 0; sDiscouragedPowerfulMoveEffects[i] != 0xFFFF; i++)
+    /*for (i = 0; sDiscouragedPowerfulMoveEffects[i] != 0xFFFF; i++)
     {
         if (gBattleMoves[AI_THINKING_STRUCT->moveConsidered].effect == sDiscouragedPowerfulMoveEffects[i])
             break;
-    }
+    }*/
 
-    if (gBattleMoves[AI_THINKING_STRUCT->moveConsidered].power > 1
-        && sDiscouragedPowerfulMoveEffects[i] == 0xFFFF)
+    //if (gBattleMoves[AI_THINKING_STRUCT->moveConsidered].power > 1 && sDiscouragedPowerfulMoveEffects[i] == 0xFFFF)
+    if (gBattleMoves[AI_THINKING_STRUCT->moveConsidered].power > 1 && gBattleMoves[AI_THINKING_STRUCT->moveConsidered].effect != EFFECT_EXPLOSION)
     {
         gDynamicBasePower = 0;
         gBattleStruct->dynamicMoveType = 0;
@@ -985,22 +985,25 @@ static void Cmd_get_how_powerful_move_is(void)
 
         for (checkedMove = 0; checkedMove < MAX_MON_MOVES; checkedMove++)
         {
-            for (i = 0; sDiscouragedPowerfulMoveEffects[i] != 0xFFFF; i++)
+            /*for (i = 0; sDiscouragedPowerfulMoveEffects[i] != 0xFFFF; i++)
             {
                 if (gBattleMoves[gBattleMons[gBattlerAttacker].moves[checkedMove]].effect == sDiscouragedPowerfulMoveEffects[i])
                     break;
-            }
+            }*/
 
             if (gBattleMons[gBattlerAttacker].moves[checkedMove] != MOVE_NONE
-                && sDiscouragedPowerfulMoveEffects[i] == 0xFFFF
+                //&& sDiscouragedPowerfulMoveEffects[i] == 0xFFFF
                 && gBattleMoves[gBattleMons[gBattlerAttacker].moves[checkedMove]].power > 1)
             {
                 gCurrentMove = gBattleMons[gBattlerAttacker].moves[checkedMove];
                 AI_CalcDmg(gBattlerAttacker, gBattlerTarget);
-                TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget);
-                moveDmgs[checkedMove] = gBattleMoveDamage * AI_THINKING_STRUCT->simulatedRNG[checkedMove] / 100;
-                if (moveDmgs[checkedMove] == 0)
-                    moveDmgs[checkedMove] = 1;
+                if (TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget) & MOVE_RESULT_DOESNT_AFFECT_FOE) moveDmgs[checkedMove] = 0;
+                else 
+                {
+                    moveDmgs[checkedMove] = gBattleMoveDamage * AI_THINKING_STRUCT->simulatedRNG[checkedMove] / 100;
+                    if (moveDmgs[checkedMove] == 0)
+                        moveDmgs[checkedMove] = 1;
+                }
             }
             else
             {
@@ -1487,7 +1490,7 @@ static void Cmd_if_can_faint(void)
     gCritMultiplier = 1;
     gCurrentMove = AI_THINKING_STRUCT->moveConsidered;
     AI_CalcDmg(gBattlerAttacker, gBattlerTarget);
-    TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget);
+    if (TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget) & MOVE_RESULT_DOESNT_AFFECT_FOE) gBattleMoveDamage = 0;
 
     gBattleMoveDamage = gBattleMoveDamage * AI_THINKING_STRUCT->simulatedRNG[AI_THINKING_STRUCT->movesetIndex] / 100;
 
@@ -1516,7 +1519,7 @@ static void Cmd_if_cant_faint(void)
     gCritMultiplier = 1;
     gCurrentMove = AI_THINKING_STRUCT->moveConsidered;
     AI_CalcDmg(gBattlerAttacker, gBattlerTarget);
-    TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget);
+    if (TypeCalc(gCurrentMove, gBattlerAttacker, gBattlerTarget) & MOVE_RESULT_DOESNT_AFFECT_FOE) gBattleMoveDamage = 0;
 
     gBattleMoveDamage = gBattleMoveDamage * AI_THINKING_STRUCT->simulatedRNG[AI_THINKING_STRUCT->movesetIndex] / 100;
 
