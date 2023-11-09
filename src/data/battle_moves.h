@@ -3889,12 +3889,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BLAZE_KICK] =
     {
-        .effect = EFFECT_BLAZE_KICK,
+        .effect = EFFECT_HIT_PHYSICAL_ATACK,
         .power = 60,
         .type = TYPE_FIRE,
         .accuracy = 90,
         .pp = 10,
-        .secondaryEffectChance = 10,
+        .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,

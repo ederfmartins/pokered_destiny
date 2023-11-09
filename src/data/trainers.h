@@ -969,7 +969,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("EDDIE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterEddie),
     },
     [TRAINER_YOUNGSTER_DILLON] = {
@@ -2539,7 +2539,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("RAUL"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CueBallRaul),
     },
     [TRAINER_CUE_BALL_ISAIAH] = {
@@ -2549,7 +2549,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("ISAIAH"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CueBallIsaiah),
     },
     [TRAINER_CUE_BALL_ZEEK] = {
@@ -2559,7 +2559,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("ZEEK"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CueBallZeek),
     },
     [TRAINER_CUE_BALL_JAMAL] = {
@@ -2569,7 +2569,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JAMAL"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE | AI_SCRIPT_HP_AWARE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CueBallJamal),
     },
     [TRAINER_CUE_BALL_COREY] = {
@@ -3089,7 +3089,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("WILTON"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BirdKeeperWilton),
     },
     [TRAINER_BIRD_KEEPER_RAMIRO] = {
@@ -3099,7 +3099,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("RAMIRO"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BirdKeeperRamiro),
     },
     [TRAINER_BIRD_KEEPER_JACOB] = {
@@ -3109,7 +3109,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("JACOB"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE,
+        .aiFlags = AI_SCRIPT_AVOID_INEFFICIENT_MOVE | AI_SCRIPT_PREFER_STRONGEST_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BirdKeeperJacob),
     },
     [TRAINER_BIRD_KEEPER_ROGER] = {
