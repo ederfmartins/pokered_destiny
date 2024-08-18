@@ -183,7 +183,7 @@ SaffronCity_Dojo_Bruno_2:
 	goto SaffronCity_Dojo_Bruno_1
 
 SaffronCity_Dojo_Bruno_5:
-	trainerbattle_single TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_Bruno_Text_3, SaffronCity_Dojo_afterbattle
+	trainerbattle_enforce_set TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_Bruno_Text_3, SaffronCity_Dojo_afterbattle
 	goto SaffronCity_Dojo_Bruno_1
 
 

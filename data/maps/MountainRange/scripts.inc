@@ -30,6 +30,6 @@ MountainRange_Door_Text_0:
 	.string "This door is locked.$"
 
 MountainRange_Gym_Sign_Text_0:
-	.string "MOUTAIN RAGE CITY POKéMON GYM\n"
+	.string "MOUNTAIN RAGE CITY POKéMON GYM\n"
 	.string "LEADER: KAHILI\l"
 	.string "The freedon POKéMON TRAINER!$"

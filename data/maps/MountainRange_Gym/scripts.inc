@@ -96,7 +96,7 @@ MountainRange_Gym_Battle3_2:
 MountainRange_Gym_LeaderKahili::
 	lock
 	faceplayer
-	trainerbattle_single TRAINER_LIDER_KAHILI, MountainRange_Gym_LeaderKahili_Text_0, MountainRange_Gym_LeaderKahili_Text_1, MountainRange_Gym_LeaderKahili_afterbattle
+	trainerbattle_enforce_set TRAINER_LIDER_KAHILI, MountainRange_Gym_LeaderKahili_Text_0, MountainRange_Gym_LeaderKahili_Text_1, MountainRange_Gym_LeaderKahili_afterbattle
 	msgbox MountainRange_Gym_LeaderKahili_Text_2, MSGBOX_AUTOCLOSE
 	end
 

@@ -13,7 +13,7 @@ DragoniteIsle_Lance_1:
 	end
 
 DragoniteIsle_Lance_2:
-	trainerbattle_single TRAINER_LANCE_GYMLEADER, DragoniteIsle_Lance_Text_1, DragoniteIsle_Lance_Text_2, DragoniteIsle_afterbattle
+	trainerbattle_enforce_set TRAINER_LANCE_GYMLEADER, DragoniteIsle_Lance_Text_1, DragoniteIsle_Lance_Text_2, DragoniteIsle_afterbattle
 	goto DragoniteIsle_Lance_1
 
 
