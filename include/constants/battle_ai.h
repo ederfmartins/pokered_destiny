@@ -99,6 +99,16 @@
  */
 #define AI_SCRIPT_AVOID_INEFFICIENT_MOVE (1 << 10)
 
+/**
+ * This flag allows the AI to switch in the following situations
+ * 1 - The current POKEMON is slow 
+ *    1.1 AND can be defeated by one of the oponents atacks
+ * 2 - The current POKEMON do not have means to ko
+ *    2.1 AND AI has a POKEMON that can survive to one atack of current mon and is faster and have an attack able to ko current mon
+ *    2.2 AND AI has a POKEMON that can survive to two atacks of current mon and have an attack able to ko current mon
+ */
+#define AI_SCRIPT_SWITCH_AWARE (1 << 11)
+
 #define AI_SCRIPT_ROAMING (1 << 29)
 #define AI_SCRIPT_SAFARI (1 << 30)
 #define AI_SCRIPT_FIRST_BATTLE (1 << 31)

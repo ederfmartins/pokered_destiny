@@ -26,3 +26,70 @@ Coming...
  
 
 At this moment, this hack is already playable.
+
+# Debug tips
+
+You can use mGBA (https://github.com/mgba-emu/mgba) and the modern tookit in the makefile to debug the game using gdb.
+To do so, first install devkitARM's C compiler as described here: https://github.com/pret/pokeemerald/blob/master/INSTALL.md. Aditionally, install gdb-multiarch (`sudo apt-get install gdb-multiarch`) to have access to gdb.
+Then compile the source with the modern tookit and debug info eneabled:
+
+```
+make modern DINFO=1 -j8
+```
+
+The mGBA emulator comes with its own gdbserver, allowing us to connect the GNU Debugger (GDB) to our Game Boy Advance programs and inspect the state of the emulated machine.
+
+When combined with a GDB compatible IDE, such as Visual Studio Code, it becomes possible to write code for the Game Boy Advance, drop a breakpoint in that code, run mGBA, and step-by-step execute code, inspecting the state of registers, memory, and variables.
+
+The following `.vscode/launch.json` can be used to configure vscode to debug. A complete tutorial explanation can be found here: https://felixjones.co.uk/mgba_gdb/vscode.html
+
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "arm",
+            "program": "${workspaceFolder}/pokefirered_modern.elf",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerServerAddress": "localhost:2345",
+            "windows": {
+                "miDebuggerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gdb.exe",
+                "setupCommands": [
+                    {
+                        "text": "shell start /b \"\" \"${env:ProgramFiles}/mGBA/mGBA.exe\" -g \"${workspaceFolder}/my-game.elf\""
+                    }
+                ]
+            },
+            "linux": {
+                "miDebuggerPath": "gdb-multiarch",
+                "setupCommands": [
+                    {
+                        "text": "shell \"mgba-qt\" -g \"${workspaceFolder}/pokefirered_modern.elf\" &"
+                    }
+                ]
+            },
+            "osx": {
+                "miDebuggerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gdb",
+                "setupCommands": [
+                    {
+                        "text": "shell open -a mGBA --args -g \"${workspaceFolder}/my-game.elf\""
+                    }
+                ]
+            }
+        }
+    ],
+    "compounds": []
+}
+```
+
+After starting emulation click in tools -> start gdb server in mGBA, then run the laucher, add some breakpoits and that's it.
+
+Sometimes it is worth to make a variable volatile during debug to force compiler alocate it, avoiding compiler optimizations that prevent gdb to display the variable value. 

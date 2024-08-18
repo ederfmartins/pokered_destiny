@@ -27,7 +27,7 @@ gBattleAI_ScriptsTable::
 	.4byte AI_HPAware
 	.4byte AI_Unknown
 	.4byte AI_Avoid_IneficientMove
-	.4byte AI_Ret
+	.4byte AI_Ret @ AI_SCRIPT_SWITCH_AWARE
 	.4byte AI_Ret
 	.4byte AI_Ret
 	.4byte AI_Ret

@@ -1,5 +1,7 @@
 #include "global.h"
 #include "battle.h"
+#include "battle_ai_logic.h"
+#include "constants/battle_ai.h"
 #include "battle_anim.h"
 #include "battle_controllers.h"
 #include "random.h"
@@ -341,6 +343,17 @@ static bool8 ShouldSwitch(void)
     }
     if (!availableToSwitch)
         return FALSE;
+
+    // need to use the gTrainers[gTrainerBattleOpponent_A].aiFlags cause the ai think struct was not initialized yet at this stage.
+    if (gTrainers[gTrainerBattleOpponent_A].aiFlags & AI_SCRIPT_SWITCH_AWARE)
+    {
+        if (Battle_ai_switchToAvoidDefeat() || Battle_ai_switchToSwipper()) 
+        {
+            // only emit the action. The pokemon is decided inside the switch methods as a necessary side effect.
+            BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
+            return TRUE;
+        }
+    }
     if (ShouldSwitchIfPerishSong()
      || ShouldSwitchIfWonderGuard()
      || FindMonThatAbsorbsOpponentsMove()
