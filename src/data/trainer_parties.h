@@ -210,11 +210,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_YoungsterTyler[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_YoungsterEddie[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_YoungsterEddie[] = {
     {
         .iv = 0,
-        .lvl = 21,
-        .species = SPECIES_EKANS,
+        .lvl = 31,
+        .species = SPECIES_GIBLE,
+        .moves = {MOVE_SAND_TOMB, MOVE_DRAGON_BREATH, MOVE_BITE, MOVE_TACKLE}
+    },
+    {
+        .iv = 0,
+        .lvl = 33,
+        .species = SPECIES_MISDREAVUS,
+        .moves = {MOVE_CONFUSE_RAY, MOVE_PSYBEAM, MOVE_ASTONISH, MOVE_SHADOW_BALL}
+    },
+    {
+        .iv = 0,
+        .lvl = 33,
+        .species = SPECIES_VAPOREON,
+        .moves = {MOVE_QUICK_ATTACK, MOVE_WATER_GUN, MOVE_SAND_ATTACK, MOVE_BITE}
     },
 };
 
@@ -1890,7 +1903,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_BikerNikolas[] = {
         .iv = 0,
         .lvl = 36,
         .species = SPECIES_SCEPTILE,
-        .moves = {MOVE_MEGA_DRAIN, MOVE_QUICK_ATTACK, MOVE_LEAF_BLADE, EFFECT_FURY_CUTTER},
+        .moves = {MOVE_MEGA_DRAIN, MOVE_QUICK_ATTACK, MOVE_LEAF_BLADE, MOVE_FURY_CUTTER},
     },
 };
 
