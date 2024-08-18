@@ -344,16 +344,6 @@ static bool8 ShouldSwitch(void)
     if (!availableToSwitch)
         return FALSE;
 
-    // need to use the gTrainers[gTrainerBattleOpponent_A].aiFlags cause the ai think struct was not initialized yet at this stage.
-    if (gTrainers[gTrainerBattleOpponent_A].aiFlags & AI_SCRIPT_SWITCH_AWARE)
-    {
-        if (Battle_ai_switchToAvoidDefeat() || Battle_ai_switchToSwipper()) 
-        {
-            // only emit the action. The pokemon is decided inside the switch methods as a necessary side effect.
-            BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
-            return TRUE;
-        }
-    }
     if (ShouldSwitchIfPerishSong()
      || ShouldSwitchIfWonderGuard()
      || FindMonThatAbsorbsOpponentsMove()
@@ -365,6 +355,17 @@ static bool8 ShouldSwitch(void)
     if (FindMonWithFlagsAndSuperEffective(MOVE_RESULT_DOESNT_AFFECT_FOE, 2)
      || FindMonWithFlagsAndSuperEffective(MOVE_RESULT_NOT_VERY_EFFECTIVE, 3))
         return TRUE;
+
+    // need to use the gTrainers[gTrainerBattleOpponent_A].aiFlags cause the ai think struct was not initialized yet at this stage.
+    if (gTrainers[gTrainerBattleOpponent_A].aiFlags & AI_SCRIPT_SWITCH_AWARE)
+    {
+        if (Battle_ai_switchToAvoidDefeat() || Battle_ai_switchToSwipper()) 
+        {
+            // only emit the action. The pokemon is decided inside the switch methods as a necessary side effect.
+            BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
+            return TRUE;
+        }
+    }
     return FALSE;
 }
 
