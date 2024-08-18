@@ -969,8 +969,8 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("EDDIE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_YoungsterEddie),
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_YoungsterEddie),
     },
     [TRAINER_YOUNGSTER_DILLON] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
