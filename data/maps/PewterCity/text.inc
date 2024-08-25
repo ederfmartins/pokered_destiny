@@ -163,4 +163,4 @@ PewterCity_Text_PayOrFigth::
     .string "you pay me 2,000. Do you pay?$"
 
 PewterCity_Text_AquaFigth::
-    .string "Let the nuslock begin!$"
+    .string "Let the Nuzlock begin!$"
