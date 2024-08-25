@@ -154,6 +154,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Psychic;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spenser;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamAqua;
 
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
@@ -314,4 +315,5 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_PSYCHIC]                  = &gObjectEventGraphicsInfo_Psychic,
     [OBJ_EVENT_GFX_ARTIST]                   = &gObjectEventGraphicsInfo_Artist,
     [OBJ_EVENT_GFX_SPENSER]                  = &gObjectEventGraphicsInfo_Spenser,
+    [OBJ_EVENT_GFX_TEAM_AQUA]                = &gObjectEventGraphicsInfo_TeamAqua,
 };
