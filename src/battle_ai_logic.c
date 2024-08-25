@@ -5,6 +5,8 @@
 #include "constants/moves.h"
 
 void LoadTemporaryBattleMon(struct Pokemon *pokemon, struct BattlePokemon *battlePokemon);
+s32 getMaxDamage(struct BattlePokemon *attacker, struct BattlePokemon *defender, u8 battlerIdAtk, u8 battlerIdDef);
+void getDamageRetInGlobalBMD(struct BattlePokemon *attacker, struct BattlePokemon *defender, u16 move, u8 battlerIdAtk, u8 battlerIdDef);
 
 
 s32 ComputeMaxDamage(u8 battlerAttacker, u8 battlerTarget)
@@ -95,50 +97,81 @@ bool8 Battle_ai_switchToSwipper()
                 continue;
 
             LoadTemporaryBattleMon(&gEnemyParty[pokemon], &battlePokemon);
-            // Compute the maximun damage that the current opponent pokemon is able to deal to pokemon i.
-            maxDamage = 0;
-            for(curMoveIdx = 0; curMoveIdx < MAX_MON_MOVES; curMoveIdx++)
-            {
-                gCurrentMove = gBattleMons[oponent].moves[curMoveIdx];
-                if (gCurrentMove == MOVE_NONE)
-                    continue;
-                
-                gDynamicBasePower = 0;
-                gBattleStruct->dynamicMoveType = 0;
-                gBattleScripting.dmgMultiplier = 1;
-                gMoveResultFlags = 0;
-                gCritMultiplier = 1;
-                gBattleMoveDamage = CalculateBaseDamage(&gBattleMons[oponent], &battlePokemon, gCurrentMove, 0, 0, 0, oponent, ai);
-                AI_TypeCalc(gCurrentMove, battlePokemon.species, battlePokemon.ability);
-                if (gBattleMoveDamage > maxDamage) maxDamage = gBattleMoveDamage;
-            }
-            // if the pokemon is slower it will take 2 hits before deliver the first attack
+            
+            // max damage that the candidate to switch will take from current oponent pokemon
+            maxDamage = getMaxDamage(&gBattleMons[oponent], &battlePokemon, oponent, ai);
+
+            // if the candidate is slower it will take 2 hits before deliver the first attack
             if (battlePokemon.speed <= gBattleMons[oponent].speed) maxDamage *= 2;
 
             if (maxDamage >= battlePokemon.hp)
                 continue;
             
             // Search for a move able to kill opponent's pokemon
-            for(curMoveIdx = 0; curMoveIdx < MAX_MON_MOVES; curMoveIdx++)
+            maxDamage = getMaxDamage(&battlePokemon, &gBattleMons[oponent], ai, oponent);
+            if (maxDamage >= gBattleMons[oponent].hp)
             {
-                gCurrentMove = battlePokemon.moves[curMoveIdx];
-                if (gCurrentMove == MOVE_NONE)
-                    continue;
-                
-                gDynamicBasePower = 0;
-                gBattleStruct->dynamicMoveType = 0;
-                gBattleScripting.dmgMultiplier = 1;
-                gMoveResultFlags = 0;
-                gCritMultiplier = 1;
-                gBattleMoveDamage = CalculateBaseDamage(&battlePokemon, &gBattleMons[oponent], gCurrentMove, 0, 0, 0, ai, oponent);
-                AI_TypeCalc(gCurrentMove, gBattleMons[oponent].species, gBattleMons[oponent].ability);
-
-                if (gBattleMoveDamage < gBattleMons[oponent].hp)
-                    continue;
-                
                 gBattleStruct->AI_monToSwitchIntoId[GetBattlerPosition(ai) >> 1] = pokemon;
                 return TRUE;
             }
+        }
+    }
+    return FALSE;
+}
+
+bool8 Battle_ai_switchToMinimizeDmg()
+{
+    u8 ai, oponent, pokemon, candidate;
+    u8 curMoveIdx;
+    u16 move;
+    s32 damage, maxDamage = 10000;
+    struct BattlePokemon battlePokemon;
+    
+    ai = gActiveBattler;
+    oponent = gActiveBattler ^ BIT_SIDE;
+    for (curMoveIdx = 0; curMoveIdx < MAX_MON_MOVES; ++curMoveIdx)
+    {
+        move = gBattleMons[oponent].moves[curMoveIdx];
+        if (move == MOVE_STRUGGLE || move == MOVE_NONE) continue;
+        if (gBattleMoves[move].power <= 1) continue;
+
+        // oponent have a supper effective atk aggaist ai
+        if (AI_TypeCalc(move, gBattleMons[ai].species, gBattleMons[ai].ability) & MOVE_RESULT_SUPER_EFFECTIVE)
+        {
+            // 50% chance to continue due to stats raized
+            if (AreStatsRaised() && (Random() & 32) < 16) continue;
+            // too strong it is better to continue
+            if (gBattleMons[oponent].level > gBattleMons[ai].level + 5) continue;
+            // 50% chance to search for a better candidate
+            if ((Random() & 16) < 8)
+            {
+                getDamageRetInGlobalBMD(&gBattleMons[oponent], &gBattleMons[ai], move, oponent, ai);
+                damage = maxDamage = gBattleMoveDamage;
+                for (pokemon = 0; pokemon < PARTY_SIZE; pokemon++)
+                {
+                    // we need a candidate that receive min damage if the opponent select to use this move
+                    // Invalid pokemon to switch
+                    if (GetMonData(&gEnemyParty[pokemon], MON_DATA_HP) == 0
+                    || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_NONE
+                    || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_EGG
+                    || pokemon == gBattlerPartyIndexes[ai])
+                        continue;
+
+                    LoadTemporaryBattleMon(&gEnemyParty[pokemon], &battlePokemon);
+                    getDamageRetInGlobalBMD(&gBattleMons[oponent], &battlePokemon, move, oponent, ai);
+                    if (gBattleMoveDamage < maxDamage)
+                    {
+                        maxDamage = gBattleMoveDamage;
+                        candidate = pokemon;
+                    }
+                }
+                if (maxDamage < damage)
+                {
+                    gBattleStruct->AI_monToSwitchIntoId[GetBattlerPosition(ai) >> 1] = candidate;
+                    return TRUE;
+                }
+            }
+            
         }
     }
     return FALSE;
@@ -179,4 +212,44 @@ void LoadTemporaryBattleMon(struct Pokemon *pokemon, struct BattlePokemon *battl
     for (i = 0; i < BATTLE_STATS_NO; i++) {
         battlePokemon->statStages[i] = DEFAULT_STAT_STAGE;
     }
+}
+
+s32 getMaxDamage(struct BattlePokemon *attacker, struct BattlePokemon *defender, u8 battlerIdAtk, u8 battlerIdDef)
+{
+    s32 maxDamage;
+    u8 curMoveIdx;
+    maxDamage = 0;
+    for(curMoveIdx = 0; curMoveIdx < MAX_MON_MOVES; curMoveIdx++)
+    {
+        if (attacker->moves[curMoveIdx] == MOVE_NONE)
+            continue;
+        getDamageRetInGlobalBMD(attacker, defender, attacker->moves[curMoveIdx], battlerIdAtk, battlerIdDef);
+        if (gBattleMoveDamage > maxDamage) maxDamage = gBattleMoveDamage;
+    }
+    return maxDamage;
+}
+
+void getDamageRetInGlobalBMD(struct BattlePokemon *attacker, struct BattlePokemon *defender, u16 move, u8 battlerIdAtk, u8 battlerIdDef)
+{
+    gCurrentMove = move;
+    gDynamicBasePower = 0;
+    gBattleStruct->dynamicMoveType = 0;
+    gBattleScripting.dmgMultiplier = 1;
+    gMoveResultFlags = 0;
+    gCritMultiplier = 1;
+    gBattleMoveDamage = CalculateBaseDamage(attacker, defender, gCurrentMove, 0, 0, 0, battlerIdAtk, battlerIdDef);
+    AI_TypeCalc(gCurrentMove, defender->species, defender->ability);
+}
+
+bool8 AreStatsRaised(void)
+{
+    u8 buffedStatsValue = 0;
+    s32 i;
+
+    for (i = 0; i < NUM_BATTLE_STATS; ++i)
+    {
+        if (gBattleMons[gActiveBattler].statStages[i] > 6)
+            buffedStatsValue += gBattleMons[gActiveBattler].statStages[i] - 6;
+    }
+    return (buffedStatsValue > 3);
 }

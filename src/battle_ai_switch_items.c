@@ -222,19 +222,6 @@ static bool8 HasSuperEffectiveMoveAgainstOpponents(bool8 noRng)
     return FALSE;
 }
 
-static bool8 AreStatsRaised(void)
-{
-    u8 buffedStatsValue = 0;
-    s32 i;
-
-    for (i = 0; i < NUM_BATTLE_STATS; ++i)
-    {
-        if (gBattleMons[gActiveBattler].statStages[i] > 6)
-            buffedStatsValue += gBattleMons[gActiveBattler].statStages[i] - 6;
-    }
-    return (buffedStatsValue > 3);
-}
-
 static bool8 FindMonWithFlagsAndSuperEffective(u8 flags, u8 moduloPercent)
 {
     u8 battlerIn1, battlerIn2;
@@ -359,7 +346,7 @@ static bool8 ShouldSwitch(void)
     // need to use the gTrainers[gTrainerBattleOpponent_A].aiFlags cause the ai think struct was not initialized yet at this stage.
     if (gTrainers[gTrainerBattleOpponent_A].aiFlags & AI_SCRIPT_SWITCH_AWARE)
     {
-        if (Battle_ai_switchToAvoidDefeat() || Battle_ai_switchToSwipper()) 
+        if (Battle_ai_switchToSwipper() || Battle_ai_switchToAvoidDefeat() || Battle_ai_switchToMinimizeDmg()) 
         {
             // only emit the action. The pokemon is decided inside the switch methods as a necessary side effect.
             BtlController_EmitTwoReturnValues(1, B_ACTION_SWITCH, 0);
