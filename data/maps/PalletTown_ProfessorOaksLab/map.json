@@ -139,7 +139,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PalletTown_ProfessorOaksLab_EventScript_Pokedex",
-      "flag": "FLAG_HIDE_POKEDEX"
+      "flag": "FLAG_HIDE_POKEDEX_RIVAL"
     },
     {
       "type": "object",
