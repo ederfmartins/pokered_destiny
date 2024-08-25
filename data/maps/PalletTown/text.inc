@@ -65,3 +65,13 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
 
+PalletTown_Text_Nuzlocke::
+    .string "{PLAYER} be carefull outside!\p"
+    .string "POKéMON affected by Nuzlocke curse\n"
+    .string "die and are lost forever!\p"
+    .string "You also die if you lost all\n"
+    .string "your POKéMON.$"
+
+PalletTown_Text_15Gym::
+    .string "One day I will get all 15 BADGE,\n"
+    .string "and fix the POKéMON world.$"

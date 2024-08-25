@@ -450,3 +450,11 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+
+PalletTown_EventScript_Nuzlocke::
+	msgbox PalletTown_Text_Nuzlocke, MSGBOX_NPC
+	end
+
+PalletTown_EventScript_15Gym::
+	msgbox PalletTown_Text_15Gym, MSGBOX_NPC
+	end
