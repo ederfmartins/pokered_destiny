@@ -2261,7 +2261,8 @@ static void BattleStartClearSetData(void)
         GetTrainerBattleMode() == TRAINER_BATTLE_ENFORCE_SET_MODE || 
         GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE || 
         GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ROCKET ||
-        GetTrainerBattleMode() == TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET)
+        GetTrainerBattleMode() == TRAINER_BATTLE_CONTINUE_SCRIPT_ROCKET ||
+        GetTrainerBattleMode() == TRAINER_BATTLE_EARLY_RIVAL)
         gBattleScripting.battleStyle = OPTIONS_BATTLE_STYLE_SET;
     else
         gBattleScripting.battleStyle = gSaveBlock2Ptr->optionsBattleStyle;
