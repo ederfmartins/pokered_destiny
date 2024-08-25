@@ -10,7 +10,9 @@ ViridianForest_Text_RickIntro::
     .string "Let's battle 'em!$"
 
 ViridianForest_Text_RickDefeat::
-    .string "No!\nCATERPIE can't hack it!$"
+    .string "You defeat me, you earn my\n"
+    .string "advice! To figth in the Bug Gym,\p"
+    .string "you need to have a bug POKéMON!$"
 
 ViridianForest_Text_RickPostBattle::
     .string "Ssh! You'll scare the bugs away.\n"
