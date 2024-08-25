@@ -58,11 +58,43 @@ EventScript_PalletTown_PlayersHouse_2F_GivePokemon::
 	@ additem ITEM_POTION, 10
 	@ additem ITEM_FULL_HEAL, 3
 	@ additem ITEM_REVIVE, 3
-	@ givemon SPECIES_BULBASAUR, 6
+	givemon SPECIES_IVYSAUR, 30
+	givemon SPECIES_CHARMELEON, 30
+	givemon SPECIES_WARTORTLE, 30
+	givemon SPECIES_PIKACHU, 30
+	givemon SPECIES_PIDGEOTTO, 30
+	givemon SPECIES_PERSIAN, 30
+	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE02_GET
+	setflag FLAG_BADGE03_GET
+	setflag FLAG_BADGE04_GET
+	setflag FLAG_BADGE05_GET
+
+	giveitem ITEM_HM01
+	setflag FLAG_GOT_HM01
+
+	giveitem ITEM_HM02
+	setflag FLAG_GOT_HM02
+
+	giveitem ITEM_HM03
+	setflag FLAG_GOT_HM03
+
+	giveitem ITEM_HM04
+	setflag FLAG_GOT_HM04
+
+	giveitem ITEM_HM05
+	setflag FLAG_GOT_HM05
 
 	lockall
 	msgbox PalletTown_PlayersHouse_2F_Text_Give_Item
 	giveitem_msg PalletTown_PlayersHouse_2F_Text_Give_Item1, ITEM_RARE_CANDY, 20
 	closemessage
 	releaseall
+	end
+
+EventScript_PalletTown_PlayersHouse_2F_REPELL::
+	msgbox PalletTown_PlayersHouse_2F_Text_Repell
+	closemessage
+	releaseall
+	finditem ITEM_REPEL, 10
 	end
