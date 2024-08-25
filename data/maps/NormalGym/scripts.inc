@@ -4,7 +4,7 @@ NormalGym_MapScripts::
 NormalGym_LeaderNorman::
 	lock
 	faceplayer
-	trainerbattle_single TRAINER_LIDER_NORMAN, NormalGym_LeaderNorman_Text_0, NormalGym_LeaderNorman_Text_1, NormalGym_LeaderNorman_afterbattle
+	trainerbattle_enforce_set TRAINER_LIDER_NORMAN, NormalGym_LeaderNorman_Text_0, NormalGym_LeaderNorman_Text_1, NormalGym_LeaderNorman_afterbattle
 	msgbox NormalGym_LeaderNorman_Text_2, MSGBOX_AUTOCLOSE
 	end
 

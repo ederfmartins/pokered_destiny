@@ -38,7 +38,7 @@ TwoIsland_CapeBrink_lorelei_1:
 	end
 
 TwoIsland_CapeBrink_lorelei_2:
-	trainerbattle_single TRAINER_LORELEI_GYMLEADER, TwoIsland_CapeBrink_lorelei_Text_1, TwoIsland_CapeBrink_lorelei_Text_2, TwoIsland_CapeBrink_afterbattle
+	trainerbattle_enforce_set TRAINER_LORELEI_GYMLEADER, TwoIsland_CapeBrink_lorelei_Text_1, TwoIsland_CapeBrink_lorelei_Text_2, TwoIsland_CapeBrink_afterbattle
 	goto TwoIsland_CapeBrink_lorelei_1
 
 
