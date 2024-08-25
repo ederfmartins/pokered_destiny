@@ -53,7 +53,7 @@ AI_Avoid_IneficientMove::
 	if_move MOVE_GROWL, Score_Minus100
 	if_move MOVE_ROAR, Score_Minus100
 	if_move MOVE_LEER, Score_Minus100
-	if_move MOVE_SAND_ATTACK, Score_Minus100
+	@ if_move MOVE_SAND_ATTACK, Score_Minus100
 	if_move MOVE_TAIL_WHIP, Score_Minus100
 	if_move MOVE_GROWTH, Score_Minus1
 	if_move MOVE_STRING_SHOT, Score_Minus100
