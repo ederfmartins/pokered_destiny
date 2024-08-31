@@ -1,16 +1,13 @@
 CeruleanCity_Text_RivalIntro::
-    .string "{RIVAL}: Yo! {PLAYER}!\p"
-    .string "You're still struggling along back\n"
-    .string "here?\p"
-    .string "I'm doing great! I caught a bunch\n"
-    .string "of strong and smart POKéMON!\p"
+    .string "{RIVAL}: Yo! {PLAYER}!\n"
+    .string "How are you doing?\p"
+    .string "I caught new POKéMON and like\n"
+    .string "to test they!\p"
     .string "Here, let me see what you caught,\n"
     .string "{PLAYER}!$"
 
 CeruleanCity_Text_RivalDefeat::
-    .string "Hey!\n"
-    .string "Take it easy!\l"
-    .string "You won already!$"
+    .string "Next time my POKéMON will be stronger!$"
 
 CeruleanCity_Text_RivalPostBattle::
     .string "{RIVAL}: Hey, guess what?\p"
@@ -29,16 +26,12 @@ CeruleanCity_Text_RivalPostBattle::
 
 CeruleanCity_Text_OhRightLittlePresentAsFavor::
     .string "Oh, yeah, right.\p"
-    .string "I feel sorry for you. No, really.\n"
-    .string "You're always plodding behind me.\p"
-    .string "So here, I'll give you a little\n"
-    .string "present as a favor.$"
+    .string "So here, I have this little\n"
+    .string "present for you.$"
 
 CeruleanCity_Text_ExplainFameCheckerSmellYa::
-    .string "A chatty gossip like you…\n"
-    .string "That thing's perfect.\p"
-    .string "I don't need it because I don't\n"
-    .string "give a hoot about others.\p"
+    .string "A magazine to learn about\n"
+    .string "famous POKéMON trainers.\p"
     .string "All right, this time I really am\n"
     .string "gone. Smell ya!$"
 
@@ -180,3 +173,6 @@ CeruleanCity_Text_GymSign::
     .string "LEADER: MISTY\l"
     .string "The Tomboyish Mermaid!$"
 
+CeruleanCity_Text_PayOrFigth::
+    .string "I can not let you pass, unless\n"
+    .string "you pay me 3,500. Do you pay?$"

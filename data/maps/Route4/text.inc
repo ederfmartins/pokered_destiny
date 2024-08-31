@@ -77,3 +77,9 @@ Route4_Text_PeopleLikeAndRespectBrock::
     .string "People like and respect him.\p"
     .string "I want to become a GYM LEADER\n"
     .string "like him.$"
+
+Route4_Text_NuzlockWarning::
+    .string "Team Rocket was reinforced by Team\n"
+    .string "Aqua and Team Magma.\p"
+    .string "They're scare now!\n"
+    .string "They kill defeated POKéMON.$"

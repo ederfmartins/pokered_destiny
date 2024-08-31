@@ -3322,14 +3322,14 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlyBulbasaur),
     },
-    [TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER] = {
-        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
+    [TRAINER_MAGMA_CERULEAN] = {
+        .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlyCharmander),
     },
     [TRAINER_RIVAL_CERULEAN] = {
@@ -4170,7 +4170,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderMisty),
+        .party = ITEM_CUSTOM_MOVES(sParty_LeaderMisty),
     },
     [TRAINER_LEADER_LT_SURGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,

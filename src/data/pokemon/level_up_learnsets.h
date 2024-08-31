@@ -2056,6 +2056,7 @@ static const u16 sKabutoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_SCRATCH),
     LEVEL_UP_MOVE(1, MOVE_HARDEN),
     LEVEL_UP_MOVE(13, MOVE_ABSORB),
+    LEVEL_UP_MOVE(13, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE(19, MOVE_LEER),
     LEVEL_UP_MOVE(25, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE(31, MOVE_SAND_ATTACK),
@@ -3157,6 +3158,7 @@ static const u16 sMagcargoLevelUpLearnset[] = {
 
 static const u16 sSwinubLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
+    LEVEL_UP_MOVE(1, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(1, MOVE_ODOR_SLEUTH),
     LEVEL_UP_MOVE(10, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE(19, MOVE_ENDURE),
