@@ -43,6 +43,13 @@ Route4_EventScript_Boy::
 	release
 	end
 
+Route4_EventScript_NuzlockWarning::
+	lock
+	faceplayer
+	msgbox Route4_Text_NuzlockWarning
+	release
+	end
+
 MtMoon_1F_EventScript_BaldingMan::
 	lock
 	faceplayer
