@@ -5803,23 +5803,26 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     },
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
+static const struct TrainerMonItemCustomMoves sParty_LeaderMisty[] = {
     {
         .iv = 0,
         .lvl = 18,
         .species = SPECIES_STARYU,
+        .heldItem = ITEM_LUM_BERRY,
         .moves = {MOVE_TACKLE, MOVE_HARDEN, MOVE_RECOVER, MOVE_WATER_PULSE},
     },
     {
         .iv = 0,
-        .lvl = 18,
+        .lvl = 20,
         .species = SPECIES_PSYDUCK,
-        .moves = {MOVE_WATER_GUN, MOVE_DIG, MOVE_CONFUSION, MOVE_NONE},
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_WATER_GUN, MOVE_DIG, MOVE_CONFUSION, MOVE_SCRATCH},
     },
     {
         .iv = 0,
         .lvl = 21,
         .species = SPECIES_STARMIE,
+        .heldItem = ITEM_SITRUS_BERRY,
         .moves = {MOVE_SWIFT, MOVE_RECOVER, MOVE_RAPID_SPIN, MOVE_WATER_PULSE},
     },
 };
