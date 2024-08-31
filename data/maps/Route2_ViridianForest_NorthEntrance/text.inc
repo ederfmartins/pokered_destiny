@@ -1,7 +1,7 @@
 Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests::
     .string "There is a secret in the\n"
-    .string "forest. You can see it when.\p"
-    .string " it is raining. $"
+    .string "forest. You can find it when.\p"
+    .string "it is raining.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees::
     .string "Have you noticed the skinny trees\n"

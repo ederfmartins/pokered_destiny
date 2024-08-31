@@ -5,16 +5,15 @@ Route3_Text_TunnelFromCeruleanTiring::
     .string "lot out of you!$"
 
 Route3_Text_ColtonIntro::
-    .string "By the way! This is a preview\n"
-    .string "of what will happen in VIRIDIAN FOREST!$"
+    .string "By the way! This is a preview of\n"
+    .string "what will happen in VIRIDIAN FOREST!$"
 
 Route3_Text_ColtonDefeat::
     .string "You beat me again!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "You will need a bug type\n"
-    .string "POKéMON under 20 level to\n"
-    .string "find the BUG BADGE.$"
+    .string "A little secret. In VIRIDIAN FOREST\n"
+    .string "you should seach for BUG BADGE.$"
 
 Route3_Text_BenIntro::
     .string "Hi!\n"

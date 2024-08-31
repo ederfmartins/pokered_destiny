@@ -16,3 +16,7 @@ PalletTown_PlayersHouse_2F_Text_Give_Item::
 PalletTown_PlayersHouse_2F_Text_Give_Item1::
     .string "Receba 20 RARY CANDY da zoeira ai.$"
 
+PalletTown_PlayersHouse_2F_Text_Repell::
+    .string "This is a dangerous world\n"
+    .string "I need repels to protect myself.$"
+

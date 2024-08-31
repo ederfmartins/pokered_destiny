@@ -1,14 +1,7 @@
-PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-    .string "MOM: …Right.\n"
-    .string "All boys leave home someday.\l"
-    .string "It said so on TV.\p"
-    .string "Oh, yes. PROF. OAK, next door, was\n"
-    .string "looking for you.$"
-
-PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
-    .string "MOM: …Right.\n"
-    .string "All girls dream of traveling.\l"
-    .string "It said so on TV.\p"
+PalletTown_PlayersHouse_1F_Text_LeaveOakLookingForYou::
+    .string "MOM: …Right. Be carefull, and do\n"
+    .string "not forget you can Press the B \l"
+    .string "Button to run.\p"
     .string "Oh, yes. PROF. OAK, next door, was\n"
     .string "looking for you.$"
 
@@ -23,9 +16,9 @@ PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
     .string "There's a movie on TV.\n"
-    .string "Four boys are walking on railroad\l"
-    .string "tracks.\p"
-    .string "…I better go, too.$"
+    .string "A boy, a gilr and a Meowth\l"
+    .string "exploding an ansient stone.\p"
+    .string "…I better go...$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
     .string "There's a movie on TV.\n"

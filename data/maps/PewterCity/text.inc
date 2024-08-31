@@ -55,8 +55,8 @@ PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Do you know what I'm doing?$"
 
 PewterCity_Text_ThatsRightItsHardWork::
-    .string "That's right!\n"
-    .string "It's hard work!$"
+    .string "So does not disturb me!\n"
+    .string "It's already hard with Rockets here!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
     .string "I'm spraying REPEL to keep wild\n"
@@ -152,3 +152,15 @@ PewterCity_Text_RunningShoesLetterFromMom::
     .string "you! Don't ever give up!\p"
     .string "From Mom$"
 
+PewterCity_Text_AquaLose::
+    .string "You're too strong to me.$"
+
+PewterCity_Text_AquaLose1::
+    .string "You can pass.$"
+
+PewterCity_Text_PayOrFigth::
+    .string "I can not let you pass, unless\n"
+    .string "you pay me 2,000. Do you pay?$"
+
+PewterCity_Text_AquaFigth::
+    .string "Let the Nuzlock begin!$"

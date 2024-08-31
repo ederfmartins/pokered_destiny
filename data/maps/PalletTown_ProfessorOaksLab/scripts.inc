@@ -617,17 +617,17 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	call EventScript_RestorePrevTextColor
 	removeitem ITEM_OAKS_PARCEL
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered
-	playbgm MUS_ENCOUNTER_RIVAL, 0
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalGramps
-	closemessage
-	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterNorth
-	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterSouth
-	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
-	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
-	fadedefaultbgm
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor
-	closemessage
-	delay 30
+	@ playbgm MUS_ENCOUNTER_RIVAL, 0
+	@ msgbox PalletTown_ProfessorOaksLab_Text_RivalGramps
+	@ closemessage
+	@ call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterNorth
+	@ call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterSouth
+	@ call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
+	@ call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalEnterEastWest
+	@ fadedefaultbgm
+	@ msgbox PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor
+	@ closemessage
+	@ delay 30
 	playse SE_PIN
 	applymovement LOCALID_PROF_OAK, Common_Movement_ExclamationMark
 	waitmovement 0
@@ -676,19 +676,19 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakExplainCatching
 	famechecker FAMECHECKER_OAK, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
-	msgbox PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps
-	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerNorth
-	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerSouth
-	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
-	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
+	@ msgbox PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps
+	@ call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerNorth
+	@ call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerSouth
+	@ call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
+	@ call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_DexSceneRivalFacePlayerEastWest
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap
 	closemessage
-	playbgm MUS_RIVAL_EXIT, 0
-	call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_RivalExitNorth
-	call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_RivalExit
-	call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_RivalExit
-	call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_RivalExit
-	removeobject LOCALID_RIVAL
+	@ playbgm MUS_RIVAL_EXIT, 0
+	@ call_if_eq VAR_FACING, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_RivalExitNorth
+	@ call_if_eq VAR_FACING, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_RivalExit
+	@ call_if_eq VAR_FACING, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_RivalExit
+	@ call_if_eq VAR_FACING, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_RivalExit
+	@ removeobject LOCALID_RIVAL
 	fadedefaultbgm
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
@@ -1351,6 +1351,13 @@ PalletTown_ProfessorOaksLab_EventScript_Aide3::
 	faceplayer
 	famechecker FAMECHECKER_OAK, 2
 	msgbox PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons
+	release
+	checkitem ITEM_ANTIDOTE, 1
+	goto_if_eq VAR_RESULT, FALSE, PalletTown_ProfessorOaksLab_EventScript_Aide3Give
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_Aide3Give::
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons1, ITEM_ANTIDOTE, 5
 	release
 	end
 

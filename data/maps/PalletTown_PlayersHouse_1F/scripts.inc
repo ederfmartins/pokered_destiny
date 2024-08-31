@@ -17,11 +17,19 @@ PalletTown_PlayersHouse_1F_EventScript_Mom::
 	end
 
 PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouMale::
-	msgbox PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou
+	msgbox PalletTown_PlayersHouse_1F_Text_LeaveOakLookingForYou
+	closemessage
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	setflag FLAG_SYS_B_DASH
+	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	return
 
 PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale::
-	msgbox PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou
+	msgbox PalletTown_PlayersHouse_1F_Text_LeaveOakLookingForYou
+	closemessage
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	setflag FLAG_SYS_B_DASH
+	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	return
 
 PalletTown_PlayersHouse_1F_EventScript_MomHeal::

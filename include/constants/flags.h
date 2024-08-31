@@ -193,8 +193,8 @@
 #define FLAG_HIDE_PIKACHU_BALL                             0x0AF
 #define FLAG_HIDE_JIGGLYPUFF_BALL                          0x0B0
 #define FLAG_HIDE_MEOWTH_BALL                              0x0B1
-#define FLAG_0x0B2               0x0B2
-#define FLAG_0x0B3               0x0B3
+#define FLAG_HIDE_EXP_SHARE                                0x0B2
+#define FLAG_HIDE_POKEDEX_RIVAL                            0x0B3
 #define FLAG_0x0B4               0x0B4
 #define FLAG_0x0B5               0x0B5
 #define FLAG_0x0B6               0x0B6
@@ -439,7 +439,7 @@
 #define FLAG_HIDE_POKEMON_MANSION_3F_IRON                       0x1A3
 #define FLAG_HIDE_POKEMON_MANSION_B1F_TM14                      0x1A4
 #define FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE              0x1A5
-#define FLAG_0x1A6                                              0x1A6
+#define FLAG_HIDE_PALLET_PLAYERS_HOUSE_REPELL                   0x1A6
 #define FLAG_HIDE_POKEMON_MANSION_B1F_TM22                      0x1A7
 #define FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY                0x1A8
 #define FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY                    0x1A9

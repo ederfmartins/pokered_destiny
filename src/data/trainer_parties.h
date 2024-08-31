@@ -3869,28 +3869,52 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlySquirtle
         .iv = 50,
         .lvl = 9,
         .species = SPECIES_PIDGEY,
-        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_BULBASAUR,
+        .moves = {MOVE_TACKLE, MOVE_LEECH_SEED, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_CHARMANDER,
+        .moves = {MOVE_SCRATCH, MOVE_EMBER, MOVE_NONE, MOVE_NONE},
     },
     {
         .iv = 50,
         .lvl = 9,
         .species = SPECIES_SQUIRTLE,
-        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_TACKLE, MOVE_BUBBLE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 50,
+        .lvl = 9,
+        .species = SPECIES_RATTATA,
+        .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_QUICK_ATTACK, MOVE_FOCUS_ENERGY},
     },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyBulbasaur[] = {
     {
         .iv = 50,
-        .lvl = 9,
+        .lvl = 13,
         .species = SPECIES_PIDGEY,
-        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_QUICK_ATTACK, MOVE_GUST},
     },
     {
         .iv = 50,
-        .lvl = 9,
-        .species = SPECIES_BULBASAUR,
-        .moves = {MOVE_TACKLE, MOVE_GROWL, MOVE_NONE, MOVE_NONE},
+        .lvl = 14,
+        .species = SPECIES_PICHU,
+        .moves = {MOVE_THUNDER_SHOCK, MOVE_SWEET_KISS, MOVE_TOXIC, MOVE_THUNDER_WAVE},
+    },
+    {
+        .iv = 50,
+        .lvl = 13,
+        .species = SPECIES_GEODUDE,
+        .moves = {MOVE_ROCK_THROW, MOVE_TACKLE, MOVE_BRICK_BREAK, MOVE_DEFENSE_CURL},
     },
 };
 

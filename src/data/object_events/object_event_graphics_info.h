@@ -2926,7 +2926,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
@@ -2940,6 +2940,44 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma = {
     .subspriteTables = gObjectEventSpriteOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_TeamMagma,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamAqua = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = 10, //this controls the real pallete 3 cinza 4 verde 5 vermelha 6 azul desbotado 8 verde claro 10
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = gObjectEventSpriteOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TeamAqua,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Abra = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = 2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = gObjectEventSpriteOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Abra,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

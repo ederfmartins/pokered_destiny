@@ -1,14 +1,26 @@
 .equ LOCALID_MUSEUM_GUIDE, 2
 .equ LOCALID_GYM_GUIDE,    5
 .equ LOCALID_AIDE,         7
+.equ LOCALID_TEAM_AQUA,    8
 
 PewterCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, PewterCity_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, PewterCity_OnLoad
 	.byte 0
 
 PewterCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_PEWTER_CITY
 	setvar VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F, 0
+	end
+
+PewterCity_OnLoad::
+	setvar VAR_TEMP_9, 2
+	call_if_unset FLAG_BADGE01_GET, PewterCity_EventScript_SetAqua
+	end
+
+PewterCity_EventScript_SetAqua::
+	cleartrainerflag TRAINER_AQUA_PEWTER
+	setvar VAR_TEMP_9, 0
 	end
 
 @ Impossible to speak to this NPC from a facing dir != DIR_EAST normally, so they arent checked
@@ -845,3 +857,49 @@ PewterCity_Movement_AideExit3::
 PewterCity_Movement_WalkInPlaceLeft::
 	walk_in_place_left
 	step_end
+
+PewterCity_EventScript_GymDoor::
+	goto_if_eq VAR_TEMP_9, 1, PewterCity_EventScript_FreeGymEntrance
+	goto_if_eq VAR_TEMP_9, 2, PewterCity_EventScript_FreeGymEntrance1
+
+	applymovement LOCALID_TEAM_AQUA, Common_Movement_ExclamationMark
+	waitmovement 0
+	lock
+	faceplayer
+	msgbox PewterCity_Text_PayOrFigth, MSGBOX_YESNO
+	
+	goto_if_eq VAR_RESULT, YES, PewterCity_EventScript_AquaPay
+	goto_if_eq VAR_RESULT, NO, PewterCity_EventScript_AquaFigth
+	releaseall
+	end
+
+PewterCity_EventScript_AquaPay::
+	checkmoney 2000
+	goto_if_eq VAR_RESULT, NO, PewterCity_EventScript_AquaFigth
+	removemoney 2000
+	setvar VAR_TEMP_9, 2
+	releaseall
+	end
+
+PewterCity_EventScript_AquaFigth::
+	trainerbattle_rocket TRAINER_AQUA_PEWTER, PewterCity_Text_AquaFigth, PewterCity_Text_AquaLose, PewterCity_AquaScript
+	releaseall
+	end
+
+PewterCity_AquaScript::
+	setvar VAR_TEMP_9, 1
+	end
+
+PewterCity_EventScript_FreeGymEntrance::
+	lock
+	faceplayer
+	msgbox PewterCity_Text_AquaLose
+	releaseall
+	end
+
+PewterCity_EventScript_FreeGymEntrance1::
+	lock
+	faceplayer
+	msgbox PewterCity_Text_AquaLose1
+	releaseall
+	end
