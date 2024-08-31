@@ -384,12 +384,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherColton[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_BugCatcherGreg[] = {
     {
         .iv = 0,
-        .lvl = 9,
+        .lvl = 10,
         .species = SPECIES_BEEDRILL,
     },
     {
         .iv = 0,
-        .lvl = 9,
+        .lvl = 10,
         .species = SPECIES_BUTTERFREE,
     },
     {
@@ -3921,15 +3921,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyBulbasau
 static const struct TrainerMonNoItemCustomMoves sParty_RivalRoute22EarlyCharmander[] = {
     {
         .iv = 50,
-        .lvl = 9,
-        .species = SPECIES_PIDGEY,
-        .moves = {MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_NONE, MOVE_NONE},
+        .lvl = 20,
+        .species = SPECIES_PARAS,
+        .moves = {MOVE_POISON_POWDER, MOVE_LEECH_LIFE, MOVE_SPORE, MOVE_SCRATCH},
     },
     {
         .iv = 50,
-        .lvl = 9,
-        .species = SPECIES_CHARMANDER,
-        .moves = {MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE, MOVE_NONE},
+        .lvl = 20,
+        .species = SPECIES_SWINUB,
+        .moves = {MOVE_POWDER_SNOW, MOVE_MUD_SLAP, MOVE_TACKLE, MOVE_HAIL},
+    },
+    {
+        .iv = 50,
+        .lvl = 20,
+        .species = SPECIES_KABUTO,
+        .moves = {MOVE_SCRATCH, MOVE_MUD_SHOT, MOVE_ABSORB, MOVE_TOXIC},
     },
 };
 
