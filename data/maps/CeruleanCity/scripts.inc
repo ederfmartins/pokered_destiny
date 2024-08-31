@@ -4,9 +4,11 @@
 .set LOCALID_LASS,      6
 .set LOCALID_RIVAL,     8
 .set LOCALID_WOMAN,     11
+.equ LOCALID_TEAM_AQUA, 13
 
 CeruleanCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, CeruleanCity_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, CeruleanCity_OnLoad
 	.byte 0
 
 CeruleanCity_OnTransition::
@@ -19,6 +21,16 @@ CeruleanCity_EventScript_BlockExits::
 	setobjectxyperm LOCALID_SLOWBRO, 26, 31
 	setobjectxyperm LOCALID_LASS, 27, 31
 	return
+
+CeruleanCity_OnLoad::
+	setvar VAR_TEMP_9, 2
+	call_if_unset FLAG_BADGE02_GET, CeruleanCity_EventScript_SetDoor
+	end
+
+CeruleanCity_EventScript_SetDoor::
+	cleartrainerflag TRAINER_MAGMA_CERULEAN
+	setvar VAR_TEMP_9, 0
+	end
 
 CeruleanCity_EventScript_RivalTriggerLeft::
 	lockall
@@ -247,6 +259,34 @@ CeruleanCity_EventScript_BaldingMan::
 
 CeruleanCity_EventScript_Youngster::
 	msgbox CeruleanCity_Text_TrainerLifeIsToughIsntIt, MSGBOX_NPC
+	end
+
+CeruleanCity_EventScript_GymDoor::
+	goto_if_eq VAR_TEMP_9, 1, PewterCity_EventScript_FreeGymEntrance
+	goto_if_eq VAR_TEMP_9, 2, PewterCity_EventScript_FreeGymEntrance1
+
+	applymovement LOCALID_TEAM_AQUA, Common_Movement_ExclamationMark
+	waitmovement 0
+	lock
+	faceplayer
+	msgbox CeruleanCity_Text_PayOrFigth, MSGBOX_YESNO
+	
+	goto_if_eq VAR_RESULT, YES, CeruleanCity_EventScript_AquaPay
+	goto_if_eq VAR_RESULT, NO, CeruleanCity_EventScript_AquaFigth
+	releaseall
+	end
+
+CeruleanCity_EventScript_AquaPay::
+	checkmoney 3500
+	goto_if_eq VAR_RESULT, NO, CeruleanCity_EventScript_AquaFigth
+	removemoney 3500
+	setvar VAR_TEMP_9, 2
+	releaseall
+	end
+
+CeruleanCity_EventScript_AquaFigth::
+	trainerbattle_rocket TRAINER_MAGMA_CERULEAN, PewterCity_Text_AquaFigth, PewterCity_Text_AquaLose, PewterCity_AquaScript
+	releaseall
 	end
 
 CeruleanCity_EventScript_CeruleanCaveGuard::
