@@ -2376,6 +2376,14 @@ extern const u32 gMonBackPic_Arctbax[];
 extern const u32 gMonShinyPalette_Arctbax[];
 extern const u8 gMonIcon_Arctbax[];
 extern const u8 gMonFootprint_Arctbax[];
+
+extern const u32 gMonFrontPic_Froslass[];
+extern const u32 gMonPalette_Froslass[];
+extern const u32 gMonBackPic_Froslass[];
+extern const u32 gMonShinyPalette_Froslass[];
+extern const u8 gMonIcon_Froslass[];
+extern const u8 gMonFootprint_Froslass[];
+
 extern const u32 gMonFrontPic_Giratina[];
 extern const u32 gMonPalette_Giratina[];
 extern const u32 gMonBackPic_Giratina[];

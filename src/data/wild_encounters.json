@@ -1076,12 +1076,12 @@
               {
                 "min_level": 4,
                 "max_level": 6,
-                "species": "SPECIES_WEEDLE"
+                "species": "SPECIES_PIKACHU"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PIKACHU"
+                "species": "SPECIES_HERACROSS"
               },
               {
                 "min_level": 5,
@@ -5545,7 +5545,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 24,
@@ -9493,7 +9493,7 @@
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
@@ -9726,7 +9726,7 @@
               {
                 "min_level": 45,
                 "max_level": 45,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 45,
@@ -9820,7 +9820,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 31,
@@ -9958,7 +9958,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 31,
@@ -10488,7 +10488,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -10498,7 +10498,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -10626,7 +10626,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -10636,7 +10636,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -10764,7 +10764,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -10774,7 +10774,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -10902,7 +10902,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -10912,7 +10912,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11040,7 +11040,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11050,7 +11050,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11178,7 +11178,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11188,7 +11188,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11316,7 +11316,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11326,7 +11326,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11454,7 +11454,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11464,7 +11464,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11592,7 +11592,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11602,7 +11602,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11730,7 +11730,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11740,7 +11740,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11848,12 +11848,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 48,
@@ -11868,7 +11868,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -11878,7 +11878,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -11986,12 +11986,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 48,
@@ -12006,7 +12006,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -12016,7 +12016,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -12124,12 +12124,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 48,
@@ -12144,7 +12144,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -12154,7 +12154,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -12262,12 +12262,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 48,
@@ -12282,7 +12282,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 52,
@@ -12292,7 +12292,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -12748,7 +12748,7 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_XATU"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 31,
@@ -13677,12 +13677,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
@@ -14499,12 +14499,12 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HITMONTOP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_HITMONTOP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 8,
@@ -15248,17 +15248,17 @@
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_MARSHTOMP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_MARSHTOMP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_MARSHTOMP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
@@ -15511,7 +15511,7 @@
               {
                 "min_level": 10,
                 "max_level": 20,
-                "species": "SPECIES_SWAMPERT"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
@@ -16439,64 +16439,64 @@
             "encounter_rate": 21,
             "mons": [
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_PIDGEY"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_MURKROW"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_MURKROW"
+                "min_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_SPEAROW"
               },
               {
                 "min_level": 2,
-                "max_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_SPEAROW"
+              },
+              {
+                "min_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_MAREEP"
               },
               {
                 "min_level": 2,
-                "max_level": 2,
+                "max_level": 5,
                 "species": "SPECIES_MAREEP"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_TORCHIC"
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_RATTATA"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_TORCHIC"
-              },
-              {
-                "min_level": 4,
-                "max_level": 4,
-                "species": "SPECIES_TORCHIC"
-              },
-              {
-                "min_level": 6,
+                "min_level": 5,
                 "max_level": 7,
                 "species": "SPECIES_PIDGEY"
               },
               {
-                "min_level": 7,
-                "max_level": 7,
-                "species": "SPECIES_RATTATA"
+                "min_level": 3,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
               },
               {
-                "min_level": 7,
-                "max_level": 7,
-                "species": "SPECIES_RATTATA"
+                "min_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
+              },
+              {
+                "min_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
+              },
+              {
+                "min_level": 2,
+                "max_level": 5,
+                "species": "SPECIES_TORCHIC"
               }
             ]
           }
@@ -16624,17 +16624,17 @@
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_TORCHIC"
+                "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_TORCHIC"
+                "species": "SPECIES_PIDGEY"
               },
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_TORCHIC"
+                "species": "SPECIES_RATTATA"
               }
             ]
           }
@@ -16757,22 +16757,22 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -17203,22 +17203,22 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -17331,22 +17331,22 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_MANECTRIC"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 15,
@@ -19265,7 +19265,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 23,
@@ -19403,7 +19403,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_MURKROW"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 27,
@@ -19413,7 +19413,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 26,
@@ -19669,12 +19669,12 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOOM"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_NUZLEAF"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 22,
@@ -19807,12 +19807,12 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_NUZLEAF"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_HOUNDOOM"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 22,
@@ -19922,7 +19922,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CRAWDAUNT"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
@@ -19947,7 +19947,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MUDKIP"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -21027,11 +21027,6 @@
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 3,
-                "max_level": 7,
                 "species": "SPECIES_NIDORAN_M"
               },
               {
@@ -21042,22 +21037,27 @@
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_NIDORAN_F"
               },
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_NIDORAN_F"
               },
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_RATTATA"
+                "species": "SPECIES_NIDORAN_F"
               },
               {
                 "min_level": 3,
                 "max_level": 7,
-                "species": "SPECIES_MANKEY"
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 3,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_F"
               }
             ]
           },
@@ -24221,62 +24221,62 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -24842,62 +24842,62 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_HOUNDOUR"
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
@@ -25581,7 +25581,7 @@
               {
                 "min_level": 5,
                 "max_level": 30,
-                "species": "SPECIES_SHIFTRY"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,

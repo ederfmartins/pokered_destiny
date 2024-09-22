@@ -2725,3 +2725,10 @@ const u8 gGiblePokedexText[] = _(
     "that stray too close.");
 
 const u8 gGiblePokedexTextUnused[] = _("");
+
+const u8 gFroslassPokedexText[] = _(
+    "It freezes foes with an icy breath \n"
+    "nearly -60 degrees F. What seems to\n"
+    "be its body is actually hollow.");
+
+const u8 gFroslassPokedexTextUnused[] = _("");
