@@ -7,6 +7,7 @@
 void LoadTemporaryBattleMon(struct Pokemon *pokemon, struct BattlePokemon *battlePokemon);
 s32 getMaxDamage(struct BattlePokemon *attacker, struct BattlePokemon *defender, u8 battlerIdAtk, u8 battlerIdDef);
 void getDamageRetInGlobalBMD(struct BattlePokemon *attacker, struct BattlePokemon *defender, u16 move, u8 battlerIdAtk, u8 battlerIdDef);
+u8 getCandidateMinDmgLessCurrMoveDmg(u8 ai, u8 oponent, u16 move, struct BattlePokemon *battlePokemon);
 
 
 s32 ComputeMaxDamage(u8 battlerAttacker, u8 battlerTarget)
@@ -47,8 +48,12 @@ bool8 Battle_ai_switchToAvoidDefeat()
     bool8 willBeDefeated;
     bool8 willGoFirst;
     u8 oponent;
+    u8 pokemon, candidate;
+    u8 curMoveIdx;
+    u16 move;
     u8 ai;
-    s32 damage;
+    s32 damage, minDamage;
+    struct BattlePokemon battlePokemon;
     ai = gActiveBattler; //gBattlerAttacker;
     oponent = gActiveBattler ^ BIT_SIDE;// gActiveBattler ^ BIT_SIDE; gBattlerTarget
     damage = ComputeMaxDamage(oponent, ai);
@@ -64,8 +69,42 @@ bool8 Battle_ai_switchToAvoidDefeat()
             // chance proportional to the remaining hp. If the hp is low the chance of staying is high.
             if ((Random() % gBattleMons[ai].maxHP) > gBattleMons[ai].hp) return FALSE;
         }
-        *(gBattleStruct->AI_monToSwitchIntoId + (GetBattlerPosition(gActiveBattler) >> 1)) = PARTY_SIZE;
-        return TRUE;
+
+        minDamage = ~0U >> 1;
+        candidate = PARTY_SIZE;
+        for(pokemon = 0; pokemon < PARTY_SIZE; pokemon++) 
+        {
+            // Invalid pokemon to switch
+            if (GetMonData(&gEnemyParty[pokemon], MON_DATA_HP) == 0
+             || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_NONE
+             || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_EGG
+             || pokemon == gBattlerPartyIndexes[ai])
+                continue;
+            
+            damage = 0;
+            LoadTemporaryBattleMon(&gEnemyParty[pokemon], &battlePokemon);
+            for (curMoveIdx = 0; curMoveIdx < MAX_MON_MOVES; ++curMoveIdx)
+            {
+                move = gBattleMons[oponent].moves[curMoveIdx];
+                if (move == MOVE_STRUGGLE || move == MOVE_NONE) continue;
+                if (gBattleMoves[move].power <= 1) continue;
+                
+                getDamageRetInGlobalBMD(&gBattleMons[oponent], &battlePokemon, move, oponent, ai);
+                if (gBattleMoveDamage > damage) damage = gBattleMoveDamage;
+            }
+            if (damage >= battlePokemon.hp) continue;
+            if (damage < minDamage)
+            {
+                minDamage = damage;
+                candidate = pokemon;
+            }
+        }
+
+        if (candidate != PARTY_SIZE)
+        {
+            *(gBattleStruct->AI_monToSwitchIntoId + (GetBattlerPosition(gActiveBattler) >> 1)) = candidate;
+            return TRUE;
+        }
     }
     return FALSE;
 }
@@ -124,7 +163,6 @@ bool8 Battle_ai_switchToMinimizeDmg()
     u8 ai, oponent, pokemon, candidate;
     u8 curMoveIdx;
     u16 move;
-    s32 damage, maxDamage = 10000;
     struct BattlePokemon battlePokemon;
     
     ai = gActiveBattler;
@@ -146,32 +184,13 @@ bool8 Battle_ai_switchToMinimizeDmg()
             if ((Random() & 16) < 8)
             {
                 getDamageRetInGlobalBMD(&gBattleMons[oponent], &gBattleMons[ai], move, oponent, ai);
-                damage = maxDamage = gBattleMoveDamage;
-                for (pokemon = 0; pokemon < PARTY_SIZE; pokemon++)
-                {
-                    // we need a candidate that receive min damage if the opponent select to use this move
-                    // Invalid pokemon to switch
-                    if (GetMonData(&gEnemyParty[pokemon], MON_DATA_HP) == 0
-                    || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_NONE
-                    || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_EGG
-                    || pokemon == gBattlerPartyIndexes[ai])
-                        continue;
-
-                    LoadTemporaryBattleMon(&gEnemyParty[pokemon], &battlePokemon);
-                    getDamageRetInGlobalBMD(&gBattleMons[oponent], &battlePokemon, move, oponent, ai);
-                    if (gBattleMoveDamage < maxDamage)
-                    {
-                        maxDamage = gBattleMoveDamage;
-                        candidate = pokemon;
-                    }
-                }
-                if (maxDamage < damage)
+                candidate = getCandidateMinDmgLessCurrMoveDmg(ai, oponent, move, &battlePokemon);
+                if (candidate != PARTY_SIZE)
                 {
                     gBattleStruct->AI_monToSwitchIntoId[GetBattlerPosition(ai) >> 1] = candidate;
                     return TRUE;
                 }
             }
-            
         }
     }
     return FALSE;
@@ -252,4 +271,32 @@ bool8 AreStatsRaised(void)
             buffedStatsValue += gBattleMons[gActiveBattler].statStages[i] - 6;
     }
     return (buffedStatsValue > 3);
+}
+
+u8 getCandidateMinDmgLessCurrMoveDmg(u8 ai, u8 oponent, u16 move, struct BattlePokemon *battlePokemon)
+{
+    u8 pokemon, candidate;
+    s32 damage, maxDamage;
+    damage = maxDamage = gBattleMoveDamage;
+    candidate = PARTY_SIZE;
+    for (pokemon = 0; pokemon < PARTY_SIZE; pokemon++)
+    {
+        // we need a candidate that receive min damage if the opponent select to use this move
+        // Invalid pokemon to switch
+        if (GetMonData(&gEnemyParty[pokemon], MON_DATA_HP) == 0
+        || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_NONE
+        || GetMonData(&gEnemyParty[pokemon], MON_DATA_SPECIES2) == SPECIES_EGG
+        || pokemon == gBattlerPartyIndexes[ai])
+            continue;
+
+        LoadTemporaryBattleMon(&gEnemyParty[pokemon], battlePokemon);
+        getDamageRetInGlobalBMD(&gBattleMons[oponent], battlePokemon, move, oponent, ai);
+        if (gBattleMoveDamage < maxDamage)
+        {
+            maxDamage = gBattleMoveDamage;
+            candidate = pokemon;
+        }
+    }
+    if (maxDamage >= damage) candidate = PARTY_SIZE;
+    return candidate;
 }

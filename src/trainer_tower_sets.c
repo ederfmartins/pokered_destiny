@@ -635,7 +635,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechLose = {EC_WORD_LOST, EC_WORD_QUES_EXCL, EC_WORD_YOU, EC_WORD_MUST_BE, EC_WORD_JOKING, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_HOW, EC_WORD_COULD, EC_WORD_I, EC_WORD_LOSE, EC_WORD_THIS, EC_WORD_QUES},
 			.mons = {
-				{
+				/*{
 					.species = SPECIES_HOUNDOOM,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_TAUNT, MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_CRUNCH},
@@ -656,7 +656,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.personality = 0x82, // MALE BOLD
 					.nickname = _("HOUNDOOM"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_AERODACTYL,
 					.heldItem = ITEM_LEFTOVERS,
@@ -1086,7 +1086,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechLose = {EC_WORD_AWW, EC_WORD_EXCL, EC_WORD_THAT_WAS, EC_WORD_REALLY, EC_WORD_TERRIBLE, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_ALL, EC_WORD_I, EC_WORD_DO, EC_WORD_IS, EC_WORD_LOSE, EC_WORD_ELLIPSIS},
 			.mons = {
-				{
+				/*{
 					.species = SPECIES_SNEASEL,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_SHADOW_BALL, MOVE_SUNNY_DAY, MOVE_TAUNT, MOVE_AERIAL_ACE},
@@ -1107,7 +1107,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.personality = 0x0D, // FEMALE JOLLY
 					.nickname = _("SNEASEL"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_ALAKAZAM,
 					.heldItem = ITEM_SALAC_BERRY,
@@ -1130,7 +1130,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.nickname = _("ALAKAZAM"),
 					.friendship = 255
 				},
-				{
+				/*{
 					.species = SPECIES_HITMONTOP,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_MEGA_KICK, MOVE_ENDEAVOR, MOVE_DIG, MOVE_SUNNY_DAY},
@@ -1151,7 +1151,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.personality = 0x08, // MALE IMPISH
 					.nickname = _("HITMONTOP"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_GIRAFARIG,
 					.heldItem = ITEM_SALAC_BERRY,
@@ -1174,7 +1174,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.nickname = _("GIRAFARIG"),
 					.friendship = 255
 				},
-				{
+				/*{
 					.species = SPECIES_XATU,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_SUNNY_DAY, MOVE_DRILL_PECK, MOVE_CONFUSE_RAY, MOVE_PSYCHIC},
@@ -1195,7 +1195,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.personality = 0x14, // FEMALE CALM
 					.nickname = _("XATU"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_MR_MIME,
 					.heldItem = ITEM_SALAC_BERRY,
@@ -1295,7 +1295,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.nickname = _("MACHAMP"),
 					.friendship = 255
 				},
-				{
+				/*{
 					.species = SPECIES_HOUNDOOM,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ROAR, MOVE_FLAMETHROWER, MOVE_BITE, MOVE_PROTECT},
@@ -1316,7 +1316,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.personality = 0x87, // MALE TIMID
 					.nickname = _("HOUNDOOM"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_PRIMEAPE,
 					.heldItem = ITEM_FOCUS_BAND,
@@ -1932,7 +1932,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.nickname = _("GOLEM"),
 					.friendship = 255
 				},
-				{
+				/*{
 					.species = SPECIES_HOUNDOOM,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_CRUNCH, MOVE_REVERSAL, MOVE_DOUBLE_EDGE, MOVE_COUNTER},
@@ -1953,7 +1953,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.personality = 0x08, // FEMALE IMPISH
 					.nickname = _("HOUNDOOM"),
 					.friendship = 255
-				},
+				},*/
 			}
 		},
 		{
@@ -2261,7 +2261,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 			.speechLose = {EC_WORD_YOUR, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_WAY, EC_WORD_TOO_STRONG, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_THE, EC_WORD_WAY, EC_WORD_POKEMON, EC_WORD_MATCH_UP, EC_WORD_IS, EC_WORD_IMPORTANT},
 			.mons = {
-				{
+				/*{
 					.species = SPECIES_MURKROW,
 					.heldItem = ITEM_BLACK_GLASSES,
 					.moves = {MOVE_FAINT_ATTACK, MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_CONFUSE_RAY},
@@ -2282,7 +2282,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.personality = 0x89, // MALE SERIOUS
 					.nickname = _("MURKROW"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_TAUROS,
 					.heldItem = ITEM_SILK_SCARF,
@@ -3573,7 +3573,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.personality = 0x0B, // FEMALE HASTY
 					.nickname = _("CROBAT"),
 					.friendship = 255
-				},*/
+				},
 				{
 					.species = SPECIES_XATU,
 					.heldItem = ITEM_LUM_BERRY,
@@ -3595,7 +3595,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.personality = 0x0B, // FEMALE HASTY
 					.nickname = _("XATU"),
 					.friendship = 255
-				},
+				},*/
 			}
 		},
 		DUMMY_TOWER_TEAM(0),
@@ -4057,7 +4057,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechLose = {EC_WORD_OH_QUES, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_DID, EC_WORD_I, EC_WORD_LOSE, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.mons = {
-				{
+				/*{
 					.species = SPECIES_MURKROW,
 					.heldItem = ITEM_BLACK_GLASSES,
 					.moves = {MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_FAINT_ATTACK, MOVE_CONFUSE_RAY},
@@ -4078,7 +4078,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.personality = 0x89, // MALE SERIOUS
 					.nickname = _("MURKROW"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_RAPIDASH,
 					.heldItem = ITEM_CHARCOAL,
@@ -4961,7 +4961,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechLose = {EC_WORD_SIGH, EC_WORD_ELLIPSIS, EC_WORD_THAT_S, EC_WORD_HOW, EC_WORD_IT, EC_WORD_GOES},
 			.speechAfter = {EC_WORD_OKAY, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_FIGHT},
 			.mons = {
-				{
+				/*{
 					.species = SPECIES_SNEASEL,
 					.heldItem = ITEM_RAWST_BERRY,
 					.moves = {MOVE_DIG, MOVE_TORMENT, MOVE_REFLECT, MOVE_TAUNT},
@@ -4982,7 +4982,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.personality = 0x0D, // FEMALE JOLLY
 					.nickname = _("SNEASEL"),
 					.friendship = 255
-				},
+				},*/
 				{
 					.species = SPECIES_OMASTAR,
 					.heldItem = ITEM_QUICK_CLAW,

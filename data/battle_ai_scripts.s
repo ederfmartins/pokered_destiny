@@ -648,7 +648,7 @@ Score_Minus10::
 	end
 
 Score_Minus100::
-	score -100
+	score -50
 	end
 
 Score_Minus12::
@@ -805,10 +805,11 @@ AI_CheckViability::
 AI_CV_Sleep::
 	if_has_move_with_effect AI_TARGET, EFFECT_DREAM_EATER, AI_CV_SleepEncourageSlpDamage
 	if_has_move_with_effect AI_TARGET, EFFECT_NIGHTMARE, AI_CV_SleepEncourageSlpDamage
+	if_has_move_with_effect AI_TARGET, EFFECT_LEECH_SEED, AI_CV_SleepEncourageSlpDamage
 	goto AI_CV_Sleep_End
 
 AI_CV_SleepEncourageSlpDamage::
-	if_random_less_than 128, AI_CV_Sleep_End
+	if_random_less_than 128, AI_CV_Sleep_End @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_Sleep_End::
@@ -820,7 +821,7 @@ AI_CV_Absorb::
 	goto AI_CV_Absorb_End
 
 AI_CV_AbsorbEncourageMaybe::
-	if_random_less_than 50, AI_CV_Absorb_End
+	if_random_less_than 50, AI_CV_Absorb_End @ rnd%256 ~20% chance
 	score -3
 
 AI_CV_Absorb_End::
@@ -830,28 +831,28 @@ AI_CV_SelfKO::
 	if_stat_level_less_than AI_TARGET, STAT_EVASION, 7, AI_CV_SelfKO_Encourage1
 	score -1
 	if_stat_level_less_than AI_TARGET, STAT_EVASION, 10, AI_CV_SelfKO_Encourage1
-	if_random_less_than 128, AI_CV_SelfKO_Encourage1
+	if_random_less_than 128, AI_CV_SelfKO_Encourage1 @ rnd%256 ~50% chance
 	score -1
 
 AI_CV_SelfKO_Encourage1::
 	if_hp_less_than AI_USER, 80, AI_CV_SelfKO_Encourage2
 	if_target_faster AI_CV_SelfKO_Encourage2
-	if_random_less_than 50, AI_CV_SelfKO_End
+	if_random_less_than 50, AI_CV_SelfKO_End @ rnd%256 ~20% chance
 	goto Score_Minus3
 
 AI_CV_SelfKO_Encourage2::
 	if_hp_more_than AI_USER, 50, AI_CV_SelfKO_Encourage4
-	if_random_less_than 128, AI_CV_SelfKO_Encourage3
+	if_random_less_than 128, AI_CV_SelfKO_Encourage3 @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_SelfKO_Encourage3::
 	if_hp_more_than AI_USER, 30, AI_CV_SelfKO_End
-	if_random_less_than 50, AI_CV_SelfKO_End
+	if_random_less_than 50, AI_CV_SelfKO_End @ rnd%256 ~20% chance
 	score +1
 	goto AI_CV_SelfKO_End
 
 AI_CV_SelfKO_Encourage4::
-	if_random_less_than 50, AI_CV_SelfKO_End
+	if_random_less_than 50, AI_CV_SelfKO_End @ rnd%256 ~20% chance
 	score -1
 
 AI_CV_SelfKO_End::
@@ -872,14 +873,14 @@ AI_CV_MirrorMove::
 	if_target_faster AI_CV_MirrorMove2
 	get_last_used_move AI_TARGET
 	if_not_in_hwords AI_CV_MirrorMove_EncouragedMovesToMirror, AI_CV_MirrorMove2
-	if_random_less_than 128, AI_CV_MirrorMove_End
+	if_random_less_than 128, AI_CV_MirrorMove_End @ rnd%256 ~50% chance
 	score +2
 	goto AI_CV_MirrorMove_End
 
 AI_CV_MirrorMove2::
 	get_last_used_move AI_TARGET
 	if_in_hwords AI_CV_MirrorMove_EncouragedMovesToMirror, AI_CV_MirrorMove_End
-	if_random_less_than 80, AI_CV_MirrorMove_End
+	if_random_less_than 80, AI_CV_MirrorMove_End @ rnd%256 ~30% chance
 	score -1
 
 AI_CV_MirrorMove_End::
@@ -931,19 +932,19 @@ AI_CV_MirrorMove_EncouragedMovesToMirror::
 
 AI_CV_AttackUp::
 	if_stat_level_less_than AI_USER, STAT_ATK, 9, AI_CV_AttackUp2
-	if_random_less_than 100, AI_CV_AttackUp3
+	if_random_less_than 100, AI_CV_AttackUp3 @ rnd%256 ~40% chance
 	score -1
 	goto AI_CV_AttackUp3
 
 AI_CV_AttackUp2::
 	if_hp_not_equal AI_USER, 100, AI_CV_AttackUp3
-	if_random_less_than 128, AI_CV_AttackUp3
+	if_random_less_than 128, AI_CV_AttackUp3 @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_AttackUp3::
 	if_hp_more_than AI_USER, 70, AI_CV_AttackUp_End
 	if_hp_less_than AI_USER, 40, AI_CV_AttackUp_ScoreDown2
-	if_random_less_than 40, AI_CV_AttackUp_End
+	if_random_less_than 40, AI_CV_AttackUp_End @ rnd%256 ~20% chance
 
 AI_CV_AttackUp_ScoreDown2::
 	score -2
@@ -953,18 +954,18 @@ AI_CV_AttackUp_End::
 
 AI_CV_DefenseUp::
 	if_stat_level_less_than AI_USER, STAT_DEF, 9, AI_CV_DefenseUp2
-	if_random_less_than 100, AI_CV_DefenseUp3
+	if_random_less_than 100, AI_CV_DefenseUp3 @ rnd%256 ~40% chance
 	score -1
 	goto AI_CV_DefenseUp3
 
 AI_CV_DefenseUp2::
 	if_hp_not_equal AI_USER, 100, AI_CV_DefenseUp3
-	if_random_less_than 128, AI_CV_DefenseUp3
-	score +2
+	if_random_less_than 128, AI_CV_DefenseUp3 @ rnd%256 ~50% chance
+	score +2 
 
 AI_CV_DefenseUp3::
 	if_hp_less_than AI_USER, 70, AI_CV_DefenseUp4
-	if_random_less_than 200, AI_CV_DefenseUp_End
+	if_random_less_than 200, AI_CV_DefenseUp_End @ rnd%256 ~80% chance
 
 AI_CV_DefenseUp4::
 	if_hp_less_than AI_USER, 40, AI_CV_DefenseUp_ScoreDown2
@@ -974,10 +975,10 @@ AI_CV_DefenseUp4::
 	get_last_used_move AI_TARGET
 	get_move_type_from_result
 	if_not_in_bytes AI_CV_DefenseUp_PhysicalTypes, AI_CV_DefenseUp_ScoreDown2
-	if_random_less_than 60, AI_CV_DefenseUp_End
+	if_random_less_than 60, AI_CV_DefenseUp_End @ rnd%256 ~30% chance
 
 AI_CV_DefenseUp5::
-	if_random_less_than 60, AI_CV_DefenseUp_End
+	if_random_less_than 60, AI_CV_DefenseUp_End @ rnd%256 ~30% chance
 
 AI_CV_DefenseUp_ScoreDown2::
 	score -2
@@ -1003,7 +1004,7 @@ AI_CV_SpeedUp::
 	goto AI_CV_SpeedUp_End
 
 AI_CV_SpeedUp2::
-	if_random_less_than 70, AI_CV_SpeedUp_End
+	if_random_less_than 70, AI_CV_SpeedUp_End @ rnd%256 ~30% chance
 	score +3
 
 AI_CV_SpeedUp_End::
@@ -1011,19 +1012,19 @@ AI_CV_SpeedUp_End::
 
 AI_CV_SpAtkUp::
 	if_stat_level_less_than AI_USER, STAT_SPATK, 9, AI_CV_SpAtkUp2
-	if_random_less_than 100, AI_CV_SpAtkUp3
+	if_random_less_than 100, AI_CV_SpAtkUp3 @ rnd%256 ~40% chance
 	score -1
 	goto AI_CV_SpAtkUp3
 
 AI_CV_SpAtkUp2::
 	if_hp_not_equal AI_USER, 100, AI_CV_SpAtkUp3
-	if_random_less_than 128, AI_CV_SpAtkUp3
+	if_random_less_than 128, AI_CV_SpAtkUp3 @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_SpAtkUp3::
 	if_hp_more_than AI_USER, 70, AI_CV_SpAtkUp_End
 	if_hp_less_than AI_USER, 40, AI_CV_SpAtkUp_ScoreDown2
-	if_random_less_than 70, AI_CV_SpAtkUp_End
+	if_random_less_than 70, AI_CV_SpAtkUp_End @ rnd%256 ~30% chance
 
 AI_CV_SpAtkUp_ScoreDown2::
 	score -2
@@ -1033,18 +1034,18 @@ AI_CV_SpAtkUp_End::
 
 AI_CV_SpDefUp::
 	if_stat_level_less_than AI_USER, STAT_SPDEF, 9, AI_CV_SpDefUp2
-	if_random_less_than 100, AI_CV_SpDefUp3
+	if_random_less_than 100, AI_CV_SpDefUp3 @ rnd%256 ~40% chance
 	score -1
 	goto AI_CV_SpDefUp3
 
 AI_CV_SpDefUp2::
 	if_hp_not_equal AI_USER, 100, AI_CV_SpDefUp3
-	if_random_less_than 128, AI_CV_SpDefUp3
+	if_random_less_than 128, AI_CV_SpDefUp3 @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_SpDefUp3::
 	if_hp_less_than AI_USER, 70, AI_CV_SpDefUp4
-	if_random_less_than 200, AI_CV_SpDefUp_End
+	if_random_less_than 200, AI_CV_SpDefUp_End @ rnd%256 ~80% chance
 
 AI_CV_SpDefUp4::
 	if_hp_less_than AI_USER, 40, AI_CV_SpDefUp_ScoreDown2
@@ -1054,10 +1055,10 @@ AI_CV_SpDefUp4::
 	get_last_used_move AI_TARGET
 	get_move_type_from_result
 	if_in_bytes AI_CV_SpDefUp_PhysicalTypes, AI_CV_SpDefUp_ScoreDown2
-	if_random_less_than 60, AI_CV_SpDefUp_End
+	if_random_less_than 60, AI_CV_SpDefUp_End @ rnd%256 ~20% chance
 
 AI_CV_SpDefUp5::
-	if_random_less_than 60, AI_CV_SpDefUp_End
+	if_random_less_than 60, AI_CV_SpDefUp_End @ rnd%256 ~20% chance
 
 AI_CV_SpDefUp_ScoreDown2::
 	score -2
@@ -1079,7 +1080,7 @@ AI_CV_SpDefUp_PhysicalTypes::
 
 AI_CV_AccuracyUp::
 	if_stat_level_less_than AI_USER, STAT_ACC, 9, AI_CV_AccuracyUp2
-	if_random_less_than 50, AI_CV_AccuracyUp2
+	if_random_less_than 50, AI_CV_AccuracyUp2 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_AccuracyUp2::
@@ -1091,44 +1092,44 @@ AI_CV_AccuracyUp_End::
 
 AI_CV_EvasionUp::
 	if_hp_less_than AI_USER, 90, AI_CV_EvasionUp2
-	if_random_less_than 100, AI_CV_EvasionUp2
+	if_random_less_than 100, AI_CV_EvasionUp2 @ rnd%256 ~40% chance
 	score +3
 
 AI_CV_EvasionUp2::
 	if_stat_level_less_than AI_USER, STAT_EVASION, 9, AI_CV_EvasionUp3
-	if_random_less_than 128, AI_CV_EvasionUp3
+	if_random_less_than 128, AI_CV_EvasionUp3 @ rnd%256 ~50% chance
 	score -1
 
 AI_CV_EvasionUp3::
 	if_not_status AI_TARGET, STATUS1_TOXIC_POISON, AI_CV_EvasionUp5
 	if_hp_more_than AI_USER, 50, AI_CV_EvasionUp4
-	if_random_less_than 80, AI_CV_EvasionUp5
+	if_random_less_than 80, AI_CV_EvasionUp5 @ rnd%256 ~30% chance
 
 AI_CV_EvasionUp4::
-	if_random_less_than 50, AI_CV_EvasionUp5
+	if_random_less_than 50, AI_CV_EvasionUp5 @ rnd%256 ~20% chance
 	score +3
 
 AI_CV_EvasionUp5::
 	if_not_status3 AI_TARGET, STATUS3_LEECHSEED, AI_CV_EvasionUp6
-	if_random_less_than 70, AI_CV_EvasionUp6
+	if_random_less_than 70, AI_CV_EvasionUp6 @ rnd%256 ~30% chance
 	score +3
 
 AI_CV_EvasionUp6::
 	if_not_status3 AI_USER, STATUS3_ROOTED, AI_CV_EvasionUp7
-	if_random_less_than 128, AI_CV_EvasionUp7
+	if_random_less_than 128, AI_CV_EvasionUp7 @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_EvasionUp7::
 	if_not_status2 AI_TARGET, STATUS2_CURSED, AI_CV_EvasionUp8
-	if_random_less_than 70, AI_CV_EvasionUp8
+	if_random_less_than 70, AI_CV_EvasionUp8 @ rnd%256 ~20% chance
 	score +3
 
 AI_CV_EvasionUp8::
 	if_hp_more_than AI_USER, 70, AI_CV_EvasionUp_End
 	if_stat_level_equal AI_USER, STAT_EVASION, 6, AI_CV_EvasionUp_End
-	if_hp_less_than AI_USER, 40, AI_CV_EvasionUp_ScoreDown2
-	if_hp_less_than AI_TARGET, 40, AI_CV_EvasionUp_ScoreDown2
-	if_random_less_than 70, AI_CV_EvasionUp_End
+	if_hp_less_than AI_USER, 40, AI_CV_EvasionUp_ScoreDown2 @ rnd%256 ~20% chance
+	if_hp_less_than AI_TARGET, 40, AI_CV_EvasionUp_ScoreDown2 @ rnd%256 ~20% chance
+	if_random_less_than 70, AI_CV_EvasionUp_End @ rnd%256 ~30% chance
 
 AI_CV_EvasionUp_ScoreDown2::
 	score -2
@@ -1147,7 +1148,7 @@ AI_CV_AlwaysHit_ScoreUp1::
 	score +1
 
 AI_CV_AlwaysHit2::
-	if_random_less_than 100, AI_CV_AlwaysHit_End
+	if_random_less_than 100, AI_CV_AlwaysHit_End @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_AlwaysHit_End::
@@ -1156,12 +1157,12 @@ AI_CV_AlwaysHit_End::
 AI_CV_AttackDown::
 	if_stat_level_equal AI_TARGET, STAT_ATK, 6, AI_CV_AttackDown3
 	score -1
-	if_hp_more_than AI_USER, 90, AI_CV_AttackDown2
+	if_hp_more_than AI_USER, 90, AI_CV_AttackDown2 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_AttackDown2::
 	if_stat_level_more_than AI_TARGET, STAT_ATK, 3, AI_CV_AttackDown3
-	if_random_less_than 50, AI_CV_AttackDown3
+	if_random_less_than 50, AI_CV_AttackDown3 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_AttackDown3::
@@ -1173,7 +1174,7 @@ AI_CV_AttackDown4::
 	if_in_bytes AI_CV_AttackDown_PhysicalTypeList, AI_CV_AttackDown_End
 	get_target_type2
 	if_in_bytes AI_CV_AttackDown_PhysicalTypeList, AI_CV_AttackDown_End
-	if_random_less_than 50, AI_CV_AttackDown_End
+	if_random_less_than 50, AI_CV_AttackDown_End @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_AttackDown_End::
@@ -1194,7 +1195,7 @@ AI_CV_DefenseDown::
 	if_stat_level_more_than AI_TARGET, STAT_DEF, 3, AI_CV_DefenseDown3
 
 AI_CV_DefenseDown2::
-	if_random_less_than 50, AI_CV_DefenseDown3
+	if_random_less_than 50, AI_CV_DefenseDown3 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_DefenseDown3::
@@ -1216,7 +1217,7 @@ AI_CV_SpeedDown::
 	goto AI_CV_SpeedDown_End
 
 AI_CV_SpeedDown2::
-	if_random_less_than 70, AI_CV_SpeedDown_End
+	if_random_less_than 70, AI_CV_SpeedDown_End @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_SpeedDown_End::
@@ -1230,7 +1231,7 @@ AI_CV_SpAtkDown::
 
 AI_CV_SpAtkDown2::
 	if_stat_level_more_than AI_TARGET, STAT_SPATK, 3, AI_CV_SpAtkDown3
-	if_random_less_than 50, AI_CV_SpAtkDown3
+	if_random_less_than 50, AI_CV_SpAtkDown3 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_SpAtkDown3::
@@ -1242,7 +1243,7 @@ AI_CV_SpAtkDown4::
 	if_in_bytes AI_CV_SpAtkDown_SpecialTypeList, AI_CV_SpAtkDown_End
 	get_target_type2
 	if_in_bytes AI_CV_SpAtkDown_SpecialTypeList, AI_CV_SpAtkDown_End
-	if_random_less_than 50, AI_CV_SpAtkDown_End
+	if_random_less_than 50, AI_CV_SpAtkDown_End @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_SpAtkDown_End::
@@ -1264,7 +1265,7 @@ AI_CV_SpDefDown::
 	if_stat_level_more_than AI_TARGET, STAT_SPDEF, 3, AI_CV_SpDefDown3
 
 AI_CV_SpDefDown2::
-	if_random_less_than 50, AI_CV_SpDefDown3
+	if_random_less_than 50, AI_CV_SpDefDown3 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_SpDefDown3::
@@ -1279,32 +1280,32 @@ AI_CV_AccuracyDown::
 	if_hp_more_than AI_TARGET, 70, AI_CV_AccuracyDown3
 
 AI_CV_AccuracyDown2::
-	if_random_less_than 100, AI_CV_AccuracyDown3
+	if_random_less_than 100, AI_CV_AccuracyDown3 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_AccuracyDown3::
 	if_stat_level_more_than AI_USER, STAT_ACC, 4, AI_CV_AccuracyDown4
-	if_random_less_than 80, AI_CV_AccuracyDown4
+	if_random_less_than 80, AI_CV_AccuracyDown4 @ rnd%256 ~30% chance
 	score -2
 
 AI_CV_AccuracyDown4::
 	if_not_status AI_TARGET, STATUS1_TOXIC_POISON, AI_CV_AccuracyDown5
-	if_random_less_than 70, AI_CV_AccuracyDown5
+	if_random_less_than 70, AI_CV_AccuracyDown5 @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_AccuracyDown5::
 	if_not_status3 AI_TARGET, STATUS3_LEECHSEED, AI_CV_AccuracyDown6
-	if_random_less_than 70, AI_CV_AccuracyDown6
+	if_random_less_than 70, AI_CV_AccuracyDown6 @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_AccuracyDown6::
 	if_not_status3 AI_USER, STATUS3_ROOTED, AI_CV_AccuracyDown7
-	if_random_less_than 128, AI_CV_AccuracyDown7
+	if_random_less_than 128, AI_CV_AccuracyDown7 @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_AccuracyDown7::
 	if_not_status2 AI_TARGET, STATUS2_CURSED, AI_CV_AccuracyDown8
-	if_random_less_than 70, AI_CV_AccuracyDown8
+	if_random_less_than 70, AI_CV_AccuracyDown8 @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_AccuracyDown8::
@@ -1312,7 +1313,7 @@ AI_CV_AccuracyDown8::
 	if_stat_level_equal AI_TARGET, STAT_ACC, 6, AI_CV_AccuracyDown_End
 	if_hp_less_than AI_USER, 40, AI_CV_AccuracyDown_ScoreDown2
 	if_hp_less_than AI_TARGET, 40, AI_CV_AccuracyDown_ScoreDown2
-	if_random_less_than 70, AI_CV_AccuracyDown_End
+	if_random_less_than 70, AI_CV_AccuracyDown_End @ rnd%256 ~30% chance
 
 AI_CV_AccuracyDown_ScoreDown2::
 	score -2
@@ -1325,7 +1326,7 @@ AI_CV_EvasionDown::
 	if_stat_level_more_than AI_TARGET, STAT_EVASION, 3, AI_CV_EvasionDown3
 
 AI_CV_EvasionDown2::
-	if_random_less_than 50, AI_CV_EvasionDown3
+	if_random_less_than 50, AI_CV_EvasionDown3 @ rnd%256 ~20% chance
 	score -2
 
 AI_CV_EvasionDown3::
@@ -1349,7 +1350,7 @@ AI_CV_Haze::
 	goto AI_CV_Haze3
 
 AI_CV_Haze2::
-	if_random_less_than 50, AI_CV_Haze3
+	if_random_less_than 50, AI_CV_Haze3 @ rnd%256 ~20% chance
 	score -3
 
 AI_CV_Haze3::
@@ -1363,19 +1364,19 @@ AI_CV_Haze3::
 	if_stat_level_less_than AI_USER, STAT_SPATK, 4, AI_CV_Haze4
 	if_stat_level_less_than AI_USER, STAT_SPDEF, 4, AI_CV_Haze4
 	if_stat_level_less_than AI_USER, STAT_ACC, 4, AI_CV_Haze4
-	if_random_less_than 50, AI_CV_Haze_End
+	if_random_less_than 50, AI_CV_Haze_End @ rnd%256 ~20% chance
 	score -1
 	goto AI_CV_Haze_End
 
 AI_CV_Haze4::
-	if_random_less_than 50, AI_CV_Haze_End
+	if_random_less_than 50, AI_CV_Haze_End @ rnd%256 ~20% chance
 	score +3
 
 AI_CV_Haze_End::
 	end
 
 AI_CV_Bide::
-	if_hp_more_than AI_USER, 90, AI_CV_Bide_End
+	if_hp_more_than AI_USER, 90, AI_CV_Bide_End @ rnd%256 ~40% chance
 	score -2
 
 AI_CV_Bide_End::
@@ -1391,7 +1392,7 @@ AI_CV_Roar::
 	goto AI_CV_Roar_End
 
 AI_CV_Roar2::
-	if_random_less_than 128, AI_CV_Roar_End
+	if_random_less_than 128, AI_CV_Roar_End @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_Roar_End::
@@ -1404,7 +1405,7 @@ AI_CV_Conversion::
 AI_CV_Conversion2::
 	get_turn_count
 	if_equal 0, AI_CV_Conversion_End
-	if_random_less_than 200, Score_Minus2
+	if_random_less_than 200, Score_Minus2 @ rnd%256 ~80% chance
 
 AI_CV_Conversion_End::
 	end
@@ -1429,7 +1430,7 @@ AI_CV_Heal::
 AI_CV_Heal2:
 	if_hp_less_than AI_USER, 50, AI_CV_Heal5
 	if_hp_more_than AI_USER, 80, AI_CV_Heal3
-	if_random_less_than 70, AI_CV_Heal5
+	if_random_less_than 70, AI_CV_Heal5 @ rnd%256 ~30% chance
 
 AI_CV_Heal3::
 	score -3
@@ -1437,16 +1438,16 @@ AI_CV_Heal3::
 
 AI_CV_Heal4::
 	if_hp_less_than AI_USER, 70, AI_CV_Heal5
-	if_random_less_than 30, AI_CV_Heal5
+	if_random_less_than 30, AI_CV_Heal5 @ rnd%256 ~10% chance
 	score -3
 	goto AI_CV_Heal_End
 
 AI_CV_Heal5::
 	if_doesnt_have_move_with_effect AI_TARGET, EFFECT_SNATCH, AI_CV_Heal6
-	if_random_less_than 100, AI_CV_Heal_End
+	if_random_less_than 100, AI_CV_Heal_End @ rnd%256 ~40% chance
 
 AI_CV_Heal6::
-	if_random_less_than 20, AI_CV_Heal_End
+	if_random_less_than 20, AI_CV_Heal_End @ rnd%256 ~10% chance
 	score +2
 
 AI_CV_Heal_End::
@@ -1455,21 +1456,25 @@ AI_CV_Heal_End::
 AI_CV_Toxic::
 	if_user_has_no_attacking_moves AI_CV_Toxic3
 	if_hp_more_than AI_USER, 50, AI_CV_Toxic2
-	if_random_less_than 50, AI_CV_Toxic2
-	score -3
+	if_random_less_than 50, AI_CV_Toxic2 @ rnd%256 ~20% chance
+	score -2
 
 AI_CV_Toxic2::
 	if_hp_more_than AI_TARGET, 50, AI_CV_Toxic3
-	if_random_less_than 50, AI_CV_Toxic3
+	if_random_less_than 50, AI_CV_Toxic3 @ rnd%256 ~20% chance
 	score -3
 
 AI_CV_Toxic3::
 	if_has_move_with_effect AI_USER, EFFECT_SPECIAL_DEFENSE_UP, AI_CV_Toxic4
+	if_has_move_with_effect AI_USER, EFFECT_SPECIAL_DEFENSE_UP_2, AI_CV_Toxic4
+	if_has_move_with_effect AI_USER, EFFECT_DEFENSE_UP, AI_CV_Toxic4
+	if_has_move_with_effect AI_USER, EFFECT_DEFENSE_UP_2, AI_CV_Toxic4
 	if_has_move_with_effect AI_USER, EFFECT_PROTECT, AI_CV_Toxic4
+	if_has_move_with_effect AI_USER, EFFECT_LIGHT_SCREEN, AI_CV_Toxic4
 	goto AI_CV_Toxic_End
 
 AI_CV_Toxic4::
-	if_random_less_than 60, AI_CV_Toxic_End
+	if_random_less_than 50, AI_CV_Toxic_End @ rnd%256 ~20% chance
 	score +2
 
 AI_CV_Toxic_End::
@@ -1481,7 +1486,7 @@ AI_CV_LightScreen::
 	if_in_bytes AI_CV_LightScreen_SpecialTypeList, AI_CV_LightScreen_End
 	get_target_type2
 	if_in_bytes AI_CV_LightScreen_SpecialTypeList, AI_CV_LightScreen_End
-	if_random_less_than 50, AI_CV_LightScreen_End
+	if_random_less_than 50, AI_CV_LightScreen_End @ rnd%256 ~20% chance
 
 AI_CV_LightScreen_ScoreDown2::
 	score -2
@@ -1509,7 +1514,7 @@ AI_CV_Rest::
 AI_CV_Rest2::
 	if_hp_less_than AI_USER, 40, AI_CV_Rest6
 	if_hp_more_than AI_USER, 50, AI_CV_Rest3
-	if_random_less_than 70, AI_CV_Rest6
+	if_random_less_than 70, AI_CV_Rest6 @ rnd%256 ~30% chance
 
 AI_CV_Rest3::
 	score -3
@@ -1518,7 +1523,7 @@ AI_CV_Rest3::
 AI_CV_Rest4::
 	if_hp_less_than AI_USER, 60, AI_CV_Rest6
 	if_hp_more_than AI_USER, 70, AI_CV_Rest5
-	if_random_less_than 50, AI_CV_Rest6
+	if_random_less_than 50, AI_CV_Rest6 @ rnd%256 ~20% chance
 
 AI_CV_Rest5::
 	score -3
@@ -1526,10 +1531,10 @@ AI_CV_Rest5::
 
 AI_CV_Rest6::
 	if_doesnt_have_move_with_effect AI_TARGET, EFFECT_SNATCH, AI_CV_Rest7
-	if_random_less_than 50, AI_CV_Rest_End
+	if_random_less_than 50, AI_CV_Rest_End @ rnd%256 ~20% chance
 
 AI_CV_Rest7::
-	if_random_less_than 10, AI_CV_Rest_End
+	if_random_less_than 10, AI_CV_Rest_End @ rnd%256 ~5% chance
 	score +3
 
 AI_CV_Rest_End::
@@ -1553,7 +1558,7 @@ AI_CV_Trap::
 	goto AI_CV_Trap_End
 
 AI_CV_Trap2::
-	if_random_less_than 128, AI_CV_Trap_End
+	if_random_less_than 128, AI_CV_Trap_End @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_Trap_End::
@@ -1564,10 +1569,10 @@ AI_CV_HighCrit::
 	if_type_effectiveness AI_EFFECTIVENESS_x0_5, AI_CV_HighCrit_End
 	if_type_effectiveness AI_EFFECTIVENESS_x2, AI_CV_HighCrit2
 	if_type_effectiveness AI_EFFECTIVENESS_x4, AI_CV_HighCrit2
-	if_random_less_than 128, AI_CV_HighCrit_End
+	if_random_less_than 128, AI_CV_HighCrit_End @ rnd%256 ~50% chance
 
 AI_CV_HighCrit2::
-	if_random_less_than 128, AI_CV_HighCrit_End
+	if_random_less_than 128, AI_CV_HighCrit_End @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_HighCrit_End::
@@ -1578,12 +1583,12 @@ AI_CV_Swagger:
 	if_has_move AI_USER, MOVE_PSYCH_UP, AI_CV_SwaggerHasPsychUp
 
 AI_CV_Flatter::
-	if_random_less_than 128, AI_CV_Confuse
+	if_random_less_than 128, AI_CV_Confuse @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_Confuse::
 	if_hp_more_than AI_TARGET, 70, AI_CV_Confuse_End
-	if_random_less_than 128, AI_CV_Confuse2
+	if_random_less_than 128, AI_CV_Confuse2 @ rnd%256 ~50% chance
 	score -1
 
 AI_CV_Confuse2::
@@ -1616,7 +1621,7 @@ AI_CV_Reflect::
 	if_in_bytes AI_CV_Reflect_PhysicalTypeList, AI_CV_Reflect_End
 	get_target_type2
 	if_in_bytes AI_CV_Reflect_PhysicalTypeList, AI_CV_Reflect_End
-	if_random_less_than 50, AI_CV_Reflect_End
+	if_random_less_than 50, AI_CV_Reflect_End @ rnd%256 ~20% chance
 
 AI_CV_Reflect_ScoreDown2::
 	score -2
@@ -1653,7 +1658,7 @@ AI_CV_Paralyze::
 	goto AI_CV_Paralyze_End
 
 AI_CV_Paralyze2::
-	if_random_less_than 20, AI_CV_Paralyze_End
+	if_random_less_than 20, AI_CV_Paralyze_End @ rnd%256 ~10% chance
 	score +3
 
 AI_CV_Paralyze_End::
@@ -1663,10 +1668,10 @@ AI_CV_VitalThrow::
 	if_target_faster AI_CV_VitalThrow_End
 	if_hp_more_than AI_USER, 60, AI_CV_VitalThrow_End
 	if_hp_less_than AI_USER, 40, AI_CV_VitalThrow2
-	if_random_less_than 180, AI_CV_VitalThrow_End
+	if_random_less_than 180, AI_CV_VitalThrow_End @ rnd%256 ~70% chance
 
 AI_CV_VitalThrow2::
-	if_random_less_than 50, AI_CV_VitalThrow_End
+	if_random_less_than 50, AI_CV_VitalThrow_End @ rnd%256 ~20% chance
 	score -1
 
 AI_CV_VitalThrow_End::
@@ -1676,15 +1681,15 @@ AI_CV_Substitute::
 	if_hp_more_than AI_USER, 90, AI_CV_Substitute4
 	if_hp_more_than AI_USER, 70, AI_CV_Substitute3
 	if_hp_more_than AI_USER, 50, AI_CV_Substitute2
-	if_random_less_than 100, AI_CV_Substitute2
+	if_random_less_than 100, AI_CV_Substitute2 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_Substitute2::
-	if_random_less_than 100, AI_CV_Substitute3
+	if_random_less_than 100, AI_CV_Substitute3 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_Substitute3::
-	if_random_less_than 100, AI_CV_Substitute4
+	if_random_less_than 100, AI_CV_Substitute4 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_Substitute4::
@@ -1712,7 +1717,7 @@ AI_CV_Substitute7::
 	if_status3 AI_TARGET, STATUS3_LEECHSEED, AI_CV_Substitute_End
 
 AI_CV_Substitute8::
-	if_random_less_than 100, AI_CV_Substitute_End
+	if_random_less_than 100, AI_CV_Substitute_End @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_Substitute_End::
@@ -1743,7 +1748,7 @@ AI_CV_Disable::
 	goto AI_CV_Disable_End
 
 AI_CV_Disable2::
-	if_random_less_than 100, AI_CV_Disable_End
+	if_random_less_than 100, AI_CV_Disable_End @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_Disable_End::
@@ -1754,12 +1759,12 @@ AI_CV_Counter::
 	if_status2 AI_TARGET, STATUS2_INFATUATION, AI_CV_Counter_ScoreDown1
 	if_status2 AI_TARGET, STATUS2_CONFUSION, AI_CV_Counter_ScoreDown1
 	if_hp_more_than AI_USER, 30, AI_CV_Counter2
-	if_random_less_than 10, AI_CV_Counter2
+	if_random_less_than 10, AI_CV_Counter2 @ rnd%256 ~5% chance
 	score -1
 
 AI_CV_Counter2::
 	if_hp_more_than AI_USER, 50, AI_CV_Counter3
-	if_random_less_than 100, AI_CV_Counter3
+	if_random_less_than 100, AI_CV_Counter3 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_Counter3::
@@ -1768,20 +1773,20 @@ AI_CV_Counter3::
 	get_move_power_from_result
 	if_equal 0, AI_CV_Counter5
 	if_target_not_taunted AI_CV_Counter4
-	if_random_less_than 100, AI_CV_Counter4
+	if_random_less_than 100, AI_CV_Counter4 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_Counter4::
 	get_last_used_move AI_TARGET
 	get_move_type_from_result
 	if_not_in_bytes AI_CV_Counter_PhysicalTypeList, AI_CV_Counter_ScoreDown1
-	if_random_less_than 100, AI_CV_Counter_End
+	if_random_less_than 100, AI_CV_Counter_End @ rnd%256 ~40% chance
 	score +1
 	goto AI_CV_Counter_End
 
 AI_CV_Counter5::
 	if_target_not_taunted AI_CV_Counter6
-	if_random_less_than 100, AI_CV_Counter6
+	if_random_less_than 100, AI_CV_Counter6 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_Counter6::
@@ -1789,11 +1794,11 @@ AI_CV_Counter6::
 	if_in_bytes AI_CV_Counter_PhysicalTypeList, AI_CV_Counter_End
 	get_target_type2
 	if_in_bytes AI_CV_Counter_PhysicalTypeList, AI_CV_Counter_End
-	if_random_less_than 50, AI_CV_Counter_End
+	if_random_less_than 50, AI_CV_Counter_End @ rnd%256 ~20% chance
 
 @ Improvement in Emerald
 AI_CV_Counter7:
-	if_random_less_than 100, AI_CV_Counter8
+	if_random_less_than 100, AI_CV_Counter8 @ rnd%256 ~40% chance
 	score +4
 
 AI_CV_Counter8:
@@ -1825,7 +1830,7 @@ AI_CV_Encore::
 	if_not_in_bytes AI_CV_Encore_EncouragedMovesToEncore, AI_CV_Encore_ScoreDown2
 
 AI_CV_Encore2::
-	if_random_less_than 30, AI_CV_Encore_End
+	if_random_less_than 30, AI_CV_Encore_End @ rnd%256 ~10% chance
 	score +3
 	goto AI_CV_Encore_End
 
@@ -1923,7 +1928,7 @@ AI_CV_Snore::
 	end
 
 AI_CV_LockOn::
-	if_random_less_than 128, AI_CV_LockOn_End
+	if_random_less_than 128, AI_CV_LockOn_End @ rnd%256 ~50% chance
 	score +2
 
 AI_CV_LockOn_End::
@@ -1938,17 +1943,17 @@ AI_CV_DestinyBond::
 	score -1
 	if_target_faster AI_CV_DestinyBond_End
 	if_hp_more_than AI_USER, 70, AI_CV_DestinyBond_End
-	if_random_less_than 128, AI_CV_DestinyBond2
+	if_random_less_than 128, AI_CV_DestinyBond2 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_DestinyBond2::
 	if_hp_more_than AI_USER, 50, AI_CV_DestinyBond_End
-	if_random_less_than 128, AI_CV_DestinyBond3
+	if_random_less_than 128, AI_CV_DestinyBond3 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_DestinyBond3::
 	if_hp_more_than AI_USER, 30, AI_CV_DestinyBond_End
-	if_random_less_than 100, AI_CV_DestinyBond_End
+	if_random_less_than 100, AI_CV_DestinyBond_End @ rnd%256 ~40% chance
 	score +2
 
 AI_CV_DestinyBond_End::
@@ -1970,7 +1975,7 @@ AI_CV_Flail_ScoreUp1::
 	score +1
 
 AI_CV_Flail3::
-	if_random_less_than 100, AI_CV_Flail_End
+	if_random_less_than 100, AI_CV_Flail_End @ rnd%256 ~40% chance
 	score +1
 	goto AI_CV_Flail_End
 
@@ -1991,7 +1996,7 @@ AI_CV_HealBell_End::
 AI_CV_Thief::
 	get_hold_effect AI_TARGET
 	if_not_in_bytes AI_CV_Thief_EncourageItemsToSteal, AI_CV_Thief_ScoreDown2
-	if_random_less_than 50, AI_CV_Thief_End
+	if_random_less_than 50, AI_CV_Thief_End @ rnd%256 ~20% chance
 	score +1
 	goto AI_CV_Thief_End
 
@@ -2017,17 +2022,17 @@ AI_CV_Curse::
 	get_user_type2
 	if_equal TYPE_GHOST, AI_CV_Curse4
 	if_stat_level_more_than AI_USER, STAT_DEF, 9, AI_CV_Curse_End
-	if_random_less_than 128, AI_CV_Curse2
+	if_random_less_than 128, AI_CV_Curse2 @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_Curse2::
 	if_stat_level_more_than AI_USER, STAT_DEF, 7, AI_CV_Curse_End
-	if_random_less_than 128, AI_CV_Curse3
+	if_random_less_than 128, AI_CV_Curse3 @ rnd%256 ~450% chance
 	score +1
 
 AI_CV_Curse3::
 	if_stat_level_more_than AI_USER, STAT_DEF, 6, AI_CV_Curse_End
-	if_random_less_than 128, AI_CV_Curse_End
+	if_random_less_than 128, AI_CV_Curse_End @ rnd%256 ~50% chance
 	score +1
 	goto AI_CV_Curse_End
 
@@ -2064,14 +2069,14 @@ AI_CV_Protect_ScoreUp2::
 	score +2
 
 AI_CV_Protect2::
-	if_random_less_than 128, AI_CV_Protect4  @ Improvement in Emerald
+	if_random_less_than 128, AI_CV_Protect4  @ Improvement in Emerald @ rnd%256 ~50% chance
 	score -1
 
 AI_CV_Protect4::
 	get_protect_count AI_USER
 	if_equal 0, AI_CV_Protect_End
 	score -1
-	if_random_less_than 128, AI_CV_Protect_End
+	if_random_less_than 128, AI_CV_Protect_End @ rnd%256 ~50% chance
 	score -1
 	goto AI_CV_Protect_End
 
@@ -2096,10 +2101,10 @@ AI_CV_Foresight::
 	goto AI_CV_Foresight_End
 
 AI_CV_Foresight2::
-	if_random_less_than 80, AI_CV_Foresight_End
+	if_random_less_than 80, AI_CV_Foresight_End @ rnd%256 ~30% chance
 
 AI_CV_Foresight3::
-	if_random_less_than 80, AI_CV_Foresight_End
+	if_random_less_than 80, AI_CV_Foresight_End @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_Foresight_End::
@@ -2114,7 +2119,7 @@ AI_CV_Endure2::
 	goto AI_CV_Endure_End
 
 AI_CV_Endure3::
-	if_random_less_than 70, AI_CV_Endure_End
+	if_random_less_than 70, AI_CV_Endure_End @ rnd%256 ~30% chance
 	score +1
 
 AI_CV_Endure_End::
@@ -2137,7 +2142,7 @@ AI_CV_BatonPass3::
 	if_hp_more_than AI_USER, 70, AI_CV_BatonPass_End
 
 AI_CV_BatonPass4::
-	if_random_less_than 80, AI_CV_BatonPass_End
+	if_random_less_than 80, AI_CV_BatonPass_End @ rnd%256 ~30% chance
 	score +2
 	goto AI_CV_BatonPass_End
 
@@ -2177,7 +2182,7 @@ AI_CV_Pursuit::
 	goto AI_CV_Pursuit_End
 
 AI_CV_Pursuit2::
-	if_random_less_than 128, AI_CV_Pursuit_End
+	if_random_less_than 128, AI_CV_Pursuit_End @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_Pursuit_End::
@@ -2250,14 +2255,14 @@ AI_CV_PsychUp2::
 	if_stat_level_less_than AI_USER, STAT_SPATK, 7, AI_CV_PsychUp3
 	if_stat_level_less_than AI_USER, STAT_SPDEF, 7, AI_CV_PsychUp3
 	if_stat_level_less_than AI_USER, STAT_EVASION, 7, AI_CV_PsychUp_ScoreUp1
-	if_random_less_than 50, AI_CV_PsychUp_End
+	if_random_less_than 50, AI_CV_PsychUp_End @ rnd%256 ~20% chance
 	goto AI_CV_PsychUp_ScoreDown2
 
 AI_CV_PsychUp_ScoreUp1::
 	score +1
 
 AI_CV_PsychUp3::
-	if_random_less_than 128, AI_CV_PsychUp_End  @ Remove this line
+	if_random_less_than 128, AI_CV_PsychUp_End  @ Remove this line @ rnd%256 ~50% chance
 	score +1
 	end  @ Improvement in Emerald
 
@@ -2272,12 +2277,12 @@ AI_CV_MirrorCoat::
 	if_status2 AI_TARGET, STATUS2_INFATUATION, AI_CV_MirrorCoat_ScoreDown1
 	if_status2 AI_TARGET, STATUS2_CONFUSION, AI_CV_MirrorCoat_ScoreDown1
 	if_hp_more_than AI_USER, 30, AI_CV_MirrorCoat2
-	if_random_less_than 10, AI_CV_MirrorCoat2
+	if_random_less_than 10, AI_CV_MirrorCoat2 @ rnd%256 ~5% chance
 	score -1
 
 AI_CV_MirrorCoat2::
 	if_hp_more_than AI_USER, 50, AI_CV_MirrorCoat3
-	if_random_less_than 100, AI_CV_MirrorCoat3
+	if_random_less_than 100, AI_CV_MirrorCoat3 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_MirrorCoat3::
@@ -2286,20 +2291,20 @@ AI_CV_MirrorCoat3::
 	get_move_power_from_result
 	if_equal 0, AI_CV_MirrorCoat5
 	if_target_not_taunted AI_CV_MirrorCoat4
-	if_random_less_than 100, AI_CV_MirrorCoat4
+	if_random_less_than 100, AI_CV_MirrorCoat4 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_MirrorCoat4::
 	get_last_used_move AI_TARGET
 	get_move_type_from_result
 	if_not_in_bytes AI_CV_MirrorCoat_SpecialTypeList, AI_CV_MirrorCoat_ScoreDown1
-	if_random_less_than 100, AI_CV_MirrorCoat_End
+	if_random_less_than 100, AI_CV_MirrorCoat_End @ rnd%256 ~40% chance
 	score +1
 	goto AI_CV_MirrorCoat_End
 
 AI_CV_MirrorCoat5::
 	if_target_not_taunted AI_CV_MirrorCoat6
-	if_random_less_than 100, AI_CV_MirrorCoat6
+	if_random_less_than 100, AI_CV_MirrorCoat6 @ rnd%256 ~40% chance
 	score +1
 
 AI_CV_MirrorCoat6::
@@ -2307,11 +2312,11 @@ AI_CV_MirrorCoat6::
 	if_in_bytes AI_CV_MirrorCoat_SpecialTypeList, AI_CV_MirrorCoat_End
 	get_target_type2
 	if_in_bytes AI_CV_MirrorCoat_SpecialTypeList, AI_CV_MirrorCoat_End
-	if_random_less_than 50, AI_CV_MirrorCoat_End
+	if_random_less_than 50, AI_CV_MirrorCoat_End @ rnd%256 ~20% chance
 
 @ Improvement in Emerald
 AI_CV_MirrorCoat_ScoreUp4:
-	if_random_less_than 100, AI_CV_MirrorCoat_ScoreUp4_End
+	if_random_less_than 100, AI_CV_MirrorCoat_ScoreUp4_End @ rnd%256 ~40% chance
 	score +4
 
 AI_CV_MirrorCoat_ScoreUp4_End:
@@ -2338,9 +2343,18 @@ AI_CV_ChargeUpMove::
 	if_type_effectiveness AI_EFFECTIVENESS_x0_25, AI_CV_ChargeUpMove_ScoreDown2
 	if_type_effectiveness AI_EFFECTIVENESS_x0_5, AI_CV_ChargeUpMove_ScoreDown2
 	if_has_move_with_effect AI_TARGET, EFFECT_PROTECT, AI_CV_ChargeUpMove_ScoreDown2
+
+	get_weather
+	if_not_equal AI_WEATHER_SUN, AI_CV_ChargeUpMove_Sum
+
+AI_CV_ChargeUpMove_Discorage::
 	if_hp_more_than AI_USER, 38, AI_CV_ChargeUpMove_End
 	score -1
 	goto AI_CV_ChargeUpMove_End
+
+AI_CV_ChargeUpMove_Sum::
+	if_effect EFFECT_SOLAR_BEAM, Score_Plus1
+	goto AI_CV_ChargeUpMove_Discorage
 
 AI_CV_ChargeUpMove_ScoreDown2::
 	score -2
@@ -2386,7 +2400,7 @@ AI_CV_SemiInvulnerable5::
 	goto AI_CV_SemiInvulnerable_End
 
 AI_CV_SemiInvulnerable_TryEncourage::
-	if_random_less_than 80, AI_CV_SemiInvulnerable_End
+	if_random_less_than 80, AI_CV_SemiInvulnerable_End @ rnd%256 ~30% chance
 	score +1
 
 AI_CV_SemiInvulnerable_End::
@@ -2405,7 +2419,7 @@ AI_CV_FakeOut::
 AI_CV_SpitUp::
 	get_stockpile_count AI_USER
 	if_less_than 2, AI_CV_SpitUp_End
-	if_random_less_than 80, AI_CV_SpitUp_End
+	if_random_less_than 80, AI_CV_SpitUp_End @ rnd%256 ~30% chance
 	score +2
 
 AI_CV_SpitUp_End::
@@ -2445,7 +2459,7 @@ AI_CV_FocusPunch::
 	if_status2 AI_TARGET, STATUS2_CONFUSION, AI_CV_FocusPunch3
 	is_first_turn_for AI_USER
 	if_not_equal 0, AI_CV_FocusPunch_End
-	if_random_less_than 100, AI_CV_FocusPunch_End
+	if_random_less_than 100, AI_CV_FocusPunch_End @ rnd%256 ~40% chance
 	score +1
 	goto AI_CV_FocusPunch_End
 
@@ -2454,7 +2468,7 @@ AI_CV_FocusPunch2::
 	goto AI_CV_FocusPunch_End
 
 AI_CV_FocusPunch3::
-	if_random_less_than 100, AI_CV_FocusPunch_End
+	if_random_less_than 100, AI_CV_FocusPunch_End @ rnd%256 ~40% chance
 
 AI_CV_FocusPunch_ScoreUp1::
 	score +1
@@ -2490,7 +2504,7 @@ AI_CV_Trick3::
 AI_CV_Trick4::
 	get_hold_effect AI_TARGET
 	if_in_bytes AI_CV_Trick_EffectsToEncourage, AI_CV_Trick2
-	if_random_less_than 50, AI_CV_Trick_End
+	if_random_less_than 50, AI_CV_Trick_End @ rnd%256 ~20% chance
 	score +2
 
 AI_CV_Trick_End::
@@ -2521,7 +2535,7 @@ AI_CV_ChangeSelfAbility2::
 	goto AI_CV_ChangeSelfAbility_End
 
 AI_CV_ChangeSelfAbility3::
-	if_random_less_than 50, AI_CV_ChangeSelfAbility_End
+	if_random_less_than 50, AI_CV_ChangeSelfAbility_End @ rnd%256 ~20% chance
 	score +2
 
 AI_CV_ChangeSelfAbility_End::
@@ -2565,22 +2579,22 @@ AI_CV_Superpower_End::
 
 AI_CV_MagicCoat::
 	if_hp_more_than AI_TARGET, 30, AI_CV_MagicCoat2
-	if_random_less_than 100, AI_CV_MagicCoat2
+	if_random_less_than 100, AI_CV_MagicCoat2 @ rnd%256 ~40% chance
 	score -1
 
 AI_CV_MagicCoat2::
 	is_first_turn_for AI_USER
 	if_equal 0, AI_CV_MagicCoat4
-	if_random_less_than 150, AI_CV_MagicCoat_End
+	if_random_less_than 150, AI_CV_MagicCoat_End @ rnd%256 ~60% chance
 	score +1
 	goto AI_CV_MagicCoat_End
-	if_random_less_than 50, AI_CV_MagicCoat_End
+	if_random_less_than 50, AI_CV_MagicCoat_End @ rnd%256 ~20% chance
 
 AI_CV_MagicCoat3::
-	if_random_less_than 50, AI_CV_MagicCoat_End  @ Improvement in Emerald
+	if_random_less_than 50, AI_CV_MagicCoat_End  @ Improvement in Emerald @ rnd%256 ~20% chance
 
 AI_CV_MagicCoat4::
-	if_random_less_than 30, AI_CV_MagicCoat_End
+	if_random_less_than 30, AI_CV_MagicCoat_End @ rnd%256 ~10% chance
 	score -1
 
 AI_CV_MagicCoat_End::
@@ -2589,7 +2603,7 @@ AI_CV_MagicCoat_End::
 AI_CV_Recycle::
 	get_used_held_item AI_USER
 	if_not_in_bytes AI_CV_Recycle_ItemsToEncourage, AI_CV_Recycle_ScoreDown2
-	if_random_less_than 50, AI_CV_Recycle_End
+	if_random_less_than 50, AI_CV_Recycle_End @ rnd%256 ~20% chance
 	score +1
 	goto AI_CV_Recycle_End
 
@@ -2609,7 +2623,7 @@ AI_CV_Revenge::
 	if_status AI_TARGET, STATUS1_SLEEP, AI_CV_Revenge_ScoreDown2
 	if_status2 AI_TARGET, STATUS2_INFATUATION, AI_CV_Revenge_ScoreDown2
 	if_status2 AI_TARGET, STATUS2_CONFUSION, AI_CV_Revenge_ScoreDown2
-	if_random_less_than 180, AI_CV_Revenge_ScoreDown2
+	if_random_less_than 180, AI_CV_Revenge_ScoreDown2 @ rnd%256 ~70% chance
 	score +2
 	goto AI_CV_Revenge_End
 
@@ -2633,7 +2647,7 @@ AI_CV_KnockOff::
 	if_hp_less_than AI_TARGET, 30, AI_CV_KnockOff_End
 	is_first_turn_for AI_USER
 	if_more_than 0, AI_CV_KnockOff_End
-	if_random_less_than 180, AI_CV_KnockOff_End
+	if_random_less_than 180, AI_CV_KnockOff_End @ rnd%256 ~70% chance
 	score +1
 
 AI_CV_KnockOff_End::
@@ -2676,7 +2690,7 @@ AI_CV_Eruption_End::
 AI_CV_Imprison::
 	is_first_turn_for AI_USER
 	if_more_than 0, AI_CV_Imprison_End
-	if_random_less_than 100, AI_CV_Imprison_End
+	if_random_less_than 100, AI_CV_Imprison_End @ rnd%256 ~40% chance
 	score +2
 
 AI_CV_Imprison_End::
@@ -2695,11 +2709,11 @@ AI_CV_Refresh_End::
 AI_CV_Snatch::
 	is_first_turn_for AI_USER
 	if_equal 1, AI_CV_Snatch3
-	if_random_less_than 30, AI_CV_Snatch_End
+	if_random_less_than 30, AI_CV_Snatch_End @ rnd%256 ~10% chance
 	if_target_faster AI_CV_Snatch2
 	if_hp_not_equal AI_USER, 100, AI_CV_Snatch5
 	if_hp_less_than AI_TARGET, 70, AI_CV_Snatch5
-	if_random_less_than 60, AI_CV_Snatch_End
+	if_random_less_than 60, AI_CV_Snatch_End @ rnd%256 ~20% chance
 	goto AI_CV_Snatch5
 
 AI_CV_Snatch2::
@@ -2709,17 +2723,17 @@ AI_CV_Snatch2::
 	goto AI_CV_Snatch4
 
 AI_CV_Snatch3::
-	if_random_less_than 150, AI_CV_Snatch_End
+	if_random_less_than 150, AI_CV_Snatch_End @ rnd%256 ~60% chance
 	score +2
 	goto AI_CV_Snatch_End
 
 AI_CV_Snatch4::
-	if_random_less_than 230, AI_CV_Snatch5
+	if_random_less_than 230, AI_CV_Snatch5 @ rnd%256 ~90% chance
 	score +1
 	goto AI_CV_Snatch_End
 
 AI_CV_Snatch5::
-	if_random_less_than 30, AI_CV_Snatch_End
+	if_random_less_than 30, AI_CV_Snatch_End @ rnd%256 ~10% chance
 	score -2
 
 AI_CV_Snatch_End::
@@ -2780,12 +2794,12 @@ AI_CV_WaterSport_End::
 AI_CV_DragonDance::
 	if_target_faster AI_CV_DragonDance2
 	if_hp_more_than AI_USER, 50, AI_CV_DragonDance_End
-	if_random_less_than 70, AI_CV_DragonDance_End
+	if_random_less_than 70, AI_CV_DragonDance_End @ rnd%256 ~30% chance
 	score -1
 	goto AI_CV_DragonDance_End
 
 AI_CV_DragonDance2::
-	if_random_less_than 128, AI_CV_DragonDance_End
+	if_random_less_than 128, AI_CV_DragonDance_End @ rnd%256 ~50% chance
 	score +1
 
 AI_CV_DragonDance_End::
@@ -2800,7 +2814,7 @@ AI_TryToFaint::
 
 @ Improvement in Emerald
 AI_TryToFaint_DoubleSuperEffective:
-	if_random_less_than 80, AI_TryToFaint_End
+	if_random_less_than 80, AI_TryToFaint_End @ rnd%256 ~30% chance
 	score +2
 	end
 
@@ -2820,7 +2834,7 @@ AI_SetupFirstTurn::
 	if_not_equal 0, AI_SetupFirstTurn_End
 	get_considered_move_effect
 	if_not_in_bytes AI_SetupFirstTurn_SetupEffectsToEncourage, AI_SetupFirstTurn_End
-	if_random_less_than 80, AI_SetupFirstTurn_End
+	if_random_less_than 80, AI_SetupFirstTurn_End @ rnd%256 ~30% chance
 	score +2
 
 AI_SetupFirstTurn_End::
@@ -2886,9 +2900,12 @@ AI_SetupFirstTurn_SetupEffectsToEncourage::
 
 AI_PreferStrongestMove::
 	get_how_powerful_move_is
-	if_not_equal MOVE_POWER_DISCOURAGED, AI_PreferStrongestMove_End
-	if_random_less_than 100, AI_PreferStrongestMove_End
-	score +2
+	if_equal MOVE_MOST_POWERFUL, AI_PreferStrongestMove_Score
+	end
+
+AI_PreferStrongestMove_Score::
+	if_random_less_than 100, AI_PreferStrongestMove_End @ rnd%256 ~40% chance
+	score +1
 
 AI_PreferStrongestMove_End::
 	end
@@ -2896,7 +2913,7 @@ AI_PreferStrongestMove_End::
 AI_Risky::
 	get_considered_move_effect
 	if_not_in_bytes AI_Risky_EffectsToEncourage, AI_Risky_End
-	if_random_less_than 128, AI_Risky_End
+	if_random_less_than 128, AI_Risky_End @ rnd%256 ~50% chance
 	score +2
 
 AI_Risky_End::
@@ -2930,7 +2947,7 @@ AI_PreferBatonPass::
 	get_how_powerful_move_is
 	if_not_equal MOVE_POWER_DISCOURAGED, AI_PreferBatonPass_End
 	if_has_move_with_effect AI_USER, EFFECT_BATON_PASS, AI_PreferBatonPass_GoForBatonPass
-	if_random_less_than 80, AI_Risky_End
+	if_random_less_than 80, AI_Risky_End @ rnd%256 ~30% chance
 
 @ Improvement in Emerald (several below)
 AI_PreferBatonPass_GoForBatonPass::
@@ -2939,7 +2956,7 @@ AI_PreferBatonPass_GoForBatonPass::
 @	if_move MOVE_CALM_MIND, AI_PreferBatonPass2
 @	if_effect EFFECT_PROTECT, AI_PreferBatonPass3
 @	if_move MOVE_BATON_PASS, AI_PreferBatonPass_EncourageIfHighStats
-	if_random_less_than 20, AI_Risky_End
+	if_random_less_than 20, AI_Risky_End @ rnd%256 ~10% chance
 	score +3
 
 @AI_PreferBatonPass2:
@@ -2995,7 +3012,7 @@ AI_HPAware_UserHasMediumHP::
 	goto AI_HPAware_ConsiderTarget
 
 AI_HPAware_TryToDiscourage::
-	if_random_less_than 50, AI_HPAware_ConsiderTarget
+	if_random_less_than 50, AI_HPAware_ConsiderTarget @ rnd%256 ~20% chance
 	score -2
 
 AI_HPAware_ConsiderTarget::
@@ -3016,7 +3033,7 @@ AI_HPAware_TargetHasMediumHP::
 	goto AI_HPAware_End
 
 AI_HPAware_TargetTryToDiscourage::
-	if_random_less_than 50, AI_HPAware_End
+	if_random_less_than 50, AI_HPAware_End @ rnd%256 ~20% chance
 	score -2
 
 AI_HPAware_End::
