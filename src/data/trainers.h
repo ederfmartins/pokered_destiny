@@ -3319,7 +3319,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
+        .aiFlags = AI_SCRIPT_EK_SMART_AI | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlyBulbasaur),
     },
     [TRAINER_MAGMA_CERULEAN] = {
@@ -3329,7 +3329,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
+        .aiFlags = AI_SCRIPT_EK_SMART_AI | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlyCharmander),
     },
     [TRAINER_RIVAL_CERULEAN] = {
