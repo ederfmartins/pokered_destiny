@@ -163,6 +163,7 @@ bool8 Battle_ai_switchToMinimizeDmg()
     u8 ai, oponent, pokemon, candidate;
     u8 curMoveIdx;
     u16 move;
+    s32 damageToCurrent, maxDmgToCandidate;
     struct BattlePokemon battlePokemon;
     
     ai = gActiveBattler;
@@ -176,6 +177,11 @@ bool8 Battle_ai_switchToMinimizeDmg()
         // oponent have a supper effective atk aggaist ai
         if (AI_TypeCalc(move, gBattleMons[ai].species, gBattleMons[ai].ability) & MOVE_RESULT_SUPER_EFFECTIVE)
         {
+            getDamageRetInGlobalBMD(&gBattleMons[oponent], &gBattleMons[ai], move, oponent, ai);
+            damageToCurrent = gBattleMoveDamage;
+            if (damageToCurrent < gBattleMons[ai].hp
+             && damageToCurrent < gBattleMons[ai].maxHP * 2 / 5)
+                continue;
             // 50% chance to continue due to stats raized
             if (AreStatsRaised() && (Random() & 32) < 16) continue;
             // too strong it is better to continue
@@ -183,12 +189,16 @@ bool8 Battle_ai_switchToMinimizeDmg()
             // 50% chance to search for a better candidate
             if ((Random() & 16) < 8)
             {
-                getDamageRetInGlobalBMD(&gBattleMons[oponent], &gBattleMons[ai], move, oponent, ai);
                 candidate = getCandidateMinDmgLessCurrMoveDmg(ai, oponent, move, &battlePokemon);
                 if (candidate != PARTY_SIZE)
                 {
-                    gBattleStruct->AI_monToSwitchIntoId[GetBattlerPosition(ai) >> 1] = candidate;
-                    return TRUE;
+                    LoadTemporaryBattleMon(&gEnemyParty[candidate], &battlePokemon);
+                    maxDmgToCandidate = getMaxDamage(&gBattleMons[oponent], &battlePokemon, oponent, ai);
+                    if (maxDmgToCandidate < damageToCurrent)
+                    {
+                        gBattleStruct->AI_monToSwitchIntoId[GetBattlerPosition(ai) >> 1] = candidate;
+                        return TRUE;
+                    }
                 }
             }
         }
