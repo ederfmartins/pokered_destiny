@@ -4189,7 +4189,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("ERIKA"),
         .items = {ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_SCRIPT_EK_SMART_AI | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderErika),
     },
     [TRAINER_LEADER_KOGA] = {
