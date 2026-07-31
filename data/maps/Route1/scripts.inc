@@ -1,3 +1,5 @@
+.set LOCALID_MEW, 3
+
 Route1_MapScripts::
 	.byte 0
 
@@ -35,4 +37,13 @@ Route1_EventScript_Boy::
 
 Route1_EventScript_RouteSign::
 	msgbox Route1_Text_RouteSign, MSGBOX_SIGN
+	end
+
+Route1_EventScript_Mew::
+	lock
+	faceplayer
+	playmoncry SPECIES_MEW, CRY_MODE_NORMAL
+	waitmoncry
+	random 35
+	setobjectxy LOCALID_MEW, VAR_RESULT, 34
 	end
