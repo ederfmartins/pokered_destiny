@@ -774,12 +774,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassJulia[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_LassKay[] = {
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 26,
         .species = SPECIES_LILEEP,
     },
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 26,
         .species = SPECIES_LUDICOLO,
     },
@@ -787,12 +787,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassKay[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_LassLisa[] = {
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 27,
         .species = SPECIES_LUDICOLO,
     },
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 27,
         .species = SPECIES_GLOOM,
     },
@@ -1159,12 +1159,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerMartha[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_PicnickerTina[] = {
     {
-        .iv = 0,
+        .iv = 150,
         .lvl = 24,
         .species = SPECIES_BULBASAUR,
     },
     {
-        .iv = 0,
+        .iv = 150,
         .lvl = 24,
         .species = SPECIES_IVYSAUR,
     },
@@ -2849,22 +2849,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GamerRich[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BeautyBridget[] = {
     {
-        .iv = 0,
+        .iv = 150,
         .lvl = 25,
         .species = SPECIES_ODDISH,
     },
     {
-        .iv = 0,
+        .iv = 200,
         .lvl = 25,
         .species = SPECIES_BELLSPROUT,
     },
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 25,
         .species = SPECIES_GLOOM,
     },
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 25,
         .species = SPECIES_WEEPINBELL,
     },
@@ -2872,12 +2872,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BeautyBridget[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BeautyTamia[] = {
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 24,
         .species = SPECIES_TROPIUS,
     },
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 24,
         .species = SPECIES_LILEEP,
     },
@@ -2885,7 +2885,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BeautyTamia[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_BeautyLori[] = {
     {
-        .iv = 0,
+        .iv = 100,
         .lvl = 28,
         .species = SPECIES_EXEGGCUTE,
     },
@@ -5364,8 +5364,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_CooltrainerMary[] = {
     {
         .iv = 100,
         .lvl = 28,
-        .species = SPECIES_BULBASAUR,
-        .moves = {MOVE_RAZOR_LEAF, MOVE_GROWTH, MOVE_HARDEN, MOVE_DIG},
+        .species = SPECIES_BRELOOM,
+        .moves = {MOVE_HEADBUTT, MOVE_COUNTER, MOVE_MACH_PUNCH, MOVE_LEECH_SEED},
     },
     {
         .iv = 100,
@@ -5830,27 +5830,9 @@ static const struct TrainerMonItemCustomMoves sParty_LeaderMisty[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderLtSurge[] = {
     {
         .iv = 0,
-        .lvl = 21,
-        .species = SPECIES_VOLTORB,
-        .moves = {MOVE_SONIC_BOOM, MOVE_SELF_DESTRUCT, MOVE_CHARGE, MOVE_SPARK},
-    },
-    {
-        .iv = 0,
-        .lvl = 18,
-        .species = SPECIES_AMPHAROS,
-        .moves = {MOVE_TACKLE, MOVE_THUNDER_SHOCK, MOVE_THUNDER_WAVE, MOVE_FACADE},
-    },
-    {
-        .iv = 0,
-        .lvl = 18,
-        .species = SPECIES_LANTURN,
-        .moves = {MOVE_WATER_GUN, MOVE_SUPERSONIC, MOVE_THUNDER_WAVE, MOVE_SHOCK_WAVE},
-    },
-    {
-        .iv = 0,
-        .lvl = 24,
+        .lvl = 29,
         .species = SPECIES_RAICHU,
-        .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM, MOVE_THUNDERBOLT},
+        .moves = {MOVE_SLAM, MOVE_THUNDER_WAVE, MOVE_SURF, MOVE_THUNDERBOLT},
     },
 };
 
@@ -5859,23 +5841,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderErika[] = {
         .iv = 0,
         .lvl = 29,
         .species = SPECIES_VICTREEBEL,
-        .moves = {MOVE_STUN_SPORE, MOVE_ACID, MOVE_POISON_POWDER, MOVE_GIGA_DRAIN},
+        .moves = {MOVE_STUN_SPORE, MOVE_ACID, MOVE_SUNNY_DAY, MOVE_MEGA_DRAIN},
     },
     {
         .iv = 0,
         .lvl = 28,
         .species = SPECIES_TANGELA,
-        .moves = {MOVE_SLEEP_POWDER, MOVE_VINE_WHIP, MOVE_INGRAIN, MOVE_GIGA_DRAIN},
+        .moves = {MOVE_SLEEP_POWDER, MOVE_ROCK_SMASH, MOVE_INGRAIN, MOVE_VINE_WHIP},
     },
     {
         .iv = 0,
         .lvl = 28,
         .species = SPECIES_LILEEP,
-        .moves = {MOVE_ACID, MOVE_INGRAIN, MOVE_ASSIST, MOVE_GIGA_DRAIN},
+        .moves = {MOVE_ROCK_SLIDE, MOVE_INGRAIN, MOVE_ASSIST, MOVE_GIGA_DRAIN},
     },
     {
         .iv = 0,
-        .lvl = 29,
+        .lvl = 30,
         .species = SPECIES_VILEPLUME,
         .moves = {MOVE_SLEEP_POWDER, MOVE_ACID, MOVE_GROWTH, MOVE_GIGA_DRAIN},
     },
