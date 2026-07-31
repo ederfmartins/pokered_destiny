@@ -1,5 +1,20 @@
 CeladonCity_Gym_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, CeladonCity_Gym_OnLoad
 	.byte 0
+
+CeladonCity_Gym_OnLoad::
+	goto_if_unset FLAG_BADGE04_GET, CeladonCity_Gym_EventScript_ResetTrainers
+	return
+
+CeladonCity_Gym_EventScript_ResetTrainers::
+	cleartrainerflag TRAINER_LASS_KAY
+	cleartrainerflag TRAINER_LASS_LISA
+	cleartrainerflag TRAINER_PICNICKER_TINA
+	cleartrainerflag TRAINER_BEAUTY_BRIDGET
+	cleartrainerflag TRAINER_BEAUTY_TAMIA
+	cleartrainerflag TRAINER_BEAUTY_LORI
+	cleartrainerflag TRAINER_COOLTRAINER_MARY
+	return
 
 CeladonCity_Gym_EventScript_Erika::
 	famechecker FAMECHECKER_ERIKA, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
@@ -35,39 +50,39 @@ CeladonCity_Gym_EventScript_NoRoomForTM19::
 	end
 
 CeladonCity_Gym_EventScript_Kay::
-	trainerbattle_single TRAINER_LASS_KAY, CeladonCity_Gym_Text_KayIntro, CeladonCity_Gym_Text_KayDefeat
+	trainerbattle_enforce_set TRAINER_LASS_KAY, CeladonCity_Gym_Text_KayIntro, CeladonCity_Gym_Text_KayDefeat
 	msgbox CeladonCity_Gym_Text_KayPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Lisa::
-	trainerbattle_single TRAINER_LASS_LISA, CeladonCity_Gym_Text_LisaIntro, CeladonCity_Gym_Text_LisaDefeat
+	trainerbattle_enforce_set TRAINER_LASS_LISA, CeladonCity_Gym_Text_LisaIntro, CeladonCity_Gym_Text_LisaDefeat
 	famechecker FAMECHECKER_ERIKA, 2
 	msgbox CeladonCity_Gym_Text_LisaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Tina::
-	trainerbattle_single TRAINER_PICNICKER_TINA, CeladonCity_Gym_Text_TinaIntro, CeladonCity_Gym_Text_TinaDefeat
+	trainerbattle_enforce_set TRAINER_PICNICKER_TINA, CeladonCity_Gym_Text_TinaIntro, CeladonCity_Gym_Text_TinaDefeat
 	msgbox CeladonCity_Gym_Text_TinaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Bridget::
-	trainerbattle_single TRAINER_BEAUTY_BRIDGET, CeladonCity_Gym_Text_BridgetIntro, CeladonCity_Gym_Text_BridgetDefeat
+	trainerbattle_enforce_set TRAINER_BEAUTY_BRIDGET, CeladonCity_Gym_Text_BridgetIntro, CeladonCity_Gym_Text_BridgetDefeat
 	msgbox CeladonCity_Gym_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Tamia::
-	trainerbattle_single TRAINER_BEAUTY_TAMIA, CeladonCity_Gym_Text_TamiaIntro, CeladonCity_Gym_Text_TamiaDefeat
+	trainerbattle_enforce_set TRAINER_BEAUTY_TAMIA, CeladonCity_Gym_Text_TamiaIntro, CeladonCity_Gym_Text_TamiaDefeat
 	famechecker FAMECHECKER_ERIKA, 3
 	msgbox CeladonCity_Gym_Text_TamiaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Lori::
-	trainerbattle_single TRAINER_BEAUTY_LORI, CeladonCity_Gym_Text_LoriIntro, CeladonCity_Gym_Text_LoriDefeat
+	trainerbattle_enforce_set TRAINER_BEAUTY_LORI, CeladonCity_Gym_Text_LoriIntro, CeladonCity_Gym_Text_LoriDefeat
 	msgbox CeladonCity_Gym_Text_LoriPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 CeladonCity_Gym_EventScript_Mary::
-	trainerbattle_single TRAINER_COOLTRAINER_MARY, CeladonCity_Gym_Text_MaryIntro, CeladonCity_Gym_Text_MaryDefeat
+	trainerbattle_enforce_set TRAINER_COOLTRAINER_MARY, CeladonCity_Gym_Text_MaryIntro, CeladonCity_Gym_Text_MaryDefeat
 	msgbox CeladonCity_Gym_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
