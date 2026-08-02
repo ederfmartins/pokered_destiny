@@ -107,7 +107,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_ICE_PUNCH] =
     {
         .effect = EFFECT_HIT_PHYSICAL_ATACK,
-        .power = 65,
+        .power = 60,
         .type = TYPE_ICE,
         .accuracy = 100,
         .pp = 15,
