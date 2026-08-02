@@ -51,25 +51,17 @@ LavenderTown_House3_afterbattle::
 
 
 LavenderTown_House3_girl_Text_0:
-	.string "I'm studing with my grand mother to\n"
-	.string "became the best Gym Leader of all time.\l"
-	.string "I'm not affraid of GHOSTS anymore.$"
+	.string "I'm studying hard with my grandma.\nI'm not affraid of GHOSTS.\pDo you have one with you?$"
 
 LavenderTown_House3_agatha_Text_0:
-	.string "It was nice to\n"
-	.string "battle with you.\p"
-	.string "I see what the old duff sees in\n"
-	.string "you.\p"
-	.string "I belive we will meet again\n"
-	.string "in the Indigo Plateau.$"
+	.string "It was nice to\nbattle with you.\pI see what the old duff sees in\nyou.\pI belive we will meet again\n in the Indigo Plateau.$"
 
 LavenderTown_House3_agatha_Text_1:
 	.string "I belive POKéMON are for battling!\p"
 	.string "What do you think?$"
 
 LavenderTown_House3_agatha_Text_2:
-	.string "As a GHOST lover, can you help me with\n"
-	.string "my grand daugther?$"
+	.string "Can you help me with my\ngranddaugther?$"
 
 LavenderTown_House3_agatha_Text_3:
 	.string "Let see what you can do!$"
@@ -82,9 +74,7 @@ LavenderTown_House3_agatha_Text_5:
 	.string "you.$"
 
 LavenderTown_House3_agatha_Text_6:
-	.string "Due to my duties, I had to put the GHOST\n"
-	.string "Gym into a pause. One day it will be\l"
-	.string "available again.$"
+	.string "I had to put the GHOST GYM on hold.\pI can see your POKéMON are not at\nthe destined moment.\pNot as green as a TENTACOOL...\nNot as seasoned as a VENUSAUR.$"
 
 LavenderTown_House3_afterbattle_Text_0:
 	.string "You got the DARK SOUL BADGE$"

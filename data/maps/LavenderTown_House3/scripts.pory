@@ -6,7 +6,7 @@ LavenderTown_House3_MapScripts::
 script LavenderTown_House3_girl {
     lock
 	faceplayer
-	msgbox(format("I'm studing with my grand mother to became the best Gym Leader of all time. I'm not affraid of GHOSTS anymore."))
+	msgbox("I'm studying hard with my grandma.\nI'm not affraid of GHOSTS.\pDo you have one with you?$")
 	release
 	end
 }
@@ -15,13 +15,13 @@ script LavenderTown_House3_agatha {
     lock
 	faceplayer
     if (flag(FLAG_BADGE12_GET) == true) {
-        msgbox(format("It was nice to\nbattle with you.\pI see what the old duff sees in\nyou.\pI belive we will meet again\n in the Indigo Plateau."))
+        msgbox("It was nice to\nbattle with you.\pI see what the old duff sees in\nyou.\pI belive we will meet again\n in the Indigo Plateau.")
     } else {
         specialvar(VAR_RESULT, TrainerMetGhostGymPrereq)
         if (var(VAR_RESULT) == 1) {
             msgbox(format("I belive POKéMON are for battling!\p What do you think?"), MSGBOX_YESNO)
             if (var(VAR_RESULT) == 1) {
-                msgbox(format("As a GHOST lover, can you help me with my grand daugther?"), MSGBOX_YESNO)
+                msgbox("Can you help me with my\ngranddaugther?$", MSGBOX_YESNO)
                 if (var(VAR_RESULT) == 1) {
                     trainerbattle_enforce_set(TRAINER_AGATHA_GYMLEADER, "Let see what you can do!", format("Well done! I have a special gift for you."), LavenderTown_House3_afterbattle)
                 }
@@ -29,7 +29,7 @@ script LavenderTown_House3_agatha {
                 msgbox(format("I don't know what the old duff sees in you."))
             }
         } else {
-            msgbox(format("Due to my duties, I had to put the GHOST Gym into a pause. One day it will be available again."))
+            msgbox("I had to put the GHOST GYM on hold.\pI can see your POKéMON are not at\nthe destined moment.\pNot as green as a TENTACOOL...\nNot as seasoned as a VENUSAUR.$")
         }
         
     }
