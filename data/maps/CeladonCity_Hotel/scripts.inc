@@ -16,3 +16,59 @@ CeladonCity_Hotel_EventScript_BeautyBoyfriend::
 CeladonCity_Hotel_EventScript_BeautyBrother::
 	msgbox CeladonCity_Hotel_Text_SisBroughtMeOnVacation, MSGBOX_NPC
 	end
+
+CeladonCity_Hotel_EventScript_EggMoveTutor::
+	lock
+	faceplayer
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorIntro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, CeladonCity_Hotel_EventScript_EndEggMoveTutor
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorWhichMon
+	special SelectMoveTutorMon
+	waitstate
+	goto_if_ge VAR_0x8004, PARTY_SIZE, CeladonCity_Hotel_EventScript_EndEggMoveTutor
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, CeladonCity_Hotel_EventScript_CantTeachEgg
+	special CheckEggMoveTutorMon
+	switch VAR_RESULT
+	case 0, CeladonCity_Hotel_EventScript_ChooseMoveToTeach
+	case 1, CeladonCity_Hotel_EventScript_KnowsTMHM
+	case 2, CeladonCity_Hotel_EventScript_AlreadyTaught
+	case 3, CeladonCity_Hotel_EventScript_NoEggMoves
+	end
+
+CeladonCity_Hotel_EventScript_ChooseMoveToTeach::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorWhichMove
+	special DisplayMoveTutorMenu
+	waitstate
+	goto_if_eq VAR_0x8004, 0, CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorDone, MSGBOX_NPC
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_KnowsTMHM::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorKnowsTMHM, MSGBOX_NPC
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_AlreadyTaught::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorAlreadyTaught, MSGBOX_NPC
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_NoEggMoves::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorNoEggMoves, MSGBOX_NPC
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_CantTeachEgg::
+	msgbox CeladonCity_Hotel_Text_EggMoveTutorCantTeachEgg, MSGBOX_NPC
+	goto CeladonCity_Hotel_EventScript_ChooseEggMoveTutorMon
+	end
+
+CeladonCity_Hotel_EventScript_EndEggMoveTutor::
+	release
+	end
