@@ -27,6 +27,9 @@
 #include "constants/item_effects.h"
 #include "constants/hoenn_cries.h"
 #include "constants/pokemon.h"
+#include "constants/daycare.h"
+#include "constants/egg_moves.h"
+#include "constants/maps.h"
 #include "constants/abilities.h"
 #include "constants/moves.h"
 #include "constants/songs.h"
@@ -5623,6 +5626,94 @@ u32 CanMonLearnTMHM(struct Pokemon *mon, u8 tm)
     }
 }
 
+static bool8 IsEggMoveTutorMap(void)
+{
+    return gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(CELADON_CITY_HOTEL)
+        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(CELADON_CITY_HOTEL);
+}
+
+static u8 GetEggMoveListBySpecies(u16 species, u16 *eggMoves)
+{
+    u16 eggMoveIdx;
+    u8 numEggMoves;
+    u16 i;
+
+    numEggMoves = 0;
+    eggMoveIdx = 0;
+    for (i = 0; gEggMoves[i] != EGG_MOVES_TERMINATOR; i++)
+    {
+        if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+        {
+            eggMoveIdx = i + 1;
+            break;
+        }
+    }
+
+    for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
+    {
+        if (gEggMoves[eggMoveIdx + i] > EGG_MOVES_SPECIES_OFFSET)
+            break;
+
+        eggMoves[i] = gEggMoves[eggMoveIdx + i];
+        numEggMoves++;
+    }
+
+    return numEggMoves;
+}
+
+static u8 GetEggMoveTutorEligibility(struct Pokemon *mon)
+{
+    u16 eggMoves[EGG_MOVES_ARRAY_COUNT];
+    u16 learnedMoves[4];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES2, NULL);
+    u8 numEggMoves;
+    u8 i, j;
+
+    numEggMoves = GetEggMoveListBySpecies(species, eggMoves);
+    if (numEggMoves == 0)
+        return 3;
+
+    for (i = 0; i < 4; i++)
+        learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, NULL);
+
+    for (i = 0; i < numEggMoves; i++)
+        for (j = 0; j < 4; j++)
+            if (learnedMoves[j] == eggMoves[i])
+                return 2;
+
+    if (MonKnowsTMHM(mon))
+        return 1;
+
+    return 0;
+}
+
+u8 GetEggMoveTutorMoves(struct Pokemon *mon, u16 *moves)
+{
+    u16 eggMoves[EGG_MOVES_ARRAY_COUNT];
+    u8 numMoves = 0;
+    u8 numEggMoves;
+    u8 i;
+
+    if (GetEggMoveTutorEligibility(mon) != 0)
+        return 0;
+
+    numEggMoves = GetEggMoveListBySpecies(GetMonData(mon, MON_DATA_SPECIES2, NULL), eggMoves);
+    for (i = 0; i < numEggMoves; i++)
+        moves[numMoves++] = eggMoves[i];
+
+    return numMoves;
+}
+
+void CheckEggMoveTutorMon(void)
+{
+    if (gSpecialVar_0x8004 >= PARTY_SIZE)
+    {
+        gSpecialVar_Result = 0xFF;
+        return;
+    }
+    gSpecialVar_Result = GetEggMoveTutorEligibility(&gPlayerParty[gSpecialVar_0x8004]);
+}
+
 u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 {
     u16 learnedMoves[4];
@@ -5630,6 +5721,9 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, NULL);
     int i, j, k;
+
+    if (IsEggMoveTutorMap())
+        return GetEggMoveTutorMoves(mon, moves);
 
     for (i = 0; i < 4; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, NULL);
@@ -5681,6 +5775,9 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
     u16 species = GetMonData(mon, MON_DATA_SPECIES2, NULL);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, NULL);
     int i, j, k;
+
+    if (IsEggMoveTutorMap())
+        return GetEggMoveTutorMoves(mon, moves);
 
     if (species == SPECIES_EGG)
         return 0;
@@ -6427,7 +6524,7 @@ bool8 MonKnowsTMHM(struct Pokemon *mon)
         move = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
         if (move == MOVE_NONE) continue;
         for (pokemon_move = 0; gLevelUpLearnsets[species][pokemon_move] != LEVEL_UP_END; pokemon_move++) {
-            if (move == (gLevelUpLearnsets[species][pokemon_move] & 0x00FF)) {
+            if (move == (gLevelUpLearnsets[species][pokemon_move] & 0x1FF)) {
                 has_move = TRUE;
                 break;
             }
