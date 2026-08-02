@@ -193,7 +193,7 @@
 #define FLAG_HIDE_PIKACHU_BALL                             0x0AF
 #define FLAG_HIDE_JIGGLYPUFF_BALL                          0x0B0
 #define FLAG_HIDE_MEOWTH_BALL                              0x0B1
-#define FLAG_HIDE_EXP_SHARE                                0x0B2
+#define FLAG_HIDE_EXP_SHARE_DEPRECATED                     0x0B2
 #define FLAG_HIDE_POKEDEX_RIVAL                            0x0B3
 #define FLAG_0x0B4               0x0B4
 #define FLAG_0x0B5               0x0B5
@@ -1036,7 +1036,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE25_ELIXIR                                    (FLAG_HIDDEN_ITEMS_START +   4)
 #define FLAG_HIDDEN_ITEM_ROUTE25_ETHER                                     (FLAG_HIDDEN_ITEMS_START +   5)
 #define FLAG_HIDDEN_ITEM_ROUTE9_ETHER                                      (FLAG_HIDDEN_ITEMS_START +   6)
-#define FLAG_HIDDEN_ITEM_UNUSED_0x07                                       (FLAG_HIDDEN_ITEMS_START +   7)
+#define FLAG_HIDDEN_EXP_SHARE_MY_HOUSE                                     (FLAG_HIDDEN_ITEMS_START +   7)
 #define FLAG_HIDDEN_ITEM_SSANNE_B1F_CORRIDOR_HYPER_POTION                  (FLAG_HIDDEN_ITEMS_START +   8)
 #define FLAG_HIDDEN_ITEM_ROUTE10_SUPER_POTION                              (FLAG_HIDDEN_ITEMS_START +   9)
 #define FLAG_HIDDEN_ITEM_ROUTE10_MAX_ETHER                                 (FLAG_HIDDEN_ITEMS_START +  10)

@@ -87,7 +87,7 @@
       "y": 8,
       "elevation": 0,
       "item": "ITEM_EXP_SHARE",
-      "flag": "FLAG_HIDE_EXP_SHARE",
+      "flag": "FLAG_HIDDEN_EXP_SHARE_MY_HOUSE",
       "quantity": 1,
       "underfoot": false
     }
