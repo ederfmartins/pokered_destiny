@@ -530,6 +530,7 @@ AI_CBM_FutureSight::
 	end
 
 AI_CBM_FakeOut::
+	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
 	is_first_turn_for AI_USER
 	if_equal 0, Score_Minus10
 	end
@@ -1936,7 +1937,7 @@ AI_CV_LockOn_End::
 
 AI_CV_SleepTalk::
 	if_status AI_USER, STATUS1_SLEEP, Score_Plus10  @ Improvement in Emerald
-	score +2   @ Change to -5
+	score -5   @ Change to -5
 	end
 
 AI_CV_DestinyBond::
@@ -2413,6 +2414,9 @@ AI_CV_SandstormResistantTypes::
 	.byte -1
 
 AI_CV_FakeOut::
+	is_first_turn_for AI_USER
+	if_equal 0, Score_Minus10
+	if_type_effectiveness AI_EFFECTIVENESS_x0, Score_Minus10
 	score +2
 	end
 
