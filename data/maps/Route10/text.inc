@@ -86,3 +86,7 @@ Route10_Text_RockTunnel::
 Route10_Text_PowerPlant::
     .string "POWER PLANT$"
 
+Route10_Text_GhostGymSign::
+    .string "New GHOST GYM\n"
+    .string "under construction$"
+
