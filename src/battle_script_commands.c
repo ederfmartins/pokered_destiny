@@ -95,6 +95,7 @@ static void Cmd_jumpifsideaffecting(void);
 static void Cmd_jumpifstat(void);
 static void Cmd_jumpifstatus3condition(void);
 static void Cmd_jumpiftype(void);
+static void Cmd_jumpifpowdergrass(void);
 static void Cmd_getexp(void);
 static void Cmd_checkteamslost(void);
 static void Cmd_movevaluescleanup(void);
@@ -565,6 +566,7 @@ void (* const gBattleScriptingCommandsTable[])(void) =
     Cmd_SetDamageTypeDefaultForMove,             //0xF8
     Cmd_SetDamageTypePhysicalForMove,            //0xF9
     Cmd_SetDamageTypeSpecialForMove,             //0xFA
+    Cmd_jumpifpowdergrass,                       //0xFB
 };
 
 struct StatFractions
@@ -3138,6 +3140,20 @@ static void Cmd_jumpiftype(void)
         gBattlescriptCurrInstr = jumpPtr;
     else
         gBattlescriptCurrInstr += 7;
+}
+
+static void Cmd_jumpifpowdergrass(void)
+{
+    if ((gCurrentMove == MOVE_POISON_POWDER
+     || gCurrentMove == MOVE_STUN_SPORE
+     || gCurrentMove == MOVE_SLEEP_POWDER
+     || gCurrentMove == MOVE_SPORE
+     || gCurrentMove == MOVE_COTTON_SPORE) && IS_BATTLER_OF_TYPE(gBattlerTarget, TYPE_GRASS))
+    {
+        gBattlescriptCurrInstr = T2_READ_PTR(gBattlescriptCurrInstr + 1);
+        return;
+    }
+    gBattlescriptCurrInstr += 5;
 }
 
 static void Cmd_getexp(void)
@@ -8511,12 +8527,24 @@ static void Cmd_recoverbasedonsunlight(void)
 
     if (gBattleMons[gBattlerAttacker].hp != gBattleMons[gBattlerAttacker].maxHP)
     {
-        if (gBattleWeather == 0 || !WEATHER_HAS_EFFECT)
-            gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 2;
-        else if (gBattleWeather & B_WEATHER_SUN)
-            gBattleMoveDamage = 20 * gBattleMons[gBattlerAttacker].maxHP / 30;
-        else // not sunny weather
-            gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 4;
+        if (gCurrentMove == MOVE_SYNTHESIS)
+        {
+            if (gBattleWeather == 0 || !WEATHER_HAS_EFFECT)
+                gBattleMoveDamage = 30 * gBattleMons[gBattlerAttacker].maxHP / 40;
+            else if (gBattleWeather & B_WEATHER_SUN)
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP;
+            else // not sunny weather
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 2;
+        }
+        else
+        {
+            if (gBattleWeather == 0 || !WEATHER_HAS_EFFECT)
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 2;
+            else if (gBattleWeather & B_WEATHER_SUN)
+                gBattleMoveDamage = 20 * gBattleMons[gBattlerAttacker].maxHP / 30;
+            else // not sunny weather
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 4;
+        }
 
         if (gBattleMoveDamage == 0)
             gBattleMoveDamage = 1;

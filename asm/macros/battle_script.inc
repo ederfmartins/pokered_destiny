@@ -185,6 +185,11 @@
 	.4byte \ptr
 	.endm
 
+	.macro jumpifpowdergrass ptr:req
+	.byte 0xFB
+	.4byte \ptr
+	.endm
+
 	.macro getexp battler:req
 	.byte 0x23
 	.byte \battler
