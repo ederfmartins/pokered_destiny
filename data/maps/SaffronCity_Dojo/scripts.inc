@@ -153,16 +153,17 @@ SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
 	end
 
 SaffronCity_Dojo_BadgeEvent::
-	goto_if_set FLAG_BADGE10_GET, SaffronCity_Dojo_BadgeEvent_1
-	goto_if_unset FLAG_BADGE06_GET, SaffronCity_Dojo_BadgeEvent_1
-	return
-
+	goto_if_unset FLAG_BADGE10_GET, SaffronCity_Dojo_BadgeEvent_2
 SaffronCity_Dojo_BadgeEvent_1:
-	goto_if_unset TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_BadgeEvent_5
+	setflag FLAG_TEMP_1
 	return
 
-SaffronCity_Dojo_BadgeEvent_5:
-	setflag FLAG_TEMP_1
+SaffronCity_Dojo_BadgeEvent_2:
+	goto_if_set TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_BadgeEvent_4
+	goto SaffronCity_Dojo_BadgeEvent_1
+
+SaffronCity_Dojo_BadgeEvent_4:
+	clearflag FLAG_TEMP_1
 	return
 
 

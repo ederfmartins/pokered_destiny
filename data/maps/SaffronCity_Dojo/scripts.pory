@@ -155,11 +155,13 @@ SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
 `
 
 script SaffronCity_Dojo_BadgeEvent {
-    if (flag(FLAG_BADGE10_GET) == true || flag(FLAG_BADGE06_GET) == false) {
-        if(flag(TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI) == false) {
-            setflag(FLAG_TEMP_1)
+    if (flag(FLAG_BADGE10_GET) == false) {
+        if(flag(TRAINER_FLAGS_START + TRAINER_BLACK_BELT_KOICHI) == true) {
+            clearflag(FLAG_TEMP_1)
+			return
         }
     }
+	setflag(FLAG_TEMP_1)
 }
 
 script SaffronCity_Dojo_Bruno {
