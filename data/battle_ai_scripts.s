@@ -124,6 +124,20 @@ AI_CheckBadMove_CheckSoundproof::
 	if_move MOVE_GRASS_WHISTLE, Score_Minus10
 
 AI_CheckBadMove_CheckEffect::
+	if_move MOVE_POISON_POWDER, AI_CheckBadMove_Powder
+	if_move MOVE_STUN_SPORE, AI_CheckBadMove_Powder
+	if_move MOVE_SLEEP_POWDER, AI_CheckBadMove_Powder
+	if_move MOVE_SPORE, AI_CheckBadMove_Powder
+	if_move MOVE_COTTON_SPORE, AI_CheckBadMove_Powder
+	goto AI_CheckBadMove_CheckEffect_NotPowder
+
+AI_CheckBadMove_Powder::
+	get_target_type1
+	if_equal TYPE_GRASS, Score_Minus10
+	get_target_type2
+	if_equal TYPE_GRASS, Score_Minus10
+
+AI_CheckBadMove_CheckEffect_NotPowder::
 	if_effect EFFECT_SLEEP, AI_CBM_Sleep
 	if_effect EFFECT_EXPLOSION, AI_CBM_Explosion
 	if_effect EFFECT_DREAM_EATER, AI_CBM_DreamEater
