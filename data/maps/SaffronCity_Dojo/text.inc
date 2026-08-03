@@ -31,7 +31,8 @@ SaffronCity_Dojo_Text_MikeDefeat::
 
 SaffronCity_Dojo_Text_MikePostBattle::
     .string "You wait 'til you see our MASTER!\n"
-    .string "I'm a small fry compared to him!$"
+    .string "I'm a small fry compared to him!\p"
+    .string "But, the final test lays\nin DARK CITY!$"
 
 SaffronCity_Dojo_Text_HidekiIntro::
     .string "I hear you're good!\n"
@@ -98,5 +99,6 @@ SaffronCity_Dojo_Text_GoesAroundComesAround::
     .string "What goes around comes around.$"
 
 SaffronCity_Dojo_Text_FightingDojo::
-    .string "FIGHTING DOJO$"
+    .string "FIGHTING DOJO\n"
+    .string "Master: BRUNO$"
 
