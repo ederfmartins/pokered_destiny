@@ -4,10 +4,10 @@ FuchsiaCity_Text_DidYouTrySafariGame::
     .string "can only be caught there.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "The SAFARI ZONE has a zoo in front\n"
-    .string "of the entrance.\p"
-    .string "Out back is the SAFARI GAME for\n"
-    .string "catching POKéMON.$"
+    .string "Did you tried to go to\n"
+    .string "SAFARI GAME with a party of.\p"
+    .string "POKéMON captured in the\n"
+    .string "SAFARI ZONE?$"
 
 FuchsiaCity_Text_WheresSara::
     .string "ERIK: Where's SARA?\n"
