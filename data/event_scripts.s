@@ -1397,9 +1397,6 @@ Text_TestMsg::
 	.include "data/maps/MountainRange_Mart/scripts.inc"
 	.include "data/maps/MountainRange_Mart/text.inc"
 
-	.include "data/maps/DragoniteIsle/scripts.inc"
-	.include "data/maps/DragoniteIsle/text.inc"
-
 	.include "data/maps/MountainRange_PokemonCenter/scripts.inc"
 	.include "data/maps/MountainRange_PokemonCenter/text.inc"
 

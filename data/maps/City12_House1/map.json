@@ -3,7 +3,7 @@
   "name": "City12_House1",
   "layout": "LAYOUT_CITY12_HOUSE1",
   "music": "MUS_BERRY_PICK",
-  "region_map_section": "MAPSEC_DRAGONITEISLE",
+  "region_map_section": "MAPSEC_CITY12",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
