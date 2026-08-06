@@ -170,22 +170,29 @@ SaffronCity_Dojo_BadgeEvent_4:
 SaffronCity_Dojo_Bruno::
 	lock
 	faceplayer
-	msgbox SaffronCity_Dojo_Bruno_Text_0, MSGBOX_YESNO
-	compare VAR_RESULT, 1
-	goto_if_eq SaffronCity_Dojo_Bruno_2
+	goto_if_set FLAG_BADGE10_GET, SaffronCity_Dojo_Bruno_2
 	goto_if_set TRAINER_FLAGS_START + TRAINER_YAZ_LEADER, SaffronCity_Dojo_Bruno_5
-	msgbox SaffronCity_Dojo_Bruno_Text_4
-SaffronCity_Dojo_Bruno_1:
+	msgbox SaffronCity_Dojo_Bruno_Text_3, MSGBOX_YESNO
+	compare VAR_RESULT, 1
+	goto_if_eq SaffronCity_Dojo_Bruno_8
+	msgbox SaffronCity_Dojo_Bruno_Text_5
+SaffronCity_Dojo_Bruno_7:
 	release
 	end
 
 SaffronCity_Dojo_Bruno_2:
-	msgbox SaffronCity_Dojo_Bruno_Text_1
-	goto SaffronCity_Dojo_Bruno_1
+	msgbox SaffronCity_Dojo_Bruno_Text_0
+	release
+	end
 
 SaffronCity_Dojo_Bruno_5:
-	trainerbattle_enforce_set TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_Bruno_Text_3, SaffronCity_Dojo_afterbattle
-	goto SaffronCity_Dojo_Bruno_1
+	trainerbattle_enforce_set TRAINER_BRUNO_GYMLEADER, SaffronCity_Dojo_Bruno_Text_1, SaffronCity_Dojo_Bruno_Text_2, SaffronCity_Dojo_afterbattle
+	release
+	end
+
+SaffronCity_Dojo_Bruno_8:
+	msgbox SaffronCity_Dojo_Bruno_Text_4
+	goto SaffronCity_Dojo_Bruno_7
 
 
 SaffronCity_Dojo_afterbattle::
@@ -196,25 +203,25 @@ SaffronCity_Dojo_afterbattle::
 
 
 SaffronCity_Dojo_Bruno_Text_0:
-	.string "I come back to restore the honor of\n"
-	.string "this Gym\p"
-	.string "Do you think I need to step up to\n"
-	.string "archive this?$"
+	.string "I will see you in the leagues.$"
 
 SaffronCity_Dojo_Bruno_Text_1:
-	.string "I disagree with you. All trainers here\n"
-	.string "should be pround of thenselfs.$"
-
-SaffronCity_Dojo_Bruno_Text_2:
 	.string "I see your value.\n"
 	.string "Be part of the rebirth of our Gym!$"
 
-SaffronCity_Dojo_Bruno_Text_3:
+SaffronCity_Dojo_Bruno_Text_2:
 	.string "Tank you! Take this to prove your valor.$"
 
+SaffronCity_Dojo_Bruno_Text_3:
+	.string "The two Pseudo Gyms of DARK CITY are\n"
+	.string "at war.\n"
+	.string "Do you, help me solve this problem?$"
+
 SaffronCity_Dojo_Bruno_Text_4:
-	.string "True! Came here another day to see the\n"
-	.string "result of our hard work.$"
+	.string "OK. I will leave it to you.$"
+
+SaffronCity_Dojo_Bruno_Text_5:
+	.string "You are not ready yet.$"
 
 SaffronCity_Dojo_afterbattle_Text_0:
 	.string "You got the FIGHTING VALOR BADGE$"
