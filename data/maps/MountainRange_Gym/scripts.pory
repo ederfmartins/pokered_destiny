@@ -5,12 +5,14 @@ MountainRange_Gym_MapScripts::
 `
 
 script MountainRange_Gym_SetTrap {
-    setvar(VAR_TEMP_0, 0)
-    if(flag(FLAG_BADGE14_GET) == false) {
-        cleartrainerflag(TRAINER_FLYGYM1)
-        cleartrainerflag(TRAINER_FLYGYM2)
-        cleartrainerflag(TRAINER_FLYGYM3)
+    if(flag(FLAG_BADGE14_GET) == true) {
+        setvar(VAR_TEMP_0, 2)
+        end
     }
+    setvar(VAR_TEMP_0, 0)
+    cleartrainerflag(TRAINER_FLYGYM1)
+    cleartrainerflag(TRAINER_FLYGYM2)
+    cleartrainerflag(TRAINER_FLYGYM3)
 }
 
 script MountainRange_Gym_ActivateTrap {
