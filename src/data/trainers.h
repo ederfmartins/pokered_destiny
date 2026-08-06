@@ -3352,14 +3352,14 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_STRATEGY_OK_TRAINER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalSsAnneOther),
     },
-    [TRAINER_RIVAL_CERULEAN_CHARMANDER] = {
-        .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        .trainerName = _("TERRY"),
+    [TRAINER_AQUA_FUCHSIA] = {
+        .trainerClass = TRAINER_CLASS_TEAM_AQUA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerName = _("LISA"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_SCRIPT_EK_SMART_AI | AI_SCRIPT_SWITCH_AWARE,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalCeruleanCharmander),
     },
     [TRAINER_SCIENTIST_TED] = {

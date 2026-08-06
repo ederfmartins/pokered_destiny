@@ -337,7 +337,7 @@
 #define TRAINER_MAGMA_CERULEAN                   331  // Originally TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER
 #define TRAINER_RIVAL_CERULEAN                   332  // Originally TRAINER_RIVAL_CERULEAN_SQUIRTLE
 #define TRAINER_RIVAL_SS_ANNE_OTHER              333  // Originally TRAINER_RIVAL_CERULEAN_BULBASAUR
-#define TRAINER_RIVAL_CERULEAN_CHARMANDER        334  // free to use
+#define TRAINER_AQUA_FUCHSIA                     334  // Originally TRAINER_RIVAL_CERULEAN_CHARMANDER
 #define TRAINER_SCIENTIST_TED                    335
 #define TRAINER_SCIENTIST_CONNOR                 336
 #define TRAINER_SCIENTIST_JERRY                  337
