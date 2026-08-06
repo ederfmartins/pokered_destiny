@@ -4644,6 +4644,42 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route14_Cave/border.bin",
       "blockdata_filepath": "data/layouts/Route14_Cave/map.bin"
+    },
+    {
+      "id": "LAYOUT_CITY12",
+      "name": "City12_Layout",
+      "width": 29,
+      "height": 26,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_VermilionCity",
+      "border_filepath": "data/layouts/City12/border.bin",
+      "blockdata_filepath": "data/layouts/City12/map.bin"
+    },
+    {
+      "id": "LAYOUT_CITY12_HOUSE1",
+      "name": "City12_House1_Layout",
+      "width": 8,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PewterCity",
+      "border_filepath": "data/layouts/City12_House1/border.bin",
+      "blockdata_filepath": "data/layouts/City12_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CITY12_GYM",
+      "name": "City12_Gym_Layout",
+      "width": 11,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonLeague",
+      "border_filepath": "data/layouts/City12_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/City12_Gym/map.bin"
     }
   ]
 }

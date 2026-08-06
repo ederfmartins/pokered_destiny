@@ -521,6 +521,7 @@ gStdScriptsEnd::
 	.include "data/maps/SSAnne_Deck/text.inc"
 	.include "data/maps/SSAnne_Kitchen/text.inc"
 	.include "data/maps/SSAnne_CaptainsOffice/text.inc"
+	.include "data/maps/SSAnne_Exterior/text.inc"
 	.include "data/maps/SSAnne_1F_Room1/text.inc"
 	.include "data/maps/SSAnne_1F_Room2/text.inc"
 	.include "data/maps/SSAnne_1F_Room3/text.inc"
@@ -1431,3 +1432,15 @@ Text_TestMsg::
 
 	.include "data/maps/Route14_Cave/scripts.inc"
 	.include "data/maps/Route14_Cave/text.inc"
+
+	.include "data/maps/City12/scripts.inc"
+	.include "data/maps/City12/text.inc"
+
+	.include "data/maps/City12_PokemonCenter/scripts.inc"
+	.include "data/maps/City12_PokemonCenter/text.inc"
+
+	.include "data/maps/City12_House1/scripts.inc"
+	.include "data/maps/City12_House1/text.inc"
+
+	.include "data/maps/City12_Gym/scripts.inc"
+	.include "data/maps/City12_Gym/text.inc"
