@@ -311,13 +311,15 @@
     "SevenIsland_SevaultCanyon",
     "SevenIsland_TanobyRuins",
     "MountainRange",
-    "DragoniteIsle"
+    "DragoniteIsle",
+    "City12"
   ],
   "gMapGroup_IndoorHiddenLocations": [
     "MountainRange_Mart",
     "MountainRange_PokemonCenter",
     "MountainRange_House1",
     "MountainRange_Gym",
+    "City12_PokemonCenter",
     "ViridianForest_HiddenGym",
     "ViridianForest_Gym",
     "BulbaGardem",
@@ -325,7 +327,9 @@
     "NormalGym",
     "NormalGymCity_Mart",
     "NormalGymCity_PokemonCenter",
-    "Route14_Cave"
+    "Route14_Cave",
+    "City12_House1",
+    "City12_Gym"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",

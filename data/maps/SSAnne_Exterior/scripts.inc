@@ -65,3 +65,20 @@ SSAnne_Exterior_Movement_WalkDown::
 	walk_down
 	walk_down
 	step_end
+
+SSAnne_Exterior_EventScript_City12Sign::
+	lockall
+	msgbox SSAnne_Exterior_Text_City12Sign, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq SSAnne_Exterior_City12Sign_Warp
+	msgbox SSAnne_Exterior_Text_City12Sign_Declined
+	releaseall
+	end
+
+SSAnne_Exterior_City12Sign_Warp:
+	msgbox SSAnne_Exterior_Text_City12Sign_Warp
+	warp MAP_CITY12, 7, 9
+	waitstate
+	releaseall
+	end
+
