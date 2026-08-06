@@ -1888,7 +1888,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_BUBBLE] =
     {
         .effect = EFFECT_SPEED_DOWN_HIT,
-        .power = 30,
+        .power = 20,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 30,
@@ -2409,7 +2409,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_ALWAYS_HIT,
         .power = 60,
-        .type = TYPE_NORMAL,
+        .type = TYPE_GHOST,
         .accuracy = 0,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -3213,7 +3213,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SHADOW_BALL] =
     {
-        .effect = EFFECT_SPECIAL_DEFENSE_DOWN,
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         .power = 65,
         .type = TYPE_GHOST,
         .accuracy = 95,
