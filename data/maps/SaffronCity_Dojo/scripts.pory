@@ -167,15 +167,21 @@ script SaffronCity_Dojo_BadgeEvent {
 script SaffronCity_Dojo_Bruno {
     lock
 	faceplayer
-	msgbox(format("I come back to restore the honor of this Gym\p Do you think I need to step up to archive this?"), MSGBOX_YESNO)
+    if(flag(FLAG_BADGE10_GET) == true) {
+        msgbox(format("I will see you in the leagues."))
+        release
+        end
+    }
+    if(flag(TRAINER_FLAGS_START + TRAINER_YAZ_LEADER) == true) {
+        trainerbattle_enforce_set(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
+        release
+        end
+    }
+    msgbox(format("The two Pseudo Gyms of DARK CITY are at war.\nDo you, help me solve this problem?"), MSGBOX_YESNO)
     if (var(VAR_RESULT) == 1) {
-        msgbox(format("I disagree with you. All trainers here should be pround of thenselfs."))
+        msgbox(format("OK. I will leave it to you."))
     } else {
-        if(flag(TRAINER_FLAGS_START + TRAINER_YAZ_LEADER) == true) {
-            trainerbattle_enforce_set(TRAINER_BRUNO_GYMLEADER, format("I see your value.\nBe part of the rebirth of our Gym!"), format("Tank you! Take this to prove your valor."), SaffronCity_Dojo_afterbattle)
-        } else {
-            msgbox(format("True! Came here another day to see the result of our hard work."))
-        }
+        msgbox(format("You are not ready yet."))
     }
 	release
 	end

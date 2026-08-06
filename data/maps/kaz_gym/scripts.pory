@@ -8,6 +8,7 @@ script kaz_gym_woman {
     faceplayer
     trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_LADY, 0, kaz_gym_woman_start, kaz_gym_woman_end)
     closemessage
+    msgbox(kaz_gym_woman_after)
     releaseall
     end
 }
@@ -20,11 +21,16 @@ text kaz_gym_woman_end {
     "Fuck you!"
 }
 
+text kaz_gym_woman_after {
+    "I lost... I will behave better next time."
+}
+
 script kaz_gym_man1 {
     lock
     faceplayer
     trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_MAN1, 0, kaz_gym_man1_start, kaz_gym_man1_end)
     closemessage
+    msgbox(kaz_gym_man1_after)
     releaseall
     end
 }
@@ -37,11 +43,16 @@ text kaz_gym_man1_end {
     "Our boss will teach you a lesson!"
 }
 
+text kaz_gym_man1_after {
+    "I lost. I will behave better from now on."
+}
+
 script kaz_gym_man2 {
     lock
     faceplayer
     trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_MAN2, 0, kaz_gym_man2_start, kaz_gym_man2_end)
     closemessage
+    msgbox(kaz_gym_man2_after)
     releaseall
     end
 }
@@ -54,11 +65,16 @@ text kaz_gym_man2_end {
     "Kaz forever!"
 }
 
+text kaz_gym_man2_after {
+    "I lost. I will behave better, I promise!"
+}
+
 script kaz_gym_leader {
     lock
     faceplayer
-    trainerbattle(TRAINER_BATTLE_SINGLE, TRAINER_KAZ_LEADER, 0, kaz_gym_leader_start, kaz_gym_leader_end)
+    trainerbattle(TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE, TRAINER_KAZ_LEADER, 0, kaz_gym_leader_start, kaz_gym_leader_end)
     closemessage
+    msgbox(kaz_gym_leader_after)
     releaseall
     end
 }
@@ -69,4 +85,8 @@ text kaz_gym_leader_start {
 
 text kaz_gym_leader_end {
     "Kaz forever!"
+}
+
+text kaz_gym_leader_after {
+    "I lost. I will behave better and train harder."
 }
