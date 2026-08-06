@@ -110,3 +110,18 @@ FuchsiaCity_Text_MyFatherIsGymLeader::
     .string "I'm training to use POISON POKéMON\n"
     .string "as well as my father.$"
 
+FuchsiaCity_Text_PayOrFigth::
+    .string "I can not let you pass, unless\n"
+    .string "you pay me 10,000. Do you pay?$"
+
+FuchsiaCity_Text_AquaIntro::
+    .string "You want to reach the GYM?\n"
+    .string "Not without paying the toll!\p"
+    .string "Then it's a FIGHT!$"
+
+FuchsiaCity_Text_AquaLose::
+    .string "You're too strong to me.$"
+
+FuchsiaCity_Text_AquaLose1::
+    .string "You can pass.$"
+

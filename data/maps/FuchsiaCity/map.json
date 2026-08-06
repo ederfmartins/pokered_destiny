@@ -254,6 +254,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FuchsiaCity_EventScript_Lass",
       "flag": "FLAG_HIDE_POSTGAME_GOSSIPERS"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_TEAM_AQUA",
+      "x": 5,
+      "y": 33,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "FuchsiaCity_EventScript_GymDoor",
+      "flag": "FLAG_HIDE_SAFFRON_ROCKETS"
     }
   ],
   "warp_events": [
@@ -336,7 +350,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 33,
+      "elevation": 0,
+      "var": "VAR_TEMP_9",
+      "var_value": "0",
+      "script": "FuchsiaCity_EventScript_GymDoor"
+    }
   ],
   "bg_events": [
     {

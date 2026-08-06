@@ -1,11 +1,24 @@
+.set LOCALID_TEAM_AQUA, 14
+
 FuchsiaCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, FuchsiaCity_OnTransition
+	map_script MAP_SCRIPT_ON_LOAD, FuchsiaCity_OnLoad
 	.byte 0
 
 FuchsiaCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_FUCHSIA_CITY
 	call_if_set FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_SetOmanyteGfx
 	call_if_unset FLAG_GOT_DOME_FOSSIL, FuchsiaCity_EventScript_SetKabutoGfx
+	end
+
+FuchsiaCity_OnLoad::
+	setvar VAR_TEMP_9, 2
+	call_if_unset FLAG_BADGE05_GET, FuchsiaCity_EventScript_SetAqua
+	end
+
+FuchsiaCity_EventScript_SetAqua::
+	cleartrainerflag TRAINER_AQUA_FUCHSIA
+	setvar VAR_TEMP_9, 0
 	end
 
 FuchsiaCity_EventScript_SetOmanyteGfx::
@@ -135,5 +148,51 @@ FuchsiaCity_EventScript_OmanyteSign::
 	showmonpic SPECIES_OMANYTE, 10, 3
 	msgbox FuchsiaCity_Text_OmanyteSign
 	hidemonpic
+	releaseall
+	end
+
+FuchsiaCity_EventScript_GymDoor::
+	goto_if_eq VAR_TEMP_9, 1, FuchsiaCity_EventScript_FreeGymEntrance
+	goto_if_eq VAR_TEMP_9, 2, FuchsiaCity_EventScript_FreeGymEntrance1
+
+	applymovement LOCALID_TEAM_AQUA, Common_Movement_ExclamationMark
+	waitmovement 0
+	lock
+	faceplayer
+	msgbox FuchsiaCity_Text_PayOrFigth, MSGBOX_YESNO
+
+	goto_if_eq VAR_RESULT, YES, FuchsiaCity_EventScript_AquaPay
+	goto_if_eq VAR_RESULT, NO, FuchsiaCity_EventScript_AquaFigth
+	releaseall
+	end
+
+FuchsiaCity_EventScript_AquaPay::
+	checkmoney 10000
+	goto_if_eq VAR_RESULT, NO, FuchsiaCity_EventScript_AquaFigth
+	removemoney 10000
+	setvar VAR_TEMP_9, 2
+	releaseall
+	end
+
+FuchsiaCity_EventScript_AquaFigth::
+	trainerbattle_rocket TRAINER_AQUA_FUCHSIA, FuchsiaCity_Text_AquaIntro, FuchsiaCity_Text_AquaLose, FuchsiaCity_AquaScript
+	releaseall
+	end
+
+FuchsiaCity_AquaScript::
+	setvar VAR_TEMP_9, 1
+	end
+
+FuchsiaCity_EventScript_FreeGymEntrance::
+	lock
+	faceplayer
+	msgbox FuchsiaCity_Text_AquaLose
+	releaseall
+	end
+
+FuchsiaCity_EventScript_FreeGymEntrance1::
+	lock
+	faceplayer
+	msgbox FuchsiaCity_Text_AquaLose1
 	releaseall
 	end
