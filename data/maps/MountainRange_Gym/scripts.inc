@@ -3,15 +3,16 @@ MountainRange_Gym_MapScripts::
 	.byte 0
 
 MountainRange_Gym_SetTrap::
+	goto_if_set FLAG_BADGE14_GET, MountainRange_Gym_SetTrap_2
 	setvar VAR_TEMP_0, 0
-	goto_if_unset FLAG_BADGE14_GET, MountainRange_Gym_SetTrap_1
-	return
-
-MountainRange_Gym_SetTrap_1:
 	cleartrainerflag TRAINER_FLYGYM1
 	cleartrainerflag TRAINER_FLYGYM2
 	cleartrainerflag TRAINER_FLYGYM3
 	return
+
+MountainRange_Gym_SetTrap_2:
+	setvar VAR_TEMP_0, 2
+	end
 
 
 MountainRange_Gym_ActivateTrap::

@@ -19,3 +19,8 @@ Route16_House_Text_DontHaveAnyRoomForThis::
 Route16_House_Text_Fearow::
     .string "FEAROW: Kyueen!$"
 
+Route16_House_Text_HintHiddenCity::
+    .string "When you use FLY, check your Town Map\n"
+    .string "from the sky.\p"
+    .string "You might spot a hidden city!$"
+
