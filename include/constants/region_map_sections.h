@@ -149,7 +149,7 @@
 #define MAPSEC_POWER_PLANT                  0x8E
 #define MAPSEC_DARKCITY                     0x8F
 #define MAPSEC_MOUTAINRANGE                 0x90
-#define MAPSEC_DRAGONITEISLE                0x91
+#define MAPSEC_CITY12                0x91
 
 #define MAPSECS_SEVII_123                   0x92
 

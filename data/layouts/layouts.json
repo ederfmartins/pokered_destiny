@@ -4514,18 +4514,6 @@
       "blockdata_filepath": "data/layouts/MountainRange/map.bin"
     },
     {
-      "id": "LAYOUT_DRAGONITE_ISLE",
-      "name": "DragoniteIsle_Layout",
-      "width": 20,
-      "height": 20,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_BerryForest",
-      "border_filepath": "data/layouts/DragoniteIsle/border.bin",
-      "blockdata_filepath": "data/layouts/DragoniteIsle/map.bin"
-    },
-    {
       "id": "LAYOUT_MOUNTAIN_RANGE_POKEMON_CENTER",
       "name": "MountainRange_PokemonCenter_Layout",
       "width": 15,

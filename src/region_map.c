@@ -935,7 +935,7 @@ static const u8 sMapFlyDestinations[][3] = {
     [MAPSEC_VIAPOIS_CHAMBER     - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_EMBER_SPA           - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_MOUTAINRANGE        - MAPSECS_KANTO] = {MAP(MOUNTAIN_RANGE),                          SPAWN_MOUNTAIN_RANGE},
-    [MAPSEC_DRAGONITEISLE       - MAPSECS_KANTO] = {MAP(CITY12),                          SPAWN_CITY12},
+    [MAPSEC_CITY12       - MAPSECS_KANTO] = {MAP(CITY12),                          SPAWN_CITY12},
 };
 
 static void RegionMap_DarkenPalette(u16 *pal, u16 size, u16 tint)
@@ -2999,8 +2999,8 @@ static u8 GetMapsecType(u8 mapsec)
         return FlagGet(FLAG_WORLD_MAP_ROUTE10_POKEMON_CENTER_1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_MOUTAINRANGE:
         return MAPSECTYPE_VISITED;
-    case MAPSEC_DRAGONITEISLE:
-        return MAPSECTYPE_VISITED;
+    case MAPSEC_CITY12:
+        return FlagGet(FLAG_WORLD_MAP_CITY12) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_NONE:
         return MAPSECTYPE_NONE;
     default:

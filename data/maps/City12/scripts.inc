@@ -3,7 +3,7 @@ City12_MapScripts::
     .byte 0
 
 City12_OnTransition:
-    setworldmapflag FLAG_WORLD_MAP_DRAGONITE_ISLE
+    setworldmapflag FLAG_WORLD_MAP_CITY12
     end
 
 City12_EventScript_Lance::

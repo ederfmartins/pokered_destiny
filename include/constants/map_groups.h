@@ -270,8 +270,7 @@
 #define MAP_SEVEN_ISLAND_SEVAULT_CANYON          (67 | (3 << 8))
 #define MAP_SEVEN_ISLAND_TANOBY_RUINS            (68 | (3 << 8))
 #define MAP_MOUNTAIN_RANGE                       (69 | (3 << 8))
-#define MAP_DRAGONITE_ISLE                       (70 | (3 << 8))
-#define MAP_CITY12                               (71 | (3 << 8))
+#define MAP_CITY12                               (70 | (3 << 8))
 
 // gMapGroup_IndoorHiddenLocations
 #define MAP_MOUNTAIN_RANGE_MART            (0 | (4 << 8))
