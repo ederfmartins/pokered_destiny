@@ -8,3 +8,7 @@ SSAnne_Exterior_Text_City12Sign_Warp:
 
 SSAnne_Exterior_Text_City12Sign_Declined:
     .string "Suit yourself.$"
+
+SSAnne_Exterior_Text_ShipGoneSailor:
+    .string "The S.S. ANNE has already\n"
+    .string "set sail. You're too late.$"
