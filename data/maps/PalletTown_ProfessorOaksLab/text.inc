@@ -367,3 +367,34 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingPickachu::
     .string "It's a shock.\p"
     .string "So, {PLAYER}, you want to go with\n"
     .string "the ELETRIC POKéMON PICKACHU?$"
+
+PalletTown_ProfessorOaksLab_Text_OakChallengeSpeech::
+    .string "OAK: {PLAYER}... So you've become\n"
+    .string "the CHAMPION.\p"
+    .string "Long ago, I too was a leading\n"
+    .string "POKéMON trainer.\p"
+    .string "Now that you are a CHAMPION, you\n"
+    .string "have earned the right to challenge\l"
+    .string "one of the past... me!\p"
+    .string "Come onto the floor, {PLAYER}.\n"
+    .string "Let's see how far you have come!$"
+
+PalletTown_ProfessorOaksLab_Text_OakBattleIntro::
+    .string "I haven't lost my touch!\n"
+    .string "This will be good practice!$"
+
+PalletTown_ProfessorOaksLab_Text_OakBattleLose::
+    .string "Heh heh... Even an old man like\n"
+    .string "me can still teach a lesson.\p"
+    .string "There is still much to learn,\n"
+    .string "{PLAYER}. Grow stronger!$"
+
+PalletTown_ProfessorOaksLab_Text_OakPostBattle::
+    .string "OAK: Hah! What a battle!\n"
+    .string "I haven't felt this alive in years!\p"
+    .string "{PLAYER}, you proved yourself worthy\n"
+    .string "of the title CHAMPION.\p"
+    .string "The strength you showed today gives\n"
+    .string "an old man hope for the future.\p"
+    .string "Feel free to stop by and talk with\n"
+    .string "me whenever you like.$"

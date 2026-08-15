@@ -579,6 +579,8 @@ PalletTown_ProfessorOaksLab_EventScript_RivalChoseStarter::
 PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	lock
 	faceplayer
+	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_ShouldChallengeOak
+PalletTown_ProfessorOaksLab_EventScript_OakDialogue::
 	goto_if_set SHOWED_OAK_COMPLETE_DEX, PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait
@@ -591,6 +593,103 @@ PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose
 	release
 	end
+
+PalletTown_ProfessorOaksLab_EventScript_ShouldChallengeOak::
+	goto_if_defeated TRAINER_PKMN_PROF_PROF_OAK, PalletTown_ProfessorOaksLab_EventScript_OakDialogue
+	lockall
+	textcolor NPC_TEXT_COLOR_MALE
+	msgbox PalletTown_ProfessorOaksLab_Text_OakChallengeSpeech
+	closemessage
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	call_if_eq VAR_RESULT, DIR_NORTH, PalletTown_ProfessorOaksLab_EventScript_PlayerSouthOfOakChallenge
+	call_if_eq VAR_RESULT, DIR_SOUTH, PalletTown_ProfessorOaksLab_EventScript_PlayerNorthOfOakChallenge
+	call_if_eq VAR_RESULT, DIR_EAST, PalletTown_ProfessorOaksLab_EventScript_PlayerWestOfOakChallenge
+	call_if_eq VAR_RESULT, DIR_WEST, PalletTown_ProfessorOaksLab_EventScript_PlayerEastOfOakChallenge
+	trainerbattle_single TRAINER_PKMN_PROF_PROF_OAK, PalletTown_ProfessorOaksLab_Text_OakBattleIntro, PalletTown_ProfessorOaksLab_Text_OakBattleLose, PalletTown_ProfessorOaksLab_EventScript_EndOakChallenge
+	releaseall
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_EndOakChallenge::
+	special HealPlayerParty
+	msgbox PalletTown_ProfessorOaksLab_Text_OakPostBattle
+	closemessage
+	releaseall
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_PlayerSouthOfOakChallenge::
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromSouthStepRight
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromSouthStepDown
+	applymovement LOCALID_PROF_OAK, PalletTown_ProfessorOaksLab_Movement_OakWalkToPlayerChallenge
+	waitmovement 0
+	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
+	waitmovement 0
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_PlayerNorthOfOakChallenge::
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromNorth
+	applymovement LOCALID_PROF_OAK, PalletTown_ProfessorOaksLab_Movement_OakWalkToPlayerChallenge
+	waitmovement 0
+	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
+	waitmovement 0
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_PlayerWestOfOakChallenge::
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromWest
+	applymovement LOCALID_PROF_OAK, PalletTown_ProfessorOaksLab_Movement_OakWalkToPlayerChallenge
+	waitmovement 0
+	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
+	waitmovement 0
+	return
+
+PalletTown_ProfessorOaksLab_EventScript_PlayerEastOfOakChallenge::
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromEast
+	applymovement LOCALID_PROF_OAK, PalletTown_ProfessorOaksLab_Movement_OakWalkToPlayerChallenge
+	waitmovement 0
+	applymovement LOCALID_PROF_OAK, Common_Movement_FacePlayer
+	waitmovement 0
+	return
+
+PalletTown_ProfessorOaksLab_Movement_OakWalkToPlayerChallenge::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromSouthStepRight::
+	walk_right
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromSouthStepDown::
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromNorth::
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromWest::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+PalletTown_ProfessorOaksLab_Movement_PlayerChallengeFromEast::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
 
 PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex::
 	msgbox PokedexRating_Text_ThankYouMadeDreamReality
