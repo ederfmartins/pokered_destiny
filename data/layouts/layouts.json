@@ -4593,7 +4593,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_CeruleanCity",
+      "secondary_tileset": "gTileset_VermilionCity",
       "border_filepath": "data/layouts/NormalGymCity/border.bin",
       "blockdata_filepath": "data/layouts/NormalGymCity/map.bin"
     },
@@ -4668,6 +4668,18 @@
       "secondary_tileset": "gTileset_PokemonLeague",
       "border_filepath": "data/layouts/City12_Gym/border.bin",
       "blockdata_filepath": "data/layouts/City12_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NORMAL_CITY_HOUSE1",
+      "name": "NormalCity_House1_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Museum",
+      "border_filepath": "data/layouts/NormalCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/NormalCity_House1/map.bin"
     }
   ]
 }

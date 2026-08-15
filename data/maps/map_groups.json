@@ -328,7 +328,8 @@
     "NormalGymCity_PokemonCenter",
     "Route14_Cave",
     "City12_House1",
-    "City12_Gym"
+    "City12_Gym",
+    "NormalCity_House1"
   ],
   "gMapGroup_IndoorPallet": [
     "PalletTown_PlayersHouse_1F",
