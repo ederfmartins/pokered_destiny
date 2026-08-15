@@ -32,3 +32,19 @@ SilphCo_3F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "3F$"
 
+SilphCo_3F_Text_ProjGreen_Sign::
+    .string "BLUEPRINT - PROJECT GREEN\p"
+    .string "TEMPORAL FIELD: ........\n"
+    .string "DO NOT ATTEMPT TO CONTAIN.$"
+
+SilphCo_3F_Text_GreenRep_Sign::
+    .string "GREEN - Field Observation\p"
+    .string "Every recorded occurrence coincides\nwith temporal instability.\p"
+    .string "We sent six subjects back twelve hours.\n"
+    .string "Five diferent ones returned.$"
+
+SilphCo_2F_Text_Echo_Sign::
+    .string "We attempted to transmit a message to the past.\n"
+    .string "The transmission was successful.\p"
+    .string "Reply received\n"
+    .string "Our original message.$"
