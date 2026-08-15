@@ -3,7 +3,7 @@
   "name": "NormalGym",
   "layout": "LAYOUT_NORMAL_GYM",
   "music": "MUS_GYM",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_NORMAL_GYM_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

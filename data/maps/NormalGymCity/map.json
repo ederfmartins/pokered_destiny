@@ -3,14 +3,14 @@
   "name": "NormalGymCity",
   "layout": "LAYOUT_NORMAL_GYM_CITY",
   "music": "MUS_BERRY_PICK",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_NORMAL_GYM_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
-  "allow_cycling": false,
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
   "allow_escaping": false,
-  "allow_running": false,
-  "show_map_name": false,
+  "allow_running": true,
+  "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
@@ -27,7 +27,7 @@
     },
     {
       "x": 17,
-      "y": 10,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_NORMAL_GYM_CITY_MART",
       "dest_warp_id": "0"
@@ -45,6 +45,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE14_CAVE",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_NORMAL_CITY_HOUSE1",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
@@ -53,19 +60,19 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 16,
-      "y": 16,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NormalGymCity_EventScripts_DoorLocked"
-    },
-    {
-      "type": "sign",
       "x": 13,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NormalGymCity_EventScripts_House1_Sign"
     }
   ]
 }
