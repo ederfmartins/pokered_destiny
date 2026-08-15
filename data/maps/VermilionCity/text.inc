@@ -74,6 +74,12 @@ VermilionCity_Text_DontHaveNeededSSTicket::
 VermilionCity_Text_TheShipSetSail::
     .string "The ship set sail.$"
 
+VermilionCity_Text_PierOpen::
+    .string "The ship set sail.\p"
+    .string "But the pier is still open.\n"
+    .string "If you have a PASS, I can take you to\l"
+    .string "the seafoam islands.$"
+
 VermilionCity_Text_BoardSeagallopTriPass::
     .string "Ah, you have a TRI-PASS.\p"
     .string "Would you like to board\n"

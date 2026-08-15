@@ -7,6 +7,12 @@ SSAnne_Exterior_MapScripts::
 
 SSAnne_Exterior_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_SSANNE_EXTERIOR
+	goto_if_set FLAG_HIDE_SS_ANNE, SSAnne_Exterior_ShowBarrier
+	setflag FLAG_TEMP_2
+	end
+
+SSAnne_Exterior_ShowBarrier::
+	clearflag FLAG_TEMP_2
 	end
 
 SSAnne_Exterior_OnFrame::
@@ -23,6 +29,7 @@ SSAnne_Exterior_ExitSSAnne::
 	special DoSSAnneDepartureCutscene
 	waitstate
 	removeobject LOCALID_SS_ANNE
+	setflag FLAG_HIDE_SS_ANNE
 	applymovement OBJ_EVENT_ID_PLAYER, SSAnne_Exterior_Movement_Exit
 	waitmovement 0
 	setvar VAR_MAP_SCENE_VERMILION_CITY, 2
@@ -73,6 +80,10 @@ SSAnne_Exterior_EventScript_City12Sign::
 	goto_if_eq SSAnne_Exterior_City12Sign_Warp
 	msgbox SSAnne_Exterior_Text_City12Sign_Declined
 	releaseall
+	end
+
+SSAnne_Exterior_EventScript_ShipGoneSailor::
+	msgbox SSAnne_Exterior_Text_ShipGoneSailor, MSGBOX_NPC
 	end
 
 SSAnne_Exterior_City12Sign_Warp:
