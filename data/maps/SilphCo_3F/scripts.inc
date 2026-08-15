@@ -33,3 +33,24 @@ SilphCo_3F_EventScript_Grunt::
 	trainerbattle_rocket TRAINER_TEAM_ROCKET_GRUNT_25, SilphCo_3F_Text_GruntIntro, SilphCo_3F_Text_GruntDefeat
 	msgbox SilphCo_3F_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_3F_EventScript_ProjGreen_Sign::
+	lock
+	faceplayer
+	msgbox SilphCo_3F_Text_ProjGreen_Sign
+	release
+	end
+
+SilphCo_3F_EventScript_GreenRep_Sign::
+	lock
+	faceplayer
+	msgbox SilphCo_3F_Text_GreenRep_Sign
+	release
+	end
+
+SilphCo_2F_EventScript_Echo_Sign::
+	lock
+	faceplayer
+	msgbox SilphCo_2F_Text_Echo_Sign
+	release
+	end
