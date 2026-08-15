@@ -293,6 +293,7 @@ AI_CBM_DefenseUp::
 
 AI_CBM_SpeedUp::
 	if_stat_level_equal AI_USER, STAT_SPEED, 12, Score_Minus10
+	if_status AI_USER, STATUS1_PARALYSIS, Score_Minus5
 	end
 
 AI_CBM_SpAtkUp::
