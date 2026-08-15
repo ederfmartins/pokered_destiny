@@ -528,6 +528,7 @@
 #define FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY       0x1FC
 #define FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH 0x1FD
 #define FLAG_HIDE_SILPH_CO_4F_TM41                              0x1FE
+#define FLAG_HIDE_GRAMPA_CANION3F_DIARY_PAGE                    0x1FF
 
 // Unused?
 #define FLAG_0x1FF               0x1FF
@@ -1502,7 +1503,7 @@
 #define FLAG_0x8DE                                                  (SYS_FLAGS + 0xDE)
 #define FLAG_0x8DF                                                  (SYS_FLAGS + 0xDF)
 #define FLAG_0x8E0                                                  (SYS_FLAGS + 0xE0)
-#define FLAG_0x8E1                                                  (SYS_FLAGS + 0xE1)
+#define FLAG_WORLD_MAP_NORMAL_GYM_CITY                            (SYS_FLAGS + 0xE1)
 #define FLAG_0x8E2                                                  (SYS_FLAGS + 0xE2)
 #define FLAG_0x8E3                                                  (SYS_FLAGS + 0xE3)
 #define FLAG_0x8E4                                                  (SYS_FLAGS + 0xE4)

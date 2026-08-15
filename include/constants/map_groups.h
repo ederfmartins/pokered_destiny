@@ -288,6 +288,7 @@
 #define MAP_ROUTE14_CAVE                   (12 | (4 << 8))
 #define MAP_CITY12_HOUSE1                  (13 | (4 << 8))
 #define MAP_CITY12_GYM                     (14 | (4 << 8))
+#define MAP_NORMAL_CITY_HOUSE1             (15 | (4 << 8))
 
 // gMapGroup_IndoorPallet
 #define MAP_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (5 << 8))
