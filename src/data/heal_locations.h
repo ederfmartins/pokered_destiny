@@ -22,6 +22,7 @@ static const struct HealLocation sSpawnPoints[] =
     [SPAWN_SIX_ISLAND - 1] = {MAP_GROUP(SIX_ISLAND), MAP_NUM(SIX_ISLAND), 11, 12},
     [SPAWN_MOUNTAIN_RANGE - 1] = {MAP_GROUP(MOUNTAIN_RANGE), MAP_NUM(MOUNTAIN_RANGE), 9, 9},
     [SPAWN_CITY12 - 1] = {MAP_GROUP(CITY12), MAP_NUM(CITY12), 20, 8},
+    [SPAWN_NORMAL_GYM_CITY - 1] = {MAP_GROUP(NORMAL_GYM_CITY), MAP_NUM(NORMAL_GYM_CITY), 3, 15},
 };
 
 static const u16 sWhiteoutRespawnHealCenterMapIdxs[][2] =
@@ -48,6 +49,7 @@ static const u16 sWhiteoutRespawnHealCenterMapIdxs[][2] =
     [SPAWN_SIX_ISLAND - 1] = {MAP_GROUP(SIX_ISLAND_POKEMON_CENTER_1F), MAP_NUM(SIX_ISLAND_POKEMON_CENTER_1F)},
     [SPAWN_MOUNTAIN_RANGE - 1] = {MAP_GROUP(MOUNTAIN_RANGE), MAP_NUM(MOUNTAIN_RANGE)},
     [SPAWN_CITY12 - 1] = {MAP_GROUP(CITY12), MAP_NUM(CITY12)},
+    [SPAWN_NORMAL_GYM_CITY - 1] = {MAP_GROUP(NORMAL_GYM_CITY_POKEMON_CENTER), MAP_NUM(NORMAL_GYM_CITY_POKEMON_CENTER)},
 };
 
 static const u8 sWhiteoutRespawnHealerNpcIds[] =
@@ -74,4 +76,5 @@ static const u8 sWhiteoutRespawnHealerNpcIds[] =
     [SPAWN_SIX_ISLAND - 1] = 1,
     [SPAWN_MOUNTAIN_RANGE - 1] = 1,
     [SPAWN_CITY12 - 1] = 1,
+    [SPAWN_NORMAL_GYM_CITY - 1] = 1,
 };

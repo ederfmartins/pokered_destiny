@@ -936,6 +936,7 @@ static const u8 sMapFlyDestinations[][3] = {
     [MAPSEC_EMBER_SPA           - MAPSECS_KANTO] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_MOUTAINRANGE        - MAPSECS_KANTO] = {MAP(MOUNTAIN_RANGE),                          SPAWN_MOUNTAIN_RANGE},
     [MAPSEC_CITY12       - MAPSECS_KANTO] = {MAP(CITY12),                          SPAWN_CITY12},
+    [MAPSEC_NORMAL_GYM_CITY - MAPSECS_KANTO] = {MAP(NORMAL_GYM_CITY),                    SPAWN_NORMAL_GYM_CITY},
 };
 
 static void RegionMap_DarkenPalette(u16 *pal, u16 size, u16 tint)
@@ -3001,6 +3002,8 @@ static u8 GetMapsecType(u8 mapsec)
         return MAPSECTYPE_VISITED;
     case MAPSEC_CITY12:
         return FlagGet(FLAG_WORLD_MAP_CITY12) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
+    case MAPSEC_NORMAL_GYM_CITY:
+        return FlagGet(FLAG_WORLD_MAP_NORMAL_GYM_CITY) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_NONE:
         return MAPSECTYPE_NONE;
     default:
