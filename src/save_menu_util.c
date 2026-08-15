@@ -42,19 +42,19 @@ void SaveStatToString(u8 gameStatId, u8 *dest0, u8 color)
         GetMapNameGeneric(dest, gMapHeader.regionMapSectionId);
         break;
     case SAVE_STAT_BADGES:
-        for (flagId = FLAG_BADGE01_GET, nBadges = 0; flagId < FLAG_BADGE01_GET + 8; flagId++)
+        for (flagId = FLAG_BADGE01_GET, nBadges = 0; flagId <= FLAG_BADGE08_GET; flagId++)
         {
             if (FlagGet(flagId))
                 nBadges++;
         }
+        // Badge flags 09-15 (SYS_FLAGS + 0xC3..0xC9) are not contiguous with
+        // flags 01-08 (SYS_FLAGS + 0x20..0x27), so they must be counted separately.
         for (flagId = FLAG_BADGE09_GET; flagId <= FLAG_BADGE15_GET; flagId++)
         {
             if (FlagGet(flagId))
                 nBadges++;
         }
-        *dest++ = nBadges + CHAR_0;
-        *dest++ = 10; // 'こ'
-        *dest++ = EOS;
+        dest = ConvertIntToDecimalStringN(dest, nBadges, STR_CONV_MODE_LEFT_ALIGN, 2);
         break;
     }
 }
