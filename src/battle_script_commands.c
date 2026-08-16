@@ -5395,6 +5395,20 @@ static void Cmd_getmoneyreward(void)
                     lastMonLevel = party2[gTrainers[gTrainerBattleOpponent_A].partySize - 1].lvl;
                 }
                 break;
+            case (F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_ABILITY):
+                {
+                    const struct TrainerMonNoItemCustomMovesAbility *partyAbility = gTrainers[gTrainerBattleOpponent_A].party.NoItemCustomMovesAbility;
+                    
+                    lastMonLevel = partyAbility[gTrainers[gTrainerBattleOpponent_A].partySize - 1].lvl;
+                }
+                break;
+            case (F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_ABILITY | F_TRAINER_PARTY_HELD_ITEM):
+                {
+                    const struct TrainerMonItemCustomMovesAbility *partyAbility = gTrainers[gTrainerBattleOpponent_A].party.ItemCustomMovesAbility;
+                    
+                    lastMonLevel = partyAbility[gTrainers[gTrainerBattleOpponent_A].partySize - 1].lvl;
+                }
+                break;
             case F_TRAINER_PARTY_HELD_ITEM:
                 {
                     const struct TrainerMonItemDefaultMoves *party3 = gTrainers[gTrainerBattleOpponent_A].party.ItemDefaultMoves;

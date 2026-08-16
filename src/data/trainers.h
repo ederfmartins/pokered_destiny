@@ -3520,7 +3520,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderGiovanni),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_LeaderGiovanni),
     },
     [TRAINER_TEAM_ROCKET_GRUNT] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
@@ -4120,7 +4120,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourLorelei),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_EliteFourLorelei),
     },
     [TRAINER_ELITE_FOUR_BRUNO] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -4130,7 +4130,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourBruno),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_EliteFourBruno),
     },
     [TRAINER_ELITE_FOUR_AGATHA] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -4140,7 +4140,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourAgatha),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_EliteFourAgatha),
     },
     [TRAINER_ELITE_FOUR_LANCE] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
@@ -4150,7 +4150,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_EliteFourLance),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_EliteFourLance),
     },
     [TRAINER_LEADER_BROCK] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -4400,7 +4400,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionFirstSquirtle),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstSquirtle),
     },
     [TRAINER_CHAMPION_FIRST_BULBASAUR] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
@@ -4410,7 +4410,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionFirstBulbasaur),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstBulbasaur),
     },
     [TRAINER_CHAMPION_FIRST_CHARMANDER] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
@@ -4420,7 +4420,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = ITEM_CUSTOM_MOVES(sParty_ChampionFirstCharmander),
+        .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstCharmander),
     },
     [TRAINER_CHANNELER_PATRICIA] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
@@ -5130,7 +5130,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_PkmnProfProfOak),
+        .party = ITEM_CUSTOM_MOVES(sParty_PkmnProfProfOak),
     },
     [TRAINER_PLAYER_BRENDAN] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
