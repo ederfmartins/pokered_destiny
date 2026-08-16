@@ -197,7 +197,9 @@ SaffronCity_Dojo_Bruno_8:
 
 SaffronCity_Dojo_afterbattle::
 	setflag FLAG_BADGE10_GET
+	giveitem ITEM_TM08
 	msgbox SaffronCity_Dojo_afterbattle_Text_0
+	msgbox SaffronCity_Dojo_Text_ExplainTM
 	release
 	end
 
@@ -225,3 +227,8 @@ SaffronCity_Dojo_Bruno_Text_5:
 
 SaffronCity_Dojo_afterbattle_Text_0:
 	.string "You got the FIGHTING VALOR BADGE$"
+
+SaffronCity_Dojo_Text_ExplainTM:
+	.string "TM08 contains BULK UP.\n"
+	.string "It raises your ATTACK and DEFENSE\n"
+	.string "stats during battle.$"

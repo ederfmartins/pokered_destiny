@@ -44,7 +44,9 @@ TwoIsland_CapeBrink_lorelei_2:
 
 TwoIsland_CapeBrink_afterbattle::
 	setflag FLAG_BADGE09_GET
+	giveitem ITEM_TM13
 	msgbox TwoIsland_CapeBrink_afterbattle_Text_0
+	msgbox TwoIsland_CapeBrink_Text_ExplainTM
 	release
 	end
 
@@ -96,3 +98,8 @@ TwoIsland_CapeBrink_lorelei_Text_3:
 
 TwoIsland_CapeBrink_afterbattle_Text_0:
 	.string "You got the ADAPTATIVE STREAM BADGE$"
+
+TwoIsland_CapeBrink_Text_ExplainTM:
+	.string "TM13 contains ICE BEAM.\n"
+	.string "A strong ICE-type attack that may\n"
+	.string "freeze the foe.$"

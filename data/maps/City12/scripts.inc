@@ -23,7 +23,9 @@ City12_Lance_Battle::
 
 City12_Lance_AfterBattle::
     setflag FLAG_BADGE15_GET
+    giveitem ITEM_TM02
     msgbox City12_Lance_Text_PostBattle
+    msgbox City12_Text_ExplainTM
     release
     end
 

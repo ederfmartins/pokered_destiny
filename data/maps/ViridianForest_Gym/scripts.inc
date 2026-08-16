@@ -59,7 +59,9 @@ ViridianForest_Gym_BugLeader::
 
 ViridianForest_Gym_BugLeader_afterbattle::
 	setflag FLAG_BADGE11_GET
+	giveitem ITEM_TM21_U_TURN
 	msgbox ViridianForest_Gym_BugLeader_afterbattle_Text_0
+	msgbox ViridianForest_Gym_Text_ExplainTM
 	release
 	end
 
@@ -111,3 +113,8 @@ ViridianForest_Gym_BugLeader_Text_1:
 
 ViridianForest_Gym_BugLeader_afterbattle_Text_0:
 	.string "You got the HIDDEN BUG BADGE$"
+
+ViridianForest_Gym_Text_ExplainTM:
+	.string "TM21 contains U-TURN.\n"
+	.string "After striking, you can switch out\n"
+	.string "with this move.$"
