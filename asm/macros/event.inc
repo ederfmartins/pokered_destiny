@@ -719,6 +719,8 @@
 			.4byte \pointer3 @ event script
 		.elseif \type == TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT
 			.4byte \pointer1 @ text
+		.elseif \type == TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT_SET_MODE
+			.4byte \pointer1 @ text
 		.elseif \type == TRAINER_BATTLE_DOUBLE
 			.4byte \pointer1 @ text
 			.4byte \pointer2 @ text
@@ -801,6 +803,11 @@
 	@ Starts a trainer battle, skipping intro text. Takes a trainer and loss text
 	.macro trainerbattle_no_intro trainer:req, lose_text:req
 	trainerbattle TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT, \trainer, 0, \lose_text
+	.endm
+
+	@ Starts a trainer battle that skips intro text and forces the battle style to Set.
+	.macro trainerbattle_no_intro_enforce_set trainer:req, lose_text:req
+	trainerbattle TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT_SET_MODE, \trainer, 0, \lose_text
 	.endm
 
 	@ Starts a trainer battle with victory text if the player loses. If flags is nonzero, the player will be healed after battle (and its assumed to be the tutorial battle)
