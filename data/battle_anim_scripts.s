@@ -375,7 +375,8 @@ gBattleAnims_Moves::
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
-	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
+	.4byte Move_U_TURN
+	.4byte Move_COUNT @ cannot be reached, because last move is U-turn
 
 	.align 2
 gBattleAnims_StatusConditions::
@@ -8045,6 +8046,18 @@ PresentHeal:
 	end
 
 Move_BATON_PASS:
+	loadspritegfx ANIM_TAG_POKEBALL
+	playsewithpan SE_M_BATON_PASS, SOUND_PAN_ATTACKER
+	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_BG | F_PAL_BATTLERS, 1, 2, 0, 11, RGB(31, 22, 30)
+	createsprite gBatonPassPokeballSpriteTemplate, ANIM_ATTACKER, 2
+	end
+
+Move_U_TURN:
+	loadspritegfx ANIM_TAG_IMPACT
+	playsewithpan SE_M_HORN_ATTACK, SOUND_PAN_TARGET
+	createvisualtask AnimTask_RotateMonToSideAndRestore, 2, 3, -768, ANIM_TARGET, 2
+	createsprite gFlashingHitSplatSpriteTemplate, ANIM_TARGET, 3, -12, 0, ANIM_TARGET, 3
+	waitforvisualfinish
 	loadspritegfx ANIM_TAG_POKEBALL
 	playsewithpan SE_M_BATON_PASS, SOUND_PAN_ATTACKER
 	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_BG | F_PAL_BATTLERS, 1, 2, 0, 11, RGB(31, 22, 30)
