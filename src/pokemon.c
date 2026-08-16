@@ -942,7 +942,15 @@ static const u16 sSpeciesToNationalPokedexNum[] = // Assigns all species to the 
     SPECIES_TO_NATIONAL(ANNIHILAPE),
     SPECIES_TO_NATIONAL(ARCTBAX),
     SPECIES_TO_NATIONAL(GIRATINA),
-    SPECIES_TO_NATIONAL(FROSLASS)
+    SPECIES_TO_NATIONAL(FROSLASS),
+    SPECIES_TO_NATIONAL(SIRFETCHD),
+    SPECIES_TO_NATIONAL(VIKAVOLT),
+    SPECIES_TO_NATIONAL(CRABOMINABLE),
+    SPECIES_TO_NATIONAL(PAWMO),
+    SPECIES_TO_NATIONAL(PUMPKABOO),
+    SPECIES_TO_NATIONAL(TYRUNT),
+    SPECIES_TO_NATIONAL(DRAKLOAK),
+    SPECIES_TO_NATIONAL(MAMOSWINE)
 };
 
 static const u16 sHoennToNationalOrder[] = // Assigns Hoenn Dex Pokémon (Using National Dex Index)
@@ -5085,6 +5093,19 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
             if (gEvolutionTable[species][i].method == EVO_ITEM
              && gEvolutionTable[species][i].param == evolutionItem)
             {
+                targetSpecies = gEvolutionTable[species][i].targetSpecies;
+                break;
+            }
+        }
+        break;
+    case EVO_MODE_FORCED:
+        for (i = 0; i < 5; i++)
+        {
+            switch (gEvolutionTable[species][i].method)
+            {
+            case EVO_FRIENDSHIP:
+            case EVO_LEVEL:
+            case EVO_ITEM:
                 targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
             }
