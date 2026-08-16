@@ -2732,3 +2732,66 @@ const u8 gFroslassPokedexText[] = _(
     "be its body is actually hollow.");
 
 const u8 gFroslassPokedexTextUnused[] = _("");
+
+const u8 gSirfetchdPokedexText[] = _(
+    "Only Farfetch'd that have survived many\n"
+    "battles can attain this evolution. When\n"
+    "this Pokémon's leek withers, it will\n"
+    "retire from combat.");
+
+const u8 gSirfetchdPokedexTextUnused[] = _("");
+
+const u8 gVikavoltPokedexText[] = _(
+    "It concentrates electrical energy within\n"
+    "its large jaws and uses it to zap its\n"
+    "foes. It overwhelms bird Pokémon with\n"
+    "shocking beams of electrical energy.");
+
+const u8 gVikavoltPokedexTextUnused[] = _("");
+
+const u8 gCrabominablePokedexText[] = _(
+    "It aimed for the top but got lost and\n"
+    "ended up on a snowy mountain. Being\n"
+    "forced to endure the cold, this Pokémon\n"
+    "evolved and grew thick fur.");
+
+const u8 gCrabominablePokedexTextUnused[] = _("");
+
+const u8 gPawmoPokedexText[] = _(
+    "When its group is attacked, Pawmo is\n"
+    "the first to leap into battle, defeating\n"
+    "enemies with a fighting technique that\n"
+    "utilizes electric shocks.");
+
+const u8 gPawmoPokedexTextUnused[] = _("");
+
+const u8 gPumpkabooPokedexText[] = _(
+    "When taking spirits to the afterlife,\n"
+    "small Pumpkaboo prefer the spirits of\n"
+    "children to those of adults.");
+
+const u8 gPumpkabooPokedexTextUnused[] = _("");
+
+const u8 gTyruntPokedexText[] = _(
+    "Its immense jaws have enough destructive\n"
+    "force that it can chew up a car. If\n"
+    "something happens that it doesn't like,\n"
+    "it throws a tantrum and runs wild.");
+
+const u8 gTyruntPokedexTextUnused[] = _("");
+
+const u8 gDrakloakPokedexText[] = _(
+    "It's capable of flying faster than 120\n"
+    "mph. It battles alongside Dreepy and\n"
+    "dotes on them until they successfully\n"
+    "evolve.");
+
+const u8 gDrakloakPokedexTextUnused[] = _("");
+
+const u8 gMamoswinePokedexText[] = _(
+    "A frozen Mamoswine was dug from ice\n"
+    "dating back 10,000 years. It woke up\n"
+    "to much amazement. This Pokémon has\n"
+    "been around for a long, long time.");
+
+const u8 gMamoswinePokedexTextUnused[] = _("");

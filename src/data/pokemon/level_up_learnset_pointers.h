@@ -419,4 +419,12 @@ const u16 *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_ARCTBAX] = sArctbaxLevelUpLearnset,
     [SPECIES_GIRATINA] = sGiratinaLevelUpLearnset,
     [SPECIES_FROSLASS] = sFroslassGiratinaLevelUpLearnset,
+    [SPECIES_SIRFETCHD] = sSirfetchdLevelUpLearnset,
+    [SPECIES_VIKAVOLT] = sVikavoltLevelUpLearnset,
+    [SPECIES_CRABOMINABLE] = sCrabominableLevelUpLearnset,
+    [SPECIES_PAWMO] = sPawmoLevelUpLearnset,
+    [SPECIES_PUMPKABOO] = sPumpkabooLevelUpLearnset,
+    [SPECIES_TYRUNT] = sTyruntLevelUpLearnset,
+    [SPECIES_DRAKLOAK] = sDrakloakLevelUpLearnset,
+    [SPECIES_MAMOSWINE] = sMamoswineLevelUpLearnset,
 };

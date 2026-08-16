@@ -2818,4 +2818,30 @@ static const u16 sTutorLearnsets[] =
     [SPECIES_ARCTBAX] = 0,
     [SPECIES_GIRATINA] = 0,
     [SPECIES_FROSLASS] = 0,
+    [SPECIES_SIRFETCHD] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_COUNTER)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_SUBSTITUTE)
+                        | TUTOR(MOVE_SWORDS_DANCE),
+    [SPECIES_VIKAVOLT] = TUTOR(MOVE_SUBSTITUTE)
+                        | TUTOR(MOVE_THUNDER_WAVE),
+    [SPECIES_CRABOMINABLE] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_ROCK_SLIDE)
+                        | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_PAWMO] = TUTOR(MOVE_SUBSTITUTE)
+                        | TUTOR(MOVE_THUNDER_WAVE),
+    [SPECIES_PUMPKABOO] = TUTOR(MOVE_DREAM_EATER)
+                        | TUTOR(MOVE_EXPLOSION)
+                        | TUTOR(MOVE_ROCK_SLIDE)
+                        | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_TYRUNT] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_ROCK_SLIDE)
+                        | TUTOR(MOVE_SUBSTITUTE),
+    [SPECIES_DRAKLOAK] = TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_SUBSTITUTE)
+                        | TUTOR(MOVE_THUNDER_WAVE),
+    [SPECIES_MAMOSWINE] = TUTOR(MOVE_BODY_SLAM)
+                        | TUTOR(MOVE_DOUBLE_EDGE)
+                        | TUTOR(MOVE_ROCK_SLIDE)
+                        | TUTOR(MOVE_SUBSTITUTE),
 };

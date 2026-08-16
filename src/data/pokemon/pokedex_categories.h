@@ -308,6 +308,23 @@ static const u16 sDexCategory_ForestPkmn_Page26[] = {
     SPECIES_CELEBI,
 };
 
+static const u16 sDexCategory_ForestPkmn_Page27[] = {
+    SPECIES_VIKAVOLT,
+    SPECIES_PUMPKABOO,
+    SPECIES_SIRFETCHD,
+};
+
+static const u16 sDexCategory_MountainPkmn_Page19[] = {
+    SPECIES_CRABOMINABLE,
+    SPECIES_MAMOSWINE,
+    SPECIES_TYRUNT,
+};
+
+static const u16 sDexCategory_RoughTerrainPkmn_Page12[] = {
+    SPECIES_DRAKLOAK,
+    SPECIES_PAWMO,
+};
+
 static const u16 sDexCategory_WatersEdgePkmn_Page1[] = {
     SPECIES_GOLDEEN,
     SPECIES_SEAKING,
@@ -883,6 +900,7 @@ static const struct PokedexCategoryPage sDexCategory_ForestPkmn[] = {
     DEX_CATEGORY(ForestPkmn_Page24),
     DEX_CATEGORY(ForestPkmn_Page25),
     DEX_CATEGORY(ForestPkmn_Page26),
+    DEX_CATEGORY(ForestPkmn_Page27),
 };
 
 static const struct PokedexCategoryPage sDexCategory_WatersEdgePkmn[] = {
@@ -955,6 +973,7 @@ static const struct PokedexCategoryPage sDexCategory_MountainPkmn[] = {
     DEX_CATEGORY(MountainPkmn_Page16),
     //DEX_CATEGORY(MountainPkmn_Page17),
     DEX_CATEGORY(MountainPkmn_Page18),
+    DEX_CATEGORY(MountainPkmn_Page19),
 };
 
 static const struct PokedexCategoryPage sDexCategory_RoughTerrainPkmn[] = {
@@ -969,6 +988,7 @@ static const struct PokedexCategoryPage sDexCategory_RoughTerrainPkmn[] = {
     DEX_CATEGORY(RoughTerrainPkmn_Page9),
     //DEX_CATEGORY(RoughTerrainPkmn_Page10),
     //DEX_CATEGORY(RoughTerrainPkmn_Page11),
+    DEX_CATEGORY(RoughTerrainPkmn_Page12),
 };
 
 static const struct PokedexCategoryPage sDexCategory_UrbanPkmn[] = {
