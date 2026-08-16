@@ -11,7 +11,9 @@ NormalGym_LeaderNorman::
 
 NormalGym_LeaderNorman_afterbattle::
 	setflag FLAG_BADGE13_GET
+	giveitem ITEM_TM10_SWORDS_DANCE
 	msgbox NormalGym_LeaderNorman_afterbattle_Text_0
+	msgbox NormalGym_Text_ExplainTM
 	release
 	end
 
@@ -30,3 +32,8 @@ NormalGym_LeaderNorman_Text_2:
 
 NormalGym_LeaderNorman_afterbattle_Text_0:
 	.string "You got the CUPPERBADGE$"
+
+NormalGym_Text_ExplainTM:
+	.string "TM10 contains SWORDS DANCE.\n"
+	.string "It sharply raises the ATTACK of your\n"
+	.string "POKéMON in battle.$"

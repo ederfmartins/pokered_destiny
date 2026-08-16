@@ -123,7 +123,7 @@ RocketHideout_B3F_EventScript_ItemRareCandy::
 	end
 
 RocketHideout_B3F_EventScript_ItemTM21::
-	finditem ITEM_TM21
+	finditem ITEM_REVIVE
 	end
 
 RocketHideout_B4F_EventScript_ItemTM49::
@@ -263,7 +263,7 @@ SilphCo_7F_EventScript_ItemCalcium::
 	end
 
 SilphCo_7F_EventScript_ItemTM08::
-	finditem ITEM_TM08
+	finditem ITEM_REVIVE
 	end
 
 SilphCo_10F_EventScript_ItemCarbos::
@@ -339,7 +339,7 @@ VictoryRoad_1F_EventScript_ItemRareCandy::
 	end
 
 VictoryRoad_1F_EventScript_ItemTM02::
-	finditem ITEM_TM02
+	finditem ITEM_REVIVE
 	end
 
 VictoryRoad_2F_EventScript_ItemGuardSpec::

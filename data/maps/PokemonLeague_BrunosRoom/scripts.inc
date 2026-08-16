@@ -70,11 +70,11 @@ PokemonLeague_BrunosRoom_EventScript_RematchIntro::
 	return
 
 PokemonLeague_BrunosRoom_EventScript_Battle::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO, PokemonLeague_BrunosRoom_Text_Defeat
+	trainerbattle_no_intro_enforce_set TRAINER_ELITE_FOUR_BRUNO, PokemonLeague_BrunosRoom_Text_Defeat
 	return
 
 PokemonLeague_BrunosRoom_EventScript_Rematch::
-	trainerbattle_no_intro TRAINER_ELITE_FOUR_BRUNO_2, PokemonLeague_BrunosRoom_Text_Defeat
+	trainerbattle_no_intro_enforce_set TRAINER_ELITE_FOUR_BRUNO_2, PokemonLeague_BrunosRoom_Text_Defeat
 	return
 
 PokemonLeague_BrunosRoom_EventScript_PostBattle::

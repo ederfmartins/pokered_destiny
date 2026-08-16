@@ -45,7 +45,9 @@ LavenderTown_House3_agatha_11:
 
 LavenderTown_House3_afterbattle::
 	setflag FLAG_BADGE12_GET
+	giveitem ITEM_TM30
 	msgbox LavenderTown_House3_afterbattle_Text_0
+	msgbox LavenderTown_House3_Text_ExplainTM
 	release
 	end
 
@@ -78,3 +80,8 @@ LavenderTown_House3_agatha_Text_6:
 
 LavenderTown_House3_afterbattle_Text_0:
 	.string "You got the DARK SOUL BADGE$"
+
+LavenderTown_House3_Text_ExplainTM:
+	.string "TM30 contains SHADOW BALL.\n"
+	.string "A sinister GHOST-type attack that\n"
+	.string "may lower SP. DEF.$"

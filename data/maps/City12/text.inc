@@ -14,6 +14,11 @@ City12_Lance_Text_PostBattle:
     .string "Take this badge as proof of your bond\n"
     .string "with the Dragon Heart.$"
 
+City12_Text_ExplainTM:
+    .string "TM02 contains DRAGON CLAW.\n"
+    .string "A DRAGON-type attack that slashes\n"
+    .string "the foe with sharp claws.$"
+
 City12_Lance_Text_Declined:
     .string "Return when you are ready.$"
 
