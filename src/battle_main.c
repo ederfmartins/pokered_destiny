@@ -2281,6 +2281,7 @@ static void BattleStartClearSetData(void)
         gHitMarker |= HITMARKER_NO_ANIMATIONS;
 
     if (
+        GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT_SET_MODE ||
         GetTrainerBattleMode() == TRAINER_BATTLE_ENFORCE_SET_MODE || 
         GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ENFORCE_SET_MODE || 
         GetTrainerBattleMode() == TRAINER_BATTLE_SINGLE_ROCKET ||
