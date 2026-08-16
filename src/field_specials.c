@@ -26,6 +26,7 @@
 #include "script_menu.h"
 #include "data.h"
 #include "pokedex.h"
+#include "pokedex_screen.h"
 #include "text_window.h"
 #include "menu.h"
 #include "mystery_gift.h"
@@ -120,6 +121,95 @@ u8 GetPlayerAvatarBike(void)
 void ShowFieldMessageStringVar4(void)
 {
     ShowFieldMessage(gStringVar4);
+}
+
+void BufferPokedexDescription(void)
+{
+    u16 species = gSpecialVar_0x8005;
+    u16 dexNum = SpeciesToNationalPokedexNum(species);
+    const u8 *src;
+    u8 *dest = gStringVar4;
+    s32 (*glyphWidth)(u16, bool32);
+    u16 lineWidth = 0;
+    u8 linesOnPage = 1;
+    u16 spaceWidth;
+    const u16 maxLineWidth = 200;
+
+    if (dexNum == 0)
+    {
+        gStringVar4[0] = EOS;
+        return;
+    }
+
+    src = gPokedexEntries[dexNum].description;
+    if (src == NULL)
+    {
+        gStringVar4[0] = EOS;
+        return;
+    }
+
+    glyphWidth = GetFontWidthFunc(FONT_MALE);
+    spaceWidth = glyphWidth(CHAR_SPACE, FALSE);
+
+    while (*src != EOS)
+    {
+        u16 wordWidth = 0;
+        const u8 *wordStart = src;
+
+        while (*src != CHAR_SPACE && *src != CHAR_NEWLINE && *src != EOS)
+        {
+            wordWidth += glyphWidth(*src, FALSE);
+            src++;
+        }
+
+        if (src != wordStart)
+        {
+            if (lineWidth != 0 && lineWidth + spaceWidth + wordWidth > maxLineWidth)
+            {
+                if (linesOnPage >= 2)
+                {
+                    *dest++ = CHAR_PROMPT_CLEAR;
+                    linesOnPage = 1;
+                }
+                else
+                {
+                    *dest++ = CHAR_NEWLINE;
+                    linesOnPage++;
+                }
+                lineWidth = 0;
+            }
+            else if (lineWidth != 0)
+            {
+                *dest++ = CHAR_SPACE;
+                lineWidth += spaceWidth;
+            }
+
+            while (wordStart != src)
+                *dest++ = *wordStart++;
+            lineWidth += wordWidth;
+        }
+
+        if (*src == CHAR_SPACE)
+        {
+            src++;
+        }
+        else if (*src == CHAR_NEWLINE)
+        {
+            if (linesOnPage >= 2)
+            {
+                *dest++ = CHAR_PROMPT_CLEAR;
+                linesOnPage = 1;
+            }
+            else
+            {
+                *dest++ = CHAR_NEWLINE;
+                linesOnPage++;
+            }
+            lineWidth = 0;
+            src++;
+        }
+    }
+    *dest = EOS;
 }
 
 void GetPlayerXY(void)

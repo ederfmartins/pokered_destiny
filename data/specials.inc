@@ -150,6 +150,7 @@ gSpecials::
 	def_special NullFieldSpecial  @ Mauville Gym specials
 	def_special NullFieldSpecial
 	def_special ShowFieldMessageStringVar4
+	def_special BufferPokedexDescription
 	def_special DrawWholeMapView
 	def_special GetPlayerXY
 	def_special NullFieldSpecial  @ Mauville/Petalburg Gym specials
@@ -168,6 +169,8 @@ gSpecials::
 	def_special StartOldManTutorialBattle
 	def_special ChangePokemonNickname
 	def_special ChoosePartyMon
+	def_special CanSelectedMonEvolve
+	def_special EvolveSelectedMon
 	def_special NullFieldSpecial  @ Berry Blender/Roulette specials
 	def_special NullFieldSpecial
 	def_special NullFieldSpecial
@@ -456,4 +459,5 @@ gSpecials::
 	def_special TrainerMetGhostGymPrereq
 	def_special TrainerMetIceGymPrereq
 	def_special TrainerMetBugGymPrereq
+	def_special SwapSelectedMonAbility
 gSpecialsEnd::

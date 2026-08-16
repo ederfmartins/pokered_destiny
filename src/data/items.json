@@ -4273,17 +4273,17 @@
       "secondaryId": 0
     },
     {
-      "english": "????????",
-      "itemId": "ITEM_NONE",
+      "english": "DIARY PAGE",
+      "itemId": "ITEM_DIARY_PAGE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "?????",
-      "importance": 0,
+      "description_english": "A worn page torn from a diary.\\nThe writing fades as you read it.",
+      "importance": 1,
       "registrability": 0,
-      "pocket": "POCKET_ITEMS",
+      "pocket": "POCKET_KEY_ITEMS",
       "type": "ITEM_TYPE_BAG_MENU",
-      "fieldUseFunc": "FieldUseFunc_OakStopsYou",
+      "fieldUseFunc": "FieldUseFunc_DiaryPage",
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0

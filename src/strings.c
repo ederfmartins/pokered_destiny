@@ -202,6 +202,7 @@ const u8 gText_BoxFull[] = _("The BOX is full.{PAUSE_UNTIL_PRESS}");
 const u8 gText_PowderQty[] = _("POWDER QTY: {STR_VAR_1}{PAUSE_UNTIL_PRESS}");
 const u8 gOtherText_Powder[] = _("POWDER");
 const u8 gText_PlayedPokeFluteCatchy[] = _("Played the POKé FLUTE.\pNow, that's a catchy tune!{PAUSE_UNTIL_PRESS}");
+const u8 gText_DiaryPage[] = _("...I came back. To a day I already\nlived. The town is the same, the\lfaces are the same.\pBut the facts I remember do not\nmatch what I see now. Did the world\lchange, or did I?\pNo one will believe me. I must set\nthis down before the ink forgets.{PAUSE_UNTIL_PRESS}");
 const u8 gText_PlayedPokeFlute[] = _("Played the POKé FLUTE.");
 const u8 gText_PokeFluteAwakenedMon[] = _("The POKé FLUTE awakened sleeping\nPOKéMON.{PAUSE_UNTIL_PRESS}");
 const u8 gText_TMCase[] = _("TM CASE");

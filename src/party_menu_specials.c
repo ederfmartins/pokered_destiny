@@ -7,7 +7,13 @@
 #include "field_fadetransition.h"
 #include "pokemon_summary_screen.h"
 #include "event_data.h"
+#include "evolution_scene.h"
+#include "pokemon.h"
+#include "constants/items.h"
 #include "constants/moves.h"
+#include "constants/abilities.h"
+#include "constants/pokemon.h"
+#include "constants/species.h"
 
 static void Task_ChoosePartyMon(u8 taskId);
 
@@ -105,4 +111,50 @@ void IsSelectedMonEgg(void)
         gSpecialVar_Result = TRUE;
     else
         gSpecialVar_Result = FALSE;
+}
+
+u16 GetSelectedMonEvolveTarget(void)
+{
+    return GetEvolutionTargetSpecies(&gPlayerParty[gSpecialVar_0x8004], EVO_MODE_FORCED, ITEM_NONE);
+}
+
+u16 CanSelectedMonEvolve(void)
+{
+    if (GetSelectedMonEvolveTarget() != SPECIES_NONE)
+        gSpecialVar_Result = TRUE;
+    else
+        gSpecialVar_Result = FALSE;
+    return gSpecialVar_Result;
+}
+
+void EvolveSelectedMon(void)
+{
+    u16 targetSpecies = GetSelectedMonEvolveTarget();
+
+    gCB2_AfterEvolution = CB2_ReturnToFieldContinueScriptPlayMapMusic;
+    BeginEvolutionScene(&gPlayerParty[gSpecialVar_0x8004], targetSpecies, TRUE, gSpecialVar_0x8004);
+}
+
+u16 SwapSelectedMonAbility(void)
+{
+    struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    u8 abilityNum;
+
+    if (GetMonData(mon, MON_DATA_IS_EGG, NULL) == TRUE)
+    {
+        gSpecialVar_Result = 2;
+        return gSpecialVar_Result;
+    }
+
+    if (gBaseStats[species].abilities[1] == ABILITY_NONE)
+    {
+        gSpecialVar_Result = 1;
+        return gSpecialVar_Result;
+    }
+
+    abilityNum = GetMonData(mon, MON_DATA_ABILITY_NUM, NULL) ^ 1;
+    SetMonData(mon, MON_DATA_ABILITY_NUM, &abilityNum);
+    gSpecialVar_Result = 0;
+    return gSpecialVar_Result;
 }

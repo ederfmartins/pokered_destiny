@@ -669,3 +669,7 @@ SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch::
 SilphCo_4F_EventScript_ItemTM41::
 	finditem ITEM_TM41
 	end
+
+Grampa_canion3F_EventScript_ItemDiaryPage::
+	finditem ITEM_DIARY_PAGE
+	end

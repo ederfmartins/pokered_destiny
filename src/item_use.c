@@ -910,6 +910,11 @@ void FieldUseFunc_OakStopsYou(u8 taskId)
         PrintNotTheTimeToUseThat(taskId, gTasks[taskId].data[3]);
 }
 
+void FieldUseFunc_DiaryPage(u8 taskId)
+{
+    DisplayItemMessageInCurrentContext(taskId, gTasks[taskId].data[3], FONT_MALE, gText_DiaryPage);
+}
+
 void ItemUse_SetQuestLogEvent(u8 eventId, struct Pokemon *pokemon, u16 itemId, u16 param)
 {
     struct UnkStruct_ItemUseQuestLog
