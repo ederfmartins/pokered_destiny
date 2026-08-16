@@ -4630,7 +4630,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "An extremely powerful attack.\\nHowever, if the user is hit before\\nusing the move, they will flinch.",
+      "description_english": "A retaliation move\\nthat counters any\\nphysical hit with\\ndouble the damage.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -4639,7 +4639,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "FocusPunch"
+      "moveId": "Counter"
     },
     {
       "english": "TM02",
@@ -4783,7 +4783,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A variable move that changes type\\nand power depending on the POKéMON\\nusing it.",
+      "description_english": "A frenetic dance of\\nfighting. It sharply\\nraises the ATTACK\\nstat.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -4792,7 +4792,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "HiddenPower"
+      "moveId": "SwordsDance"
     },
     {
       "english": "TM11",
@@ -4817,7 +4817,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A taunted foe may become enraged.\\nIt will then only be able to use\\nattack moves.",
+      "description_english": "The user drops its\\nfull body on the\\nfoe. It may leave\\nthe foe paralyzed.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -4826,7 +4826,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Taunt"
+      "moveId": "BodySlam"
     },
     {
       "english": "TM13",
@@ -4970,7 +4970,7 @@
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "This attack move grows more\\npowerful the more the POKéMON\\ndislikes its TRAINER.",
+      "description_english": "After attacking,\\nthe user rushes\\nback to switch out\\nwith a party POKéMON.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -4979,7 +4979,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Frustration"
+      "moveId": "UTurn"
     },
     {
       "english": "TM22",
@@ -5004,7 +5004,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "The foe is slammed with a sturdy\\ntail of steel. It may lower the\\ntarget's DEFENSE stat.",
+      "description_english": "The foe is hit with\\na shock wave that\\nalways inflicts 40-\\nHP damage.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5013,7 +5013,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "IronTail"
+      "moveId": "DragonRage"
     },
     {
       "english": "TM24",
@@ -5072,7 +5072,7 @@
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "This attack move grows more\\npowerful the more the POKéMON\\nlikes its TRAINER.",
+      "description_english": "Use it to flee from\\nany wild POKéMON.\\nAlso warps to the\\nlast POKé CENTER.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5081,7 +5081,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Return"
+      "moveId": "Teleport"
     },
     {
       "english": "TM28",
@@ -5310,7 +5310,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "If enraged by this move, the target\\nbecomes incapable of using the same\\nmove twice in a row.",
+      "description_english": "The user blows up\\nto inflict severe\\ndamage, even\\nmaking itself faint.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5319,7 +5319,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Torment"
+      "moveId": "SelfDestruct"
     },
     {
       "english": "TM42",
@@ -5327,7 +5327,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "An attack move that becomes very\\npowerful if the user is poisoned,\\nburned, or paralyzed.",
+      "description_english": "A 2nd-turn attack\\nmove with a high\\ncritical-hit ratio.\\nThe foe may flinch.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5336,7 +5336,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Facade"
+      "moveId": "SkyAttack"
     },
     {
       "english": "TM43",
@@ -5344,7 +5344,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "An attack move that may have an\\nadditional effect depending on the\\nbattle terrain.",
+      "description_english": "The user creates a\\ndecoy using one-\\nquarter of its full\\nHP.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5353,7 +5353,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "SecretPower"
+      "moveId": "Substitute"
     },
     {
       "english": "TM44",
@@ -5378,7 +5378,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "The foe, if it is the opposite\\ngender as the user, becomes\\ninfatuated and may not attack.",
+      "description_english": "A weak electric\\nshock that is sure\\nto cause paralysis\\nif it hits.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5387,7 +5387,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Attract"
+      "moveId": "ThunderWave"
     },
     {
       "english": "TM46",
@@ -5412,7 +5412,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "The foe is struck with steel-hard\\nwings. It may also raise the user's\\nDEFENSE stat.",
+      "description_english": "Star-shaped rays\\nthat never miss are\\nfired at all foes in\\nbattle.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5421,7 +5421,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "SteelWing"
+      "moveId": "Swift"
     },
     {
       "english": "TM48",
@@ -5429,7 +5429,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A special power is transmitted to\\nthe foe, causing it to switch\\nabilities with the user.",
+      "description_english": "Large boulders are\\nhurled at the foe.\\nIt may make the\\nfoe flinch.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5438,7 +5438,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "SkillSwap"
+      "moveId": "RockSlide"
     },
     {
       "english": "TM49",
@@ -5446,7 +5446,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A move that steals the effects of\\nany status-changing or healing move\\nthat the foe tries to use.",
+      "description_english": "The foe is attacked\\nwith a silver dust.\\nIt may raise all\\nthe user's stats.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5455,7 +5455,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Snatch"
+      "moveId": "SilverWind"
     },
     {
       "english": "TM50",
@@ -5463,7 +5463,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A maximum-power attack of great\\nferocity, but one that also sharply\\nreduces the user's SP. ATK stat.",
+      "description_english": "The foe is dropped\\ninto a fissure.\\nThe foe faints if it\\nhits.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5472,7 +5472,7 @@
       "battleUsage": 0,
       "battleUseFunc": "NULL",
       "secondaryId": 0,
-      "moveId": "Overheat"
+      "moveId": "Fissure"
     },
     {
       "english": "HM01",
