@@ -83,7 +83,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -104,7 +103,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -198,6 +196,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)
@@ -390,6 +389,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM49_SILVER_WIND)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)),
 
     [SPECIES_ARBOK]       = TMHM_LEARNSET(TMHM(TM01_COUNTER)
@@ -410,6 +410,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM49_SILVER_WIND)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)),
 
     [SPECIES_PIKACHU]     = TMHM_LEARNSET(TMHM(TM01_COUNTER)
@@ -474,6 +475,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -497,6 +499,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -583,6 +586,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -667,6 +671,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -752,8 +757,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM35_FLAMETHROWER)
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
-                                        | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)),
+                                        | TMHM(TM44_REST)),
 
     [SPECIES_NINETALES]   = TMHM_LEARNSET(TMHM(TM05_ROAR)
                                         | TMHM(TM06_TOXIC)
@@ -769,8 +773,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM35_FLAMETHROWER)
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
-                                        | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)),
+                                        | TMHM(TM44_REST)),
 
     [SPECIES_JIGGLYPUFF]  = TMHM_LEARNSET(TMHM(TM01_COUNTER)
                                         | TMHM(TM03_WATER_PULSE)
@@ -1007,6 +1010,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1025,6 +1029,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1154,7 +1159,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1180,7 +1184,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1199,7 +1202,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1219,7 +1221,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1262,6 +1263,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)
@@ -1290,6 +1292,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)
@@ -1390,6 +1393,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1411,6 +1415,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1433,6 +1438,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1548,6 +1554,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM41_SELF_DESTRUCT)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1568,6 +1575,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM41_SELF_DESTRUCT)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1590,6 +1598,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM41_SELF_DESTRUCT)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -1606,7 +1615,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)),
 
     [SPECIES_RAPIDASH]    = TMHM_LEARNSET(TMHM(TM01_COUNTER)
@@ -1623,7 +1631,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)),
 
     [SPECIES_SLOWPOKE]    = TMHM_LEARNSET(TMHM(TM01_COUNTER)
@@ -1650,6 +1657,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM48_ROCK_SLIDE)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM05_FLASH)
@@ -1681,6 +1689,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM48_ROCK_SLIDE)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM05_FLASH)
@@ -1967,6 +1976,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -2165,6 +2175,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -2190,6 +2201,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -2258,6 +2270,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -2332,6 +2345,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -2361,6 +2375,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -2453,6 +2468,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -2734,6 +2750,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -2870,8 +2887,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM35_FLAMETHROWER)
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
-                                        | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)),
+                                        | TMHM(TM44_REST)),
 
     [SPECIES_PORYGON]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
@@ -3044,6 +3060,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)),
 
@@ -3114,7 +3131,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM47_SWIFT)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM02_FLY)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -3385,7 +3401,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)),
 
     [SPECIES_QUILAVA]     = TMHM_LEARNSET(TMHM(TM01_COUNTER)
@@ -3404,7 +3419,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -3427,7 +3441,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -4576,7 +4589,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -4611,7 +4623,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM46_THIEF)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -4789,7 +4800,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM06_ROCK_SMASH)),
 
     [SPECIES_MAGCARGO]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
@@ -4809,7 +4819,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -5012,7 +5021,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM49_SILVER_WIND)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM06_ROCK_SMASH)),
 
     [SPECIES_HOUNDOOM]    = TMHM_LEARNSET(TMHM(TM05_ROAR)
@@ -5035,7 +5043,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM49_SILVER_WIND)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),*/
 
@@ -5532,7 +5539,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
                                         | TMHM(TM47_SWIFT)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM02_FLY)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM05_FLASH)
@@ -5711,7 +5717,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -5734,7 +5739,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -5760,7 +5764,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM01_CUT)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
@@ -5833,6 +5836,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)
@@ -6577,7 +6581,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),*/
 
@@ -6965,7 +6968,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM39_ROCK_TOMB)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -7179,7 +7181,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM48_ROCK_SLIDE)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM05_FLASH)),
 
     [SPECIES_AZURILL]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -7674,7 +7675,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -7701,7 +7701,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
 
@@ -8527,7 +8526,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM43_SUBSTITUTE)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM45_THUNDER_WAVE)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(HM02_FLY)
                                         | TMHM(HM03_SURF)
                                         | TMHM(HM04_STRENGTH)
@@ -8742,7 +8740,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM30_SHADOW_BALL)
-                                        | TMHM(TM50_FISSURE)
                                         | TMHM(TM25_THUNDER)),
     [SPECIES_ARCTBAX]       = TMHM_LEARNSET(TMHM(TM17_PROTECT)
                                         | TMHM(TM10_SWORDS_DANCE)
