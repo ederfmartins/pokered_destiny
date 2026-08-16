@@ -1149,7 +1149,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_HIT,
         .power = 50,
         .type = TYPE_ROCK,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -1851,7 +1851,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .effect = EFFECT_SLEEP,
         .power = 0,
         .type = TYPE_NORMAL,
-        .accuracy = 75,
+        .accuracy = 65,
         .pp = 10,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -3006,10 +3006,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_IRON_TAIL] =
     {
         .effect = EFFECT_DEFENSE_DOWN_HIT,
-        .power = 80,
+        .power = 100,
         .type = TYPE_ROCK,
         .accuracy = 75,
-        .pp = 15,
+        .pp = 5,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -3214,7 +3214,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SHADOW_BALL] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
-        .power = 65,
+        .power = 80,
         .type = TYPE_GHOST,
         .accuracy = 95,
         .pp = 15,
@@ -3371,7 +3371,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_TORMENT,
         .power = 0,
-        .type = TYPE_DARK,
+        .type = TYPE_GHOST,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
@@ -4020,8 +4020,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_METEOR_MASH] =
     {
         .effect = EFFECT_ATTACK_UP_HIT,
-        .power = 70,
-        .type = TYPE_NORMAL,
+        .power = 100,
+        .type = TYPE_ROCK,
         .accuracy = 85,
         .pp = 10,
         .secondaryEffectChance = 20,
@@ -4613,5 +4613,18 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+    },
+
+    [MOVE_U_TURN] =
+    {
+        .effect = EFFECT_SWITCH_OUT_HIT,
+        .power = 60,
+        .type = TYPE_BUG,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
     },
 };
