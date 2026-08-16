@@ -231,6 +231,7 @@
 #define EVO_MODE_TRADE      1
 #define EVO_MODE_ITEM_USE   2
 #define EVO_MODE_ITEM_CHECK 3 // If an Everstone is being held, still want to show that the stone *could* be used on that Pokémon to evolve
+#define EVO_MODE_FORCED     4
 
 #define MON_PIC_WIDTH 64
 #define MON_PIC_HEIGHT 64

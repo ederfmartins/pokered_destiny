@@ -419,5 +419,13 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_ARCTBAX] = gMonFootprint_Arctbax,
     [SPECIES_GIRATINA] = gMonFootprint_Giratina,
     [SPECIES_FROSLASS] = gMonFootprint_Froslass,
+    [SPECIES_SIRFETCHD] = gMonFootprint_Sirfetchd,
+    [SPECIES_VIKAVOLT] = gMonFootprint_Vikavolt,
+    [SPECIES_CRABOMINABLE] = gMonFootprint_Crabominable,
+    [SPECIES_PAWMO] = gMonFootprint_Pawmo,
+    [SPECIES_PUMPKABOO] = gMonFootprint_Pumpkaboo,
+    [SPECIES_TYRUNT] = gMonFootprint_Tyrunt,
+    [SPECIES_DRAKLOAK] = gMonFootprint_Drakloak,
+    [SPECIES_MAMOSWINE] = gMonFootprint_Mamoswine,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

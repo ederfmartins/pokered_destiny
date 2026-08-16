@@ -5117,4 +5117,108 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = -2,
     },
+
+    [NATIONAL_DEX_SIRFETCHD] =
+    {
+        .categoryName = _("WILD DUCK"),
+        .height = 8,
+        .weight = 1170,
+        .description = gSirfetchdPokedexText,
+        .unusedDescription = gSirfetchdPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_VIKAVOLT] =
+    {
+        .categoryName = _("STAG BEETLE"),
+        .height = 15,
+        .weight = 450,
+        .description = gVikavoltPokedexText,
+        .unusedDescription = gVikavoltPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_CRABOMINABLE] =
+    {
+        .categoryName = _("WOOLLY CRAB"),
+        .height = 17,
+        .weight = 1800,
+        .description = gCrabominablePokedexText,
+        .unusedDescription = gCrabominablePokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_PAWMO] =
+    {
+        .categoryName = _("MOUSE"),
+        .height = 4,
+        .weight = 65,
+        .description = gPawmoPokedexText,
+        .unusedDescription = gPawmoPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_PUMPKABOO] =
+    {
+        .categoryName = _("PUMPKIN"),
+        .height = 3,
+        .weight = 35,
+        .description = gPumpkabooPokedexText,
+        .unusedDescription = gPumpkabooPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_TYRUNT] =
+    {
+        .categoryName = _("ROYAL HEIR"),
+        .height = 8,
+        .weight = 260,
+        .description = gTyruntPokedexText,
+        .unusedDescription = gTyruntPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_DRAKLOAK] =
+    {
+        .categoryName = _("CARETAKER"),
+        .height = 14,
+        .weight = 110,
+        .description = gDrakloakPokedexText,
+        .unusedDescription = gDrakloakPokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
+
+    [NATIONAL_DEX_MAMOSWINE] =
+    {
+        .categoryName = _("TWIN TUSK"),
+        .height = 25,
+        .weight = 2910,
+        .description = gMamoswinePokedexText,
+        .unusedDescription = gMamoswinePokedexTextUnused,
+        .pokemonScale = 399,
+        .pokemonOffset = -1,
+        .trainerScale = 256,
+        .trainerOffset = -2,
+    },
 };

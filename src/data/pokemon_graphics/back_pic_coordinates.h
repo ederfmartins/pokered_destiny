@@ -2090,10 +2090,50 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 15,
     },
-    [SPECIES_FROSLASS] =
+[SPECIES_FROSLASS] =
     {
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 15,
+    },
+    [SPECIES_SIRFETCHD] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 8,
+    },
+    [SPECIES_VIKAVOLT] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 7,
+    },
+    [SPECIES_CRABOMINABLE] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 3,
+    },
+    [SPECIES_PAWMO] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 6,
+    },
+    [SPECIES_PUMPKABOO] =
+    {
+        .size = MON_COORDS_SIZE(56, 48),
+        .y_offset = 13,
+    },
+    [SPECIES_TYRUNT] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 11,
+    },
+    [SPECIES_DRAKLOAK] =
+    {
+        .size = MON_COORDS_SIZE(64, 48),
+        .y_offset = 11,
+    },
+    [SPECIES_MAMOSWINE] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 6,
     },
     [SPECIES_EGG] =
     {
