@@ -152,3 +152,16 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeamMagma = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 ```
+
+# Counting TM/HM usage
+
+```
+import re
+from collections import Counter
+tmhm_learnsets = "".join(open("src/data/pokemon/tmhm_learnsets.h").readlines()).replace("\n", " ")
+tmhm_learnsets = re.sub(r'/\*.*?\*/', '', tmhm_learnsets, flags=re.DOTALL)
+
+moves = re.findall(r'TMHM\((?:TM\d+|HM\d+)_([A-Z0-9_]+)\)', tmhm_learnsets)
+counts = Counter(moves)
+print(counts)
+```
