@@ -14,7 +14,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -33,7 +33,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -54,7 +54,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -72,7 +72,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -92,7 +92,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -115,7 +115,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -141,7 +141,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -163,7 +163,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -187,7 +187,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -253,11 +253,11 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM47_SWIFT)
@@ -267,11 +267,11 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM47_SWIFT)
@@ -282,11 +282,11 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
                                         | TMHM(TM43_SUBSTITUTE)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM44_REST)
                                         | TMHM(TM46_THIEF)
                                         | TMHM(TM47_SWIFT)
@@ -299,12 +299,12 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM34_SHOCK_WAVE)
@@ -325,12 +325,12 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM34_SHOCK_WAVE)
@@ -346,7 +346,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -362,7 +361,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -378,7 +376,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -399,7 +396,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -418,7 +414,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -440,7 +435,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -462,7 +456,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -486,7 +479,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -511,7 +503,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -536,7 +527,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -565,7 +555,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -599,7 +588,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -623,7 +611,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -651,7 +638,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -688,7 +674,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -722,7 +707,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -749,7 +733,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -765,7 +748,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -785,7 +767,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -817,7 +798,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -882,7 +862,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -898,7 +877,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -915,7 +893,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -931,7 +908,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -999,7 +976,6 @@ static const u32 sTMHMLearnsets[][2] =
     [SPECIES_DIGLETT]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1018,7 +994,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1094,7 +1069,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1121,7 +1095,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1191,7 +1164,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1210,7 +1182,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1231,7 +1202,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM29_PSYCHIC)
@@ -1252,7 +1222,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1280,7 +1249,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1308,7 +1276,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -1333,7 +1300,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -1359,7 +1325,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -1381,7 +1346,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1403,7 +1367,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1426,7 +1389,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1448,7 +1410,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -1465,7 +1426,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -1483,7 +1443,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -1503,7 +1462,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM36_SLUDGE_BOMB)
@@ -1525,7 +1483,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM36_SLUDGE_BOMB)
@@ -1541,7 +1498,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1562,7 +1518,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1585,7 +1540,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -1606,7 +1560,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -1622,7 +1575,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -1644,7 +1596,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -1675,7 +1626,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -1700,7 +1650,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -1717,7 +1666,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -1751,7 +1699,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -1768,7 +1715,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -1787,7 +1733,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -1807,7 +1752,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -1823,7 +1767,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -1845,7 +1788,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -1870,7 +1812,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -1887,7 +1828,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -1901,7 +1841,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -1921,7 +1860,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -1943,7 +1881,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -1966,7 +1903,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -1988,7 +1924,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -2012,7 +1947,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -2034,7 +1968,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -2058,7 +1991,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -2078,7 +2010,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2098,7 +2029,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2118,7 +2048,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -2140,7 +2069,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -2160,7 +2088,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM13_ICE_BEAM)
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -2186,7 +2113,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -2211,7 +2137,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -2229,7 +2154,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -2251,7 +2175,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -2281,7 +2204,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2304,7 +2227,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2329,7 +2252,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2358,7 +2281,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2394,7 +2317,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -2425,7 +2348,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -2448,7 +2371,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -2482,7 +2405,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -2500,7 +2423,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -2516,7 +2439,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -2533,7 +2456,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -2551,7 +2474,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2576,7 +2499,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -2602,7 +2525,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2650,7 +2573,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -2669,7 +2592,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2690,7 +2613,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -2735,7 +2658,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -2768,7 +2691,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -2796,7 +2719,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2819,7 +2742,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -2839,7 +2762,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -2858,7 +2781,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -2878,7 +2801,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -2896,7 +2819,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -2921,7 +2844,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM37_SANDSTORM)
@@ -2943,7 +2866,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM37_SANDSTORM)
@@ -2965,7 +2888,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -2990,7 +2913,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -3016,7 +2939,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -3043,7 +2966,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3075,7 +2998,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM33_REFLECT)
@@ -3096,7 +3019,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -3120,7 +3043,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM35_FLAMETHROWER)
@@ -3145,7 +3068,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3170,7 +3093,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3197,7 +3120,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3238,7 +3161,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -3331,7 +3254,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -3352,7 +3275,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -3374,7 +3297,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -3392,7 +3315,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -3409,7 +3332,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -3430,7 +3353,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3454,7 +3377,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3478,7 +3401,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3506,7 +3429,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -3531,7 +3454,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM13_ICE_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -3558,7 +3481,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -3583,7 +3506,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -3603,7 +3526,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -3625,7 +3548,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3647,7 +3570,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3665,7 +3588,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3683,7 +3606,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3703,7 +3626,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -3725,7 +3648,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -3747,7 +3670,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -3766,7 +3689,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3785,7 +3708,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -3811,7 +3734,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -3836,7 +3759,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -3862,7 +3785,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -3889,7 +3812,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -3915,7 +3838,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -3937,7 +3860,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3955,7 +3878,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3977,7 +3900,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -3999,7 +3922,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4020,7 +3943,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4044,7 +3967,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4065,7 +3988,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4089,7 +4012,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4111,7 +4034,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4126,7 +4049,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4142,7 +4065,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4159,7 +4082,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -4188,7 +4111,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4207,7 +4130,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4222,7 +4145,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -4244,7 +4167,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4270,7 +4193,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4296,7 +4219,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4319,7 +4242,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4340,7 +4263,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4366,7 +4289,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4393,7 +4316,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -4421,7 +4344,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -4446,7 +4369,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4468,7 +4391,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4492,7 +4415,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -4544,7 +4467,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -4571,7 +4494,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -4603,7 +4526,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -4634,7 +4557,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4653,7 +4576,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM37_SANDSTORM)
@@ -4671,7 +4594,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4719,7 +4642,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4748,7 +4671,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4772,7 +4695,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4792,7 +4715,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM33_REFLECT)
@@ -4808,7 +4731,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4831,7 +4754,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4854,7 +4777,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4878,7 +4801,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -4905,7 +4828,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4929,7 +4852,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4953,7 +4876,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -4970,7 +4893,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -4986,7 +4909,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM37_SANDSTORM)
@@ -5008,7 +4931,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -5030,7 +4953,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -5055,7 +4978,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -5068,7 +4991,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -5088,7 +5011,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -5107,7 +5030,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -5131,7 +5054,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -5159,7 +5082,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -5176,7 +5099,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5199,7 +5122,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -5216,7 +5139,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -5235,7 +5158,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM06_TOXIC)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -5260,7 +5183,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -5294,7 +5217,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -5327,7 +5250,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5353,7 +5276,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -5382,7 +5305,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5404,7 +5327,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5422,7 +5345,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5446,7 +5369,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5484,7 +5407,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5520,7 +5443,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5631,7 +5554,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -5656,7 +5579,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -5684,7 +5607,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -5707,7 +5630,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -5728,7 +5651,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -5776,7 +5699,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5800,7 +5723,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -5826,7 +5749,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -5850,7 +5773,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5870,7 +5793,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -5891,7 +5814,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5918,7 +5841,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -5947,7 +5870,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -5968,7 +5891,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -5992,7 +5915,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6013,7 +5936,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -6042,7 +5965,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -6063,7 +5986,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6083,7 +6006,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6106,7 +6029,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6128,7 +6051,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6147,7 +6070,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6167,7 +6090,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6186,7 +6109,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -6202,7 +6125,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM40_AERIAL_ACE)
@@ -6219,7 +6142,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6240,7 +6163,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
@@ -6264,7 +6187,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM29_PSYCHIC)
@@ -6292,7 +6215,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM34_SHOCK_WAVE)
@@ -6312,7 +6235,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM34_SHOCK_WAVE)
@@ -6333,7 +6256,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -6353,7 +6276,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -6373,7 +6296,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6396,7 +6319,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6419,7 +6342,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -6445,7 +6368,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -6471,7 +6394,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -6504,7 +6427,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -6529,7 +6452,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -6553,7 +6476,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -6572,7 +6495,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6592,7 +6515,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM29_PSYCHIC)
@@ -6618,7 +6541,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6641,7 +6564,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6664,7 +6587,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -6682,7 +6605,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -6708,7 +6631,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -6733,7 +6656,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -6752,7 +6675,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6771,7 +6694,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -6792,7 +6715,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -6812,7 +6735,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -6831,7 +6754,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -6878,7 +6801,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6901,7 +6824,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6919,7 +6842,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -6939,7 +6862,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -6957,7 +6880,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM10_SWORDS_DANCE)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -6977,7 +6900,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -7000,7 +6923,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7023,7 +6946,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7047,7 +6970,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7068,7 +6991,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7086,7 +7009,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7107,7 +7030,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7126,7 +7049,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7143,7 +7066,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -7166,7 +7089,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7191,7 +7114,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7208,7 +7131,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -7234,7 +7157,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -7255,7 +7178,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7272,7 +7195,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7293,7 +7216,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
@@ -7317,7 +7240,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7341,7 +7264,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7362,7 +7285,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7383,7 +7306,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -7410,7 +7333,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7432,7 +7355,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -7453,7 +7376,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7476,7 +7399,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7506,7 +7429,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7539,7 +7462,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7568,7 +7491,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7592,7 +7515,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7640,7 +7563,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7663,7 +7586,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7689,7 +7612,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7712,7 +7635,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM43_SUBSTITUTE)
@@ -7730,7 +7653,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM39_ROCK_TOMB)
@@ -7751,7 +7674,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -7774,7 +7697,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -7803,7 +7726,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -7827,7 +7750,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -7850,7 +7773,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7879,7 +7802,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -7911,7 +7834,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -7931,7 +7854,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7954,7 +7877,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -7983,7 +7906,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -8016,7 +7939,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM14_BLIZZARD)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8042,7 +7965,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8067,7 +7990,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8090,7 +8013,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -8107,7 +8030,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -8171,7 +8094,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8198,7 +8121,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8224,7 +8147,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8247,7 +8170,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -8268,7 +8191,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM31_BRICK_BREAK)
                                         | TMHM(TM32_DOUBLE_TEAM)
@@ -8290,7 +8213,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         //| TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         //| TMHM(TM23_DRAGON_RAGE)
                                         //| TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -8317,7 +8240,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8343,7 +8266,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8369,7 +8292,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -8396,7 +8319,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -8417,7 +8340,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -8446,7 +8369,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM26_EARTHQUAKE)
@@ -8473,7 +8396,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -8509,7 +8432,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM24_THUNDERBOLT)
@@ -8546,7 +8469,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8583,7 +8506,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8617,7 +8540,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
                                         | TMHM(TM27_TELEPORT)
@@ -8646,7 +8569,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM24_THUNDERBOLT)
                                         | TMHM(TM25_THUNDER)
@@ -8677,7 +8600,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
                                         | TMHM(TM30_SHADOW_BALL)
@@ -8767,10 +8690,10 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM34_SHOCK_WAVE)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM44_REST)
+| TMHM(TM44_REST)
                                         | TMHM(TM30_SHADOW_BALL)
-                                        | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)),
+                                        | TMHM(TM20_SAFEGUARD)),
+
     [SPECIES_FROSLASS]        = TMHM_LEARNSET(TMHM(TM12_BODY_SLAM)),
     [SPECIES_SIRFETCHD]       = TMHM_LEARNSET(TMHM(TM01_COUNTER)
                                         | TMHM(TM10_SWORDS_DANCE)
@@ -8779,6 +8702,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM31_BRICK_BREAK)
                                         | TMHM(TM44_REST)
+                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM47_SWIFT)
                                         | TMHM(HM06_ROCK_SMASH)),
     [SPECIES_VIKAVOLT]        = TMHM_LEARNSET(TMHM(TM06_TOXIC)
@@ -8806,7 +8730,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM15_HYPER_BEAM)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -8831,7 +8755,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM19_GIGA_DRAIN)
                                         | TMHM(TM20_SAFEGUARD)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM29_PSYCHIC)
@@ -8852,7 +8776,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM12_BODY_SLAM)
                                         | TMHM(TM17_PROTECT)
-                                        | TMHM(TM21_U_TURN)
+
                                         | TMHM(TM23_DRAGON_RAGE)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
@@ -8891,7 +8815,6 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM16_LIGHT_SCREEN)
                                         | TMHM(TM17_PROTECT)
                                         | TMHM(TM18_RAIN_DANCE)
-                                        | TMHM(TM21_U_TURN)
                                         | TMHM(TM26_EARTHQUAKE)
                                         | TMHM(TM27_TELEPORT)
                                         | TMHM(TM28_DIG)
@@ -8903,5 +8826,4 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM44_REST)
                                         | TMHM(HM04_STRENGTH)
                                         | TMHM(HM06_ROCK_SMASH)),
-
 };
