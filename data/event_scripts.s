@@ -1441,3 +1441,6 @@ Text_TestMsg::
 
 	.include "data/maps/City12_Gym/scripts.inc"
 	.include "data/maps/City12_Gym/text.inc"
+
+	.include "data/maps/NormalCity_House1/scripts.inc"
+	.include "data/maps/NormalCity_House1/text.inc"
