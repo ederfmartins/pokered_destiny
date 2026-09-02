@@ -81,7 +81,5 @@ LavenderTown_House3_agatha_Text_6:
 LavenderTown_House3_afterbattle_Text_0:
 	.string "You got the DARK SOUL BADGE$"
 
-LavenderTown_House3_Text_ExplainTM:
-	.string "TM30 contains SHADOW BALL.\n"
-	.string "A sinister GHOST-type attack that\n"
-	.string "may lower SP. DEF.$"
+LavenderTown_House3_Text_ExplainTM::
+	.string "TM30 contains SHADOW BALL.\nA sinister GHOST-type attack that\nmay lower SP. DEF.$"
