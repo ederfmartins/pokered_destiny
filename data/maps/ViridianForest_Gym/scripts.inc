@@ -114,7 +114,5 @@ ViridianForest_Gym_BugLeader_Text_1:
 ViridianForest_Gym_BugLeader_afterbattle_Text_0:
 	.string "You got the HIDDEN BUG BADGE$"
 
-ViridianForest_Gym_Text_ExplainTM:
-	.string "TM21 contains U-TURN.\n"
-	.string "After striking, you can switch out\n"
-	.string "with this move.$"
+ViridianForest_Gym_Text_ExplainTM::
+	.string "TM21 contains U-TURN.\nAfter striking, you can switch out\nwith this move.$"

@@ -228,7 +228,5 @@ SaffronCity_Dojo_Bruno_Text_5:
 SaffronCity_Dojo_afterbattle_Text_0:
 	.string "You got the FIGHTING VALOR BADGE$"
 
-SaffronCity_Dojo_Text_ExplainTM:
-	.string "TM08 contains BULK UP.\n"
-	.string "It raises your ATTACK and DEFENSE\n"
-	.string "stats during battle.$"
+SaffronCity_Dojo_Text_ExplainTM::
+	.string "TM08 contains BULK UP.\nIt raises your ATTACK and DEFENSE\nstats during battle.$"
