@@ -13,7 +13,9 @@ script NormalGym_LeaderNorman {
 
 script NormalGym_LeaderNorman_afterbattle {
     setflag(FLAG_BADGE13_GET)
+    giveitem(ITEM_TM10_SWORDS_DANCE)
     msgbox(format("You got the CUPPERBADGE"))
+    msgbox(format("TM10 contains SWORDS DANCE.\nIt sharply raises the ATTACK of your POKéMON in battle."))
     release
 	end
 }
