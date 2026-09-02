@@ -2414,6 +2414,9 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     else
         gBattleMovePower = powerOverride;
 
+    if (attacker->ability == ABILITY_TECHNICIAN && gBattleMovePower <= 60)
+        gBattleMovePower = gBattleMovePower * 3 / 2;
+
     if (!typeOverride)
         type = gBattleMoves[move].type;
     else
@@ -2448,6 +2451,9 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     defense = defender->defense;
     spAttack = attacker->spAttack;
     spDefense = defender->spDefense;
+
+    if (attacker->ability == ABILITY_SOLAR_POWER && (gBattleWeather & B_WEATHER_SUN))
+        spAttack = spAttack * 11 / 10; // 1.1 solar power boost in sunshine
 
     if (attacker->item == ITEM_ENIGMA_BERRY)
     {
@@ -2684,6 +2690,23 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         // flash fire triggered
         if ((gBattleResources->flags->flags[battlerIdAtk] & RESOURCE_FLAG_FLASH_FIRE) && type == TYPE_FIRE)
             damage = (15 * damage) / 10;
+    }
+
+    if (attacker->ability == ABILITY_MULTISCALE && defender->hp == defender->maxHP)
+        damage /= 2;
+
+    if (attacker->ability == ABILITY_ANALYTIC)
+    {
+        for (i = gBattlersCount - 1; i >= 0; i--)
+        {
+            if (gChosenActionByBattler[gBattlerByTurnOrder[i]] == B_ACTION_USE_MOVE
+             && !(gAbsentBattlerFlags & gBitTable[gBattlerByTurnOrder[i]]))
+            {
+                if (gBattlerByTurnOrder[i] == battlerIdAtk)
+                    damage = damage * 13 / 10;
+                break;
+            }
+        }
     }
 
     return damage + 2;
@@ -6532,25 +6555,89 @@ u8 TrainerMetBugGymPrereq() {
     return has_bug;
 }
 
+static bool8 MonKnowsEggMove(u16 species, u16 move)
+{
+    u32 i = 0;
+    while (gEggMoves[i] != EGG_MOVES_TERMINATOR)
+    {
+        if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+        {
+            while (gEggMoves[i] != EGG_MOVES_TERMINATOR)
+            {
+                if (gEggMoves[i] >= EGG_MOVES_SPECIES_OFFSET)
+                    break;
+
+                if (gEggMoves[i] == move)
+                    return TRUE;
+            }
+
+            return FALSE;
+        }
+        i++;
+    }
+
+    return FALSE;
+}
+
+static bool8 MonKnowsLevelUpMove(u32 species, u16 move)
+{
+    u32 pokemon_move;
+
+    for (pokemon_move = 0; gLevelUpLearnsets[species][pokemon_move] != LEVEL_UP_END; pokemon_move++)
+    {
+        if (move == (gLevelUpLearnsets[species][pokemon_move] & 0x1FF))
+            return TRUE;
+    }
+    return FALSE;
+}
+
+static bool8 SpeciesKnowsNaturalMove(u16 species, u16 move)
+{
+    return MonKnowsLevelUpMove(species, move)
+        || MonKnowsEggMove(species, move);
+}
+
+u16 GetDevolutionSpecies(u16 species)
+{
+    u16 i;
+    u16 j;
+
+    for (i = 0; i < NUM_SPECIES; i++)
+    {
+        for (j = 0; j < EVOS_PER_MON; j++)
+        {
+            if (gEvolutionTable[i][j].targetSpecies == species)
+                return i;
+        }
+    }
+
+    return SPECIES_NONE;
+}
+
 bool8 MonKnowsTMHM(struct Pokemon *mon)
 {
     u8 i;
-    u16 move, pokemon_move;
+    u16 move;
     u32 species = GetMonData(mon, MON_DATA_SPECIES, 0);
-    bool8 has_move;
 
     for (i = 0; i < MAX_MON_MOVES; ++i)
     {
-        has_move = FALSE;
+        u16 checkSpecies = species;
+
         move = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
-        if (move == MOVE_NONE) continue;
-        for (pokemon_move = 0; gLevelUpLearnsets[species][pokemon_move] != LEVEL_UP_END; pokemon_move++) {
-            if (move == (gLevelUpLearnsets[species][pokemon_move] & 0x1FF)) {
-                has_move = TRUE;
+
+        if (move == MOVE_NONE)
+            continue;
+
+        while (checkSpecies != SPECIES_NONE)
+        {
+            if (SpeciesKnowsNaturalMove(checkSpecies, move))
                 break;
-            }
+
+            checkSpecies = GetDevolutionSpecies(checkSpecies);
         }
-        if (!has_move)
+
+        if (checkSpecies == SPECIES_NONE)
             return TRUE;
     }
     return FALSE;
