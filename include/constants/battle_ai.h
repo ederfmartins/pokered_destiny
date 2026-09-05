@@ -108,6 +108,12 @@
  *    2.2 AND AI has a POKEMON that can survive to two atacks of current mon and have an attack able to ko current mon
  */
 #define AI_SCRIPT_SWITCH_AWARE (1 << 11)
+/**
+ * When this flag is activated, the trainer's party is shuffled before battle,
+ * so the first Pokémon sent out is chosen randomly among the party instead of
+ * always being the first entry of the party array.
+ */
+#define AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER (1 << 12)
 
 #define AI_SCRIPT_ROAMING (1 << 29)
 #define AI_SCRIPT_SAFARI (1 << 30)

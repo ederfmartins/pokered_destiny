@@ -34,6 +34,7 @@
 #include "vs_seeker.h"
 #include "util.h"
 #include "constants/abilities.h"
+#include "constants/battle_ai.h"
 #include "constants/battle_move_effects.h"
 #include "constants/battle_setup.h"
 #include "constants/hold_effects.h"
@@ -1653,6 +1654,18 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
         }
 
         gBattleTypeFlags |= gTrainers[trainerNum].doubleBattle;
+
+        if (gTrainers[trainerNum].aiFlags & AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER)
+        {
+            s32 k;
+            struct Pokemon temp;
+            for (i = gTrainers[trainerNum].partySize - 1; i > 0; i--)
+            {
+                k = Random() % (i + 1);
+                if (k != i)
+                    SWAP(party[i], party[k], temp);
+            }
+        }
     }
 
     return gTrainers[trainerNum].partySize;
