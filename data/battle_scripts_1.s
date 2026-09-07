@@ -2925,6 +2925,7 @@ BattleScript_FaintTarget::
 	cleareffectsonfaint BS_TARGET
 	printstring STRINGID_TARGETFAINTED
 	printstring STRINGID_EMPTYSTRING3
+	jumpifability BS_ATTACKER, ABILITY_MOXIE, BattleScript_MoxieActivates
 	return
 
 BattleScript_GiveExp::
@@ -4041,6 +4042,17 @@ BattleScript_SpeedBoostActivates::
 	waitmessage B_WAIT_TIME_LONG
 	end3
 
+BattleScript_MoxieActivates::
+	printstring STRINGID_PKMNRAISEDATTACK
+	waitmessage B_WAIT_TIME_LONG
+	return
+
+BattleScript_AngerPointActivates::
+	playanimation BS_TARGET, B_ANIM_STATS_CHANGE, sB_ANIM_ARG1
+	printstring STRINGID_PKMNMADEITATTACKMAX
+	waitmessage B_WAIT_TIME_LONG
+	return
+
 BattleScript_TraceActivates::
 	pause B_WAIT_TIME_SHORT
 	printstring STRINGID_PKMNTRACED
@@ -4053,6 +4065,19 @@ BattleScript_RainDishActivates::
 	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
 	healthbarupdate BS_ATTACKER
 	datahpupdate BS_ATTACKER
+	end3
+
+BattleScript_SolarPowerActivates::
+	printstring STRINGID_PKMNMADEITHPFALL
+	waitmessage B_WAIT_TIME_LONG
+	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE
+	healthbarupdate BS_ATTACKER
+	datahpupdate BS_ATTACKER
+	end3
+
+BattleScript_HarvestActivates::
+	printstring STRINGID_XFOUNDONEY
+	waitmessage B_WAIT_TIME_LONG
 	end3
 
 BattleScript_SandstreamActivates::

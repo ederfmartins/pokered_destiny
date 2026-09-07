@@ -548,7 +548,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassJanice[] = {
     {
         .iv = 0,
         .lvl = 12,
-        .species = SPECIES_DELIBIRD,
+        .species = SPECIES_FARFETCHD,
     },
 };
 
@@ -5840,7 +5840,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
         .iv = 0,
         .lvl = 13,
         .species = SPECIES_ZUBAT,
-        .moves = {MOVE_SUPERSONIC, MOVE_MEGA_DRAIN, MOVE_GUST, MOVE_ASTONISH},
+        .moves = {MOVE_SUPERSONIC, MOVE_MEGA_DRAIN, MOVE_LEECH_LIFE, MOVE_BITE},
     },
     {
         .iv = 0,
@@ -5943,34 +5943,38 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderKoga[] = {
     },
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_LeaderBlaine[] = {
+static const struct TrainerMonNoItemCustomMovesAbility sParty_LeaderBlaine[] = {
     
     {
         .iv = 0,
         .lvl = 45,
         .species = SPECIES_NINETALES,
+        .ability = 2,
         .moves = {MOVE_SUNNY_DAY, MOVE_CONFUSE_RAY, MOVE_FLAMETHROWER, MOVE_QUICK_ATTACK},
     },
     {
         .iv = 0,
         .lvl = 47,
         .species = SPECIES_ARCANINE,
+        .ability = 1,
         .moves = {MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_TAKE_DOWN, MOVE_FIRE_BLAST},
     },
     {
         .iv = 0,
         .lvl = 45,
         .species = SPECIES_RAPIDASH,
+        .ability = 2,
         .moves = {MOVE_SOLAR_BEAM, MOVE_BOUNCE, MOVE_TAKE_DOWN, MOVE_FIRE_BLAST},
     },
     {
         .iv = 0,
         .lvl = 49,
         .species = SPECIES_MAGMAR,
+        .ability = 1,
         .moves = {MOVE_FLAMETHROWER, MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_FAINT_ATTACK},
     },
-    
 };
+
 
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderSabrina[] = {
     {
@@ -11691,5 +11695,32 @@ static const struct TrainerMonItemCustomMoves sParty_LiderNormal[] = {
         .species = SPECIES_PERSIAN,
         .heldItem = ITEM_SCOPE_LENS,
         .moves = {MOVE_SLASH, MOVE_HYPNOSIS, MOVE_FAINT_ATTACK, MOVE_FAKE_OUT},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_SilphExitGuard[] = {
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_WEEZING,
+        .moves = {MOVE_SLUDGE, MOVE_SHADOW_BALL, MOVE_DESTINY_BOND, MOVE_EXPLOSION},
+    },
+    {
+        .iv = 0,
+        .lvl = 63,
+        .species = SPECIES_ARBOK,
+        .moves = {MOVE_SLUDGE_BOMB, MOVE_STOCKPILE, MOVE_GLARE, MOVE_SPIT_UP},
+    },
+    {
+        .iv = 0,
+        .lvl = 63,
+        .species = SPECIES_VICTREEBEL,
+        .moves = {MOVE_LEAF_BLADE, MOVE_STUN_SPORE, MOVE_SWORDS_DANCE, MOVE_THIEF},
+    },
+    {
+        .iv = 0,
+        .lvl = 64,
+        .species = SPECIES_ARCANINE,
+        .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_EXTREME_SPEED, MOVE_AERIAL_ACE},
     },
 };

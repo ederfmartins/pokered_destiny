@@ -3279,7 +3279,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalOaksLabSquirtle),
     },
     [TRAINER_RIVAL_OAKS_LAB_BULBASAUR] = {
@@ -3289,7 +3289,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalOaksLabBulbasaur),
     },
     [TRAINER_RIVAL_OAKS_LAB_CHARMANDER] = {
@@ -3299,7 +3299,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalOaksLabCharmander),
     },
     [TRAINER_RIVAL_ROUTE22_EARLY] = {
@@ -3309,7 +3309,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_SWITCH_AWARE | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22EarlySquirtle),
     },
     [TRAINER_AQUA_PEWTER] = {
@@ -3339,7 +3339,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalCeruleanSquirtle),
     },
     [TRAINER_RIVAL_SS_ANNE_OTHER] = {
@@ -3349,7 +3349,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalSsAnneOther),
     },
     [TRAINER_AQUA_FUCHSIA] = {
@@ -4210,7 +4210,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderBlaine),
+        .party = NO_ITEM_CUSTOM_MOVES_ABILITY(sParty_LeaderBlaine),
     },
     [TRAINER_LEADER_SABRINA] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -4279,7 +4279,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSsAnneSquirtle),
     },
     [TRAINER_RIVAL_SS_ANNE_BULBASAUR] = {
@@ -4289,7 +4289,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSsAnneBulbasaur),
     },
     [TRAINER_RIVAL_SS_ANNE_CHARMANDER] = {
@@ -4299,7 +4299,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSsAnneCharmander),
     },
     [TRAINER_RIVAL_POKENON_TOWER_SQUIRTLE] = {
@@ -4309,7 +4309,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalPokenonTowerSquirtle),
     },
     [TRAINER_RIVAL_POKENON_TOWER_BULBASAUR] = {
@@ -4319,7 +4319,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalPokenonTowerBulbasaur),
     },
     [TRAINER_RIVAL_POKENON_TOWER_CHARMANDER] = {
@@ -4329,7 +4329,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalPokenonTowerCharmander),
     },
     [TRAINER_RIVAL_SILPH_SQUIRTLE] = {
@@ -4339,7 +4339,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSilphSquirtle),
     },
     [TRAINER_RIVAL_SILPH_BULBASAUR] = {
@@ -4349,7 +4349,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSilphBulbasaur),
     },
     [TRAINER_RIVAL_SILPH_CHARMANDER] = {
@@ -4359,7 +4359,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_RivalSilphCharmander),
     },
     [TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE] = {
@@ -4369,7 +4369,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22LateSquirtle),
     },
     [TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR] = {
@@ -4379,7 +4379,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22LateBulbasaur),
     },
     [TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER] = {
@@ -4389,7 +4389,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = NO_ITEM_CUSTOM_MOVES(sParty_RivalRoute22LateCharmander),
     },
     [TRAINER_CHAMPION_FIRST_SQUIRTLE] = {
@@ -4399,7 +4399,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstSquirtle),
     },
     [TRAINER_CHAMPION_FIRST_BULBASAUR] = {
@@ -4409,7 +4409,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstBulbasaur),
     },
     [TRAINER_CHAMPION_FIRST_CHARMANDER] = {
@@ -4419,7 +4419,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES_ABILITY(sParty_ChampionFirstCharmander),
     },
     [TRAINER_CHANNELER_PATRICIA] = {
@@ -7389,7 +7389,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchSquirtle),
     },
     [TRAINER_CHAMPION_REMATCH_BULBASAUR] = {
@@ -7399,7 +7399,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchBulbasaur),
     },
     [TRAINER_CHAMPION_REMATCH_CHARMANDER] = {
@@ -7409,7 +7409,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("TERRY"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .aiFlags = AI_STRATEGY_OK_TRAINER | AI_SCRIPT_TRAINER_USES_DINAMIC_STARTER,
         .party = ITEM_CUSTOM_MOVES(sParty_ChampionRematchCharmander),
     },
     [TRAINER_CUE_BALL_PAXTON] = {
@@ -7631,5 +7631,15 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_STRATEGY_OK_TRAINER,
         .party = ITEM_CUSTOM_MOVES(sParty_LiderNormal),
+    },
+    [TRAINER_SILPH_EXIT_GUARD] = {
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerName = _("GRUNT"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_SilphExitGuard),
     },
 };

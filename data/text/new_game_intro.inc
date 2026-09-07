@@ -159,14 +159,13 @@ gOakSpeech_Text_AskPlayerGender::
     .string "Or are you a girl?$"
 
 gPikachuIntro_Text_Page1::
-    .string "Welcome to the POKéMON wold!\n"
+    .string "Welcome to the POKéMON world!\n"
     .string "Embark on a grand adventure and be\n"
     .string "the hero this world needs.\n"
     .string "\n"
     .string "Explore all places, get all\n"
     .string "POKéMON, fight the Nuzlocke\n"
-    .string "curse and become the champion\n"
-    .string "that fix our sacred timeline.$"
+    .string "curse and become the champion!$"
 
 gPikachuIntro_Text_Page2::
     .string "Why everything is so familiar, but so\n"

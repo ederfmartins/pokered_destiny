@@ -83,8 +83,14 @@ script MountainRange_Gym_LeaderKahili {
 
 script MountainRange_Gym_LeaderKahili_afterbattle {
     setflag(FLAG_BADGE14_GET)
+    giveitem(ITEM_TM42_SKY_ATTACK)
     msgbox(format("You got the FREEDON BADGE"))
+    msgbox(MountainRange_Gym_Text_ExplainTM)
     setvar(VAR_TEMP_0, 2)
     release
 	end
+}
+
+text MountainRange_Gym_Text_ExplainTM {
+    "TM42 contains SKY ATTACK.\nA soaring FLYING-type attack that\nis hard to dodge."
 }

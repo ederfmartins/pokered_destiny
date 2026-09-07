@@ -59,7 +59,13 @@ script ViridianForest_Gym_BugLeader {
 
 script ViridianForest_Gym_BugLeader_afterbattle {
     setflag(FLAG_BADGE11_GET)
+    giveitem(ITEM_TM21_U_TURN)
     msgbox(format("You got the HIDDEN BUG BADGE"))
+    msgbox(ViridianForest_Gym_Text_ExplainTM)
     release
 	end
+}
+
+text ViridianForest_Gym_Text_ExplainTM {
+    "TM21 contains U-TURN.\nAfter striking, you can switch out\nwith this move."
 }

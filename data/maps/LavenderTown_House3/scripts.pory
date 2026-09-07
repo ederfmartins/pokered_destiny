@@ -39,7 +39,13 @@ script LavenderTown_House3_agatha {
 
 script LavenderTown_House3_afterbattle {
     setflag(FLAG_BADGE12_GET)
+    giveitem(ITEM_TM30)
     msgbox(format("You got the DARK SOUL BADGE"))
+    msgbox(LavenderTown_House3_Text_ExplainTM)
     release
 	end
+}
+
+text LavenderTown_House3_Text_ExplainTM {
+    "TM30 contains SHADOW BALL.\nA sinister GHOST-type attack that\nmay lower SP. DEF."
 }

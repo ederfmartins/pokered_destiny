@@ -4,6 +4,7 @@
 
 const u16 gEggMoves[] = {
     egg_moves(BULBASAUR,
+              MOVE_AMNESIA,
               MOVE_LIGHT_SCREEN,
               MOVE_SKULL_BASH,
               MOVE_SAFEGUARD,
@@ -108,7 +109,7 @@ const u16 gEggMoves[] = {
               MOVE_QUICK_ATTACK,
               MOVE_PURSUIT,
               MOVE_FAINT_ATTACK,
-              MOVE_GUST,
+              MOVE_MEGA_DRAIN,
               MOVE_WHIRLWIND,
               MOVE_CURSE),
 

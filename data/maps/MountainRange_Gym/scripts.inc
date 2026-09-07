@@ -107,6 +107,7 @@ MountainRange_Gym_LeaderKahili_afterbattle::
 	giveitem ITEM_TM42_SKY_ATTACK
 	msgbox MountainRange_Gym_LeaderKahili_afterbattle_Text_0
 	msgbox MountainRange_Gym_Text_ExplainTM
+	setvar VAR_TEMP_0, 2
 	release
 	end
 
@@ -166,7 +167,5 @@ MountainRange_Gym_LeaderKahili_Text_2:
 MountainRange_Gym_LeaderKahili_afterbattle_Text_0:
 	.string "You got the FREEDON BADGE$"
 
-MountainRange_Gym_Text_ExplainTM:
-	.string "TM42 contains SKY ATTACK.\n"
-	.string "A soaring FLYING-type attack that\n"
-	.string "is hard to dodge.$"
+MountainRange_Gym_Text_ExplainTM::
+	.string "TM42 contains SKY ATTACK.\nA soaring FLYING-type attack that\nis hard to dodge.$"

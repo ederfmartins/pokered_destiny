@@ -1082,6 +1082,10 @@ static void Cmd_accuracycheck(void)
             calc = (calc * 130) / 100; // 1.3 compound eyes boost
         if (WEATHER_HAS_EFFECT && gBattleMons[gBattlerTarget].ability == ABILITY_SAND_VEIL && gBattleWeather & B_WEATHER_SANDSTORM)
             calc = (calc * 80) / 100; // 1.2 sand veil loss
+        if (WEATHER_HAS_EFFECT && gBattleMons[gBattlerTarget].ability == ABILITY_SNOW_CLOAK && gBattleWeather & B_WEATHER_HAIL)
+            calc = (calc * 80) / 100; // snow cloak evasion while hailing
+        if ((gBattleMons[gBattlerTarget].status2 & STATUS2_CONFUSION) && gBattleMons[gBattlerTarget].ability == ABILITY_TANGLED_FEET)
+            calc = (calc * 50) / 100; // 0.5 tangled feet evasion while confused
         if (gBattleMons[gBattlerAttacker].ability == ABILITY_HUSTLE && IS_TYPE_PHYSICAL(type))
             calc = (calc * 80) / 100; // 1.2 hustle loss
 
@@ -1228,6 +1232,9 @@ static void Cmd_damagecalc(void)
                                             gBattleStruct->dynamicMoveType, gBattlerAttacker, gBattlerTarget);
     gBattleMoveDamage = gBattleMoveDamage * gCritMultiplier * gBattleScripting.dmgMultiplier;
 
+    if (gCritMultiplier == 2 && gBattleMons[gBattlerAttacker].ability == ABILITY_SNIPER)
+        gBattleMoveDamage = gBattleMoveDamage * 3 / 2;
+
     if (gStatuses3[gBattlerAttacker] & STATUS3_CHARGED_UP && gBattleMoves[gCurrentMove].type == TYPE_ELECTRIC)
         gBattleMoveDamage *= 2;
     if (gProtectStructs[gBattlerAttacker].helpingHand)
@@ -1285,6 +1292,8 @@ static void ModulateDmgByType(u8 multiplier)
     case TYPE_MUL_NOT_EFFECTIVE:
         if (gBattleMoves[gCurrentMove].power && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT))
         {
+            if (gBattleMons[gBattlerAttacker].ability == ABILITY_TINTED_LENS)
+                gBattleMoveDamage *= 2;
             if (gMoveResultFlags & MOVE_RESULT_SUPER_EFFECTIVE)
                 gMoveResultFlags &= ~MOVE_RESULT_SUPER_EFFECTIVE;
             else
@@ -1319,8 +1328,16 @@ static void Cmd_typecalc(void)
     // check stab
     if (IS_BATTLER_OF_TYPE(gBattlerAttacker, moveType))
     {
-        gBattleMoveDamage = gBattleMoveDamage * 15;
-        gBattleMoveDamage = gBattleMoveDamage / 10;
+        if (gBattleMons[gBattlerAttacker].ability == ABILITY_ADAPTABILITY)
+        {
+            gBattleMoveDamage = gBattleMoveDamage * 20;
+            gBattleMoveDamage = gBattleMoveDamage / 10;
+        }
+        else
+        {
+            gBattleMoveDamage = gBattleMoveDamage * 15;
+            gBattleMoveDamage = gBattleMoveDamage / 10;
+        }
     }
 
     if (gBattleMons[gBattlerTarget].ability == ABILITY_LEVITATE && moveType == TYPE_GROUND)
@@ -1896,6 +1913,26 @@ static void Cmd_datahpupdate(void)
         if (gSpecialStatuses[gActiveBattler].dmg == 0)
             gSpecialStatuses[gActiveBattler].dmg = 0xFFFF;
     }
+
+    if (!(gMoveResultFlags & MOVE_RESULT_NO_EFFECT)
+     && gBattlescriptCurrInstr[1] == BS_TARGET
+     && gCritMultiplier == 2
+     && gBattleMons[gActiveBattler].ability == ABILITY_ANGER_POINT
+     && gBattleMons[gActiveBattler].hp != 0
+     && gBattleMons[gActiveBattler].statStages[STAT_ATK] < MAX_STAT_STAGE)
+    {
+        gBattleMons[gActiveBattler].statStages[STAT_ATK] = MAX_STAT_STAGE;
+        gBattleScripting.battler = gActiveBattler;
+        gBattleScripting.animArg1 = 14 + STAT_ATK;
+        gBattleScripting.animArg2 = 0;
+        gLastUsedAbility = ABILITY_ANGER_POINT;
+        RecordAbilityBattle(gActiveBattler, ABILITY_ANGER_POINT);
+        gBattlescriptCurrInstr += 2;
+        BattleScriptPushCursor();
+        gBattlescriptCurrInstr = BattleScript_AngerPointActivates;
+        return;
+    }
+
     gBattlescriptCurrInstr += 2;
 }
 
@@ -2899,6 +2936,18 @@ static void Cmd_tryfaintmon(void)
         if (!(gAbsentBattlerFlags & gBitTable[gActiveBattler])
          && gBattleMons[gActiveBattler].hp == 0)
         {
+            if (BS_ptr == BattleScript_FaintTarget
+             && gBattleMons[gBattlerAttacker].hp != 0
+             && gBattleMons[gBattlerAttacker].ability == ABILITY_MOXIE
+             && gBattleMons[gBattlerAttacker].statStages[STAT_ATK] < MAX_STAT_STAGE)
+            {
+                gBattleMons[gBattlerAttacker].statStages[STAT_ATK]++;
+                gBattleScripting.battler = gBattlerAttacker;
+                gBattleScripting.animArg1 = 14 + STAT_ATK;
+                gBattleScripting.animArg2 = 0;
+                gLastUsedAbility = ABILITY_MOXIE;
+                RecordAbilityBattle(gBattlerAttacker, ABILITY_MOXIE);
+            }
             gHitMarker |= HITMARKER_FAINTED(gActiveBattler);
             BattleScriptPush(gBattlescriptCurrInstr + 7);
             gBattlescriptCurrInstr = BS_ptr;

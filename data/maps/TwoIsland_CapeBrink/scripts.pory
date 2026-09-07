@@ -43,9 +43,15 @@ script TwoIsland_CapeBrink_lorelei {
 
 script TwoIsland_CapeBrink_afterbattle {
     setflag(FLAG_BADGE09_GET)
+    giveitem(ITEM_TM13)
     msgbox(format("You got the ADAPTATIVE STREAM BADGE"))
+    msgbox(TwoIsland_CapeBrink_Text_ExplainTM)
     release
 	end
+}
+
+text TwoIsland_CapeBrink_Text_ExplainTM {
+    "TM13 contains ICE BEAM.\nA strong ICE-type attack that may\nfreeze the foe."
 }
 
 script TwoIsland_CapeBrink_BadgeEvent {

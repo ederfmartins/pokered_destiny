@@ -1868,6 +1868,72 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 case ABILITY_TRUANT:
                     gDisableStructs[gBattlerAttacker].truantCounter ^= 1;
                     break;
+                case ABILITY_HYDRATION:
+                    if (WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_RAIN)
+                     && gBattleMons[battler].status1)
+                    {
+                        if (gBattleMons[battler].status1 & (STATUS1_POISON | STATUS1_TOXIC_POISON))
+                            StringCopy(gBattleTextBuff1, gStatusConditionString_PoisonJpn);
+                        if (gBattleMons[battler].status1 & STATUS1_SLEEP)
+                            StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);
+                        if (gBattleMons[battler].status1 & STATUS1_PARALYSIS)
+                            StringCopy(gBattleTextBuff1, gStatusConditionString_ParalysisJpn);
+                        if (gBattleMons[battler].status1 & STATUS1_BURN)
+                            StringCopy(gBattleTextBuff1, gStatusConditionString_BurnJpn);
+                        if (gBattleMons[battler].status1 & STATUS1_FREEZE)
+                            StringCopy(gBattleTextBuff1, gStatusConditionString_IceJpn);
+                        gBattleMons[battler].status1 = 0;
+                        gBattleMons[battler].status2 &= ~STATUS2_NIGHTMARE;
+                        gBattleScripting.battler = gActiveBattler = battler;
+                        BattleScriptPushCursorAndCallback(BattleScript_ShedSkinActivates);
+                        BtlController_EmitSetMonData(BUFFER_A, REQUEST_STATUS_BATTLE, 0, 4, &gBattleMons[battler].status1);
+                        MarkBattlerForControllerExec(gActiveBattler);
+                        effect++;
+                    }
+                    break;
+                case ABILITY_ICE_BODY:
+                    if (WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_HAIL)
+                     && gBattleMons[battler].maxHP > gBattleMons[battler].hp)
+                    {
+                        gBattleScripting.battler = gActiveBattler = battler;
+                        BattleScriptPushCursorAndCallback(BattleScript_RainDishActivates);
+                        gBattleMoveDamage = gBattleMons[battler].maxHP / 16;
+                        if (gBattleMoveDamage == 0)
+                            gBattleMoveDamage = 1;
+                        gBattleMoveDamage *= -1;
+                        effect++;
+                    }
+                    break;
+                case ABILITY_SOLAR_POWER:
+                    if (WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_SUN)
+                     && gBattleMons[battler].hp != 0)
+                    {
+                        gBattleScripting.battler = gActiveBattler = battler;
+                        BattleScriptPushCursorAndCallback(BattleScript_SolarPowerActivates);
+                        gBattleMoveDamage = gBattleMons[battler].maxHP / 8;
+                        if (gBattleMoveDamage == 0)
+                            gBattleMoveDamage = 1;
+                        effect++;
+                    }
+                    break;
+                case ABILITY_HARVEST:
+                    {
+                        u16 *usedHeldItem = &gBattleStruct->usedHeldItems[battler];
+                        if (*usedHeldItem != ITEM_NONE && gBattleMons[battler].item == ITEM_NONE
+                         && gBattleMons[battler].hp != 0
+                         && (WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_SUN) || (Random() % 2 == 0)))
+                        {
+                            gLastUsedItem = *usedHeldItem;
+                            *usedHeldItem = ITEM_NONE;
+                            gBattleMons[battler].item = gLastUsedItem;
+                            gBattleScripting.battler = gActiveBattler = battler;
+                            BattleScriptPushCursorAndCallback(BattleScript_HarvestActivates);
+                            BtlController_EmitSetMonData(BUFFER_A, REQUEST_HELDITEM_BATTLE, 0, sizeof(gBattleMons[battler].item), &gBattleMons[battler].item);
+                            MarkBattlerForControllerExec(gActiveBattler);
+                            effect++;
+                        }
+                    }
+                    break;
                 }
             }
             break;
@@ -2452,7 +2518,7 @@ enum
 };
 
 #define TRY_EAT_CONFUSE_BERRY(flavor)                                                       \
-    if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / 2 && !moveTurn)         \
+    if (HasEnoughHpToEatBerry(battlerId, 2) && !moveTurn)                                   \
     {                                                                                       \
         PREPARE_FLAVOR_BUFFER(gBattleTextBuff1, flavor);                                    \
         gBattleMoveDamage = gBattleMons[battlerId].maxHP / battlerHoldEffectParam;          \
@@ -2469,7 +2535,7 @@ enum
     }
 
 #define TRY_EAT_STAT_UP_BERRY(stat)                                                         \
-    if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / battlerHoldEffectParam  \
+    if (HasEnoughHpToEatBerry(battlerId, battlerHoldEffectParam)                            \
     && !moveTurn && gBattleMons[battlerId].statStages[stat] < MAX_STAT_STAGE)               \
     {                                                                                       \
         PREPARE_STAT_BUFFER(gBattleTextBuff1, stat);                                        \
@@ -2480,6 +2546,13 @@ enum
         BattleScriptExecute(BattleScript_BerryStatRaiseEnd2);                               \
         effect = ITEM_STATS_CHANGE;                                                         \
     }
+
+static bool8 HasEnoughHpToEatBerry(u8 battlerId, u8 threshold)
+{
+    if (gBattleMons[battlerId].ability == ABILITY_GLUTTONY)
+        threshold = 2;
+    return gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / threshold;
+}
 
 u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
 {
@@ -2653,7 +2726,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                 TRY_EAT_CONFUSE_BERRY(FLAVOR_SOUR);
                 break;
             case HOLD_EFFECT_ATTACK_UP:
-                if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / battlerHoldEffectParam
+                if (HasEnoughHpToEatBerry(battlerId, battlerHoldEffectParam)
                 && !moveTurn && gBattleMons[battlerId].statStages[STAT_ATK] < MAX_STAT_STAGE)
                 {
                     PREPARE_STAT_BUFFER(gBattleTextBuff1, STAT_ATK);
@@ -2679,7 +2752,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                 TRY_EAT_STAT_UP_BERRY(STAT_SPDEF);
                 break;
             case HOLD_EFFECT_CRITICAL_UP:
-                if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / battlerHoldEffectParam && !moveTurn
+                if (HasEnoughHpToEatBerry(battlerId, battlerHoldEffectParam) && !moveTurn
                     && !(gBattleMons[battlerId].status2 & STATUS2_FOCUS_ENERGY))
                 {
                     gBattleMons[battlerId].status2 |= STATUS2_FOCUS_ENERGY;
@@ -2688,7 +2761,7 @@ u8 ItemBattleEffects(u8 caseID, u8 battlerId, bool8 moveTurn)
                 }
                 break;
             case HOLD_EFFECT_RANDOM_STAT_UP:
-                if (!moveTurn && gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / battlerHoldEffectParam)
+                if (!moveTurn && HasEnoughHpToEatBerry(battlerId, battlerHoldEffectParam))
                 {
                     for (i = 0; i < NUM_STATS - 1; i++)
                     {

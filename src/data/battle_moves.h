@@ -1384,7 +1384,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
-        .pp = 30,
+        .pp = 5,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_USER,
         .priority = 0,
@@ -2733,7 +2733,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FURY_CUTTER] =
     {
         .effect = EFFECT_FURY_CUTTER,
-        .power = 20,
+        .power = 30,
         .type = TYPE_BUG,
         .accuracy = 95,
         .pp = 20,

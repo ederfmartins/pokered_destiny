@@ -153,6 +153,7 @@ gSpecials::
 	def_special BufferPokedexDescription
 	def_special DrawWholeMapView
 	def_special GetPlayerXY
+	def_special GetLastUsedWarpMap
 	def_special NullFieldSpecial  @ Mauville/Petalburg Gym specials
 	def_special NullFieldSpecial
 	def_special NullFieldSpecial

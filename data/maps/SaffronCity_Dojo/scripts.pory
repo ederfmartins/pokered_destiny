@@ -189,8 +189,14 @@ script SaffronCity_Dojo_Bruno {
 
 script SaffronCity_Dojo_afterbattle {
     setflag(FLAG_BADGE10_GET)
+    giveitem(ITEM_TM08)
     msgbox(format("You got the FIGHTING VALOR BADGE"))
+    msgbox(SaffronCity_Dojo_Text_ExplainTM)
     release
 	end
+}
+
+text SaffronCity_Dojo_Text_ExplainTM {
+    "TM08 contains BULK UP.\nIt raises your ATTACK and DEFENSE\nstats during battle."
 }
 
