@@ -7632,4 +7632,14 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_STRATEGY_OK_TRAINER,
         .party = ITEM_CUSTOM_MOVES(sParty_LiderNormal),
     },
+    [TRAINER_SILPH_EXIT_GUARD] = {
+        .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerName = _("GRUNT"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_STRATEGY_OK_TRAINER,
+        .party = NO_ITEM_CUSTOM_MOVES(sParty_SilphExitGuard),
+    },
 };

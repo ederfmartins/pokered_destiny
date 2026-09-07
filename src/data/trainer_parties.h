@@ -548,7 +548,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LassJanice[] = {
     {
         .iv = 0,
         .lvl = 12,
-        .species = SPECIES_DELIBIRD,
+        .species = SPECIES_FARFETCHD,
     },
 };
 
@@ -5973,8 +5973,8 @@ static const struct TrainerMonNoItemCustomMovesAbility sParty_LeaderBlaine[] = {
         .ability = 1,
         .moves = {MOVE_FLAMETHROWER, MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_FAINT_ATTACK},
     },
-    
 };
+
 
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderSabrina[] = {
     {
@@ -11695,5 +11695,32 @@ static const struct TrainerMonItemCustomMoves sParty_LiderNormal[] = {
         .species = SPECIES_PERSIAN,
         .heldItem = ITEM_SCOPE_LENS,
         .moves = {MOVE_SLASH, MOVE_HYPNOSIS, MOVE_FAINT_ATTACK, MOVE_FAKE_OUT},
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_SilphExitGuard[] = {
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_WEEZING,
+        .moves = {MOVE_SLUDGE, MOVE_SHADOW_BALL, MOVE_DESTINY_BOND, MOVE_EXPLOSION},
+    },
+    {
+        .iv = 0,
+        .lvl = 63,
+        .species = SPECIES_ARBOK,
+        .moves = {MOVE_SLUDGE_BOMB, MOVE_STOCKPILE, MOVE_GLARE, MOVE_SPIT_UP},
+    },
+    {
+        .iv = 0,
+        .lvl = 63,
+        .species = SPECIES_VICTREEBEL,
+        .moves = {MOVE_LEAF_BLADE, MOVE_STUN_SPORE, MOVE_SWORDS_DANCE, MOVE_THIEF},
+    },
+    {
+        .iv = 0,
+        .lvl = 64,
+        .species = SPECIES_ARCANINE,
+        .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_EXTREME_SPEED, MOVE_AERIAL_ACE},
     },
 };
