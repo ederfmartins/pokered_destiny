@@ -146,3 +146,7 @@ CeladonCity_GameCorner_Text_SomeonesKeys::
     .string "Someone's keys!\n"
     .string "They'll be back.$"
 
+CeladonCity_GameCorner_Text_RocketGuardBlocking::
+    .string "I won't let an intruder leave\n"
+    .string "before the BOSS says so!$"
+

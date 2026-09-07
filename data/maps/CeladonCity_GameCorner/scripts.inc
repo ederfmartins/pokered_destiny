@@ -6,7 +6,19 @@ CeladonCity_GameCorner_MapScripts::
 
 CeladonCity_GameCorner_OnLoad::
 	call_if_unset FLAG_OPENED_ROCKET_HIDEOUT, CeladonCity_GameCorner_EventScript_HideRocketHideout
+	call CeladonCity_GameCorner_EventScript_HandleRocketGuard
 	end
+
+CeladonCity_GameCorner_EventScript_HandleRocketGuard::
+	specialvar VAR_RESULT, GetLastUsedWarpMap
+	goto_if_ne VAR_RESULT, MAP_ROCKET_HIDEOUT_B1F, CeladonCity_GameCorner_EventScript_RocketGuardHide
+	goto_if_set FLAG_HIDE_CELADON_ROCKETS, CeladonCity_GameCorner_EventScript_RocketGuardHide
+	clearflag FLAG_TEMP_1
+	return
+
+CeladonCity_GameCorner_EventScript_RocketGuardHide::
+	setflag FLAG_TEMP_1
+	return
 
 CeladonCity_GameCorner_EventScript_HideRocketHideout::
 	setmetatile 15, 2, METATILE_GameCorner_Floor_ShadeFull, 0
@@ -465,4 +477,11 @@ CeladonCity_GameCorner_EventScript_UnusableSlotMachine2::
 
 CeladonCity_GameCorner_EventScript_UnusableSlotMachine3::
 	msgbox CeladonCity_GameCorner_Text_SomeonesKeys, MSGBOX_SIGN
+	end
+
+CeladonCity_GameCorner_EventScript_RocketGuard::
+	lock
+	faceplayer
+	msgbox CeladonCity_GameCorner_Text_RocketGuardBlocking, MSGBOX_DEFAULT
+	release
 	end
