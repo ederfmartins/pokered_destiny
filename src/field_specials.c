@@ -2148,6 +2148,11 @@ bool8 UsedPokemonCenterWarp(void)
     return FALSE;
 }
 
+u16 GetLastUsedWarpMap(void)
+{
+    return (gLastUsedWarp.mapGroup << 8) | gLastUsedWarp.mapNum;
+}
+
 bool8 BufferTMHMMoveName(void)
 {
     // 8004 = item ID
