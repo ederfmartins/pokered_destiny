@@ -89,6 +89,8 @@ CinnabarIsland_Movement_BillExit::
 	step_end
 
 CinnabarIsland_EventScript_BillScene::
+	call VermilionCity_EventScript_CheckHasTriOrRainbowPass
+	goto_if_eq VAR_RESULT, TRUE, CinnabarIsland_EventScript_BillSceneSkipped
 	lockall
 	textcolor NPC_TEXT_COLOR_MALE
 	call_if_unset FLAG_TEMP_2, CinnabarIsland_EventScript_BillFacePlayer1
@@ -104,6 +106,10 @@ CinnabarIsland_EventScript_BillScene::
 	msgbox CinnabarIsland_Text_ComeWithMeToOneIsland, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, CinnabarIsland_EventScript_AgreeSailToOneIsland
 	goto_if_eq VAR_RESULT, NO, CinnabarIsland_EventScript_DeclineSailToOneIsland
+	end
+
+CinnabarIsland_EventScript_BillSceneSkipped::
+	setvar VAR_MAP_SCENE_CINNABAR_ISLAND, 4
 	end
 
 CinnabarIsland_EventScript_BillFacePlayer1::
