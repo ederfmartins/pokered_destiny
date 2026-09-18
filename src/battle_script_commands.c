@@ -9401,6 +9401,8 @@ static void Cmd_pickup(void)
             for (j = 0; j < 15; ++j)
                 if (sPickupItems[j].chance > random)
                     break;
+            if (sPickupItems[j].itemId >= ITEM_TM01 && sPickupItems[j].itemId <= ITEM_HM08)
+                continue;
             SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &sPickupItems[j]);
         }
     }
