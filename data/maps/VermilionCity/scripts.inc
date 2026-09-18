@@ -1,4 +1,5 @@
 .equ LOCALID_FERRY_SAILOR, 6
+.equ LOCALID_BRIDGE_BILL, 9
 
 VermilionCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, VermilionCity_OnTransition
@@ -25,11 +26,61 @@ VermilionCity_Movement_ExitSSAnne::
 VermilionCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
+	call VermilionCity_EventScript_UpdateBillBridge
 	end
 
 VermilionCity_EventScript_HideOaksAide::
 	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
 	return
+
+VermilionCity_EventScript_UpdateBillBridge::
+	goto_if_unset FLAG_BADGE01_GET, VermilionCity_EventScript_HideBillBridge
+	goto_if_unset FLAG_BADGE02_GET, VermilionCity_EventScript_HideBillBridge
+	goto_if_unset FLAG_BADGE03_GET, VermilionCity_EventScript_HideBillBridge
+	goto_if_unset FLAG_BADGE04_GET, VermilionCity_EventScript_HideBillBridge
+	call VermilionCity_EventScript_CheckHasTriOrRainbowPass
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HideBillBridge
+	clearflag FLAG_TEMP_7
+	return
+
+VermilionCity_EventScript_HideBillBridge::
+	setflag FLAG_TEMP_7
+	return
+
+VermilionCity_EventScript_CheckHasTriOrRainbowPass::
+	checkitem ITEM_TRI_PASS
+	goto_if_eq VAR_RESULT, TRUE, EventScript_SetResultTrue
+	checkitem ITEM_RAINBOW_PASS
+	goto_if_eq VAR_RESULT, TRUE, EventScript_SetResultTrue
+	goto EventScript_SetResultFalse
+	end
+
+VermilionCity_EventScript_BridgeBill::
+	lock
+	faceplayer
+	msgbox CinnabarIsland_Text_HeyIfItIsntPlayer
+	msgbox CinnabarIsland_Text_ComeWithMeToOneIsland, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, VermilionCity_EventScript_BridgeBillAgree
+	goto_if_eq VAR_RESULT, NO, VermilionCity_EventScript_BridgeBillDecline
+	end
+
+VermilionCity_EventScript_BridgeBillAgree::
+	msgbox CinnabarIsland_Text_AllRightLetsGo
+	msgbox VermilionCity_Text_MyPalsBoatArrived
+	closemessage
+	setflag FLAG_TEMP_7
+	removeobject LOCALID_BRIDGE_BILL
+	setvar VAR_MAP_SCENE_ONE_ISLAND_HARBOR, 1
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+	setvar VAR_0x8006, SEAGALLOP_ONE_ISLAND
+	goto EventScript_SetSail
+	end
+
+VermilionCity_EventScript_BridgeBillDecline::
+	msgbox CinnabarIsland_Text_IllBeWaitingInPokeCenter
+	closemessage
+	release
+	end
 
 VermilionCity_EventScript_Woman::
 	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC

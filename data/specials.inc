@@ -461,4 +461,7 @@ gSpecials::
 	def_special TrainerMetIceGymPrereq
 	def_special TrainerMetBugGymPrereq
 	def_special SwapSelectedMonAbility
+	def_special ResetPokemonLeagueRun
+	def_special GetPokemonLeagueOpponentInfo
+	def_special StartPokemonLeagueBattle
 gSpecialsEnd::

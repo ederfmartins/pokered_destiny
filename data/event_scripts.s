@@ -1444,3 +1444,6 @@ Text_TestMsg::
 
 	.include "data/maps/NormalCity_House1/scripts.inc"
 	.include "data/maps/NormalCity_House1/text.inc"
+
+	.include "data/maps/IndigoPlateau_PokemonCenter_1B/scripts.inc"
+	.include "data/maps/IndigoPlateau_PokemonCenter_1B/text.inc"

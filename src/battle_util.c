@@ -1921,7 +1921,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                         u16 *usedHeldItem = &gBattleStruct->usedHeldItems[battler];
                         if (*usedHeldItem != ITEM_NONE && gBattleMons[battler].item == ITEM_NONE
                          && gBattleMons[battler].hp != 0
-                         && (WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_SUN) || (Random() % 2 == 0)))
+                         && ((WEATHER_HAS_EFFECT && (gBattleWeather & B_WEATHER_SUN)) || (Random() % 2 == 0)))
                         {
                             gLastUsedItem = *usedHeldItem;
                             *usedHeldItem = ITEM_NONE;

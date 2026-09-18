@@ -24,10 +24,16 @@ CeruleanCity_EventScript_BlockExits::
 
 CeruleanCity_OnLoad::
 	setvar VAR_TEMP_9, 2
+	call_if_set FLAG_BADGE02_GET, CeruleanCity_EventScript_HideDoor
 	call_if_unset FLAG_BADGE02_GET, CeruleanCity_EventScript_SetDoor
 	end
 
+CeruleanCity_EventScript_HideDoor::
+	setflag FLAG_TEMP_4
+	end
+
 CeruleanCity_EventScript_SetDoor::
+	clearflag FLAG_TEMP_4
 	cleartrainerflag TRAINER_MAGMA_CERULEAN
 	setvar VAR_TEMP_9, 0
 	end

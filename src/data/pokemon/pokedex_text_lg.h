@@ -2549,6 +2549,13 @@ const u8 gGlaliePokedexText[] = _(
 
 const u8 gGlaliePokedexTextUnused[] = _("");
 
+const u8 gFroslassPokedexText[] = _(
+    "It freezes foes with an icy breath \n"
+    "nearly -60 degrees F. What seems to\n"
+    "be its body is actually hollow.");
+
+const u8 gFroslassPokedexTextUnused[] = _("");
+
 const u8 gSphealPokedexText[] = _(
     "Its body is covered in fluffy fur.\n"
     "The fur keeps it from feeling cold while\n"

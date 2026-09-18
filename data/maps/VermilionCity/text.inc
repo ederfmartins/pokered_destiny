@@ -135,3 +135,9 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "If you're in the ROUTE 2 area,\n"
     .string "please look for him.$"
 
+VermilionCity_Text_MyPalsBoatArrived::
+    .string "Looks like my pal's boat arrived,\n"
+    .string "too.\p"
+    .string "He sent it specially here to\n"
+    .string "VERMILION to pick me up.$"
+

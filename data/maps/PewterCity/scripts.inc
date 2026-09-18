@@ -15,10 +15,16 @@ PewterCity_OnTransition::
 
 PewterCity_OnLoad::
 	setvar VAR_TEMP_9, 2
+	call_if_set FLAG_BADGE01_GET, PewterCity_EventScript_HideAqua
 	call_if_unset FLAG_BADGE01_GET, PewterCity_EventScript_SetAqua
 	end
 
+PewterCity_EventScript_HideAqua::
+	setflag FLAG_TEMP_3
+	end
+
 PewterCity_EventScript_SetAqua::
+	clearflag FLAG_TEMP_3
 	cleartrainerflag TRAINER_AQUA_PEWTER
 	setvar VAR_TEMP_9, 0
 	end

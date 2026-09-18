@@ -713,6 +713,80 @@ static void FillBattleTowerTrainerParty(void)
     }
 }
 
+// Builds the 6-Pokemon party of an anime-style Pokemon League challenger.
+// Six independent random Pokemon are drawn from the whole level-100 tower pool,
+// each at a random level between 70 and 85 and with a flat IV (no scaling).
+void FillPokemonLeagueEnemyParty(void)
+{
+    s32 partyIndex;
+    s32 i;
+    u16 chosenMonIndices[PARTY_SIZE];
+    u8 friendship;
+    u8 level;
+
+    ZeroEnemyPartyMons();
+    friendship = 255;
+
+    for (partyIndex = 0; partyIndex < PARTY_SIZE; partyIndex++)
+        chosenMonIndices[partyIndex] = 0;
+
+    partyIndex = 0;
+    while (partyIndex != PARTY_SIZE)
+    {
+        s32 battleMonIndex = ((Random() & 0xFF) * NELEMS(gBattleTowerLevel100Mons)) / 256;
+        if (battleMonIndex >= NELEMS(gBattleTowerLevel100Mons))
+            battleMonIndex = NELEMS(gBattleTowerLevel100Mons) - 1;
+
+        for (i = 0; i < partyIndex; i++)
+        {
+            if (GetMonData(&gEnemyParty[i], MON_DATA_SPECIES, NULL) == gBattleTowerLevel100Mons[battleMonIndex].species)
+                break;
+        }
+        if (i != partyIndex)
+            continue;
+
+        for (i = 0; i < partyIndex; i++)
+        {
+            if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM, NULL) != ITEM_NONE
+                && GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM, NULL) == sBattleTowerHeldItems[gBattleTowerLevel100Mons[battleMonIndex].heldItem])
+                break;
+        }
+        if (i != partyIndex)
+            continue;
+
+        for (i = 0; i < partyIndex; i++)
+        {
+            if (chosenMonIndices[i] == battleMonIndex)
+                break;
+        }
+        if (i != partyIndex)
+            continue;
+
+        chosenMonIndices[partyIndex] = battleMonIndex;
+
+        level = 70 + (Random() % 16);
+
+        CreateMonWithEVSpread(
+            &gEnemyParty[partyIndex],
+            gBattleTowerLevel100Mons[battleMonIndex].species,
+            level,
+            12,
+            gBattleTowerLevel100Mons[battleMonIndex].evSpread);
+
+        for (i = 0; i < 4; i++)
+        {
+            SetMonMoveSlot(&gEnemyParty[partyIndex], gBattleTowerLevel100Mons[battleMonIndex].moves[i], i);
+            if (gBattleTowerLevel100Mons[battleMonIndex].moves[i] == MOVE_FRUSTRATION)
+                friendship = 0;
+        }
+
+        SetMonData(&gEnemyParty[partyIndex], MON_DATA_FRIENDSHIP, &friendship);
+        SetMonData(&gEnemyParty[partyIndex], MON_DATA_HELD_ITEM, &sBattleTowerHeldItems[gBattleTowerLevel100Mons[battleMonIndex].heldItem]);
+
+        partyIndex++;
+    }
+}
+
 static u8 AppendBattleTowerBannedSpeciesName(u16 species, u8 count)
 {
     if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
