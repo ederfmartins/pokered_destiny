@@ -759,6 +759,28 @@ static void BufferPartyVsScreenHealth_AtStart(void)
     *(&gBattleStruct->multiBuffer.linkBattlerHeader.vsScreenHealthFlagsHi) = flags >> 8;
 }
 
+// Shows the link-battle VS screen (both trainers' names + their 6 Pokeballs + VS letters)
+// at the start of an anime-style Pokemon League battle, before the intro.
+void CreatePokemonLeagueVsScreenTask(void)
+{
+    u16 playerFlags = 0, enemyFlags = 0;
+    s32 i;
+    u8 taskId;
+
+    BUFFER_PARTY_VS_SCREEN_STATUS(gPlayerParty, playerFlags, i);
+    BUFFER_PARTY_VS_SCREEN_STATUS(gEnemyParty, enemyFlags, i);
+
+    StringCopyN(gLinkPlayers[0].name, gSaveBlock2Ptr->playerName, PLAYER_NAME_LENGTH);
+    StringCopyN(gLinkPlayers[1].name, gTrainers[gTrainerBattleOpponent_A].trainerName, PLAYER_NAME_LENGTH);
+
+    taskId = CreateTask(InitLinkBattleVsScreen, 0);
+    gTasks[taskId].data[1] = 270;
+    gTasks[taskId].data[2] = 90;
+    gTasks[taskId].data[5] = 0; // Start of battle: no win/loss result text
+    gTasks[taskId].data[3] = playerFlags;
+    gTasks[taskId].data[4] = enemyFlags;
+}
+
 static void SetPlayerBerryDataInBattleStruct(void)
 {
     s32 i;
@@ -985,6 +1007,8 @@ static void CB2_HandleStartBattle(void)
             gBattleTypeFlags |= BATTLE_TYPE_IS_MASTER;
             gBattleCommunication[MULTIUSE_STATE] = 15;
             SetAllPlayersBerryData();
+            if (gBattleTypeFlags & BATTLE_TYPE_POKEMON_LEAGUE)
+                CreatePokemonLeagueVsScreenTask();
         }
         break;
     case 2:
@@ -1547,7 +1571,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
         return 0;
 
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER
-     && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_EREADER_TRAINER | BATTLE_TYPE_TRAINER_TOWER)))
+     && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_EREADER_TRAINER | BATTLE_TYPE_TRAINER_TOWER | BATTLE_TYPE_POKEMON_LEAGUE)))
     {
         ZeroEnemyPartyMons();
         for (i = 0; i < gTrainers[trainerNum].partySize; i++)
