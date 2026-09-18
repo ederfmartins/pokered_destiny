@@ -400,6 +400,7 @@
 // gMapGroup_IndoorIndigoPlateau
 #define MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F (0 | (15 << 8))
 #define MAP_INDIGO_PLATEAU_POKEMON_CENTER_2F (1 | (15 << 8))
+#define MAP_INDIGO_PLATEAU_POKEMON_CENTER_1B (2 | (15 << 8))
 
 // gMapGroup_IndoorSaffron
 #define MAP_SAFFRON_CITY_COPYCATS_HOUSE_1F        (0 | (16 << 8))
