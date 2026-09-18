@@ -33,6 +33,8 @@ enum TitleScreenScene
 #define TITLE_SPECIES SPECIES_VENUSAUR
 #endif
 
+#define TITLE_SCREEN_MON_PALS_BITS ((1 << 0x5) | (1 << 0xD))
+
 static EWRAM_DATA u8 sTitleScreenTimerTaskId = 0;
 
 static void ResetGpuRegs(void);
@@ -367,7 +369,8 @@ void CB2_InitTitleScreen(void)
         LoadPalette(gGraphics_TitleScreen_GameTitleLogoPals, 0, 0x1A0);
         DecompressAndCopyTileDataToVram(0, gGraphics_TitleScreen_GameTitleLogoTiles, 0, 0, 0);
         DecompressAndCopyTileDataToVram(0, gGraphics_TitleScreen_GameTitleLogoMap, 0, 0, 1);
-        LoadPalette(gGraphics_TitleScreen_BoxArtMonPals, 0xD0, 0x20);
+LoadPalette(gGraphics_TitleScreen_BoxArtMonPals, 0xD0, 0x20);
+        LoadPalette(gGraphics_TitleScreen_SecondMonPals, 0x50, 0x20);
         DecompressAndCopyTileDataToVram(1, gGraphics_TitleScreen_BoxArtMonTiles, 0, 0, 0);
         DecompressAndCopyTileDataToVram(1, gGraphics_TitleScreen_BoxArtMonMap, 0, 0, 1);
         LoadPalette(gGraphics_TitleScreen_BackgroundPals, 0xF0, 0x20);
@@ -531,7 +534,8 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
         if (data[2] > 10)
         {
             TintPalette_GrayScale2(gPlttBufferUnfaded + 0xD0, 16);
-            BeginNormalPaletteFade(1 << 0xD, 9, 16, 0, RGB_BLACK);
+            TintPalette_GrayScale2(gPlttBufferUnfaded + 0x50, 16);
+            BeginNormalPaletteFade(TITLE_SCREEN_MON_PALS_BITS, 9, 16, 0, RGB_BLACK);
             tState++;
         }
         break;
@@ -547,7 +551,7 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
         if (data[2] > 36)
         {
             CreateTask(Task_TitleScreen_SlideWin0, 3);
-            BlendPalettesGradually(1 << 0xD, -4, 1, 16, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, -4, 1, 16, RGB(30, 30, 31), 0, 0);
             data[2] = 0;
             tState++;
         }
@@ -555,7 +559,7 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
     case 4:
         if (!IsBlendPalettesGraduallyTaskActive(0))
         {
-            BlendPalettesGradually(1 << 0xD, -4, 15, 0, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, -4, 15, 0, RGB(30, 30, 31), 0, 0);
             tState++;
         }
         break;
@@ -564,14 +568,14 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
         if (data[2] > 20)
         {
             data[2] = 0;
-            BlendPalettesGradually(1 << 0xD, -4, 1, 16, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, -4, 1, 16, RGB(30, 30, 31), 0, 0);
             tState++;
         }
         break;
     case 6:
         if (!IsBlendPalettesGraduallyTaskActive(0))
         {
-            BlendPalettesGradually(1 << 0xD, -4, 15, 0, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, -4, 15, 0, RGB(30, 30, 31), 0, 0);
             tState++;
         }
         break;
@@ -580,7 +584,7 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
         if (data[2] > 20)
         {
             data[2] = 0;
-            BlendPalettesGradually(1 << 0xD, -3, 0, 16, RGB(30, 30, 31), 0, 0);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, -3, 0, 16, RGB(30, 30, 31), 0, 0);
             tState++;
         }
         break;
@@ -589,12 +593,13 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
         {
             u32 palettes;
             tHasCreatedBlankSprite = TRUE;
-            palettes = (PALETTES_BG & ~(1 << 0xD) & ~(1 << 0xE) & ~(1 << 0xF)) | (0x10000 << CreateBlankSprite());
+            palettes = (PALETTES_BG & ~(1 << 0xD) & ~(1 << 0x5) & ~(1 << 0xE) & ~(1 << 0xF)) | (0x10000 << CreateBlankSprite());
             BlendPalettes(palettes, 16, RGB(30, 30, 31));
             BeginNormalPaletteFade(palettes, 1, 16, 0, RGB(30, 30, 31));
             ShowBg(0);
             CpuCopy16(gGraphics_TitleScreen_BoxArtMonPals, gPlttBufferUnfaded + 0xD0, 32);
-            BlendPalettesGradually(1 << 0xD, 1, 15, 0, RGB(30, 30, 31), 0, 0);
+            CpuCopy16(gGraphics_TitleScreen_SecondMonPals, gPlttBufferUnfaded + 0x50, 32);
+            BlendPalettesGradually(TITLE_SCREEN_MON_PALS_BITS, 1, 15, 0, RGB(30, 30, 31), 0, 0);
             tState++;
         }
         break;
@@ -908,6 +913,7 @@ static void LoadMainTitleScreenPalsAndResetBgs(void)
     ResetPaletteFadeControl();
     LoadPalette(gGraphics_TitleScreen_GameTitleLogoPals, 0x00, 0x1A0);
     LoadPalette(gGraphics_TitleScreen_BoxArtMonPals, 0xD0, 0x20);
+    LoadPalette(gGraphics_TitleScreen_SecondMonPals, 0x50, 0x20);
     LoadPalette(gGraphics_TitleScreen_BackgroundPals, 0xF0, 0x20);
     LoadPalette(gGraphics_TitleScreen_BackgroundPals, 0xE0, 0x20);
     ResetBgPositions();

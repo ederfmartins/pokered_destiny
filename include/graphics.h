@@ -4409,6 +4409,7 @@ extern const u16 gGraphics_TitleScreen_GameTitleLogoPals[];
 extern const u8 gGraphics_TitleScreen_GameTitleLogoTiles[];
 extern const u8 gGraphics_TitleScreen_GameTitleLogoMap[];
 extern const u16 gGraphics_TitleScreen_BoxArtMonPals[];
+extern const u16 gGraphics_TitleScreen_SecondMonPals[];
 extern const u8 gGraphics_TitleScreen_BoxArtMonTiles[];
 extern const u8 gGraphics_TitleScreen_BoxArtMonMap[];
 extern u16 gGraphics_TitleScreen_BackgroundPals[]; // If this is const, title_screen.c does not match
